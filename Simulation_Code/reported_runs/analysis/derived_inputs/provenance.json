@@ -1,0 +1,17 @@
+{
+  "snapshot": "results_20261116_goodreads_agent_l0",
+  "profile_assessments_original_sha256": "2e42df14f24013b25ade839d54b25342b4b0f1f377d8da3ee6163d500633d597",
+  "profile_assessments": "Categories copied from saved human coding; free-text notes and original evidence withheld.",
+  "spike_notebook_original_sha256": "ef8c66d912d42cc31f68a85032be3cc990a5ff4ade5e531bb4d508410ca02f41",
+  "spike": {
+    "iteration": 5,
+    "simulation_seed": 44,
+    "population_seed": 18844,
+    "static_clickers_without_other_full_tag_match": 46,
+    "static_clickers": 48,
+    "static_clickers_also_clicked_iteration1_sponsor": 26,
+    "iteration5_users_in_both_runs": 120,
+    "iteration5_equal_ordered_slates": 0
+  },
+  "limitations": "These inputs replay the published aggregates. Re-extracting profiles, re-reading individual reasons, rechecking original event checksums, or changing the original keyword rules requires source artifacts, which are not distributed."
+}

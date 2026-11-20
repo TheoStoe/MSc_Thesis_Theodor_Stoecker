@@ -1,0 +1,44 @@
+{
+  "simulation_seeds": [
+    42,
+    43,
+    44
+  ],
+  "iterations": 30,
+  "slate_size": 10,
+  "sasrec": {
+    "num_epochs": 804,
+    "batch_size": 128,
+    "max_sequence_length": 200,
+    "hidden_size": 50,
+    "num_blocks": 2,
+    "num_heads": 1,
+    "dropout_rate": 0.2,
+    "learning_rate": 0.001,
+    "embedding_l2": 0.0
+  },
+  "llm": {
+    "model": "gpt-5.4-nano",
+    "reasoning_effort": "none",
+    "max_output_tokens": 2056
+  },
+  "embeddings": {
+    "model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "presentation_arms": [
+    "canonical",
+    "replica",
+    "shuffled"
+  ],
+  "active_users": 300,
+  "reserve_users": 0,
+  "dataset": "goodreads",
+  "population_seeds": {
+    "42": 16040,
+    "43": 11615,
+    "44": 5245
+  },
+  "description_max_characters": 200,
+  "author_gender_in_user_inputs": false
+}

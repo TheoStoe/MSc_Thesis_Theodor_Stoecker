@@ -1,0 +1,61 @@
+simulation_seed,population_seed,feature_group,category,reference_n,sample_n,reference_count,sample_count,reference_share,sample_share,weighting
+42,16040,preference_cluster,0,750205,300,65760.0,26.0,0.08765604068221353,0.08666666666666667,equal weight per reader
+42,16040,preference_cluster,1,750205,300,128898.0,52.0,0.17181703667664172,0.17333333333333334,equal weight per reader
+42,16040,preference_cluster,2,750205,300,217282.0,87.0,0.2896301677541472,0.29,equal weight per reader
+42,16040,preference_cluster,3,750205,300,198582.0,79.0,0.26470364766963694,0.2633333333333333,equal weight per reader
+42,16040,preference_cluster,4,750205,300,139683.0,56.0,0.1861931072173606,0.18666666666666668,equal weight per reader
+42,16040,training_activity_decile,1,750205,300,69566.0,27.0,0.09272932065235502,0.09,equal weight per reader
+42,16040,training_activity_decile,2,750205,300,74815.0,36.0,0.09972607487286808,0.12,equal weight per reader
+42,16040,training_activity_decile,3,750205,300,79442.0,33.0,0.10589372238254877,0.11,equal weight per reader
+42,16040,training_activity_decile,4,750205,300,74248.0,29.0,0.09897028145640192,0.09666666666666666,equal weight per reader
+42,16040,training_activity_decile,5,750205,300,76578.0,30.0,0.10207609919955213,0.1,equal weight per reader
+42,16040,training_activity_decile,6,750205,300,74991.0,30.0,0.09996067741483994,0.1,equal weight per reader
+42,16040,training_activity_decile,7,750205,300,74658.0,30.0,0.09951679874167728,0.1,equal weight per reader
+42,16040,training_activity_decile,8,750205,300,75746.0,27.0,0.10096706900113969,0.09,equal weight per reader
+42,16040,training_activity_decile,9,750205,300,74889.0,29.0,0.09982471457801534,0.09666666666666666,equal weight per reader
+42,16040,training_activity_decile,10,750205,300,75272.0,29.0,0.10033524170060183,0.09666666666666666,equal weight per reader
+42,16040,within_reader_rating_proportions,1,750205,300,,,0.01918268014750511,0.01787576883511864,mean of within-reader rating fractions; not pooled counts
+42,16040,within_reader_rating_proportions,2,750205,300,,,0.04977108548144404,0.04787235654263224,mean of within-reader rating fractions; not pooled counts
+42,16040,within_reader_rating_proportions,3,750205,300,,,0.18432061978428105,0.19312042157380865,mean of within-reader rating fractions; not pooled counts
+42,16040,within_reader_rating_proportions,4,750205,300,,,0.3343510890153914,0.329545663535776,mean of within-reader rating fractions; not pooled counts
+42,16040,within_reader_rating_proportions,5,750205,300,,,0.41237452557149934,0.41158578951266456,mean of within-reader rating fractions; not pooled counts
+43,11615,preference_cluster,0,750205,300,65760.0,26.0,0.08765604068221353,0.08666666666666667,equal weight per reader
+43,11615,preference_cluster,1,750205,300,128898.0,52.0,0.17181703667664172,0.17333333333333334,equal weight per reader
+43,11615,preference_cluster,2,750205,300,217282.0,87.0,0.2896301677541472,0.29,equal weight per reader
+43,11615,preference_cluster,3,750205,300,198582.0,79.0,0.26470364766963694,0.2633333333333333,equal weight per reader
+43,11615,preference_cluster,4,750205,300,139683.0,56.0,0.1861931072173606,0.18666666666666668,equal weight per reader
+43,11615,training_activity_decile,1,750205,300,69566.0,28.0,0.09272932065235502,0.09333333333333334,equal weight per reader
+43,11615,training_activity_decile,2,750205,300,74815.0,31.0,0.09972607487286808,0.10333333333333333,equal weight per reader
+43,11615,training_activity_decile,3,750205,300,79442.0,32.0,0.10589372238254877,0.10666666666666667,equal weight per reader
+43,11615,training_activity_decile,4,750205,300,74248.0,31.0,0.09897028145640192,0.10333333333333333,equal weight per reader
+43,11615,training_activity_decile,5,750205,300,76578.0,28.0,0.10207609919955213,0.09333333333333334,equal weight per reader
+43,11615,training_activity_decile,6,750205,300,74991.0,30.0,0.09996067741483994,0.1,equal weight per reader
+43,11615,training_activity_decile,7,750205,300,74658.0,29.0,0.09951679874167728,0.09666666666666666,equal weight per reader
+43,11615,training_activity_decile,8,750205,300,75746.0,27.0,0.10096706900113969,0.09,equal weight per reader
+43,11615,training_activity_decile,9,750205,300,74889.0,34.0,0.09982471457801534,0.11333333333333333,equal weight per reader
+43,11615,training_activity_decile,10,750205,300,75272.0,30.0,0.10033524170060183,0.1,equal weight per reader
+43,11615,within_reader_rating_proportions,1,750205,300,,,0.01918268014750511,0.02121043148490761,mean of within-reader rating fractions; not pooled counts
+43,11615,within_reader_rating_proportions,2,750205,300,,,0.04977108548144404,0.05021469669270731,mean of within-reader rating fractions; not pooled counts
+43,11615,within_reader_rating_proportions,3,750205,300,,,0.18432061978428105,0.18589719730861898,mean of within-reader rating fractions; not pooled counts
+43,11615,within_reader_rating_proportions,4,750205,300,,,0.3343510890153914,0.3379838134565186,mean of within-reader rating fractions; not pooled counts
+43,11615,within_reader_rating_proportions,5,750205,300,,,0.41237452557149934,0.40469386105724786,mean of within-reader rating fractions; not pooled counts
+44,5245,preference_cluster,0,750205,300,65760.0,26.0,0.08765604068221353,0.08666666666666667,equal weight per reader
+44,5245,preference_cluster,1,750205,300,128898.0,52.0,0.17181703667664172,0.17333333333333334,equal weight per reader
+44,5245,preference_cluster,2,750205,300,217282.0,87.0,0.2896301677541472,0.29,equal weight per reader
+44,5245,preference_cluster,3,750205,300,198582.0,79.0,0.26470364766963694,0.2633333333333333,equal weight per reader
+44,5245,preference_cluster,4,750205,300,139683.0,56.0,0.1861931072173606,0.18666666666666668,equal weight per reader
+44,5245,training_activity_decile,1,750205,300,69566.0,29.0,0.09272932065235502,0.09666666666666666,equal weight per reader
+44,5245,training_activity_decile,2,750205,300,74815.0,27.0,0.09972607487286808,0.09,equal weight per reader
+44,5245,training_activity_decile,3,750205,300,79442.0,31.0,0.10589372238254877,0.10333333333333333,equal weight per reader
+44,5245,training_activity_decile,4,750205,300,74248.0,35.0,0.09897028145640192,0.11666666666666667,equal weight per reader
+44,5245,training_activity_decile,5,750205,300,76578.0,31.0,0.10207609919955213,0.10333333333333333,equal weight per reader
+44,5245,training_activity_decile,6,750205,300,74991.0,28.0,0.09996067741483994,0.09333333333333334,equal weight per reader
+44,5245,training_activity_decile,7,750205,300,74658.0,28.0,0.09951679874167728,0.09333333333333334,equal weight per reader
+44,5245,training_activity_decile,8,750205,300,75746.0,29.0,0.10096706900113969,0.09666666666666666,equal weight per reader
+44,5245,training_activity_decile,9,750205,300,74889.0,31.0,0.09982471457801534,0.10333333333333333,equal weight per reader
+44,5245,training_activity_decile,10,750205,300,75272.0,31.0,0.10033524170060183,0.10333333333333333,equal weight per reader
+44,5245,within_reader_rating_proportions,1,750205,300,,,0.01918268014750511,0.02183621867753259,mean of within-reader rating fractions; not pooled counts
+44,5245,within_reader_rating_proportions,2,750205,300,,,0.04977108548144404,0.056323949230955975,mean of within-reader rating fractions; not pooled counts
+44,5245,within_reader_rating_proportions,3,750205,300,,,0.18432061978428105,0.17699863145033284,mean of within-reader rating fractions; not pooled counts
+44,5245,within_reader_rating_proportions,4,750205,300,,,0.3343510890153914,0.33104862406099395,mean of within-reader rating fractions; not pooled counts
+44,5245,within_reader_rating_proportions,5,750205,300,,,0.41237452557149934,0.41379257658018503,mean of within-reader rating fractions; not pooled counts

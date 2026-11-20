@@ -1,0 +1,113 @@
+{
+  "schema": "portable-analysis-replay-v1",
+  "snapshot": "results_20261116_goodreads_agent_l0",
+  "metric_version": "final-rq-metrics-v1-dcg-one-based",
+  "rank_discount": "1/log2(r+1), one-based ranks",
+  "numerical_validation": {
+    "dataframes": 25,
+    "equality": "exact numeric measurements and scientific identity columns",
+    "plot_scales": "unchanged",
+    "main_text_value_tables": [
+      "main_rq1_feedback_exposure_values.csv",
+      "main_rq1_l4_l5_effects.csv",
+      "main_rq3_ablation_effects_values.csv",
+      "main_rq3_agent_module_use.csv",
+      "main_rq4_mitigation_effects_values.csv",
+      "main_rq4_post_processing_components_values.csv",
+      "main_rq5_order_sensitivity_values.csv",
+      "main_rq6_cross_dataset_popularity_values.csv",
+      "main_rq7_gender_feedback_effects_values.csv",
+      "main_rq7_gender_mitigation_l2_values.csv"
+    ]
+  },
+  "notebooks": [
+    {
+      "path": "reported_runs/analysis/notebooks/00_overview.ipynb",
+      "code_cells": 6,
+      "sha256": "1c41055344f63c0287b6a6c68ab4281eb4e24841cf0b2aeea8c44ff696a4e1b7",
+      "html": "reported_runs/analysis/notebooks/00_overview.html",
+      "status": "executed successfully with standard nbclient/IPython kernel"
+    },
+    {
+      "path": "reported_runs/analysis/notebooks/01_feedback_mechanisms.ipynb",
+      "code_cells": 16,
+      "sha256": "bc7bf15ccc28f36e5fa26a29ab8139f9a8b48f7f6a2ec8f4acd8cf04cbc3c813",
+      "html": "reported_runs/analysis/notebooks/01_feedback_mechanisms.html",
+      "status": "executed successfully with standard nbclient/IPython kernel"
+    },
+    {
+      "path": "reported_runs/analysis/notebooks/02_user_response_models.ipynb",
+      "code_cells": 9,
+      "sha256": "af7a642f8e733125b70bc09bf5997cffbcad3ef3730de8737754dee8ea3752b9",
+      "html": "reported_runs/analysis/notebooks/02_user_response_models.html",
+      "status": "executed successfully with standard nbclient/IPython kernel"
+    },
+    {
+      "path": "reported_runs/analysis/notebooks/03_agent_ablations.ipynb",
+      "code_cells": 11,
+      "sha256": "ff7ae3b5c977119055a682e6b8ba0e4ce17c39f45294435181e8c7e12703cd65",
+      "html": "reported_runs/analysis/notebooks/03_agent_ablations.html",
+      "status": "executed successfully with standard nbclient/IPython kernel"
+    },
+    {
+      "path": "reported_runs/analysis/notebooks/04_mitigation.ipynb",
+      "code_cells": 13,
+      "sha256": "8175eebe7ab5ff01072ebbed089025e85967f88312ed54b6e30da4b04290524f",
+      "html": "reported_runs/analysis/notebooks/04_mitigation.html",
+      "status": "executed successfully with standard nbclient/IPython kernel"
+    },
+    {
+      "path": "reported_runs/analysis/notebooks/05_order_sensitivity.ipynb",
+      "code_cells": 6,
+      "sha256": "9e74f45971f16b931f8098e9f7a62f391d32d5064a1f6695d8072819f4a7ad43",
+      "html": "reported_runs/analysis/notebooks/05_order_sensitivity.html",
+      "status": "executed successfully with standard nbclient/IPython kernel"
+    },
+    {
+      "path": "reported_runs/analysis/notebooks/06_goodreads_popularity.ipynb",
+      "code_cells": 18,
+      "sha256": "abec64bd0ccf29fb8152188a443975a31002d8a978189aa9bdaf00cc0fd19667",
+      "html": "reported_runs/analysis/notebooks/06_goodreads_popularity.html",
+      "status": "executed successfully with standard nbclient/IPython kernel"
+    },
+    {
+      "path": "reported_runs/analysis/notebooks/07_goodreads_author_gender.ipynb",
+      "code_cells": 26,
+      "sha256": "9d5226f0af8b768fb2b094fb6579b8ca09d4d67261b24bcb9e41e3dbb4bc52fe",
+      "html": "reported_runs/analysis/notebooks/07_goodreads_author_gender.html",
+      "status": "executed successfully with standard nbclient/IPython kernel"
+    },
+    {
+      "path": "reported_runs/analysis/notebooks/08_profile_review.ipynb",
+      "code_cells": 4,
+      "sha256": "fee36b476b78e1f022b4383f66f1c3ff303eaa1be963ba239e26d8f015c85cae",
+      "html": "reported_runs/analysis/notebooks/08_profile_review.html",
+      "status": "executed successfully with standard nbclient/IPython kernel"
+    },
+    {
+      "path": "reported_runs/analysis/notebooks/09_main_text.ipynb",
+      "code_cells": 15,
+      "sha256": "7b2fc577d1e0701f2772de33bfbb3f1f48366c504678414df9f169696256bd33",
+      "html": "reported_runs/analysis/notebooks/09_main_text.html",
+      "status": "executed successfully with standard nbclient/IPython kernel"
+    },
+    {
+      "path": "reported_runs/analysis/notebooks/10_seed44_advertising_spike.ipynb",
+      "code_cells": 5,
+      "sha256": "ab36be7ca555660941309f70d13acdebfd1fc4a7d7f58b129fc0a13c033c9bae",
+      "html": "reported_runs/analysis/notebooks/10_seed44_advertising_spike.html",
+      "status": "executed successfully with standard nbclient/IPython kernel"
+    }
+  ],
+  "replay": "python -m reported_runs.analysis.execute",
+  "raw_rebuild": "python -m reported_runs.analysis.build --name local_rebuilt --workers 3",
+  "raw_rebuild_requirements": "Restore private run artifacts at their original relative paths and obtain/restore the separately licensed prepared dataset inputs named in sources/pinned_inventory.json. Raw re-extraction contains source-bearing profile evidence and must stay local/private.",
+  "source_verification": "Original extraction checksums are retained as provenance; normal replay does not re-verify unbundled raw sources.",
+  "restricted_evidence": {
+    "03_and_08": "Public aliases, sample metadata, saved human category codes, and original field-completion flags only. Protected workbook, free-text notes, profile texts, and canonical histories are private.",
+    "10": "All numerical delivery, keyword, withdrawal, and agreement diagnostics are replayed; individual reasons, item metadata, and event/slate reconstruction are private."
+  },
+  "format": "Compressed trusted pandas dataframes preserve original numeric dtypes; full-precision numerical CSVs accompany exported tables.",
+  "portable_paths": "No original machine path is required; saved notebook/HTML links are relative.",
+  "source_writes": "Packaging and validation wrote only inside For_Repo."
+}

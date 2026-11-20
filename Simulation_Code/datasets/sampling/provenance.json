@@ -1,0 +1,169 @@
+{
+  "public_package_date": "2026-11-20",
+  "original_notebook_sha256": "568076dd346022be59f3c7eeff49c233af9de0374b8193c7247beb1e57133421",
+  "public_notebook_sha256": "06302f90b94993824699ab2f96b53044c984707ca7a29f41f99570925375c8cf",
+  "notebook_saved_outputs": "Historical aggregate tables and plots; individual-row and ordered-ID outputs omitted; no seed search rerun for packaging.",
+  "historical_extraction": {
+    "created_utc": "2026-10-26T20:44:53.086729+00:00",
+    "purpose": "Visual comparison of frozen selected populations with the full prepared MovieLens users",
+    "resampling_performed": false,
+    "clustering_fitted": false,
+    "seed_search_run": false,
+    "notebook_cells_executed": false,
+    "training_or_paid_calls": false,
+    "cohort_checks": [
+      {
+        "simulation_seed": 42,
+        "population_seed": 1054,
+        "selected_users": 300,
+        "reference_users": 6040,
+        "matches_current_active_300": true,
+        "ordered_source_membership_sha256": "bd8db1ed8f087bfa93ad0c12770a4c885b3011444f5ca54c827968c619face39"
+      },
+      {
+        "simulation_seed": 43,
+        "population_seed": 19277,
+        "selected_users": 300,
+        "reference_users": 6040,
+        "matches_current_active_300": true,
+        "ordered_source_membership_sha256": "d5cce569a012c15d946818a29b780843bae36bb77b78ff1d5227999465fb3e25"
+      },
+      {
+        "simulation_seed": 44,
+        "population_seed": 18844,
+        "selected_users": 300,
+        "reference_users": 6040,
+        "matches_current_active_300": true,
+        "ordered_source_membership_sha256": "724963f89e829b616b26f2a1d0d69532ef5fd2ada43a386d6258555b3a980530"
+      }
+    ],
+    "user_weighted": true,
+    "axes": {
+      "user_share": [
+        0,
+        1
+      ]
+    },
+    "movielens_tolerances_from_notebook": {
+      "cluster_tvd": [
+        0.025,
+        0.015,
+        0.012
+      ],
+      "gender_tvd": [
+        0.04,
+        0.035,
+        0.03
+      ],
+      "age_tvd": [
+        0.1,
+        0.075,
+        0.065
+      ],
+      "occupation_tvd": [
+        0.17,
+        0.13,
+        0.11
+      ],
+      "postal_prefix_tvd": [
+        0.15,
+        0.11,
+        0.1
+      ],
+      "activity_decile_tvd": [
+        0.16,
+        0.12,
+        0.1
+      ],
+      "behavior_max_smd": [
+        0.2,
+        0.15,
+        0.13
+      ],
+      "genre_mean_abs_smd": [
+        0.1,
+        0.08,
+        0.07
+      ],
+      "cluster_age_tvd": [
+        0.25,
+        0.2,
+        0.17
+      ]
+    },
+    "goodreads_tolerances_from_executed_protocol": {
+      "activity_decile_tvd": 0.1,
+      "behavior_max_abs_smd": 0.13,
+      "cluster_tvd": 0.012,
+      "other_mean_abs_smd": 0.13,
+      "rating_histogram_tvd": 0.05
+    },
+    "sources_sha256": {
+      "mitigation_experiment\\notebooks\\01_population_sampling_representativeness.ipynb": "568076dd346022be59f3c7eeff49c233af9de0374b8193c7247beb1e57133421",
+      "new_dataset_experiment\\analysis_artifacts\\representative_sampling_v1\\protocol.json": "d293c6cbba1cd72d449a57bccddf94a6795752c5d4ba521f3d9342ee1239160b",
+      "mitigation_experiment\\data\\ml-1m\\users.dat": "1dc3a95300cb19f7c10e027daf29b8cdf1d908dab65b5edfb45950aa389a10a3",
+      "mitigation_experiment\\inputs\\mitigation_v1\\ml1m\\mappings.json": "2e0ef89cd4a7ee3fa6aabee83a08e64a36abcd3c9af712b28dd3fe410dc5dea2",
+      "mitigation_experiment\\data\\populations\\population_1054.json": "8c993c7f0e6762dea9515b954ded95982810132e2c26c0abc00cce3f7d6b5419",
+      "feedback_loop_experiment\\inputs\\new_sampling_p1054_seed42_a300_r0_e804_v1\\population.json": "75807a18b9cd2ae9a004340444e17128a73c56b6f973a6009e2a65738d6f4e15",
+      "mitigation_experiment\\data\\populations\\population_19277.json": "2375324636f5fe01cf69b74317258b0415285a61598871814761f39738c2107e",
+      "feedback_loop_experiment\\inputs\\new_sampling_p19277_seed43_a300_r0_e804_v1\\population.json": "f708769ca0687385039fed0705f20b047d8ca29aff13966c62ae80d5c81c91c2",
+      "mitigation_experiment\\data\\populations\\population_18844.json": "e64d5b621c1d69e3fe27dd48c41fdf473d74bafec8a852c5b24ebac3e1c0bb19",
+      "feedback_loop_experiment\\inputs\\new_sampling_p18844_seed44_a300_r0_e804_v1\\population.json": "24edde792f75304ed0ead4fae83b6e0ea2453f7a99aca93d69496f38419a55e7"
+    },
+    "tvd_by_population": [
+      {
+        "population_seed": 1054,
+        "variable": "age_code",
+        "tvd": 0.03533112582781458
+      },
+      {
+        "population_seed": 1054,
+        "variable": "occupation_code",
+        "tvd": 0.06881898454746138
+      },
+      {
+        "population_seed": 18844,
+        "variable": "age_code",
+        "tvd": 0.04233995584988963
+      },
+      {
+        "population_seed": 18844,
+        "variable": "occupation_code",
+        "tvd": 0.07190949227373068
+      },
+      {
+        "population_seed": 19277,
+        "variable": "age_code",
+        "tvd": 0.04028697571743925
+      },
+      {
+        "population_seed": 19277,
+        "variable": "occupation_code",
+        "tvd": 0.08089403973509934
+      }
+    ]
+  },
+  "files_sha256": {
+    "build_goodreads_sampling_figures.py": "c486384d8fcc35e13fa5eb6e936c1e6ece700994a2a3327d35e9d72727a56e59",
+    "build_sampling_figure.py": "8179e9a9e5424b9d05377ca766c6b056f4bf795476b1d2403535b0eafac0db6b",
+    "figures/goodreads_all_features_300_vs_eligible.pdf": "72e06e41e9d479fdd9f8726fb00cccd7eb1fe1e778225bc8f06c8d13aefc6151",
+    "figures/goodreads_all_features_300_vs_eligible.png": "2af28ad9fe5fe76a703a0640f4f76863c21c02e6bddcc496485427c1b8bf5517",
+    "figures/goodreads_all_features_300_vs_eligible.svg": "1317109455e6d1754a4ffd288ab3e396d6f515e12e509a4858f48e794511fd01",
+    "figures/goodreads_composition_300_vs_eligible.pdf": "5636aa983fae0179b0c03d09d2582513f5657f105e789e439b02a5e588e8e187",
+    "figures/goodreads_composition_300_vs_eligible.png": "5dffc09106d7e1d594bc0eb35ae018bc94ba304d2e84ef5141f7e1efbe7142e5",
+    "figures/goodreads_composition_300_vs_eligible.svg": "c60857d615e76e823df55bf14bdcdbb647af6ca662930c6bed8197a65750c078",
+    "figures/movielens_age_occupation_300_vs_full.pdf": "589a42581cd6b3fc686bedc7ee1653e85ea771e58026815f4b5c53eb4d2fce32",
+    "figures/movielens_age_occupation_300_vs_full.png": "bbf264282e466a4ceffeeac37b7275b75bf0ed436ef8852605e8026a0534f91f",
+    "figures/movielens_age_occupation_300_vs_full.svg": "36621533fd78ee3f704916e15304b8524ff052c6a1e4fe37ce04ec2354ab8702",
+    "goodreads_sampling_300_balance_criteria.csv": "99b8996bee7b1e012d048a885bd8f2e69da885975134ba8eb835d935bb34d789",
+    "goodreads_sampling_300_composition.csv": "d37fa63e9e30b9ba063638757db0fd0e19660d72a06cde200a9fea813290c51e",
+    "goodreads_sampling_300_feature_means.csv": "87f7dde08cfd06b9246cd07b1d7c894177c2e4318cc567c78d56cfe1262f1f78",
+    "goodreads_sampling_300_provenance.json": "d77bf9f448abba30a0d22a45d2f68e2d2bebf5082b3aad80d739cd807bff8170",
+    "goodreads_sampling_search.csv": "2398d4246981922f9e0e342582cc057823105ef2aae393c5e35984ee973cc34f",
+    "movielens_age_occupation_300_vs_full.csv": "c99e98d973625c1cf343caddc0b2ef12ce3f533d121b30feed2006fc6b7d6d63",
+    "movielens_population_selection.html": "922d560348eae31692a35b7136b332367f6965e557f90a44e0de462df0c298d4",
+    "movielens_population_selection.ipynb": "06302f90b94993824699ab2f96b53044c984707ca7a29f41f99570925375c8cf",
+    "README.md": "5af835892ffedfc8fa8a04f94876396d5609257edaa7d773f93083f8b324e290",
+    "sampling_tolerances_exact.csv": "18994af9ba18557fa5b65e0c8d83e3339977db1da74a88c84affb3c4bc3871ef"
+  }
+}

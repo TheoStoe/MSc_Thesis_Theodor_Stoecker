@@ -1,0 +1,217 @@
+{
+  "generated_utc": "2026-10-26T22:24:00.782701+00:00",
+  "generator": "writing\\figures\\sampling_300\\build_goodreads_sampling_figures.py",
+  "source_files_sha256": {
+    "new_dataset_experiment\\data\\indexes\\representative_features_v1\\metadata.json": "9425717dac752855d605d919f29a5afaf0a41ed828d65813df9be280e26a94a3",
+    "new_dataset_experiment\\data\\indexes\\representative_features_v1\\features.npz": "6e373cdf601483981151b634a88deb6509834de901f7ca057dbed99b3b1d4356",
+    "new_dataset_experiment\\representative_sampling.py": "af73f394ba5ea7469af3c4f329cbd688f6726fb953caf5edf225dc601a7bc793",
+    "new_dataset_experiment\\inputs\\representative_a300_v2\\cohort.json": "97e8ed3dfc09f323877c1625fab8a2d542c17d14a2021e7f3490d2eca684c90b",
+    "new_dataset_experiment\\inputs\\representative_a300_v2_population_11615\\cohort.json": "87b6a9f637ec1e38c48e7b7a25df3976d7dd553b71204d9a747e6eee178c1e8a",
+    "new_dataset_experiment\\inputs\\representative_a300_v2_population_5245\\cohort.json": "0787fda99f5d1a183936eef0a9d78fbe4656fa24ede0384373bb3fa9371f46c0"
+  },
+  "cohort_feature_cache_digest": "c7036a59e0ad926573b7082062fef8cb4520a1174cd5f52bb767a8f89272359d",
+  "reference": {
+    "eligibility": "At least min_history distinct valid dated rated works, before leave-last-two splitting",
+    "eligible_observed_interactions": 103889949,
+    "eligible_training_interactions": 102389539,
+    "eligible_users": 750205,
+    "excluded_interactions_below_minimum": 138980,
+    "excluded_users_below_minimum": 66166,
+    "heldout_interactions_excluded_from_features": 1500410,
+    "indexed_interactions": 104028929,
+    "indexed_users": 816371
+  },
+  "reference_population_n": 750205,
+  "cohorts": [
+    {
+      "simulation_seed": 42,
+      "population_seed": 16040,
+      "users": 300,
+      "membership_verified_against_feature_cache": true
+    },
+    {
+      "simulation_seed": 43,
+      "population_seed": 11615,
+      "users": 300,
+      "membership_verified_against_feature_cache": true
+    },
+    {
+      "simulation_seed": 44,
+      "population_seed": 5245,
+      "users": 300,
+      "membership_verified_against_feature_cache": true
+    }
+  ],
+  "feature_names": [
+    "training_count",
+    "log_training_count",
+    "mean_rating",
+    "mean_log_item_popularity",
+    "head_share",
+    "rating_share_1",
+    "rating_share_2",
+    "rating_share_3",
+    "rating_share_4",
+    "rating_share_5",
+    "training_span_days"
+  ],
+  "scope": "Training histories only; last two interactions excluded. No resampling or fitting.",
+  "rating_weighting": "Mean of within-reader proportions; equal weight per reader.",
+  "standardisation": "Sample minus eligible mean / eligible population SD (ddof=0).",
+  "head_definition": {
+    "count": "Distinct eligible training readers per work",
+    "head_fraction": 0.2,
+    "head_item_count": 297402,
+    "head_rule": "Top ceil(20% of training-observed works) by training reader count; ties by ascending source item key; fixed before seed search",
+    "log_transform": "natural log(1 + count)",
+    "population": "All eligible readers' training records only"
+  },
+  "activity_deciles": {
+    "edges": [
+      11.0,
+      21.0,
+      31.0,
+      44.0,
+      62.0,
+      87.0,
+      124.0,
+      187.0,
+      325.0
+    ],
+    "labels": "1..10",
+    "rule": "Linear population quantiles of training count; right insertion; equal counts remain in the same bin"
+  },
+  "tolerances": {
+    "cluster_tvd": 0.012,
+    "activity_decile_tvd": 0.1,
+    "behavior_max_abs_smd": 0.13,
+    "rating_histogram_tvd": 0.05,
+    "other_mean_abs_smd": 0.13
+  },
+  "tolerance_origin": "Project-specific fixed design choices; first three copied from MovieLens combined-300 criteria.",
+  "historical_search": {
+    "candidate_count": 20000,
+    "passing_count": 17762,
+    "selected_seed": 16040,
+    "selected_record": {
+      "activity_decile_tvd": 0.024902726588065943,
+      "behavior_max_abs_smd": 0.027465856644405033,
+      "cluster_tvd": 0.002359688351850492,
+      "mean_ratio": 0.21502803214010777,
+      "other_mean_abs_smd": 0.03148604455087011,
+      "passes": true,
+      "rating_histogram_tvd": 0.008799801789588014,
+      "seed": 16040,
+      "worst_ratio": 0.24902726588065943
+    },
+    "top_three_passing": [
+      {
+        "activity_decile_tvd": 0.024902726588065943,
+        "behavior_max_abs_smd": 0.027465856644405033,
+        "cluster_tvd": 0.002359688351850492,
+        "mean_ratio": 0.21502803214010777,
+        "other_mean_abs_smd": 0.03148604455087011,
+        "passes": true,
+        "rating_histogram_tvd": 0.008799801789588014,
+        "seed": 16040,
+        "worst_ratio": 0.24902726588065943
+      },
+      {
+        "activity_decile_tvd": 0.022895208642970934,
+        "behavior_max_abs_smd": 0.034091291979948216,
+        "cluster_tvd": 0.002359688351850492,
+        "mean_ratio": 0.21615399163546503,
+        "other_mean_abs_smd": 0.031112013131964406,
+        "passes": true,
+        "rating_histogram_tvd": 0.007680664514191202,
+        "seed": 11615,
+        "worst_ratio": 0.26224070753806317
+      },
+      {
+        "activity_decile_tvd": 0.029397675746407087,
+        "behavior_max_abs_smd": 0.033222479464749384,
+        "cluster_tvd": 0.002359688351850492,
+        "mean_ratio": 0.21087410908572277,
+        "other_mean_abs_smd": 0.012441843942718885,
+        "passes": true,
+        "rating_histogram_tvd": 0.010624453288285386,
+        "seed": 5245,
+        "worst_ratio": 0.29397675746407087
+      }
+    ],
+    "eligible_feature_means": {
+      "head_share": 0.9506662964596828,
+      "log_training_count": 4.149665657807003,
+      "mean_log_item_popularity": 8.244856626045337,
+      "mean_rating": 4.070963694381585,
+      "rating_share_1": 0.01918268014750511,
+      "rating_share_2": 0.04977108548144404,
+      "rating_share_3": 0.18432061978428105,
+      "rating_share_4": 0.3343510890153914,
+      "rating_share_5": 0.41237452557149934,
+      "training_count": 136.48208023140342,
+      "training_span_days": 944.8245499085053
+    },
+    "eligible_feature_standard_deviations": {
+      "head_share": 0.09848867598539485,
+      "log_training_count": 1.2548598127597572,
+      "mean_log_item_popularity": 1.6354057205751622,
+      "mean_rating": 0.47600772897190397,
+      "rating_share_1": 0.0443273621544129,
+      "rating_share_2": 0.06297429770235043,
+      "rating_share_3": 0.13287304702449532,
+      "rating_share_4": 0.1637119476316553,
+      "rating_share_5": 0.24704571779814802,
+      "training_count": 243.48881207424006,
+      "training_span_days": 879.9738045530421
+    },
+    "feature_cache_sha256": "c7036a59e0ad926573b7082062fef8cb4520a1174cd5f52bb767a8f89272359d",
+    "candidate_table_sha256": "2398d4246981922f9e0e342582cc057823105ef2aae393c5e35984ee973cc34f",
+    "protocol": "goodreads-cluster-proportional-minimax-v1",
+    "seed_range": [
+      0,
+      19999
+    ],
+    "seed_count": 20000,
+    "tolerances": {
+      "activity_decile_tvd": 0.1,
+      "behavior_max_abs_smd": 0.13,
+      "cluster_tvd": 0.012,
+      "other_mean_abs_smd": 0.13,
+      "rating_histogram_tvd": 0.05
+    },
+    "ranking": [
+      "worst_ratio",
+      "mean_ratio",
+      "seed"
+    ],
+    "cluster_counts": [
+      65760,
+      128898,
+      217282,
+      198582,
+      139683
+    ],
+    "cluster_quotas": [
+      26,
+      52,
+      87,
+      79,
+      56
+    ],
+    "target_users": 300,
+    "eligible_users": 750205,
+    "sampling_algorithm": "numpy.default_rng.PCG64.choice_without_replacement_within_frozen_clusters_then_permute",
+    "original_summary_sha256": "5aebd099cf971c206232d2891d881f8ccdbd9ac691b9bd9ec5ffc8ca8abdc8c0",
+    "original_protocol_sha256": "d293c6cbba1cd72d449a57bccddf94a6795752c5d4ba521f3d9342ee1239160b",
+    "public_candidate_table": "goodreads_sampling_search.csv"
+  },
+  "public_replay_script": "build_goodreads_sampling_figures.py",
+  "public_replay_script_sha256": "c486384d8fcc35e13fa5eb6e936c1e6ece700994a2a3327d35e9d72727a56e59",
+  "aggregate_csv_sha256": {
+    "goodreads_sampling_300_balance_criteria.csv": "99b8996bee7b1e012d048a885bd8f2e69da885975134ba8eb835d935bb34d789",
+    "goodreads_sampling_300_composition.csv": "d37fa63e9e30b9ba063638757db0fd0e19660d72a06cde200a9fea813290c51e",
+    "goodreads_sampling_300_feature_means.csv": "87f7dde08cfd06b9246cd07b1d7c894177c2e4318cc567c78d56cfe1262f1f78",
+    "goodreads_sampling_search.csv": "2398d4246981922f9e0e342582cc057823105ef2aae393c5e35984ee973cc34f"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "analysis_name": "appendix_epoch_budget_head_click_share",
+  "label": "chap:results:fig:appendix_epoch_budget_head_click_share",
+  "recommended_for_main_text": false,
+  "rationale": "Appendix training-budget sensitivity; the full-population row is contextual.",
+  "context": null,
+  "provenance": {
+    "cache_sha256": "f583b8048f43e414665bdb8a3068fd765ab949d27a899f830114a08a3de180fd",
+    "seed": 42,
+    "canonical_only": true,
+    "full_population_source": "existing audited aggregate CSV"
+  },
+  "files": {
+    "appendix_epoch_budget_head_click_share.pdf": "f83e4034b30c7dadddb3baf1148acba05b0643bd24595d09069a666df0a2a00d",
+    "appendix_epoch_budget_head_click_share.png": "c849bdae6f440beb7f0fb2ed46d45ac10733de2f4d6018aaf98260b5303d382f"
+  }
+}

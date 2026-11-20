@@ -1,0 +1,31 @@
+# Local environments and credentials
+.venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local packaging and verification files
+.build/
+
+# Source-bearing data and full experiment archives need separate permission.
+/artifacts/private/
+/datasets/raw/
+/datasets/processed/
+/datasets/cache/
+**/inputs/
+**/outputs/
+**/launcher_logs/
+**/preparation_logs/
+**/data/ml-1m/
+**/data/raw/
+**/data/populations/
+/reported_runs/analysis/snapshots/local_*/
+
+# Keep only the published snapshot and executed notebook/plot exports tracked.
+# New experiments and notebook scratch files belong in the ignored locations.
+*.log
+*.partial

@@ -1,0 +1,238 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "appendix_epoch_budget_summary",
+  "label": "chap:results:tab:appendix_epoch_budget_summary",
+  "caption": "SASRec training-budget sensitivity: means over iterations 1--30. Head-click shares are percentages; prior popularity is the initial full-training interaction count per clicked item. All comparisons use seed 42. The 6,040-user row changes population and feedback volume and is not an isolated population-size effect.",
+  "rows": 27,
+  "source_columns": [
+    "setting",
+    "model",
+    "mitigation",
+    "head_click_share_percent",
+    "mean_clicked_prior_popularity"
+  ],
+  "source_dtypes": {
+    "setting": "str",
+    "model": "str",
+    "mitigation": "str",
+    "head_click_share_percent": "float64",
+    "mean_clicked_prior_popularity": "float64"
+  },
+  "display_columns": [
+    "Users / epochs",
+    "Model",
+    "Mitigation",
+    "Head-click share (%)",
+    "Prior popularity"
+  ],
+  "display_rows": [
+    [
+      "6,040 / 201",
+      "NCM P4 (Mansoury)",
+      "Control",
+      "76.86",
+      "1072.63"
+    ],
+    [
+      "6,040 / 201",
+      "NCM P4 (Mansoury)",
+      "In-processing",
+      "71.73",
+      "1014.67"
+    ],
+    [
+      "6,040 / 201",
+      "NCM P4 (Mansoury)",
+      "Post-processing",
+      "6.65",
+      "334.03"
+    ],
+    [
+      "6,040 / 201",
+      "NCM P3 (uniform)",
+      "Control",
+      "95.04",
+      "1559.94"
+    ],
+    [
+      "6,040 / 201",
+      "NCM P3 (uniform)",
+      "In-processing",
+      "91.93",
+      "1549.23"
+    ],
+    [
+      "6,040 / 201",
+      "NCM P3 (uniform)",
+      "Post-processing",
+      "54.81",
+      "942.21"
+    ],
+    [
+      "6,040 / 201",
+      "Position-biased",
+      "Control",
+      "41.00",
+      "626.57"
+    ],
+    [
+      "6,040 / 201",
+      "Position-biased",
+      "In-processing",
+      "29.75",
+      "479.93"
+    ],
+    [
+      "6,040 / 201",
+      "Position-biased",
+      "Post-processing",
+      "7.07",
+      "240.19"
+    ],
+    [
+      "300 / 201",
+      "NCM P4 (Mansoury)",
+      "Control",
+      "99.17",
+      "1925.90"
+    ],
+    [
+      "300 / 201",
+      "NCM P4 (Mansoury)",
+      "In-processing",
+      "98.80",
+      "1899.61"
+    ],
+    [
+      "300 / 201",
+      "NCM P4 (Mansoury)",
+      "Post-processing",
+      "91.98",
+      "1816.83"
+    ],
+    [
+      "300 / 201",
+      "NCM P3 (uniform)",
+      "Control",
+      "99.40",
+      "1980.39"
+    ],
+    [
+      "300 / 201",
+      "NCM P3 (uniform)",
+      "In-processing",
+      "99.30",
+      "1997.03"
+    ],
+    [
+      "300 / 201",
+      "NCM P3 (uniform)",
+      "Post-processing",
+      "98.40",
+      "1980.45"
+    ],
+    [
+      "300 / 201",
+      "Position-biased",
+      "Control",
+      "99.17",
+      "1951.30"
+    ],
+    [
+      "300 / 201",
+      "Position-biased",
+      "In-processing",
+      "98.76",
+      "1948.60"
+    ],
+    [
+      "300 / 201",
+      "Position-biased",
+      "Post-processing",
+      "95.64",
+      "1905.83"
+    ],
+    [
+      "300 / 804",
+      "NCM P4 (Mansoury)",
+      "Control",
+      "88.02",
+      "1083.91"
+    ],
+    [
+      "300 / 804",
+      "NCM P4 (Mansoury)",
+      "In-processing",
+      "82.14",
+      "1046.32"
+    ],
+    [
+      "300 / 804",
+      "NCM P4 (Mansoury)",
+      "Post-processing",
+      "16.27",
+      "455.88"
+    ],
+    [
+      "300 / 804",
+      "NCM P3 (uniform)",
+      "Control",
+      "95.36",
+      "1422.87"
+    ],
+    [
+      "300 / 804",
+      "NCM P3 (uniform)",
+      "In-processing",
+      "94.18",
+      "1437.37"
+    ],
+    [
+      "300 / 804",
+      "NCM P3 (uniform)",
+      "Post-processing",
+      "61.40",
+      "896.00"
+    ],
+    [
+      "300 / 804",
+      "Position-biased",
+      "Control",
+      "83.90",
+      "998.02"
+    ],
+    [
+      "300 / 804",
+      "Position-biased",
+      "In-processing",
+      "73.84",
+      "866.80"
+    ],
+    [
+      "300 / 804",
+      "Position-biased",
+      "Post-processing",
+      "10.60",
+      "359.58"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lllrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {
+      "head_click_share_percent": ".2f",
+      "mean_clicked_prior_popularity": ".2f"
+    }
+  },
+  "provenance": {
+    "cache_sha256": "f583b8048f43e414665bdb8a3068fd765ab949d27a899f830114a08a3de180fd",
+    "seed": 42
+  },
+  "files": {
+    "appendix_epoch_budget_summary.tex": "19707339899f562306f53df3ed2d8e28455e46c65b6fc20d2d229cd1e42ac208",
+    "appendix_epoch_budget_summary.csv": "e0f8f0fb4b3766bcefbc4b284f08d879ccdbffd1d3c8571977755f6f78aeb593"
+  }
+}

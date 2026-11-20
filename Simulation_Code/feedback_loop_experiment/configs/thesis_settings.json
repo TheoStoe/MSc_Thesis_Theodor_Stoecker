@@ -1,0 +1,48 @@
+{
+  "simulation_seeds": [
+    42,
+    43,
+    44
+  ],
+  "iterations": 30,
+  "slate_size": 10,
+  "sasrec": {
+    "num_epochs": 804,
+    "batch_size": 128,
+    "max_sequence_length": 200,
+    "hidden_size": 50,
+    "num_blocks": 2,
+    "num_heads": 1,
+    "dropout_rate": 0.2,
+    "learning_rate": 0.001,
+    "embedding_l2": 0.0
+  },
+  "llm": {
+    "model": "gpt-5.4-nano",
+    "reasoning_effort": "none",
+    "max_output_tokens": 2056
+  },
+  "embeddings": {
+    "model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "presentation_arms": [
+    "canonical",
+    "replica",
+    "shuffled"
+  ],
+  "active_users": 300,
+  "reserve_users": 0,
+  "dataset": "movielens-1m",
+  "population_seeds": {
+    "42": 1054,
+    "43": 19277,
+    "44": 18844
+  },
+  "sampling_and_advertising": {
+    "active_users": 150,
+    "reserve_users": 150,
+    "training_users": 300,
+    "sponsored_nonclick_limit": 3
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "analysis_name": "appendix_epoch_budget_clicked_popularity",
+  "label": "chap:results:fig:appendix_epoch_budget_clicked_popularity",
+  "recommended_for_main_text": false,
+  "rationale": "Appendix training-budget sensitivity; the full-population row is contextual.",
+  "context": null,
+  "provenance": {
+    "cache_sha256": "f583b8048f43e414665bdb8a3068fd765ab949d27a899f830114a08a3de180fd",
+    "seed": 42,
+    "canonical_only": true,
+    "full_population_source": "existing audited aggregate CSV"
+  },
+  "files": {
+    "appendix_epoch_budget_clicked_popularity.pdf": "f78460711db622033b8af957ac88dfe83ba1fd95e6c4b8d91495226429448264",
+    "appendix_epoch_budget_clicked_popularity.png": "d08bb1c70e6ee2168221682d4668df5a715d8bf0ff79b093ee6e50ea48bc800d"
+  }
+}

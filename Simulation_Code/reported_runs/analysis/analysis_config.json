@@ -1,0 +1,451 @@
+{
+  "schema_version": "executed-research-question-crosswalk-v1",
+  "source": "Scientific metric and comparison configuration of the recorded final analysis.",
+  "recorded_date": "2026-10-30",
+  "scope": "Offline replay of final MovieLens feedback, agent-ablation, mitigation, and Goodreads comparisons.",
+  "common": {
+    "iterations": "Full trajectories 1--30, equal-weight mean of all 30 iteration values, and iteration-30 endpoint.",
+    "partial_runs": "List pending/incomplete conditions explicitly. Only complete source pairs enter main comparisons; never substitute a different epoch budget or active/reserve protocol.",
+    "undefined": "Undefined metric denominators remain missing; a primary 30-iteration mean requires all 30 iteration values defined. No-click and invalid counts remain visible.",
+    "effects": "Signed treatment-minus-control differences, paired within dataset, study protocol, seed/population, and iteration. Share differences are percentage points.",
+    "replication": "Seed/population blocks are the campaign replicates. Users, iterations, model pairs, and physical-control aliases do not add independent replications. No pseudoreplicated significance tests.",
+    "rank_discount": "d(r)=1/log2(r+1), ranks r=1,...,K. First weights 1, 0.63093, 0.5. Normalise by displayed weight in the stated label scope.",
+    "exports": "Every notebook writes plot PNG/PDF and LaTeX tables with labels chap:results:tab:analysis_name, plus full-precision CSV and source metadata."
+  },
+  "research_questions": [
+    {
+      "id": "I",
+      "title": "Feedback mechanisms",
+      "question": "How do popularity bias trajectories change as additional feedback mechanisms are introduced?",
+      "notebook": "01_feedback_mechanisms.ipynb",
+      "studies": [
+        "movielens_feedback_a300_e804",
+        "movielens_sampling_outcome_a150_r150_e804"
+      ],
+      "comparisons": [
+        "L1 minus L0 within the same response model",
+        "L2 minus L1 within the same response model",
+        "Full-reflection L3 minus frozen-agent L2",
+        "Each L4 departure/refill variant minus matched 150-active/150-reserve L3",
+        "Static advertising minus candidate-restricted matched organic advertising control",
+        "Adaptive L5 advertising minus static advertising"
+      ],
+      "sections": [
+        {
+          "focus": "Layered feedback effects",
+          "metrics": [
+            "head_exposure",
+            "weighted_head_exposure",
+            "click_exposure_gap",
+            "weighted_click_exposure_gap",
+            "click_rate"
+          ]
+        },
+        {
+          "focus": "Catalogue coverage and concentration",
+          "metrics": [
+            "exposure_coverage",
+            "click_coverage",
+            "exposure_gini",
+            "click_gini"
+          ]
+        },
+        {
+          "focus": "Sampling feedback",
+          "table": "population",
+          "metrics": [
+            "active_users",
+            "departures",
+            "replacements",
+            "cluster_composition"
+          ]
+        },
+        {
+          "focus": "Outcome feedback and advertising",
+          "table": "advertising",
+          "metrics": [
+            "advertising_eligibility",
+            "sponsored_exposure",
+            "sponsored_clicks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "II",
+      "title": "User-response models",
+      "question": "How do bias trajectories differ between user-response models under comparable feedback conditions?",
+      "notebook": "02_user_response_models.ipynb",
+      "studies": [
+        "movielens_feedback_a300_e804"
+      ],
+      "comparisons": [
+        "Response models at the same L0, L1, or L2 stage and seed/population",
+        "Model-specific L1-minus-L0 and L2-minus-L1 effects",
+        "Canonical versus identical-order replica and shuffled probes from the same pre-update opportunity"
+      ],
+      "sections": [
+        {
+          "focus": "Bias trajectories and selection relative to exposure",
+          "metrics": [
+            "head_click_share",
+            "head_exposure",
+            "weighted_head_exposure",
+            "click_exposure_gap",
+            "weighted_click_exposure_gap"
+          ]
+        },
+        {
+          "focus": "Click behaviour",
+          "metrics": [
+            "click_rate",
+            "no_click_rate",
+            "invalid_rate",
+            "valid_clicks",
+            "clicks_per_rank"
+          ]
+        },
+        {
+          "focus": "Catalogue coverage and concentration",
+          "metrics": [
+            "exposure_coverage",
+            "click_coverage",
+            "exposure_gini",
+            "click_gini"
+          ]
+        },
+        {
+          "focus": "LLM repeatability",
+          "table": "probes",
+          "metrics": [
+            "replica_pair_agreement",
+            "replica_action_agreement",
+            "replica_action_disagreement"
+          ]
+        },
+        {
+          "focus": "Order sensitivity",
+          "table": "probes",
+          "metrics": [
+            "agreement_sensitivity",
+            "shuffle_tvd"
+          ],
+          "definition": "LLM: replica minus shuffled same-item agreement on common all-valid-click triples. Computational: TVD between saved click-probability distributions aligned by item identity, not displayed rank."
+        },
+        {
+          "focus": "Position bias",
+          "table": "ranks",
+          "metrics": [
+            "clicked_rank_distribution",
+            "mean_clicked_rank",
+            "first_position_click_share"
+          ],
+          "definition": "Compare canonical and shuffled displayed ranks; order effects cannot be inferred from canonical ranks alone."
+        }
+      ]
+    },
+    {
+      "id": "III",
+      "title": "Agent ablations",
+      "question": "How do the tested memory and reflection configurations affect simulated user behaviour and bias trajectories?",
+      "notebook": "03_agent_ablations.ipynb",
+      "studies": [
+        "movielens_feedback_a300_e804"
+      ],
+      "comparisons": [
+        "L3 no reflection minus L2 frozen agent: private factual memory",
+        "L3 fixed profile minus L3 no reflection: reflection notes",
+        "L3 full reflection minus L3 fixed profile: applied profile updates"
+      ],
+      "sections": [
+        {
+          "focus": "Bias trajectories",
+          "metrics": [
+            "head_click_share",
+            "head_exposure",
+            "weighted_head_exposure",
+            "click_exposure_gap",
+            "weighted_click_exposure_gap"
+          ]
+        },
+        {
+          "focus": "Click behaviour",
+          "metrics": [
+            "click_rate",
+            "no_click_rate",
+            "valid_clicks",
+            "clicks_per_rank",
+            "invalid_rate"
+          ]
+        },
+        {
+          "focus": "Catalogue coverage and concentration",
+          "metrics": [
+            "exposure_coverage",
+            "click_coverage",
+            "exposure_gini",
+            "click_gini"
+          ]
+        },
+        {
+          "focus": "Repeatability and order sensitivity",
+          "table": "probes",
+          "metrics": [
+            "replica_agreement",
+            "shuffled_agreement",
+            "agreement_sensitivity",
+            "replica_action_agreement"
+          ]
+        },
+        {
+          "focus": "Module use",
+          "table": "agent",
+          "metrics": [
+            "module_invocation_counts",
+            "module_invocation_rates"
+          ]
+        },
+        {
+          "focus": "Reflection",
+          "table": "agent",
+          "metrics": [
+            "reflection_requested",
+            "reflection_failed",
+            "reflection_applied",
+            "reflection_error_rate"
+          ]
+        },
+        {
+          "focus": "Applied profile changes",
+          "table": "agent",
+          "metrics": [
+            "profile_changes",
+            "profile_change_rate",
+            "profile_changed_users"
+          ]
+        },
+        {
+          "focus": "Qualitative profile review",
+          "table": "profile_changes",
+          "definition": "Select ten distinct users with at least one actual applied profile update per seed in main full-reflection L3, using the simulation seed; report fewer if fewer qualify. Provide evidence, but leave manual judgements unfilled."
+        }
+      ]
+    },
+    {
+      "id": "IV",
+      "title": "Mitigation",
+      "question": "How does the effectiveness of bias mitigation depend on the user-response model?",
+      "notebook": "04_mitigation.ipynb",
+      "studies": [
+        "movielens_mitigation_a300_e804"
+      ],
+      "comparisons": [
+        "Each in-processing and post-processing treatment minus its own unmitigated model/stage/seed/population control",
+        "In-processing minus post-processing within the same configuration",
+        "Between-model control differences versus each model's mitigation effects"
+      ],
+      "sections": [
+        {
+          "focus": "Mitigation effects and method comparison",
+          "metrics": [
+            "head_click_share",
+            "head_exposure",
+            "weighted_head_exposure",
+            "click_exposure_gap",
+            "weighted_click_exposure_gap"
+          ]
+        },
+        {
+          "focus": "Post-processing decomposition",
+          "metrics": [
+            "head_click_share",
+            "head_exposure",
+            "weighted_head_exposure"
+          ],
+          "definition": "Report total, immediate-reranking, and feedback/state components within every matched seed and iteration. For head-click share use post canonical minus control canonical, post canonical minus post original_order_probe, and post original_order_probe minus control canonical. For exposure use presented versus original recommender slates; a pure permutation has zero immediate unweighted exposure effect. Each arm retains its own valid-click denominator. The feedback component is the remaining difference under the treated trajectory, including state changes and response variation, not an isolated causal feedback estimate."
+        },
+        {
+          "focus": "Response-model versus mitigation differences",
+          "metrics": [
+            "absolute_difference_of_means",
+            "mean_absolute_iteration_difference"
+          ],
+          "definition": "Keep each model pair, seed/population, and metric explicit; compare with the absolute own-control mitigation change. Reflective-agent L3 versus other-family L2 is a model-configuration comparison, not an isolated response-model effect."
+        },
+        {
+          "focus": "Click behaviour",
+          "metrics": [
+            "click_rate",
+            "no_click_rate",
+            "valid_clicks"
+          ]
+        },
+        {
+          "focus": "Catalogue coverage and concentration",
+          "metrics": [
+            "exposure_coverage",
+            "click_coverage",
+            "exposure_gini",
+            "click_gini"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V",
+      "title": "Order sensitivity",
+      "question": "To what extent is sensitivity to recommendation order associated with the effectiveness of our post-processing mitigation?",
+      "notebook": "05_order_sensitivity.ipynb",
+      "studies": [
+        "movielens_mitigation_a300_e804"
+      ],
+      "comparisons": [
+        "Baseline unmitigated-control order sensitivity versus control-minus-post-processing head-click share, separately within each seed/population"
+      ],
+      "sections": [
+        {
+          "focus": "Predictor values and eligibility",
+          "table": "probes",
+          "metrics": [
+            "agreement_sensitivity",
+            "shuffle_tvd",
+            "triple_valid_clicks"
+          ]
+        },
+        {
+          "focus": "Post-processing reduction",
+          "metrics": [
+            "head_click_share"
+          ],
+          "definition": "Positive reduction is control minus post-processing, in percentage points."
+        },
+        {
+          "focus": "Exploratory association",
+          "metrics": [
+            "spearman_rho"
+          ],
+          "definition": "One model-level observation per seed; retain all input pairs. LLM agreement gaps and computational probability TVD are distinct estimands and cannot be silently pooled. Report descriptive within-family associations where at least three nonconstant input pairs exist; no p-values or validated-prediction claim."
+        }
+      ]
+    },
+    {
+      "id": "VI",
+      "title": "Goodreads popularity",
+      "question": "How well do findings on popularity bias generalise to the Goodreads dataset for selected conditions?",
+      "notebook": "06_goodreads_popularity.ipynb",
+      "studies": [
+        "goodreads_gender_a300_e804",
+        "movielens_feedback_a300_e804"
+      ],
+      "comparisons": [
+        "Goodreads computational and Direct LLM L2 minus L0 with corresponding MovieLens contrasts for seeds 42, 43, and 44",
+        "Goodreads reflective L3 minus frozen L2 with corresponding MovieLens contrasts for seeds 42, 43, and 44",
+        "Where complete, supplementary L1-minus-L0 and L2-minus-L1 computational decompositions from the extension"
+      ],
+      "sections": [
+        {
+          "focus": "Popularity transfer",
+          "metrics": [
+            "head_click_share",
+            "head_exposure",
+            "weighted_head_exposure",
+            "click_exposure_gap",
+            "weighted_click_exposure_gap",
+            "exposure_gini",
+            "click_gini"
+          ]
+        },
+        {
+          "focus": "Response behaviour and coverage",
+          "metrics": [
+            "click_rate",
+            "no_click_rate",
+            "valid_clicks",
+            "exposure_coverage",
+            "click_coverage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "VII",
+      "title": "Goodreads author-gender representation",
+      "question": "To what extent do selected findings about user-response models, feedback mechanisms, and mitigation extend from popularity bias in MovieLens to author-gender representation in Goodreads?",
+      "notebook": "07_goodreads_author_gender.ipynb",
+      "studies": [
+        "goodreads_gender_a300_e804",
+        "goodreads_gender_mitigation_a300_e804"
+      ],
+      "comparisons": [
+        "Unmitigated computational and Direct LLM L2 minus L0, and reflective L3 minus frozen L2, for seeds 42, 43, and 44",
+        "Computational gender in-processing and post-processing minus their own control within the same stage/model/seed/population",
+        "In-processing minus post-processing within each computational stage/model/seed/population"
+      ],
+      "sections": [
+        {
+          "focus": "Women-authored shares among all items",
+          "metrics": [
+            "female_click_share",
+            "female_exposure",
+            "weighted_female_exposure"
+          ],
+          "definition": "All displayed slots or all valid clicks in denominator, including unknown and ambiguous labels."
+        },
+        {
+          "focus": "Women-plus-men conditional shares",
+          "metrics": [
+            "female_among_binary_clicks",
+            "female_among_binary_exposure",
+            "weighted_female_among_binary_exposure"
+          ],
+          "definition": "Women numerator divided by women-plus-men mass within each iteration; weighted exposure uses the same label scope in numerator and denominator. Undefined if no qualifying mass."
+        },
+        {
+          "focus": "Selection relative to exposure",
+          "metrics": [
+            "female_click_exposure_gap",
+            "weighted_female_click_exposure_gap",
+            "binary_female_click_exposure_gap",
+            "weighted_binary_female_click_exposure_gap"
+          ]
+        },
+        {
+          "focus": "Candidate availability",
+          "metrics": [
+            "eligible_female_share",
+            "female_exposure_minus_candidate_share"
+          ]
+        },
+        {
+          "focus": "Label coverage",
+          "metrics": [
+            "unknown_exposure",
+            "weighted_unknown_exposure",
+            "unknown_click_share",
+            "ambiguous_exposure",
+            "weighted_ambiguous_exposure",
+            "ambiguous_click_share"
+          ]
+        },
+        {
+          "focus": "Click behaviour",
+          "metrics": [
+            "click_rate",
+            "no_click_rate",
+            "valid_clicks"
+          ]
+        },
+        {
+          "focus": "Gender mitigation effects",
+          "metrics": [
+            "female_click_share",
+            "female_exposure",
+            "weighted_female_exposure",
+            "female_click_exposure_gap",
+            "weighted_female_click_exposure_gap"
+          ]
+        }
+      ]
+    }
+  ]
+}
