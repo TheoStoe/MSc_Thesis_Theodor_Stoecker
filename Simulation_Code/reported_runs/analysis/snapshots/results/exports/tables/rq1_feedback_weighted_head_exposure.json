@@ -1,0 +1,733 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq1_feedback_weighted_head_exposure",
+  "label": "chap:results:tab:rq1_feedback_weighted_head_exposure",
+  "caption": "Matched weighted-head-exposure effects by seed and time summary, in percentage points.",
+  "rows": 66,
+  "source_columns": [
+    "dataset",
+    "comparison",
+    "model",
+    "seed",
+    "population_seed",
+    "window",
+    "value",
+    "effect_unit"
+  ],
+  "source_dtypes": {
+    "dataset": "str",
+    "comparison": "str",
+    "model": "str",
+    "seed": "int64",
+    "population_seed": "int64",
+    "window": "str",
+    "value": "float64",
+    "effect_unit": "str"
+  },
+  "display_columns": [
+    "dataset",
+    "comparison",
+    "model",
+    "seed",
+    "population_seed",
+    "window",
+    "value",
+    "effect_unit"
+  ],
+  "display_rows": [
+    [
+      "movielens",
+      "L1 minus L0",
+      "agentic_recommender",
+      "42",
+      "1054",
+      "mean_1_30",
+      "2.97379",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "agentic_recommender",
+      "42",
+      "1054",
+      "iteration_30",
+      "4.00089",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "agentic_recommender",
+      "42",
+      "1054",
+      "mean_1_30",
+      "-3.56684",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "agentic_recommender",
+      "42",
+      "1054",
+      "iteration_30",
+      "-18.9482",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "42",
+      "1054",
+      "mean_1_30",
+      "-3.1535",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "42",
+      "1054",
+      "iteration_30",
+      "1.54368",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "direct_llm",
+      "42",
+      "1054",
+      "mean_1_30",
+      "3.0976",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "direct_llm",
+      "42",
+      "1054",
+      "iteration_30",
+      "4.8552",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "direct_llm",
+      "42",
+      "1054",
+      "mean_1_30",
+      "3.14996",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "direct_llm",
+      "42",
+      "1054",
+      "iteration_30",
+      "-4.46357",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "1054",
+      "mean_1_30",
+      "2.13767",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "1054",
+      "iteration_30",
+      "5.91604",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "1054",
+      "mean_1_30",
+      "14.3975",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "1054",
+      "iteration_30",
+      "13.21",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "1054",
+      "mean_1_30",
+      "10.4575",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "1054",
+      "iteration_30",
+      "15.5336",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "1054",
+      "mean_1_30",
+      "19.8562",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "1054",
+      "iteration_30",
+      "26.1926",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "position_biased",
+      "42",
+      "1054",
+      "mean_1_30",
+      "0.31597",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "position_biased",
+      "42",
+      "1054",
+      "iteration_30",
+      "1.50113",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "position_biased",
+      "42",
+      "1054",
+      "mean_1_30",
+      "11.8381",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "position_biased",
+      "42",
+      "1054",
+      "iteration_30",
+      "10.0142",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "agentic_recommender",
+      "43",
+      "19277",
+      "mean_1_30",
+      "-0.524093",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "agentic_recommender",
+      "43",
+      "19277",
+      "iteration_30",
+      "-2.96659",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "agentic_recommender",
+      "43",
+      "19277",
+      "mean_1_30",
+      "-3.43631",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "agentic_recommender",
+      "43",
+      "19277",
+      "iteration_30",
+      "-12.1535",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "43",
+      "19277",
+      "mean_1_30",
+      "3.67435",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "43",
+      "19277",
+      "iteration_30",
+      "0.0761414",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "direct_llm",
+      "43",
+      "19277",
+      "mean_1_30",
+      "2.43386",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "direct_llm",
+      "43",
+      "19277",
+      "iteration_30",
+      "3.11741",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "direct_llm",
+      "43",
+      "19277",
+      "mean_1_30",
+      "12.6946",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "direct_llm",
+      "43",
+      "19277",
+      "iteration_30",
+      "4.68615",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "19277",
+      "mean_1_30",
+      "-1.10345",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "19277",
+      "iteration_30",
+      "0.764964",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "19277",
+      "mean_1_30",
+      "19.3424",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "19277",
+      "iteration_30",
+      "18.4449",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "19277",
+      "mean_1_30",
+      "7.94124",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "19277",
+      "iteration_30",
+      "13.2775",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "19277",
+      "mean_1_30",
+      "21.7969",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "19277",
+      "iteration_30",
+      "28.0388",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "position_biased",
+      "43",
+      "19277",
+      "mean_1_30",
+      "-2.583",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "position_biased",
+      "43",
+      "19277",
+      "iteration_30",
+      "-1.91787",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "position_biased",
+      "43",
+      "19277",
+      "mean_1_30",
+      "16.4755",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "position_biased",
+      "43",
+      "19277",
+      "iteration_30",
+      "19.9118",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "agentic_recommender",
+      "44",
+      "18844",
+      "mean_1_30",
+      "0.50293",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "agentic_recommender",
+      "44",
+      "18844",
+      "iteration_30",
+      "-1.53128",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "agentic_recommender",
+      "44",
+      "18844",
+      "mean_1_30",
+      "-0.00427019",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "agentic_recommender",
+      "44",
+      "18844",
+      "iteration_30",
+      "-14.27",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "44",
+      "18844",
+      "mean_1_30",
+      "-3.79031",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "44",
+      "18844",
+      "iteration_30",
+      "-1.01831",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "direct_llm",
+      "44",
+      "18844",
+      "mean_1_30",
+      "2.61001",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "direct_llm",
+      "44",
+      "18844",
+      "iteration_30",
+      "2.39548",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "direct_llm",
+      "44",
+      "18844",
+      "mean_1_30",
+      "10.0987",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "direct_llm",
+      "44",
+      "18844",
+      "iteration_30",
+      "11.5554",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "18844",
+      "mean_1_30",
+      "0.068401",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "18844",
+      "iteration_30",
+      "-0.944792",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "18844",
+      "mean_1_30",
+      "15.7657",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "18844",
+      "iteration_30",
+      "21.2095",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "18844",
+      "mean_1_30",
+      "9.89841",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "18844",
+      "iteration_30",
+      "12.4532",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "18844",
+      "mean_1_30",
+      "18.8509",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "18844",
+      "iteration_30",
+      "28.5124",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "position_biased",
+      "44",
+      "18844",
+      "mean_1_30",
+      "-2.21398",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L1 minus L0",
+      "position_biased",
+      "44",
+      "18844",
+      "iteration_30",
+      "-6.53712",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "position_biased",
+      "44",
+      "18844",
+      "mean_1_30",
+      "14.3692",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L1",
+      "position_biased",
+      "44",
+      "18844",
+      "iteration_30",
+      "16.3922",
+      "percentage points"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lllrrlrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq1",
+    "source_blocks": [
+      {
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq1_feedback_weighted_head_exposure.tex": "fdc5a39534958e6da86d23b205ca202cd0a589eafdb1096617a8e562165e6aaa",
+    "rq1_feedback_weighted_head_exposure.csv": "78f8f3593402974451e52f1d23353302cf3ca258b6df9c28d4a2a3a98b4aa5b5"
+  }
+}

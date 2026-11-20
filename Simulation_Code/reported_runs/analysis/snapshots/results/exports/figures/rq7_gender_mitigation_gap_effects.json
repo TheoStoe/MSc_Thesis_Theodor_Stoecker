@@ -1,0 +1,124 @@
+{
+  "analysis_name": "rq7_gender_mitigation_gap_effects",
+  "label": "chap:results:fig:rq7_gender_mitigation_gap_effects",
+  "recommended_for_main_text": false,
+  "rationale": "",
+  "context": {
+    "datasets": [
+      "Goodreads"
+    ],
+    "stages_by_model": {
+      "ncm_inspired_gru_mansoury": [
+        "L2"
+      ],
+      "ncm_inspired_gru_uniform": [
+        "L2"
+      ],
+      "position_biased": [
+        "L2"
+      ]
+    },
+    "seeds_by_model": {
+      "ncm_inspired_gru_mansoury": [
+        42,
+        43,
+        44
+      ],
+      "ncm_inspired_gru_uniform": [
+        42,
+        43,
+        44
+      ],
+      "position_biased": [
+        42,
+        43,
+        44
+      ]
+    },
+    "seeds_by_model_condition": {
+      "ncm_inspired_gru_mansoury": {
+        "in-processing": [
+          42,
+          43,
+          44
+        ],
+        "post-processing": [
+          42,
+          43,
+          44
+        ]
+      },
+      "ncm_inspired_gru_uniform": {
+        "in-processing": [
+          42,
+          43,
+          44
+        ],
+        "post-processing": [
+          42,
+          43,
+          44
+        ]
+      },
+      "position_biased": {
+        "in-processing": [
+          42,
+          43,
+          44
+        ],
+        "post-processing": [
+          42,
+          43,
+          44
+        ]
+      }
+    },
+    "time_summary": "Mean over iterations 1–30 and iteration-30 endpoint (separate panels)",
+    "windows": [
+      "iteration_30",
+      "mean_1_30"
+    ],
+    "protocol": "300 active users",
+    "comparisons": [
+      "L2 in-processing minus control",
+      "L2 post-processing minus control"
+    ],
+    "encoding": "Colours: models; markers: simulation seeds",
+    "text": "Goodreads | 300 active users | Treatment stages: L2\nMean over iterations 1–30 and iteration-30 endpoint (separate panels) | Simulation seeds: 42, 43, 44\nEach mitigation minus its matched unmitigated control",
+    "plot_spec": {
+      "kind": "effect",
+      "facet": "window",
+      "category": "comparison",
+      "metrics": [
+        "female_click_exposure_gap",
+        "weighted_female_click_exposure_gap"
+      ]
+    }
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq7",
+    "source_blocks": [
+      {
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "seed": 44,
+        "population_seed": 5245
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq7_gender_mitigation_gap_effects.pdf": "2cd95e3035614cd7b5c84f06d3e6f1d513f931499e2383b42e9ae8c86e1058e6",
+    "rq7_gender_mitigation_gap_effects.png": "59ff3df5d0fb59d1f96af721eff29e96cb289ee5a9376dd4890f8df93249b006"
+  }
+}

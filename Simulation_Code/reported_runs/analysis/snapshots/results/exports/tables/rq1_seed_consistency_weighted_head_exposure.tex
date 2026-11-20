@@ -1,0 +1,46 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lllllrrrrrrrll}
+\hline
+dataset & comparison & model & metric & window & n\_seed\_blocks & mean\_effect & min\_effect & max\_effect & positive & negative & zero & missing\_seeds & effect\_unit \\
+\hline
+movielens & L1 minus L0 & agentic\_recommender & weighted\_head\_exposure & mean\_1\_30 & 3 & 0.984209 & -0.524093 & 2.97379 & 2 & 1 & 0 &  & percentage points \\
+movielens & L1 minus L0 & agentic\_recommender & weighted\_head\_exposure & iteration\_30 & 3 & -0.16566 & -2.96659 & 4.00089 & 1 & 2 & 0 &  & percentage points \\
+movielens & L2 minus L1 & agentic\_recommender & weighted\_head\_exposure & mean\_1\_30 & 3 & -2.33581 & -3.56684 & -0.00427019 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 minus L1 & agentic\_recommender & weighted\_head\_exposure & iteration\_30 & 3 & -15.1239 & -18.9482 & -12.1535 & 0 & 3 & 0 &  & percentage points \\
+movielens & L3 full reflection minus L2 frozen agent & agentic\_recommender & weighted\_head\_exposure & mean\_1\_30 & 3 & -1.08982 & -3.79031 & 3.67435 & 1 & 2 & 0 &  & percentage points \\
+movielens & L3 full reflection minus L2 frozen agent & agentic\_recommender & weighted\_head\_exposure & iteration\_30 & 3 & 0.200505 & -1.01831 & 1.54368 & 2 & 1 & 0 &  & percentage points \\
+movielens & L1 minus L0 & direct\_llm & weighted\_head\_exposure & mean\_1\_30 & 3 & 2.71382 & 2.43386 & 3.0976 & 3 & 0 & 0 &  & percentage points \\
+movielens & L1 minus L0 & direct\_llm & weighted\_head\_exposure & iteration\_30 & 3 & 3.45603 & 2.39548 & 4.8552 & 3 & 0 & 0 &  & percentage points \\
+movielens & L2 minus L1 & direct\_llm & weighted\_head\_exposure & mean\_1\_30 & 3 & 8.64776 & 3.14996 & 12.6946 & 3 & 0 & 0 &  & percentage points \\
+movielens & L2 minus L1 & direct\_llm & weighted\_head\_exposure & iteration\_30 & 3 & 3.92601 & -4.46357 & 11.5554 & 2 & 1 & 0 &  & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_mansoury & weighted\_head\_exposure & mean\_1\_30 & 3 & 0.367542 & -1.10345 & 2.13767 & 2 & 1 & 0 &  & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_mansoury & weighted\_head\_exposure & iteration\_30 & 3 & 1.91207 & -0.944792 & 5.91604 & 2 & 1 & 0 &  & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_mansoury & weighted\_head\_exposure & mean\_1\_30 & 3 & 16.5019 & 14.3975 & 19.3424 & 3 & 0 & 0 &  & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_mansoury & weighted\_head\_exposure & iteration\_30 & 3 & 17.6215 & 13.21 & 21.2095 & 3 & 0 & 0 &  & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_uniform & weighted\_head\_exposure & mean\_1\_30 & 3 & 9.43238 & 7.94124 & 10.4575 & 3 & 0 & 0 &  & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_uniform & weighted\_head\_exposure & iteration\_30 & 3 & 13.7548 & 12.4532 & 15.5336 & 3 & 0 & 0 &  & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_uniform & weighted\_head\_exposure & mean\_1\_30 & 3 & 20.168 & 18.8509 & 21.7969 & 3 & 0 & 0 &  & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_uniform & weighted\_head\_exposure & iteration\_30 & 3 & 27.5813 & 26.1926 & 28.5124 & 3 & 0 & 0 &  & percentage points \\
+movielens & L1 minus L0 & position\_biased & weighted\_head\_exposure & mean\_1\_30 & 3 & -1.49367 & -2.583 & 0.31597 & 1 & 2 & 0 &  & percentage points \\
+movielens & L1 minus L0 & position\_biased & weighted\_head\_exposure & iteration\_30 & 3 & -2.31795 & -6.53712 & 1.50113 & 1 & 2 & 0 &  & percentage points \\
+movielens & L2 minus L1 & position\_biased & weighted\_head\_exposure & mean\_1\_30 & 3 & 14.2276 & 11.8381 & 16.4755 & 3 & 0 & 0 &  & percentage points \\
+movielens & L2 minus L1 & position\_biased & weighted\_head\_exposure & iteration\_30 & 3 & 15.4394 & 10.0142 & 19.9118 & 3 & 0 & 0 &  & percentage points \\
+movielens & L4 -- cluster refill minus matched L3 & agentic\_recommender & weighted\_head\_exposure & mean\_1\_30 & 3 & 0.131376 & -0.779832 & 0.923529 & 2 & 1 & 0 &  & percentage points \\
+movielens & L4 -- cluster refill minus matched L3 & agentic\_recommender & weighted\_head\_exposure & iteration\_30 & 3 & 1.74926 & -0.124946 & 2.7864 & 2 & 1 & 0 &  & percentage points \\
+movielens & L4 -- no refill minus matched L3 & agentic\_recommender & weighted\_head\_exposure & mean\_1\_30 & 3 & 1.2889 & 0.375844 & 2.29153 & 3 & 0 & 0 &  & percentage points \\
+movielens & L4 -- no refill minus matched L3 & agentic\_recommender & weighted\_head\_exposure & iteration\_30 & 3 & 1.72491 & -0.295746 & 3.17851 & 2 & 1 & 0 &  & percentage points \\
+movielens & L4 -- uniform refill minus matched L3 & agentic\_recommender & weighted\_head\_exposure & mean\_1\_30 & 3 & -1.62538 & -2.06809 & -1.03369 & 0 & 3 & 0 &  & percentage points \\
+movielens & L4 -- uniform refill minus matched L3 & agentic\_recommender & weighted\_head\_exposure & iteration\_30 & 3 & -4.60881 & -7.59841 & -1.40379 & 0 & 3 & 0 &  & percentage points \\
+movielens & Static advertising minus matched organic & agentic\_recommender & weighted\_head\_exposure & mean\_1\_30 & 3 & -18.3914 & -21.3967 & -15.2705 & 0 & 3 & 0 &  & percentage points \\
+movielens & Static advertising minus matched organic & agentic\_recommender & weighted\_head\_exposure & iteration\_30 & 3 & -16.5765 & -23.3538 & -12.1581 & 0 & 3 & 0 &  & percentage points \\
+movielens & L5 adaptive advertising minus static advertising & agentic\_recommender & weighted\_head\_exposure & mean\_1\_30 & 3 & 12.0607 & 11.16 & 13.2899 & 3 & 0 & 0 &  & percentage points \\
+movielens & L5 adaptive advertising minus static advertising & agentic\_recommender & weighted\_head\_exposure & iteration\_30 & 3 & 15.1207 & 9.28806 & 19.0665 & 3 & 0 & 0 &  & percentage points \\
+\hline
+\end{tabular}
+\caption{Descriptive mean, minimum, maximum, and sign consistency of the paired effects across available seed/population blocks. Share differences use percentage points; missing seeds and block counts remain explicit. Exposure in this table uses all displayed ranks 1--10; the advertising companion restricted to ranks 2--10 has separate tables.}
+\label{chap:results:tab:rq1_seed_consistency_weighted_head_exposure}
+\end{table}

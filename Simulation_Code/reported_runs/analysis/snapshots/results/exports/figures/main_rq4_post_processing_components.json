@@ -1,0 +1,233 @@
+{
+  "analysis_name": "main_rq4_post_processing_components",
+  "label": "chap:results:fig:main_rq4_post_processing_components",
+  "recommended_for_main_text": true,
+  "rationale": "Main-text version: one time summary, print width, no in-figure title.",
+  "context": {
+    "datasets": [
+      "MovieLens"
+    ],
+    "stages_by_model": {
+      "agentic_recommender": [
+        "L3 (full reflection)"
+      ],
+      "direct_llm": [
+        "L2"
+      ],
+      "ncm_inspired_gru_mansoury": [
+        "L2"
+      ],
+      "ncm_inspired_gru_uniform": [
+        "L2"
+      ],
+      "position_biased": [
+        "L2"
+      ]
+    },
+    "seeds_by_model": {
+      "agentic_recommender": [
+        42,
+        43,
+        44
+      ],
+      "direct_llm": [
+        42,
+        43,
+        44
+      ],
+      "ncm_inspired_gru_mansoury": [
+        42,
+        43,
+        44
+      ],
+      "ncm_inspired_gru_uniform": [
+        42,
+        43,
+        44
+      ],
+      "position_biased": [
+        42,
+        43,
+        44
+      ]
+    },
+    "seeds_by_model_condition": {
+      "agentic_recommender": {
+        "agentic_recommender__post_processing": [
+          42,
+          43,
+          44
+        ]
+      },
+      "direct_llm": {
+        "direct_llm__post_processing": [
+          42,
+          43,
+          44
+        ]
+      },
+      "ncm_inspired_gru_mansoury": {
+        "ncm_inspired_gru_mansoury__post_processing": [
+          42,
+          43,
+          44
+        ]
+      },
+      "ncm_inspired_gru_uniform": {
+        "ncm_inspired_gru_uniform__post_processing": [
+          42,
+          43,
+          44
+        ]
+      },
+      "position_biased": {
+        "position_biased__post_processing": [
+          42,
+          43,
+          44
+        ]
+      }
+    },
+    "time_summary": "Mean over iterations 1–30",
+    "windows": [
+      "mean_1_30"
+    ],
+    "protocol": "300 active users",
+    "comparisons": [
+      "L2 post-processing minus control",
+      "L3 post-processing minus control"
+    ],
+    "encoding": "Colours: models; markers: simulation seeds",
+    "text": "MovieLens | 300 active users | Treatment stages: Agent: L3 (full reflection); Position-biased/NCM P3/NCM P4/Direct LLM: L2\nMean over iterations 1–30 | Simulation seeds: 42, 43, 44\nEach mitigation minus its matched unmitigated control",
+    "plot_spec": {
+      "kind": "effect",
+      "facet": "window",
+      "category": "component_label",
+      "metrics": [
+        "head_click_share",
+        "head_exposure",
+        "weighted_head_exposure"
+      ],
+      "main_text": true
+    }
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "main",
+    "source_blocks": [
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__agentic_recommender__post_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__agentic_recommender__post_processing__seed_42",
+        "condition_id": "agentic_recommender__post_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__direct_llm__post_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__direct_llm__post_processing__seed_42",
+        "condition_id": "direct_llm__post_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_42",
+        "condition_id": "ncm_inspired_gru_mansoury__post_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_42",
+        "condition_id": "ncm_inspired_gru_uniform__post_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__position_biased__post_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__position_biased__post_processing__seed_42",
+        "condition_id": "position_biased__post_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__agentic_recommender__post_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__agentic_recommender__post_processing__seed_43",
+        "condition_id": "agentic_recommender__post_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__direct_llm__post_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__direct_llm__post_processing__seed_43",
+        "condition_id": "direct_llm__post_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_43",
+        "condition_id": "ncm_inspired_gru_mansoury__post_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_43",
+        "condition_id": "ncm_inspired_gru_uniform__post_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__position_biased__post_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__position_biased__post_processing__seed_43",
+        "condition_id": "position_biased__post_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__agentic_recommender__post_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__agentic_recommender__post_processing__seed_44",
+        "condition_id": "agentic_recommender__post_processing",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__direct_llm__post_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__direct_llm__post_processing__seed_44",
+        "condition_id": "direct_llm__post_processing",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_44",
+        "condition_id": "ncm_inspired_gru_mansoury__post_processing",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_44",
+        "condition_id": "ncm_inspired_gru_uniform__post_processing",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__position_biased__post_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__position_biased__post_processing__seed_44",
+        "condition_id": "position_biased__post_processing",
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "main_rq4_post_processing_components.pdf": "b7768fbbf25d7fc06784856dd2c36eb8aaad32bac315108c2242436cbebe3f74",
+    "main_rq4_post_processing_components.png": "5c993258d94e1beca3e9ebdfc13f294d02edf28fa9988ea9cb78154334630d60"
+  }
+}

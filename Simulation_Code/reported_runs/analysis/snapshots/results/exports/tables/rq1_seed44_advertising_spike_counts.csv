@@ -1,0 +1,5 @@
+iteration,condition,shown,clicks,rate
+1,L5 adaptive advertising,150,52,0.3466666666666667
+1,Static advertising,150,61,0.4066666666666667
+5,L5 adaptive advertising,13,2,0.15384615384615385
+5,Static advertising,150,48,0.32

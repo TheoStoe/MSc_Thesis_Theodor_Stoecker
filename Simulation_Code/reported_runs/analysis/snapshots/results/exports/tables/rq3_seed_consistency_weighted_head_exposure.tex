@@ -1,0 +1,20 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lllllrrrrrrrll}
+\hline
+dataset & comparison & model & metric & window & n\_seed\_blocks & mean\_effect & min\_effect & max\_effect & positive & negative & zero & missing\_seeds & effect\_unit \\
+\hline
+movielens & Decision-input noise check: no reflection minus frozen agent & agentic\_recommender & weighted\_head\_exposure & mean\_1\_30 & 3 & 1.83037 & -3.06531 & 7.22064 & 2 & 1 & 0 &  & percentage points \\
+movielens & Decision-input noise check: no reflection minus frozen agent & agentic\_recommender & weighted\_head\_exposure & iteration\_30 & 3 & 0.622959 & -3.09533 & 6.90729 & 1 & 2 & 0 &  & percentage points \\
+movielens & Reflection notes: fixed profile minus no reflection & agentic\_recommender & weighted\_head\_exposure & mean\_1\_30 & 3 & -3.21864 & -6.6214 & 1.98599 & 1 & 2 & 0 &  & percentage points \\
+movielens & Reflection notes: fixed profile minus no reflection & agentic\_recommender & weighted\_head\_exposure & iteration\_30 & 3 & 0.810237 & -5.43967 & 7.42811 & 2 & 1 & 0 &  & percentage points \\
+movielens & Profile updates: full reflection minus fixed profile & agentic\_recommender & weighted\_head\_exposure & mean\_1\_30 & 3 & 0.298448 & -2.07418 & 3.07511 & 1 & 2 & 0 &  & percentage points \\
+movielens & Profile updates: full reflection minus fixed profile & agentic\_recommender & weighted\_head\_exposure & iteration\_30 & 3 & -1.23269 & -2.78909 & 1.57695 & 1 & 2 & 0 &  & percentage points \\
+\hline
+\end{tabular}
+\caption{Descriptive mean, minimum, maximum, and sign consistency of the paired effects across available seed/population blocks. Share differences use percentage points; missing seeds and block counts remain explicit.}
+\label{chap:results:tab:rq3_seed_consistency_weighted_head_exposure}
+\end{table}

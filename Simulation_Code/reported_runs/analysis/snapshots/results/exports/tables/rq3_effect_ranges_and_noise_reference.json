@@ -1,0 +1,253 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq3_effect_ranges_and_noise_reference",
+  "label": "chap:results:tab:rq3_effect_ranges_and_noise_reference",
+  "caption": "Observed effect ranges across the available seed/population pairs, with the first contrast as a matched metric/time-summary reference. All effects are percentage points. Ranges are descriptive, not confidence intervals or significance thresholds.",
+  "rows": 18,
+  "source_columns": [
+    "comparison",
+    "metric",
+    "window",
+    "n_seed_blocks",
+    "min_effect",
+    "max_effect",
+    "reference_min",
+    "reference_max"
+  ],
+  "source_dtypes": {
+    "comparison": "str",
+    "metric": "str",
+    "window": "str",
+    "n_seed_blocks": "int64",
+    "min_effect": "float64",
+    "max_effect": "float64",
+    "reference_min": "float64",
+    "reference_max": "float64"
+  },
+  "display_columns": [
+    "comparison",
+    "metric",
+    "window",
+    "n_seed_blocks",
+    "min_effect",
+    "max_effect",
+    "reference_min",
+    "reference_max"
+  ],
+  "display_rows": [
+    [
+      "Decision-input noise check: no reflection minus frozen agent",
+      "head_click_share",
+      "iteration_30",
+      "3",
+      "-19.0325",
+      "3.90071",
+      "-19.0325",
+      "3.90071"
+    ],
+    [
+      "Reflection notes: fixed profile minus no reflection",
+      "head_click_share",
+      "iteration_30",
+      "3",
+      "-10.1239",
+      "15.537",
+      "-19.0325",
+      "3.90071"
+    ],
+    [
+      "Profile updates: full reflection minus fixed profile",
+      "head_click_share",
+      "iteration_30",
+      "3",
+      "-9.21833",
+      "1.02309",
+      "-19.0325",
+      "3.90071"
+    ],
+    [
+      "Decision-input noise check: no reflection minus frozen agent",
+      "head_click_share",
+      "mean_1_30",
+      "3",
+      "-3.92734",
+      "4.47714",
+      "-3.92734",
+      "4.47714"
+    ],
+    [
+      "Reflection notes: fixed profile minus no reflection",
+      "head_click_share",
+      "mean_1_30",
+      "3",
+      "-7.53558",
+      "-0.0732353",
+      "-3.92734",
+      "4.47714"
+    ],
+    [
+      "Profile updates: full reflection minus fixed profile",
+      "head_click_share",
+      "mean_1_30",
+      "3",
+      "-3.46881",
+      "2.835",
+      "-3.92734",
+      "4.47714"
+    ],
+    [
+      "Decision-input noise check: no reflection minus frozen agent",
+      "head_exposure",
+      "iteration_30",
+      "3",
+      "-2.93333",
+      "6.53333",
+      "-2.93333",
+      "6.53333"
+    ],
+    [
+      "Reflection notes: fixed profile minus no reflection",
+      "head_exposure",
+      "iteration_30",
+      "3",
+      "-3.6",
+      "7.36667",
+      "-2.93333",
+      "6.53333"
+    ],
+    [
+      "Profile updates: full reflection minus fixed profile",
+      "head_exposure",
+      "iteration_30",
+      "3",
+      "-3",
+      "0.6",
+      "-2.93333",
+      "6.53333"
+    ],
+    [
+      "Decision-input noise check: no reflection minus frozen agent",
+      "head_exposure",
+      "mean_1_30",
+      "3",
+      "-2.77889",
+      "6.63111",
+      "-2.77889",
+      "6.63111"
+    ],
+    [
+      "Reflection notes: fixed profile minus no reflection",
+      "head_exposure",
+      "mean_1_30",
+      "3",
+      "-6.56",
+      "3.5",
+      "-2.77889",
+      "6.63111"
+    ],
+    [
+      "Profile updates: full reflection minus fixed profile",
+      "head_exposure",
+      "mean_1_30",
+      "3",
+      "-2.45889",
+      "3.04778",
+      "-2.77889",
+      "6.63111"
+    ],
+    [
+      "Decision-input noise check: no reflection minus frozen agent",
+      "weighted_head_exposure",
+      "iteration_30",
+      "3",
+      "-3.09533",
+      "6.90729",
+      "-3.09533",
+      "6.90729"
+    ],
+    [
+      "Reflection notes: fixed profile minus no reflection",
+      "weighted_head_exposure",
+      "iteration_30",
+      "3",
+      "-5.43967",
+      "7.42811",
+      "-3.09533",
+      "6.90729"
+    ],
+    [
+      "Profile updates: full reflection minus fixed profile",
+      "weighted_head_exposure",
+      "iteration_30",
+      "3",
+      "-2.78909",
+      "1.57695",
+      "-3.09533",
+      "6.90729"
+    ],
+    [
+      "Decision-input noise check: no reflection minus frozen agent",
+      "weighted_head_exposure",
+      "mean_1_30",
+      "3",
+      "-3.06531",
+      "7.22064",
+      "-3.06531",
+      "7.22064"
+    ],
+    [
+      "Reflection notes: fixed profile minus no reflection",
+      "weighted_head_exposure",
+      "mean_1_30",
+      "3",
+      "-6.6214",
+      "1.98599",
+      "-3.06531",
+      "7.22064"
+    ],
+    [
+      "Profile updates: full reflection minus fixed profile",
+      "weighted_head_exposure",
+      "mean_1_30",
+      "3",
+      "-2.07418",
+      "3.07511",
+      "-3.06531",
+      "7.22064"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lllrrrrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq3",
+    "source_blocks": [
+      {
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq3_effect_ranges_and_noise_reference.tex": "d5fefb9c2743cfebdad56b78694e0138375c448b7e6e8d8b17c0fbf33b4c5948",
+    "rq3_effect_ranges_and_noise_reference.csv": "413deb769a88a1fc53b85cbf4345b29848d5ed102ee84e5e620ee8848af2a3d4"
+  }
+}

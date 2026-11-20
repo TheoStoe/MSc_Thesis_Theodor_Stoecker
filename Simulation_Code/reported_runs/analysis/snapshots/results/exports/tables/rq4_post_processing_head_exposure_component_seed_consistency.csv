@@ -1,0 +1,31 @@
+model,stage,window,component_label,n_seed_blocks,mean_effect,min_effect,max_effect
+agentic_recommender,L3_individual,mean_1_30,Total,3,-6.197407407407407,-8.60222222222222,-4.067777777777777
+agentic_recommender,L3_individual,iteration_30,Total,3,-4.399999999999996,-7.299999999999995,-1.0333333333333306
+agentic_recommender,L3_individual,mean_1_30,Immediate reranking,3,0.0,0.0,0.0
+agentic_recommender,L3_individual,iteration_30,Immediate reranking,3,0.0,0.0,0.0
+agentic_recommender,L3_individual,mean_1_30,Feedback component,3,-6.197407407407407,-8.60222222222222,-4.067777777777777
+agentic_recommender,L3_individual,iteration_30,Feedback component,3,-4.399999999999996,-7.299999999999995,-1.0333333333333306
+direct_llm,L2_ml_model,mean_1_30,Total,3,-4.646666666666666,-5.658888888888886,-2.6300000000000003
+direct_llm,L2_ml_model,iteration_30,Total,3,-9.33333333333333,-12.06666666666667,-6.466666666666665
+direct_llm,L2_ml_model,mean_1_30,Immediate reranking,3,0.0,0.0,0.0
+direct_llm,L2_ml_model,iteration_30,Immediate reranking,3,0.0,0.0,0.0
+direct_llm,L2_ml_model,mean_1_30,Feedback component,3,-4.646666666666666,-5.658888888888886,-2.6300000000000003
+direct_llm,L2_ml_model,iteration_30,Feedback component,3,-9.33333333333333,-12.06666666666667,-6.466666666666665
+ncm_inspired_gru_mansoury,L2_ml_model,mean_1_30,Total,3,-41.74666666666667,-43.02333333333333,-39.34444444444445
+ncm_inspired_gru_mansoury,L2_ml_model,iteration_30,Total,3,-65.0111111111111,-68.73333333333333,-61.76666666666666
+ncm_inspired_gru_mansoury,L2_ml_model,mean_1_30,Immediate reranking,3,0.0,0.0,0.0
+ncm_inspired_gru_mansoury,L2_ml_model,iteration_30,Immediate reranking,3,0.0,0.0,0.0
+ncm_inspired_gru_mansoury,L2_ml_model,mean_1_30,Feedback component,3,-41.74666666666667,-43.02333333333333,-39.34444444444445
+ncm_inspired_gru_mansoury,L2_ml_model,iteration_30,Feedback component,3,-65.0111111111111,-68.73333333333333,-61.76666666666666
+ncm_inspired_gru_uniform,L2_ml_model,mean_1_30,Total,3,-16.333703703703705,-20.48111111111111,-12.275555555555558
+ncm_inspired_gru_uniform,L2_ml_model,iteration_30,Total,3,-28.877777777777784,-33.80000000000001,-26.3
+ncm_inspired_gru_uniform,L2_ml_model,mean_1_30,Immediate reranking,3,0.0,0.0,0.0
+ncm_inspired_gru_uniform,L2_ml_model,iteration_30,Immediate reranking,3,0.0,0.0,0.0
+ncm_inspired_gru_uniform,L2_ml_model,mean_1_30,Feedback component,3,-16.333703703703705,-20.48111111111111,-12.275555555555558
+ncm_inspired_gru_uniform,L2_ml_model,iteration_30,Feedback component,3,-28.877777777777784,-33.80000000000001,-26.3
+position_biased,L2_ml_model,mean_1_30,Total,3,-48.797407407407405,-51.42444444444444,-43.904444444444444
+position_biased,L2_ml_model,iteration_30,Total,3,-74.13333333333334,-78.13333333333333,-71.6
+position_biased,L2_ml_model,mean_1_30,Immediate reranking,3,0.0,0.0,0.0
+position_biased,L2_ml_model,iteration_30,Immediate reranking,3,0.0,0.0,0.0
+position_biased,L2_ml_model,mean_1_30,Feedback component,3,-48.797407407407405,-51.42444444444444,-43.904444444444444
+position_biased,L2_ml_model,iteration_30,Feedback component,3,-74.13333333333334,-78.13333333333333,-71.6

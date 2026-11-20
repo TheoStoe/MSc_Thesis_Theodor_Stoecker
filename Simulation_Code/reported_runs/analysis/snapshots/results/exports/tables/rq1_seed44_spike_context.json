@@ -1,0 +1,54 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq1_seed44_spike_context",
+  "label": "chap:results:tab:rq1_seed44_spike_context",
+  "caption": "Saved aggregate context counts from the original source-level review; no item catalogue or user-level matching is redistributed.",
+  "rows": 3,
+  "source_columns": [
+    "Diagnostic",
+    "Count"
+  ],
+  "source_dtypes": {
+    "Diagnostic": "str",
+    "Count": "int64"
+  },
+  "display_columns": [
+    "Diagnostic",
+    "Count"
+  ],
+  "display_rows": [
+    [
+      "Static sponsor clickers",
+      "48"
+    ],
+    [
+      "No other item with the full original tag combination",
+      "46"
+    ],
+    [
+      "Also clicked the iteration1 sponsor",
+      "26"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq1_spike",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq1_seed44_spike_context.tex": "47f2d67ed595c2a98dde364717b3128006985c894f271b5c0285a0538d653623",
+    "rq1_seed44_spike_context.csv": "b0b5a39f7a856ea126624f19fa971622ca02e6f0d677e33988ed6dfd47ea6bc8"
+  }
+}

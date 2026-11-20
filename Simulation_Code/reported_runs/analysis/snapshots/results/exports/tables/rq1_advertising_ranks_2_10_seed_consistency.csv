@@ -1,0 +1,9 @@
+comparison,metric,window,n_seed_blocks,mean_effect,min_effect,max_effect,same_nonzero_sign
+Static advertising minus matched organic,Head exposure (displayed ranks 2–10),mean_1_30,3,-2.3554256876116715,-5.681481481481482,0.6826228444002453,False
+Static advertising minus matched organic,Head exposure (displayed ranks 2–10),iteration_30,3,-4.467343504114089,-12.222222222222223,1.7901234567901159,False
+Static advertising minus matched organic,Weighted head exposure (displayed ranks 2–10),mean_1_30,3,-2.7872159617824175,-6.909363709609104,0.943134379549115,False
+Static advertising minus matched organic,Weighted head exposure (displayed ranks 2–10),iteration_30,3,-4.988406945348479,-14.140992726895774,1.1481425693176561,False
+L5 adaptive advertising minus static advertising,Head exposure (displayed ranks 2–10),mean_1_30,3,-0.9312574121301761,-2.7056351065887507,1.479012345679011,False
+L5 adaptive advertising minus static advertising,Head exposure (displayed ranks 2–10),iteration_30,3,3.399917103354355,-4.382716049382706,9.48148148148148,False
+L5 adaptive advertising minus static advertising,Weighted head exposure (displayed ranks 2–10),mean_1_30,3,-0.5940662317497893,-2.779561046005864,2.4786946246915282,False
+L5 adaptive advertising minus static advertising,Weighted head exposure (displayed ranks 2–10),iteration_30,3,3.9608075884113823,-4.458547075933705,11.089543948927927,False

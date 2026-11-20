@@ -1,0 +1,433 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq7_matched_women_authored_click_effects",
+  "label": "chap:results:tab:rq7_matched_women_authored_click_effects",
+  "caption": "Signed matched changes in women-authored share among all valid clicks, in percentage points. Comparisons and both time summaries remain explicit.",
+  "rows": 36,
+  "source_columns": [
+    "dataset",
+    "comparison",
+    "model",
+    "seed",
+    "population_seed",
+    "window",
+    "value",
+    "effect_unit"
+  ],
+  "source_dtypes": {
+    "dataset": "str",
+    "comparison": "str",
+    "model": "str",
+    "seed": "int64",
+    "population_seed": "int64",
+    "window": "str",
+    "value": "float64",
+    "effect_unit": "str"
+  },
+  "display_columns": [
+    "dataset",
+    "comparison",
+    "model",
+    "seed",
+    "population_seed",
+    "window",
+    "value",
+    "effect_unit"
+  ],
+  "display_rows": [
+    [
+      "goodreads",
+      "L2 minus L0",
+      "agentic_recommender",
+      "42",
+      "16040",
+      "mean_1_30",
+      "18.0911",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "agentic_recommender",
+      "42",
+      "16040",
+      "iteration_30",
+      "28.5",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "42",
+      "16040",
+      "mean_1_30",
+      "-17.4325",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "42",
+      "16040",
+      "iteration_30",
+      "-13.8049",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "direct_llm",
+      "42",
+      "16040",
+      "mean_1_30",
+      "-7.95984",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "direct_llm",
+      "42",
+      "16040",
+      "iteration_30",
+      "-2.94118",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "16040",
+      "mean_1_30",
+      "-7.18889",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "16040",
+      "iteration_30",
+      "-31.3333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "16040",
+      "mean_1_30",
+      "-11.8556",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "16040",
+      "iteration_30",
+      "-4.33333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "position_biased",
+      "42",
+      "16040",
+      "mean_1_30",
+      "6.47778",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "position_biased",
+      "42",
+      "16040",
+      "iteration_30",
+      "0.333333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "agentic_recommender",
+      "43",
+      "11615",
+      "mean_1_30",
+      "12.6644",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "agentic_recommender",
+      "43",
+      "11615",
+      "iteration_30",
+      "35.7772",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "43",
+      "11615",
+      "mean_1_30",
+      "4.30114",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "43",
+      "11615",
+      "iteration_30",
+      "-14.5911",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "direct_llm",
+      "43",
+      "11615",
+      "mean_1_30",
+      "—",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "direct_llm",
+      "43",
+      "11615",
+      "iteration_30",
+      "30",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "11615",
+      "mean_1_30",
+      "-4.17778",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "11615",
+      "iteration_30",
+      "13",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "11615",
+      "mean_1_30",
+      "1.13333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "11615",
+      "iteration_30",
+      "18.6667",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "position_biased",
+      "43",
+      "11615",
+      "mean_1_30",
+      "-0.8",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "position_biased",
+      "43",
+      "11615",
+      "iteration_30",
+      "-2.66667",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "agentic_recommender",
+      "44",
+      "5245",
+      "mean_1_30",
+      "16.4296",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "agentic_recommender",
+      "44",
+      "5245",
+      "iteration_30",
+      "27.5194",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "44",
+      "5245",
+      "mean_1_30",
+      "0.429233",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "44",
+      "5245",
+      "iteration_30",
+      "-7.30153",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "direct_llm",
+      "44",
+      "5245",
+      "mean_1_30",
+      "0.70393",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "direct_llm",
+      "44",
+      "5245",
+      "iteration_30",
+      "41.1765",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "5245",
+      "mean_1_30",
+      "-2.55556",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "5245",
+      "iteration_30",
+      "15.3333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "5245",
+      "mean_1_30",
+      "-9.84444",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "5245",
+      "iteration_30",
+      "-14",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "position_biased",
+      "44",
+      "5245",
+      "mean_1_30",
+      "4.88889",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "position_biased",
+      "44",
+      "5245",
+      "iteration_30",
+      "8.33333",
+      "percentage points"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lllrrlrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq7",
+    "source_blocks": [
+      {
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "seed": 44,
+        "population_seed": 5245
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq7_matched_women_authored_click_effects.tex": "7b9fb861e2a00c2170268edfb47341ac5261c1384cd4e2d280f9a0bc90247b9c",
+    "rq7_matched_women_authored_click_effects.csv": "b5415f3db07e8034a9d0a648a48bc6e3e7ab8ed112c1927b519e04006af844ae"
+  }
+}

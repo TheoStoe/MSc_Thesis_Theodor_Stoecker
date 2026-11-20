@@ -1,0 +1,86 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "analysis_source_status",
+  "label": "chap:results:tab:analysis_source_status",
+  "caption": "Source availability in the recorded analysis snapshot. Logical study cells can reuse the same physical trajectory.",
+  "rows": 5,
+  "source_columns": [
+    "dataset",
+    "study",
+    "status",
+    "logical_cells",
+    "physical_trajectories"
+  ],
+  "source_dtypes": {
+    "dataset": "str",
+    "study": "str",
+    "status": "str",
+    "logical_cells": "int64",
+    "physical_trajectories": "int64"
+  },
+  "display_columns": [
+    "dataset",
+    "study",
+    "status",
+    "logical_cells",
+    "physical_trajectories"
+  ],
+  "display_rows": [
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "complete",
+      "42",
+      "42"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_mitigation_a300_e804",
+      "complete",
+      "81",
+      "63"
+    ],
+    [
+      "movielens",
+      "movielens_feedback_a300_e804",
+      "complete",
+      "54",
+      "54"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "complete",
+      "45",
+      "45"
+    ],
+    [
+      "movielens",
+      "movielens_sampling_outcome_a150_r150_e804",
+      "complete",
+      "21",
+      "21"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lllrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "analysis",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "analysis_source_status.tex": "279775d401d4c899ec27bfbec018d354f65e20c41f9dd467ee530f8b9653a647",
+    "analysis_source_status.csv": "addb91ed20eb5b7fd7d190313d9d0b8463266b337aee1d22379753079275faa8"
+  }
+}

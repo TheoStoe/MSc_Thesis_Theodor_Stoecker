@@ -1,0 +1,805 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq6_cross_dataset_head_click_effects",
+  "label": "chap:results:tab:rq6_cross_dataset_head_click_effects",
+  "caption": "Signed matched Head-click share differences, in percentage points, for both time summaries. Each row retains its dataset, model, simulation seed, population seed, and comparison.",
+  "rows": 72,
+  "source_columns": [
+    "dataset",
+    "comparison",
+    "model",
+    "seed",
+    "population_seed",
+    "window",
+    "value",
+    "effect_unit"
+  ],
+  "source_dtypes": {
+    "dataset": "str",
+    "comparison": "str",
+    "model": "str",
+    "seed": "int64",
+    "population_seed": "int64",
+    "window": "str",
+    "value": "float64",
+    "effect_unit": "str"
+  },
+  "display_columns": [
+    "dataset",
+    "comparison",
+    "model",
+    "seed",
+    "population_seed",
+    "window",
+    "value",
+    "effect_unit"
+  ],
+  "display_rows": [
+    [
+      "goodreads",
+      "L2 minus L0",
+      "agentic_recommender",
+      "42",
+      "16040",
+      "mean_1_30",
+      "-10.6567",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "agentic_recommender",
+      "42",
+      "16040",
+      "iteration_30",
+      "-13.9692",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "42",
+      "16040",
+      "mean_1_30",
+      "-17.169",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "42",
+      "16040",
+      "iteration_30",
+      "-14.6049",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "direct_llm",
+      "42",
+      "16040",
+      "mean_1_30",
+      "1.2883",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "direct_llm",
+      "42",
+      "16040",
+      "iteration_30",
+      "-17.6471",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "16040",
+      "mean_1_30",
+      "24.2222",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "16040",
+      "iteration_30",
+      "23",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "16040",
+      "mean_1_30",
+      "26.8111",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "16040",
+      "iteration_30",
+      "28.3333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "position_biased",
+      "42",
+      "16040",
+      "mean_1_30",
+      "3.64444",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "position_biased",
+      "42",
+      "16040",
+      "iteration_30",
+      "-17.3333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "agentic_recommender",
+      "43",
+      "11615",
+      "mean_1_30",
+      "-24.3419",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "agentic_recommender",
+      "43",
+      "11615",
+      "iteration_30",
+      "-29.645",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "43",
+      "11615",
+      "mean_1_30",
+      "10.4452",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "43",
+      "11615",
+      "iteration_30",
+      "6.86265",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "direct_llm",
+      "43",
+      "11615",
+      "mean_1_30",
+      "—",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "direct_llm",
+      "43",
+      "11615",
+      "iteration_30",
+      "-30",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "11615",
+      "mean_1_30",
+      "23.4",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "11615",
+      "iteration_30",
+      "29.3333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "11615",
+      "mean_1_30",
+      "27.1778",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "11615",
+      "iteration_30",
+      "31",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "position_biased",
+      "43",
+      "11615",
+      "mean_1_30",
+      "-5.93333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "position_biased",
+      "43",
+      "11615",
+      "iteration_30",
+      "-16.3333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "agentic_recommender",
+      "44",
+      "5245",
+      "mean_1_30",
+      "-19.4532",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "agentic_recommender",
+      "44",
+      "5245",
+      "iteration_30",
+      "-43.0233",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "44",
+      "5245",
+      "mean_1_30",
+      "1.81562",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "44",
+      "5245",
+      "iteration_30",
+      "17.8003",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "direct_llm",
+      "44",
+      "5245",
+      "mean_1_30",
+      "-15.5583",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "direct_llm",
+      "44",
+      "5245",
+      "iteration_30",
+      "-41.1765",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "5245",
+      "mean_1_30",
+      "19.7889",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "5245",
+      "iteration_30",
+      "23",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "5245",
+      "mean_1_30",
+      "21.8667",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "5245",
+      "iteration_30",
+      "27",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "position_biased",
+      "44",
+      "5245",
+      "mean_1_30",
+      "0.511111",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L0",
+      "position_biased",
+      "44",
+      "5245",
+      "iteration_30",
+      "-12",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "agentic_recommender",
+      "42",
+      "1054",
+      "mean_1_30",
+      "-3.8488",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "agentic_recommender",
+      "42",
+      "1054",
+      "iteration_30",
+      "-14.1765",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "42",
+      "1054",
+      "mean_1_30",
+      "-7.46939",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "42",
+      "1054",
+      "iteration_30",
+      "-12.7138",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "direct_llm",
+      "42",
+      "1054",
+      "mean_1_30",
+      "-2.2205",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "direct_llm",
+      "42",
+      "1054",
+      "iteration_30",
+      "-7.66256",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "1054",
+      "mean_1_30",
+      "15.8333",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "1054",
+      "iteration_30",
+      "16.3333",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "1054",
+      "mean_1_30",
+      "20.1889",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "1054",
+      "iteration_30",
+      "23",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "position_biased",
+      "42",
+      "1054",
+      "mean_1_30",
+      "12.4333",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "position_biased",
+      "42",
+      "1054",
+      "iteration_30",
+      "11.3333",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "agentic_recommender",
+      "43",
+      "19277",
+      "mean_1_30",
+      "-6.90056",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "agentic_recommender",
+      "43",
+      "19277",
+      "iteration_30",
+      "-18.3598",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "43",
+      "19277",
+      "mean_1_30",
+      "-0.223437",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "43",
+      "19277",
+      "iteration_30",
+      "-2.58959",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "direct_llm",
+      "43",
+      "19277",
+      "mean_1_30",
+      "7.00075",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "direct_llm",
+      "43",
+      "19277",
+      "iteration_30",
+      "-8.01843",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "19277",
+      "mean_1_30",
+      "17.7",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "19277",
+      "iteration_30",
+      "15.3333",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "19277",
+      "mean_1_30",
+      "19.6556",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "19277",
+      "iteration_30",
+      "27",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "position_biased",
+      "43",
+      "19277",
+      "mean_1_30",
+      "14.9556",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "position_biased",
+      "43",
+      "19277",
+      "iteration_30",
+      "15.3333",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "agentic_recommender",
+      "44",
+      "18844",
+      "mean_1_30",
+      "-2.73107",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "agentic_recommender",
+      "44",
+      "18844",
+      "iteration_30",
+      "-16.0504",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "44",
+      "18844",
+      "mean_1_30",
+      "-4.55833",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L3 full reflection minus L2 frozen agent",
+      "agentic_recommender",
+      "44",
+      "18844",
+      "iteration_30",
+      "-9.24519",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "direct_llm",
+      "44",
+      "18844",
+      "mean_1_30",
+      "8.85729",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "direct_llm",
+      "44",
+      "18844",
+      "iteration_30",
+      "8.03754",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "18844",
+      "mean_1_30",
+      "15.4556",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "18844",
+      "iteration_30",
+      "16",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "18844",
+      "mean_1_30",
+      "18.6778",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "18844",
+      "iteration_30",
+      "20",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "position_biased",
+      "44",
+      "18844",
+      "mean_1_30",
+      "13.7667",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 minus L0",
+      "position_biased",
+      "44",
+      "18844",
+      "iteration_30",
+      "11.3333",
+      "percentage points"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lllrrlrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq6",
+    "source_blocks": [
+      {
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "seed": 44,
+        "population_seed": 5245
+      },
+      {
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq6_cross_dataset_head_click_effects.tex": "b0f480427072d699379c01ac71912b73b8fda4b482acc1cb66c2e8062bff85db",
+    "rq6_cross_dataset_head_click_effects.csv": "ef8691844adf71215f71081d711659f4a10d9ec24ffbb09296946dfaf716cfa6"
+  }
+}

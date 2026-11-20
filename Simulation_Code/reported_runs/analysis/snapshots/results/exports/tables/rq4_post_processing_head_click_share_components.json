@@ -1,0 +1,466 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq4_post_processing_head_click_share_components",
+  "label": "chap:results:tab:rq4_post_processing_head_click_share_components",
+  "caption": "Head-click share: total, immediate-reranking, and feedback/state components in percentage points. Total is post canonical minus control canonical; immediate uses post canonical minus its original-order response or recommender exposure; feedback uses that original-order value minus control. Each click arm uses its own valid-click denominator. Means require all 30 iterations; endpoints use iteration 30. Exposure covers all displayed ranks 1--10. The components are descriptive and include response variation.",
+  "rows": 30,
+  "source_columns": [
+    "model",
+    "stage",
+    "seed",
+    "population_seed",
+    "window",
+    "Total (pp)",
+    "Immediate (pp)",
+    "Feedback (pp)"
+  ],
+  "source_dtypes": {
+    "model": "str",
+    "stage": "str",
+    "seed": "int64",
+    "population_seed": "int64",
+    "window": "str",
+    "Total (pp)": "float64",
+    "Immediate (pp)": "float64",
+    "Feedback (pp)": "float64"
+  },
+  "display_columns": [
+    "model",
+    "stage",
+    "seed",
+    "population_seed",
+    "window",
+    "Total (pp)",
+    "Immediate (pp)",
+    "Feedback (pp)"
+  ],
+  "display_rows": [
+    [
+      "agentic_recommender",
+      "L3_individual",
+      "42",
+      "1054",
+      "mean_1_30",
+      "-7.93692",
+      "-10.2694",
+      "2.33252"
+    ],
+    [
+      "agentic_recommender",
+      "L3_individual",
+      "42",
+      "1054",
+      "iteration_30",
+      "-3.26804",
+      "-14.3179",
+      "11.0498"
+    ],
+    [
+      "direct_llm",
+      "L2_ml_model",
+      "42",
+      "1054",
+      "mean_1_30",
+      "-12.8412",
+      "-14.1977",
+      "1.35653"
+    ],
+    [
+      "direct_llm",
+      "L2_ml_model",
+      "42",
+      "1054",
+      "iteration_30",
+      "-24.4601",
+      "-15.0231",
+      "-9.43701"
+    ],
+    [
+      "ncm_inspired_gru_mansoury",
+      "L2_ml_model",
+      "42",
+      "1054",
+      "mean_1_30",
+      "-71.7556",
+      "-22.7556",
+      "-49"
+    ],
+    [
+      "ncm_inspired_gru_mansoury",
+      "L2_ml_model",
+      "42",
+      "1054",
+      "iteration_30",
+      "-85.6667",
+      "-8.33333",
+      "-77.3333"
+    ],
+    [
+      "ncm_inspired_gru_uniform",
+      "L2_ml_model",
+      "42",
+      "1054",
+      "mean_1_30",
+      "-33.9556",
+      "-18.3333",
+      "-15.6222"
+    ],
+    [
+      "ncm_inspired_gru_uniform",
+      "L2_ml_model",
+      "42",
+      "1054",
+      "iteration_30",
+      "-48.3333",
+      "-26.6667",
+      "-21.6667"
+    ],
+    [
+      "position_biased",
+      "L2_ml_model",
+      "42",
+      "1054",
+      "mean_1_30",
+      "-73.3",
+      "-12.8889",
+      "-60.4111"
+    ],
+    [
+      "position_biased",
+      "L2_ml_model",
+      "42",
+      "1054",
+      "iteration_30",
+      "-79.6667",
+      "-3.33333",
+      "-76.3333"
+    ],
+    [
+      "agentic_recommender",
+      "L3_individual",
+      "43",
+      "19277",
+      "mean_1_30",
+      "-12.2005",
+      "-8.7278",
+      "-3.47271"
+    ],
+    [
+      "agentic_recommender",
+      "L3_individual",
+      "43",
+      "19277",
+      "iteration_30",
+      "-11.7847",
+      "-13.2511",
+      "1.46641"
+    ],
+    [
+      "direct_llm",
+      "L2_ml_model",
+      "43",
+      "19277",
+      "mean_1_30",
+      "-16.1867",
+      "-11.8543",
+      "-4.33248"
+    ],
+    [
+      "direct_llm",
+      "L2_ml_model",
+      "43",
+      "19277",
+      "iteration_30",
+      "-35.2703",
+      "-14.1905",
+      "-21.0797"
+    ],
+    [
+      "ncm_inspired_gru_mansoury",
+      "L2_ml_model",
+      "43",
+      "19277",
+      "mean_1_30",
+      "-75.7333",
+      "-22.3111",
+      "-53.4222"
+    ],
+    [
+      "ncm_inspired_gru_mansoury",
+      "L2_ml_model",
+      "43",
+      "19277",
+      "iteration_30",
+      "-79.3333",
+      "-6",
+      "-73.3333"
+    ],
+    [
+      "ncm_inspired_gru_uniform",
+      "L2_ml_model",
+      "43",
+      "19277",
+      "mean_1_30",
+      "-29.5667",
+      "-17.8",
+      "-11.7667"
+    ],
+    [
+      "ncm_inspired_gru_uniform",
+      "L2_ml_model",
+      "43",
+      "19277",
+      "iteration_30",
+      "-34",
+      "-18.3333",
+      "-15.6667"
+    ],
+    [
+      "position_biased",
+      "L2_ml_model",
+      "43",
+      "19277",
+      "mean_1_30",
+      "-72.9111",
+      "-13.4",
+      "-59.5111"
+    ],
+    [
+      "position_biased",
+      "L2_ml_model",
+      "43",
+      "19277",
+      "iteration_30",
+      "-82",
+      "-0.666667",
+      "-81.3333"
+    ],
+    [
+      "agentic_recommender",
+      "L3_individual",
+      "44",
+      "18844",
+      "mean_1_30",
+      "-10.9829",
+      "-10.1603",
+      "-0.822578"
+    ],
+    [
+      "agentic_recommender",
+      "L3_individual",
+      "44",
+      "18844",
+      "iteration_30",
+      "1.39752",
+      "-12.468",
+      "13.8655"
+    ],
+    [
+      "direct_llm",
+      "L2_ml_model",
+      "44",
+      "18844",
+      "mean_1_30",
+      "-17.4625",
+      "-12.8448",
+      "-4.61764"
+    ],
+    [
+      "direct_llm",
+      "L2_ml_model",
+      "44",
+      "18844",
+      "iteration_30",
+      "-24.2551",
+      "-23.7502",
+      "-0.504921"
+    ],
+    [
+      "ncm_inspired_gru_mansoury",
+      "L2_ml_model",
+      "44",
+      "18844",
+      "mean_1_30",
+      "-74.8",
+      "-19.4556",
+      "-55.3444"
+    ],
+    [
+      "ncm_inspired_gru_mansoury",
+      "L2_ml_model",
+      "44",
+      "18844",
+      "iteration_30",
+      "-85.6667",
+      "-6",
+      "-79.6667"
+    ],
+    [
+      "ncm_inspired_gru_uniform",
+      "L2_ml_model",
+      "44",
+      "18844",
+      "mean_1_30",
+      "-25.2889",
+      "-17.5778",
+      "-7.71111"
+    ],
+    [
+      "ncm_inspired_gru_uniform",
+      "L2_ml_model",
+      "44",
+      "18844",
+      "iteration_30",
+      "-37",
+      "-21.6667",
+      "-15.3333"
+    ],
+    [
+      "position_biased",
+      "L2_ml_model",
+      "44",
+      "18844",
+      "mean_1_30",
+      "-69.9",
+      "-14.9333",
+      "-54.9667"
+    ],
+    [
+      "position_biased",
+      "L2_ml_model",
+      "44",
+      "18844",
+      "iteration_30",
+      "-81.3333",
+      "-2.66667",
+      "-78.6667"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "llrrlrrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq4",
+    "source_blocks": [
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__agentic_recommender__post_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__agentic_recommender__post_processing__seed_42",
+        "condition_id": "agentic_recommender__post_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__direct_llm__post_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__direct_llm__post_processing__seed_42",
+        "condition_id": "direct_llm__post_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_42",
+        "condition_id": "ncm_inspired_gru_mansoury__post_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_42",
+        "condition_id": "ncm_inspired_gru_uniform__post_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__position_biased__post_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__position_biased__post_processing__seed_42",
+        "condition_id": "position_biased__post_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__agentic_recommender__post_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__agentic_recommender__post_processing__seed_43",
+        "condition_id": "agentic_recommender__post_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__direct_llm__post_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__direct_llm__post_processing__seed_43",
+        "condition_id": "direct_llm__post_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_43",
+        "condition_id": "ncm_inspired_gru_mansoury__post_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_43",
+        "condition_id": "ncm_inspired_gru_uniform__post_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__position_biased__post_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__position_biased__post_processing__seed_43",
+        "condition_id": "position_biased__post_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__agentic_recommender__post_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__agentic_recommender__post_processing__seed_44",
+        "condition_id": "agentic_recommender__post_processing",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__direct_llm__post_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__direct_llm__post_processing__seed_44",
+        "condition_id": "direct_llm__post_processing",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_44",
+        "condition_id": "ncm_inspired_gru_mansoury__post_processing",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_44",
+        "condition_id": "ncm_inspired_gru_uniform__post_processing",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__position_biased__post_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__position_biased__post_processing__seed_44",
+        "condition_id": "position_biased__post_processing",
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq4_post_processing_head_click_share_components.tex": "11794e030c79735dcca3279a65b15fbd9f38440b4f762b2bdd0ecdcff42af918",
+    "rq4_post_processing_head_click_share_components.csv": "35b1b0c605f1eb156b5ff0d6e662ec98ca9fb8dfaa481655c92dbd3814ad3e96"
+  }
+}

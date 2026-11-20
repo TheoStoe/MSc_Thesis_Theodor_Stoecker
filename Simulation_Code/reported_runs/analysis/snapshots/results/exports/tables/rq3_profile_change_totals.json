@@ -1,0 +1,120 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq3_profile_change_totals",
+  "label": "chap:results:tab:rq3_profile_change_totals",
+  "caption": "Total applied profile-update events over iterations 1--30. Multiple changes by one user are multiple events.",
+  "rows": 12,
+  "source_columns": [
+    "Model",
+    "Seed",
+    "profile_changes",
+    "Condition"
+  ],
+  "source_dtypes": {
+    "Model": "str",
+    "Seed": "int64",
+    "profile_changes": "int64",
+    "Condition": "str"
+  },
+  "display_columns": [
+    "Model",
+    "Seed",
+    "profile_changes",
+    "Condition"
+  ],
+  "display_rows": [
+    [
+      "Agent",
+      "42",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "42",
+      "1190",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "0",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "43",
+      "1254",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "0",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "44",
+      "1982",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "0",
+      "L3 -- no reflection"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq3",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq3_profile_change_totals.tex": "3eeed86bb749758befd9e33105d31b819a11afa53b8482c4071a49611a93d1d4",
+    "rq3_profile_change_totals.csv": "c6652330b3c48c47bcdbc66bae8c69f3f79f91429e209d050b9e0ca4ab17a505"
+  }
+}

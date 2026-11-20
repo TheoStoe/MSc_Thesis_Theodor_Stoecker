@@ -1,0 +1,19 @@
+Model,Seed,Time summary,Advertising eligibility share,Users eligible for advertising,Condition
+Agent,42,iteration_30,,,Organic advertising control
+Agent,42,mean_1_30,,,Organic advertising control
+Agent,43,iteration_30,,,Organic advertising control
+Agent,43,mean_1_30,,,Organic advertising control
+Agent,44,iteration_30,,,Organic advertising control
+Agent,44,mean_1_30,,,Organic advertising control
+Agent,42,iteration_30,1.0,139.0,Static advertising
+Agent,42,mean_1_30,1.0,147.36666666666667,Static advertising
+Agent,43,iteration_30,1.0,144.0,Static advertising
+Agent,43,mean_1_30,1.0,148.66666666666666,Static advertising
+Agent,44,iteration_30,1.0,150.0,Static advertising
+Agent,44,mean_1_30,1.0,150.0,Static advertising
+Agent,42,iteration_30,0.02,3.0,L5 adaptive advertising
+Agent,42,mean_1_30,0.15133333333333324,22.7,L5 adaptive advertising
+Agent,43,iteration_30,0.0266666666666666,4.0,L5 adaptive advertising
+Agent,43,mean_1_30,0.14688888888888885,22.033333333333335,L5 adaptive advertising
+Agent,44,iteration_30,0.0066666666666666,1.0,L5 adaptive advertising
+Agent,44,mean_1_30,0.14377777777777775,21.566666666666666,L5 adaptive advertising

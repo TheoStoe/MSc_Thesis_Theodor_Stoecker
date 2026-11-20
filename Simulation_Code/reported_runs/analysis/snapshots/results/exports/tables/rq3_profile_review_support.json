@@ -1,0 +1,198 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq3_profile_review_support",
+  "label": "chap:results:tab:rq3_profile_review_support",
+  "caption": "Saved evidence-support categories; these describe the human review, not automatic validation.",
+  "rows": 16,
+  "source_columns": [
+    "Seed",
+    "Category",
+    "Profiles",
+    "Reviewed",
+    "Unfinished",
+    "Share reviewed"
+  ],
+  "source_dtypes": {
+    "Seed": "str",
+    "Category": "str",
+    "Profiles": "int64",
+    "Reviewed": "int64",
+    "Unfinished": "int64",
+    "Share reviewed": "object"
+  },
+  "display_columns": [
+    "Seed",
+    "Category",
+    "Profiles",
+    "Reviewed",
+    "Unfinished",
+    "Share reviewed"
+  ],
+  "display_rows": [
+    [
+      "All seeds",
+      "supported",
+      "0",
+      "0",
+      "30",
+      "—"
+    ],
+    [
+      "All seeds",
+      "mixed",
+      "0",
+      "0",
+      "30",
+      "—"
+    ],
+    [
+      "All seeds",
+      "unsupported",
+      "0",
+      "0",
+      "30",
+      "—"
+    ],
+    [
+      "All seeds",
+      "insufficient evidence",
+      "0",
+      "0",
+      "30",
+      "—"
+    ],
+    [
+      "42",
+      "supported",
+      "0",
+      "0",
+      "10",
+      "—"
+    ],
+    [
+      "42",
+      "mixed",
+      "0",
+      "0",
+      "10",
+      "—"
+    ],
+    [
+      "42",
+      "unsupported",
+      "0",
+      "0",
+      "10",
+      "—"
+    ],
+    [
+      "42",
+      "insufficient evidence",
+      "0",
+      "0",
+      "10",
+      "—"
+    ],
+    [
+      "43",
+      "supported",
+      "0",
+      "0",
+      "10",
+      "—"
+    ],
+    [
+      "43",
+      "mixed",
+      "0",
+      "0",
+      "10",
+      "—"
+    ],
+    [
+      "43",
+      "unsupported",
+      "0",
+      "0",
+      "10",
+      "—"
+    ],
+    [
+      "43",
+      "insufficient evidence",
+      "0",
+      "0",
+      "10",
+      "—"
+    ],
+    [
+      "44",
+      "supported",
+      "0",
+      "0",
+      "10",
+      "—"
+    ],
+    [
+      "44",
+      "mixed",
+      "0",
+      "0",
+      "10",
+      "—"
+    ],
+    [
+      "44",
+      "unsupported",
+      "0",
+      "0",
+      "10",
+      "—"
+    ],
+    [
+      "44",
+      "insufficient evidence",
+      "0",
+      "0",
+      "10",
+      "—"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "p{0.12\\linewidth}p{0.26\\linewidth}rrrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq3_profile_review",
+    "source_blocks": [
+      {
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq3_profile_review_support.tex": "af6fe872ec5a2568befa3158cdcb4befff5ad1437ab7e7d21afaef31ec77447b",
+    "rq3_profile_review_support.csv": "1e2ac8ce17776a8ef71d537ffa8566cbe9f42f65c320323b10d6b66afc938e9b"
+  }
+}

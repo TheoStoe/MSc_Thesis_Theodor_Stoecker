@@ -1,0 +1,273 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq3_agents_eligibility",
+  "label": "chap:results:tab:rq3_agents_eligibility",
+  "caption": "Paired response diagnostics by agent configuration. Equal-weight mean over iterations 1--30 and iteration-30 endpoint. Shares are fractions; share gaps are percentage points. Undefined denominators remain missing.",
+  "rows": 24,
+  "source_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Replica valid pairs",
+    "Shuffled valid pairs",
+    "Triple valid clicks",
+    "Condition"
+  ],
+  "source_dtypes": {
+    "Model": "str",
+    "Seed": "int64",
+    "Time summary": "str",
+    "Replica valid pairs": "float64",
+    "Shuffled valid pairs": "float64",
+    "Triple valid clicks": "float64",
+    "Condition": "str"
+  },
+  "display_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Replica valid pairs",
+    "Shuffled valid pairs",
+    "Triple valid clicks",
+    "Condition"
+  ],
+  "display_rows": [
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "300",
+      "300",
+      "247",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "300",
+      "300",
+      "256.467",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "300",
+      "300",
+      "253",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "300",
+      "300",
+      "257.767",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "300",
+      "300",
+      "257",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "300",
+      "300",
+      "259.933",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "300",
+      "300",
+      "236",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "300",
+      "300",
+      "255.333",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "300",
+      "300",
+      "253",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "300",
+      "300",
+      "252.067",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "300",
+      "300",
+      "261",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "300",
+      "300",
+      "258.233",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "300",
+      "300",
+      "254",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "300",
+      "300",
+      "253.167",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "300",
+      "300",
+      "256",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "300",
+      "300",
+      "256.567",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "300",
+      "300",
+      "248",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "300",
+      "300",
+      "256.767",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "300",
+      "300",
+      "252",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "300",
+      "300",
+      "257.767",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "300",
+      "300",
+      "260",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "300",
+      "300",
+      "256.367",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "300",
+      "300",
+      "250",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "300",
+      "300",
+      "256.7",
+      "L3 -- no reflection"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrlrrrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq3",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq3_agents_eligibility.tex": "92fd918895b2b22e18141205b46e7ee3188d96c02c321207a8778412d592f742",
+    "rq3_agents_eligibility.csv": "b31a99f67c283b8429497908b4805da0d7867974ab1dc892be9df780ec0ee71e"
+  }
+}

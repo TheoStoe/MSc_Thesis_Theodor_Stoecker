@@ -1,0 +1,3 @@
+Protocol,Presentation arm,Runs,Decisions,Memory calls,Forced actions
+RQ III: 300 active users (L2/L3),canonical,12,108000,0,0
+150 active / 150 reserve protocol,canonical,21,89177,2,0

@@ -1,0 +1,228 @@
+{
+  "analysis_name": "rq6_goodreads_coverage_concentration",
+  "label": "chap:results:fig:rq6_goodreads_coverage_concentration",
+  "recommended_for_main_text": false,
+  "rationale": "",
+  "context": {
+    "datasets": [
+      "Goodreads"
+    ],
+    "stages_by_model": {
+      "direct_llm": [
+        "L2"
+      ],
+      "ncm_inspired_gru_mansoury": [
+        "L2"
+      ],
+      "ncm_inspired_gru_uniform": [
+        "L2"
+      ],
+      "position_biased": [
+        "L2"
+      ],
+      "agentic_recommender": [
+        "L3 (full reflection)"
+      ]
+    },
+    "seeds_by_model": {
+      "direct_llm": [
+        42,
+        43,
+        44
+      ],
+      "ncm_inspired_gru_mansoury": [
+        42,
+        43,
+        44
+      ],
+      "ncm_inspired_gru_uniform": [
+        42,
+        43,
+        44
+      ],
+      "position_biased": [
+        42,
+        43,
+        44
+      ],
+      "agentic_recommender": [
+        42,
+        43,
+        44
+      ]
+    },
+    "seeds_by_model_condition": {
+      "direct_llm": {
+        "L2": [
+          42,
+          43,
+          44
+        ]
+      },
+      "ncm_inspired_gru_mansoury": {
+        "L2": [
+          42,
+          43,
+          44
+        ]
+      },
+      "ncm_inspired_gru_uniform": {
+        "L2": [
+          42,
+          43,
+          44
+        ]
+      },
+      "position_biased": {
+        "L2": [
+          42,
+          43,
+          44
+        ]
+      },
+      "agentic_recommender": {
+        "L3 -- full reflection": [
+          42,
+          43,
+          44
+        ]
+      }
+    },
+    "time_summary": "Per-iteration values, iterations 1–30",
+    "windows": [],
+    "protocol": "300 active users",
+    "comparisons": [],
+    "encoding": "Panels: simulation seeds; colours/markers: models",
+    "text": "Goodreads | 300 active users | Stages: Position-biased/NCM P3/NCM P4/Direct LLM: L2; Agent: L3 (full reflection)\nPer-iteration values, iterations 1–30 | Simulation seeds: 42, 43, 44",
+    "plot_spec": {
+      "kind": "trajectory",
+      "facet": "seed",
+      "series": "model",
+      "metrics": [
+        "exposure_coverage",
+        "click_coverage",
+        "exposure_gini",
+        "click_gini"
+      ]
+    }
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq6",
+    "source_blocks": [
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__direct_llm__sasrec__order_probe__seed_42",
+        "run_id": "goodreads_a300_e804_v1__L2_ml_model__direct_llm__sasrec__order_probe__seed_42",
+        "condition_id": "L2_ml_model__direct_llm__sasrec__order_probe",
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_42",
+        "run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_42",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe",
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_42",
+        "run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_42",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe",
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__position_biased__sasrec__order_probe__seed_42",
+        "run_id": "goodreads_a300_e804_v1__L2_ml_model__position_biased__sasrec__order_probe__seed_42",
+        "condition_id": "L2_ml_model__position_biased__sasrec__order_probe",
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__order_probe__seed_42",
+        "run_id": "goodreads_a300_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__order_probe__seed_42",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__direct_llm__sasrec__order_probe__seed_43",
+        "run_id": "goodreads_a300_e804_v1__L2_ml_model__direct_llm__sasrec__order_probe__seed_43",
+        "condition_id": "L2_ml_model__direct_llm__sasrec__order_probe",
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_43",
+        "run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_43",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe",
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_43",
+        "run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_43",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe",
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__position_biased__sasrec__order_probe__seed_43",
+        "run_id": "goodreads_a300_e804_v1__L2_ml_model__position_biased__sasrec__order_probe__seed_43",
+        "condition_id": "L2_ml_model__position_biased__sasrec__order_probe",
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__order_probe__seed_43",
+        "run_id": "goodreads_a300_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__order_probe__seed_43",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__direct_llm__sasrec__order_probe__seed_44",
+        "run_id": "goodreads_a300_e804_v1__L2_ml_model__direct_llm__sasrec__order_probe__seed_44",
+        "condition_id": "L2_ml_model__direct_llm__sasrec__order_probe",
+        "seed": 44,
+        "population_seed": 5245
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_44",
+        "run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_44",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe",
+        "seed": 44,
+        "population_seed": 5245
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_44",
+        "run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_44",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe",
+        "seed": 44,
+        "population_seed": 5245
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__position_biased__sasrec__order_probe__seed_44",
+        "run_id": "goodreads_a300_e804_v1__L2_ml_model__position_biased__sasrec__order_probe__seed_44",
+        "condition_id": "L2_ml_model__position_biased__sasrec__order_probe",
+        "seed": 44,
+        "population_seed": 5245
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__order_probe__seed_44",
+        "run_id": "goodreads_a300_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__order_probe__seed_44",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+        "seed": 44,
+        "population_seed": 5245
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq6_goodreads_coverage_concentration.pdf": "7d04704b51aba00858ef09efab93416409aefdec53d851c13c086ba5199d5496",
+    "rq6_goodreads_coverage_concentration.png": "1876ab2679ae42abf735ae683a4d2bd134a87f88d1c426e9bfa6343296d07c79"
+  }
+}

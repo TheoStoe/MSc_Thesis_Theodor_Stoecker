@@ -1,0 +1,50 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lrlrrl}
+\hline
+Model & Seed & Time summary & Replica valid pairs & Shuffled valid pairs & Condition \\
+\hline
+Agent & 42 & iteration\_30 & 300 & 300 & L0 -- frozen agent \\
+Agent & 42 & mean\_1\_30 & 300 & 300 & L0 -- frozen agent \\
+Agent & 43 & iteration\_30 & 300 & 300 & L0 -- frozen agent \\
+Agent & 43 & mean\_1\_30 & 300 & 299.967 & L0 -- frozen agent \\
+Agent & 44 & iteration\_30 & 300 & 300 & L0 -- frozen agent \\
+Agent & 44 & mean\_1\_30 & 300 & 300 & L0 -- frozen agent \\
+Agent & 42 & iteration\_30 & 300 & 300 & L1 -- frozen agent \\
+Agent & 42 & mean\_1\_30 & 300 & 300 & L1 -- frozen agent \\
+Agent & 43 & iteration\_30 & 300 & 300 & L1 -- frozen agent \\
+Agent & 43 & mean\_1\_30 & 300 & 300 & L1 -- frozen agent \\
+Agent & 44 & iteration\_30 & 300 & 300 & L1 -- frozen agent \\
+Agent & 44 & mean\_1\_30 & 300 & 300 & L1 -- frozen agent \\
+Agent & 42 & iteration\_30 & 300 & 300 & L2 -- frozen agent \\
+Agent & 42 & mean\_1\_30 & 300 & 300 & L2 -- frozen agent \\
+Agent & 43 & iteration\_30 & 300 & 300 & L2 -- frozen agent \\
+Agent & 43 & mean\_1\_30 & 300 & 300 & L2 -- frozen agent \\
+Agent & 44 & iteration\_30 & 300 & 300 & L2 -- frozen agent \\
+Agent & 44 & mean\_1\_30 & 300 & 300 & L2 -- frozen agent \\
+Direct LLM & 42 & iteration\_30 & 300 & 300 & L0 \\
+Direct LLM & 42 & mean\_1\_30 & 300 & 300 & L0 \\
+Direct LLM & 43 & iteration\_30 & 300 & 300 & L0 \\
+Direct LLM & 43 & mean\_1\_30 & 300 & 300 & L0 \\
+Direct LLM & 44 & iteration\_30 & 300 & 300 & L0 \\
+Direct LLM & 44 & mean\_1\_30 & 300 & 300 & L0 \\
+Direct LLM & 42 & iteration\_30 & 300 & 300 & L1 \\
+Direct LLM & 42 & mean\_1\_30 & 300 & 300 & L1 \\
+Direct LLM & 43 & iteration\_30 & 300 & 300 & L1 \\
+Direct LLM & 43 & mean\_1\_30 & 300 & 300 & L1 \\
+Direct LLM & 44 & iteration\_30 & 300 & 300 & L1 \\
+Direct LLM & 44 & mean\_1\_30 & 300 & 300 & L1 \\
+Direct LLM & 42 & iteration\_30 & 300 & 300 & L2 \\
+Direct LLM & 42 & mean\_1\_30 & 300 & 300 & L2 \\
+Direct LLM & 43 & iteration\_30 & 300 & 300 & L2 \\
+Direct LLM & 43 & mean\_1\_30 & 300 & 300 & L2 \\
+Direct LLM & 44 & iteration\_30 & 300 & 300 & L2 \\
+Direct LLM & 44 & mean\_1\_30 & 300 & 300 & L2 \\
+\hline
+\end{tabular}
+\caption{Paired LLM response diagnostics. Equal-weight mean over iterations 1--30 and iteration-30 endpoint. Shares are fractions; share gaps are percentage points. Undefined denominators remain missing.}
+\label{chap:results:tab:rq2_llm_valid_pairs}
+\end{table}

@@ -1,0 +1,34 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lllllrrrrrrrll}
+\hline
+dataset & comparison & model & metric & window & n\_seed\_blocks & mean\_effect & min\_effect & max\_effect & positive & negative & zero & missing\_seeds & effect\_unit \\
+\hline
+movielens & L1 minus L0 & agentic\_recommender & weighted\_click\_exposure\_gap & mean\_1\_30 & 3 & -4.0796 & -4.68667 & -3.29544 & 0 & 3 & 0 &  & percentage points \\
+movielens & L1 minus L0 & agentic\_recommender & weighted\_click\_exposure\_gap & iteration\_30 & 3 & -5.48909 & -6.76002 & -2.993 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 minus L1 & agentic\_recommender & weighted\_click\_exposure\_gap & mean\_1\_30 & 3 & 0.937724 & 0.35529 & 1.45693 & 3 & 0 & 0 &  & percentage points \\
+movielens & L2 minus L1 & agentic\_recommender & weighted\_click\_exposure\_gap & iteration\_30 & 3 & 4.58311 & -0.246613 & 7.48506 & 2 & 1 & 0 &  & percentage points \\
+movielens & L1 minus L0 & direct\_llm & weighted\_click\_exposure\_gap & mean\_1\_30 & 3 & -1.13927 & -1.95884 & -0.0174854 & 0 & 3 & 0 &  & percentage points \\
+movielens & L1 minus L0 & direct\_llm & weighted\_click\_exposure\_gap & iteration\_30 & 3 & 4.28163 & -1.92694 & 9.15083 & 2 & 1 & 0 &  & percentage points \\
+movielens & L2 minus L1 & direct\_llm & weighted\_click\_exposure\_gap & mean\_1\_30 & 3 & -5.67647 & -7.02659 & -3.83392 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 minus L1 & direct\_llm & weighted\_click\_exposure\_gap & iteration\_30 & 3 & -14.2115 & -15.0642 & -13.6752 & 0 & 3 & 0 &  & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_mansoury & weighted\_click\_exposure\_gap & mean\_1\_30 & 3 & -0.356431 & -0.826564 & -0.00173437 & 0 & 3 & 0 &  & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_mansoury & weighted\_click\_exposure\_gap & iteration\_30 & 3 & -3.57874 & -7.91604 & -1.0983 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_mansoury & weighted\_click\_exposure\_gap & mean\_1\_30 & 3 & -0.183371 & -0.376841 & 0.124708 & 1 & 2 & 0 &  & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_mansoury & weighted\_click\_exposure\_gap & iteration\_30 & 3 & -0.0659193 & -2.77822 & 5.12329 & 1 & 2 & 0 &  & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_uniform & weighted\_click\_exposure\_gap & mean\_1\_30 & 3 & -4.10646 & -4.36861 & -3.7079 & 0 & 3 & 0 &  & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_uniform & weighted\_click\_exposure\_gap & iteration\_30 & 3 & -10.6437 & -14.1199 & -6.61083 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_uniform & weighted\_click\_exposure\_gap & mean\_1\_30 & 3 & -5.98651 & -6.37464 & -5.7562 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_uniform & weighted\_click\_exposure\_gap & iteration\_30 & 3 & -7.35904 & -7.70546 & -6.84575 & 0 & 3 & 0 &  & percentage points \\
+movielens & L1 minus L0 & position\_biased & weighted\_click\_exposure\_gap & mean\_1\_30 & 3 & 0.289968 & -0.471525 & 0.980647 & 2 & 1 & 0 &  & percentage points \\
+movielens & L1 minus L0 & position\_biased & weighted\_click\_exposure\_gap & iteration\_30 & 3 & -3.01538 & -4.1678 & -1.08213 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 minus L1 & position\_biased & weighted\_click\_exposure\_gap & mean\_1\_30 & 3 & 0.694629 & 0.630768 & 0.750799 & 3 & 0 & 0 &  & percentage points \\
+movielens & L2 minus L1 & position\_biased & weighted\_click\_exposure\_gap & iteration\_30 & 3 & 2.56059 & -1.57849 & 5.27452 & 2 & 1 & 0 &  & percentage points \\
+\hline
+\end{tabular}
+\caption{Descriptive mean, minimum, maximum, and sign consistency of the paired effects across available seed/population blocks. Share differences use percentage points; missing seeds and block counts remain explicit.}
+\label{chap:results:tab:rq2_seed_consistency_weighted_click_exposure_gap}
+\end{table}

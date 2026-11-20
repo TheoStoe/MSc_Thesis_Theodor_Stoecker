@@ -1,0 +1,1153 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq7_gender_mitigation_click_effects",
+  "label": "chap:results:tab:rq7_gender_mitigation_click_effects",
+  "caption": "Women-authored click-share changes for every computational gender-mitigation stage, method, model, and seed, in percentage points. Zero in-processing effects at stages without refits are recorded logical aliases, not new simulation evidence.",
+  "rows": 108,
+  "source_columns": [
+    "dataset",
+    "comparison",
+    "model",
+    "seed",
+    "population_seed",
+    "window",
+    "value",
+    "effect_unit"
+  ],
+  "source_dtypes": {
+    "dataset": "str",
+    "comparison": "str",
+    "model": "str",
+    "seed": "int64",
+    "population_seed": "int64",
+    "window": "str",
+    "value": "float64",
+    "effect_unit": "str"
+  },
+  "display_columns": [
+    "dataset",
+    "comparison",
+    "model",
+    "seed",
+    "population_seed",
+    "window",
+    "value",
+    "effect_unit"
+  ],
+  "display_rows": [
+    [
+      "goodreads",
+      "L0 in-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "16040",
+      "mean_1_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 in-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "16040",
+      "iteration_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 post-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "16040",
+      "mean_1_30",
+      "4.3",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 post-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "16040",
+      "iteration_30",
+      "2.33333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 in-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "16040",
+      "mean_1_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 in-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "16040",
+      "iteration_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 post-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "16040",
+      "mean_1_30",
+      "42.1",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 post-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "16040",
+      "iteration_30",
+      "38.6667",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 in-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "16040",
+      "mean_1_30",
+      "11.7444",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 in-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "16040",
+      "iteration_30",
+      "15.6667",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 post-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "16040",
+      "mean_1_30",
+      "69.2667",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 post-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "16040",
+      "iteration_30",
+      "93.6667",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 in-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "16040",
+      "mean_1_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 in-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "16040",
+      "iteration_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 post-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "16040",
+      "mean_1_30",
+      "0.922222",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 post-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "16040",
+      "iteration_30",
+      "0.333333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 in-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "16040",
+      "mean_1_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 in-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "16040",
+      "iteration_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 post-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "16040",
+      "mean_1_30",
+      "21.4444",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 post-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "16040",
+      "iteration_30",
+      "23.3333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 in-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "16040",
+      "mean_1_30",
+      "10.6111",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 in-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "16040",
+      "iteration_30",
+      "8.33333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 post-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "16040",
+      "mean_1_30",
+      "47.9111",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 post-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "16040",
+      "iteration_30",
+      "50.6667",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 in-processing minus control",
+      "position_biased",
+      "42",
+      "16040",
+      "mean_1_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 in-processing minus control",
+      "position_biased",
+      "42",
+      "16040",
+      "iteration_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 post-processing minus control",
+      "position_biased",
+      "42",
+      "16040",
+      "mean_1_30",
+      "4.47778",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 post-processing minus control",
+      "position_biased",
+      "42",
+      "16040",
+      "iteration_30",
+      "3",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 in-processing minus control",
+      "position_biased",
+      "42",
+      "16040",
+      "mean_1_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 in-processing minus control",
+      "position_biased",
+      "42",
+      "16040",
+      "iteration_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 post-processing minus control",
+      "position_biased",
+      "42",
+      "16040",
+      "mean_1_30",
+      "39.5444",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 post-processing minus control",
+      "position_biased",
+      "42",
+      "16040",
+      "iteration_30",
+      "45.3333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 in-processing minus control",
+      "position_biased",
+      "42",
+      "16040",
+      "mean_1_30",
+      "3.32222",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 in-processing minus control",
+      "position_biased",
+      "42",
+      "16040",
+      "iteration_30",
+      "13.3333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 post-processing minus control",
+      "position_biased",
+      "42",
+      "16040",
+      "mean_1_30",
+      "56.4111",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 post-processing minus control",
+      "position_biased",
+      "42",
+      "16040",
+      "iteration_30",
+      "63.6667",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 in-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "11615",
+      "mean_1_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 in-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "11615",
+      "iteration_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 post-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "11615",
+      "mean_1_30",
+      "5.17778",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 post-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "11615",
+      "iteration_30",
+      "3",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 in-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "11615",
+      "mean_1_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 in-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "11615",
+      "iteration_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 post-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "11615",
+      "mean_1_30",
+      "43.8556",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 post-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "11615",
+      "iteration_30",
+      "41.3333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 in-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "11615",
+      "mean_1_30",
+      "22.6444",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 in-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "11615",
+      "iteration_30",
+      "13.6667",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 post-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "11615",
+      "mean_1_30",
+      "62.9889",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 post-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "11615",
+      "iteration_30",
+      "48",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 in-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "11615",
+      "mean_1_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 in-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "11615",
+      "iteration_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 post-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "11615",
+      "mean_1_30",
+      "1.11111",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 post-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "11615",
+      "iteration_30",
+      "1",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 in-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "11615",
+      "mean_1_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 in-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "11615",
+      "iteration_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 post-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "11615",
+      "mean_1_30",
+      "20.6333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 post-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "11615",
+      "iteration_30",
+      "15.6667",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 in-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "11615",
+      "mean_1_30",
+      "4.4",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 in-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "11615",
+      "iteration_30",
+      "-16.3333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 post-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "11615",
+      "mean_1_30",
+      "44.5889",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 post-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "11615",
+      "iteration_30",
+      "25.3333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 in-processing minus control",
+      "position_biased",
+      "43",
+      "11615",
+      "mean_1_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 in-processing minus control",
+      "position_biased",
+      "43",
+      "11615",
+      "iteration_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 post-processing minus control",
+      "position_biased",
+      "43",
+      "11615",
+      "mean_1_30",
+      "5.22222",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 post-processing minus control",
+      "position_biased",
+      "43",
+      "11615",
+      "iteration_30",
+      "-4.66667",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 in-processing minus control",
+      "position_biased",
+      "43",
+      "11615",
+      "mean_1_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 in-processing minus control",
+      "position_biased",
+      "43",
+      "11615",
+      "iteration_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 post-processing minus control",
+      "position_biased",
+      "43",
+      "11615",
+      "mean_1_30",
+      "40.2889",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 post-processing minus control",
+      "position_biased",
+      "43",
+      "11615",
+      "iteration_30",
+      "47",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 in-processing minus control",
+      "position_biased",
+      "43",
+      "11615",
+      "mean_1_30",
+      "5.43333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 in-processing minus control",
+      "position_biased",
+      "43",
+      "11615",
+      "iteration_30",
+      "10.3333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 post-processing minus control",
+      "position_biased",
+      "43",
+      "11615",
+      "mean_1_30",
+      "58.3222",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 post-processing minus control",
+      "position_biased",
+      "43",
+      "11615",
+      "iteration_30",
+      "59.3333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 in-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "5245",
+      "mean_1_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 in-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "5245",
+      "iteration_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 post-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "5245",
+      "mean_1_30",
+      "4.02222",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 post-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "5245",
+      "iteration_30",
+      "-1.33333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 in-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "5245",
+      "mean_1_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 in-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "5245",
+      "iteration_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 post-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "5245",
+      "mean_1_30",
+      "39.8333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 post-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "5245",
+      "iteration_30",
+      "34.3333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 in-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "5245",
+      "mean_1_30",
+      "6.56667",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 in-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "5245",
+      "iteration_30",
+      "-19",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 post-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "5245",
+      "mean_1_30",
+      "61.5667",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 post-processing minus control",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "5245",
+      "iteration_30",
+      "47",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 in-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "5245",
+      "mean_1_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 in-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "5245",
+      "iteration_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 post-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "5245",
+      "mean_1_30",
+      "1.32222",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 post-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "5245",
+      "iteration_30",
+      "-0.333333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 in-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "5245",
+      "mean_1_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 in-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "5245",
+      "iteration_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 post-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "5245",
+      "mean_1_30",
+      "23.3",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 post-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "5245",
+      "iteration_30",
+      "25",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 in-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "5245",
+      "mean_1_30",
+      "7.71111",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 in-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "5245",
+      "iteration_30",
+      "7.66667",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 post-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "5245",
+      "mean_1_30",
+      "53.1222",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 post-processing minus control",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "5245",
+      "iteration_30",
+      "53.6667",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 in-processing minus control",
+      "position_biased",
+      "44",
+      "5245",
+      "mean_1_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 in-processing minus control",
+      "position_biased",
+      "44",
+      "5245",
+      "iteration_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 post-processing minus control",
+      "position_biased",
+      "44",
+      "5245",
+      "mean_1_30",
+      "4.15556",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L0 post-processing minus control",
+      "position_biased",
+      "44",
+      "5245",
+      "iteration_30",
+      "-3",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 in-processing minus control",
+      "position_biased",
+      "44",
+      "5245",
+      "mean_1_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 in-processing minus control",
+      "position_biased",
+      "44",
+      "5245",
+      "iteration_30",
+      "0",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 post-processing minus control",
+      "position_biased",
+      "44",
+      "5245",
+      "mean_1_30",
+      "40.9889",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 post-processing minus control",
+      "position_biased",
+      "44",
+      "5245",
+      "iteration_30",
+      "41.3333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 in-processing minus control",
+      "position_biased",
+      "44",
+      "5245",
+      "mean_1_30",
+      "-0.288889",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 in-processing minus control",
+      "position_biased",
+      "44",
+      "5245",
+      "iteration_30",
+      "3.66667",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 post-processing minus control",
+      "position_biased",
+      "44",
+      "5245",
+      "mean_1_30",
+      "54.2667",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 post-processing minus control",
+      "position_biased",
+      "44",
+      "5245",
+      "iteration_30",
+      "54.6667",
+      "percentage points"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lllrrlrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq7",
+    "source_blocks": [
+      {
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "seed": 44,
+        "population_seed": 5245
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq7_gender_mitigation_click_effects.tex": "9b5b43ed8ebc707ae64f46f4fed499920fd4f1c7b758c0efc44cd43b539af598",
+    "rq7_gender_mitigation_click_effects.csv": "adf14aa83c5bd31af30dc42f1732fa6dd3a8c5d569e0684e6d330c951205b90e"
+  }
+}

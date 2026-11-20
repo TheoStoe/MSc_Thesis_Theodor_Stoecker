@@ -1,0 +1,86 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lllrrlrl}
+\hline
+dataset & comparison & model & seed & population\_seed & window & value & effect\_unit \\
+\hline
+goodreads & L2 minus L0 & agentic\_recommender & 42 & 16040 & mean\_1\_30 & -10.6567 & percentage points \\
+goodreads & L2 minus L0 & agentic\_recommender & 42 & 16040 & iteration\_30 & -13.9692 & percentage points \\
+goodreads & L3 full reflection minus L2 frozen agent & agentic\_recommender & 42 & 16040 & mean\_1\_30 & -17.169 & percentage points \\
+goodreads & L3 full reflection minus L2 frozen agent & agentic\_recommender & 42 & 16040 & iteration\_30 & -14.6049 & percentage points \\
+goodreads & L2 minus L0 & direct\_llm & 42 & 16040 & mean\_1\_30 & 1.2883 & percentage points \\
+goodreads & L2 minus L0 & direct\_llm & 42 & 16040 & iteration\_30 & -17.6471 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_mansoury & 42 & 16040 & mean\_1\_30 & 24.2222 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_mansoury & 42 & 16040 & iteration\_30 & 23 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_uniform & 42 & 16040 & mean\_1\_30 & 26.8111 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_uniform & 42 & 16040 & iteration\_30 & 28.3333 & percentage points \\
+goodreads & L2 minus L0 & position\_biased & 42 & 16040 & mean\_1\_30 & 3.64444 & percentage points \\
+goodreads & L2 minus L0 & position\_biased & 42 & 16040 & iteration\_30 & -17.3333 & percentage points \\
+goodreads & L2 minus L0 & agentic\_recommender & 43 & 11615 & mean\_1\_30 & -24.3419 & percentage points \\
+goodreads & L2 minus L0 & agentic\_recommender & 43 & 11615 & iteration\_30 & -29.645 & percentage points \\
+goodreads & L3 full reflection minus L2 frozen agent & agentic\_recommender & 43 & 11615 & mean\_1\_30 & 10.4452 & percentage points \\
+goodreads & L3 full reflection minus L2 frozen agent & agentic\_recommender & 43 & 11615 & iteration\_30 & 6.86265 & percentage points \\
+goodreads & L2 minus L0 & direct\_llm & 43 & 11615 & mean\_1\_30 & \textemdash{} & percentage points \\
+goodreads & L2 minus L0 & direct\_llm & 43 & 11615 & iteration\_30 & -30 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_mansoury & 43 & 11615 & mean\_1\_30 & 23.4 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_mansoury & 43 & 11615 & iteration\_30 & 29.3333 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_uniform & 43 & 11615 & mean\_1\_30 & 27.1778 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_uniform & 43 & 11615 & iteration\_30 & 31 & percentage points \\
+goodreads & L2 minus L0 & position\_biased & 43 & 11615 & mean\_1\_30 & -5.93333 & percentage points \\
+goodreads & L2 minus L0 & position\_biased & 43 & 11615 & iteration\_30 & -16.3333 & percentage points \\
+goodreads & L2 minus L0 & agentic\_recommender & 44 & 5245 & mean\_1\_30 & -19.4532 & percentage points \\
+goodreads & L2 minus L0 & agentic\_recommender & 44 & 5245 & iteration\_30 & -43.0233 & percentage points \\
+goodreads & L3 full reflection minus L2 frozen agent & agentic\_recommender & 44 & 5245 & mean\_1\_30 & 1.81562 & percentage points \\
+goodreads & L3 full reflection minus L2 frozen agent & agentic\_recommender & 44 & 5245 & iteration\_30 & 17.8003 & percentage points \\
+goodreads & L2 minus L0 & direct\_llm & 44 & 5245 & mean\_1\_30 & -15.5583 & percentage points \\
+goodreads & L2 minus L0 & direct\_llm & 44 & 5245 & iteration\_30 & -41.1765 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_mansoury & 44 & 5245 & mean\_1\_30 & 19.7889 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_mansoury & 44 & 5245 & iteration\_30 & 23 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_uniform & 44 & 5245 & mean\_1\_30 & 21.8667 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_uniform & 44 & 5245 & iteration\_30 & 27 & percentage points \\
+goodreads & L2 minus L0 & position\_biased & 44 & 5245 & mean\_1\_30 & 0.511111 & percentage points \\
+goodreads & L2 minus L0 & position\_biased & 44 & 5245 & iteration\_30 & -12 & percentage points \\
+movielens & L2 minus L0 & agentic\_recommender & 42 & 1054 & mean\_1\_30 & -3.8488 & percentage points \\
+movielens & L2 minus L0 & agentic\_recommender & 42 & 1054 & iteration\_30 & -14.1765 & percentage points \\
+movielens & L3 full reflection minus L2 frozen agent & agentic\_recommender & 42 & 1054 & mean\_1\_30 & -7.46939 & percentage points \\
+movielens & L3 full reflection minus L2 frozen agent & agentic\_recommender & 42 & 1054 & iteration\_30 & -12.7138 & percentage points \\
+movielens & L2 minus L0 & direct\_llm & 42 & 1054 & mean\_1\_30 & -2.2205 & percentage points \\
+movielens & L2 minus L0 & direct\_llm & 42 & 1054 & iteration\_30 & -7.66256 & percentage points \\
+movielens & L2 minus L0 & ncm\_inspired\_gru\_mansoury & 42 & 1054 & mean\_1\_30 & 15.8333 & percentage points \\
+movielens & L2 minus L0 & ncm\_inspired\_gru\_mansoury & 42 & 1054 & iteration\_30 & 16.3333 & percentage points \\
+movielens & L2 minus L0 & ncm\_inspired\_gru\_uniform & 42 & 1054 & mean\_1\_30 & 20.1889 & percentage points \\
+movielens & L2 minus L0 & ncm\_inspired\_gru\_uniform & 42 & 1054 & iteration\_30 & 23 & percentage points \\
+movielens & L2 minus L0 & position\_biased & 42 & 1054 & mean\_1\_30 & 12.4333 & percentage points \\
+movielens & L2 minus L0 & position\_biased & 42 & 1054 & iteration\_30 & 11.3333 & percentage points \\
+movielens & L2 minus L0 & agentic\_recommender & 43 & 19277 & mean\_1\_30 & -6.90056 & percentage points \\
+movielens & L2 minus L0 & agentic\_recommender & 43 & 19277 & iteration\_30 & -18.3598 & percentage points \\
+movielens & L3 full reflection minus L2 frozen agent & agentic\_recommender & 43 & 19277 & mean\_1\_30 & -0.223437 & percentage points \\
+movielens & L3 full reflection minus L2 frozen agent & agentic\_recommender & 43 & 19277 & iteration\_30 & -2.58959 & percentage points \\
+movielens & L2 minus L0 & direct\_llm & 43 & 19277 & mean\_1\_30 & 7.00075 & percentage points \\
+movielens & L2 minus L0 & direct\_llm & 43 & 19277 & iteration\_30 & -8.01843 & percentage points \\
+movielens & L2 minus L0 & ncm\_inspired\_gru\_mansoury & 43 & 19277 & mean\_1\_30 & 17.7 & percentage points \\
+movielens & L2 minus L0 & ncm\_inspired\_gru\_mansoury & 43 & 19277 & iteration\_30 & 15.3333 & percentage points \\
+movielens & L2 minus L0 & ncm\_inspired\_gru\_uniform & 43 & 19277 & mean\_1\_30 & 19.6556 & percentage points \\
+movielens & L2 minus L0 & ncm\_inspired\_gru\_uniform & 43 & 19277 & iteration\_30 & 27 & percentage points \\
+movielens & L2 minus L0 & position\_biased & 43 & 19277 & mean\_1\_30 & 14.9556 & percentage points \\
+movielens & L2 minus L0 & position\_biased & 43 & 19277 & iteration\_30 & 15.3333 & percentage points \\
+movielens & L2 minus L0 & agentic\_recommender & 44 & 18844 & mean\_1\_30 & -2.73107 & percentage points \\
+movielens & L2 minus L0 & agentic\_recommender & 44 & 18844 & iteration\_30 & -16.0504 & percentage points \\
+movielens & L3 full reflection minus L2 frozen agent & agentic\_recommender & 44 & 18844 & mean\_1\_30 & -4.55833 & percentage points \\
+movielens & L3 full reflection minus L2 frozen agent & agentic\_recommender & 44 & 18844 & iteration\_30 & -9.24519 & percentage points \\
+movielens & L2 minus L0 & direct\_llm & 44 & 18844 & mean\_1\_30 & 8.85729 & percentage points \\
+movielens & L2 minus L0 & direct\_llm & 44 & 18844 & iteration\_30 & 8.03754 & percentage points \\
+movielens & L2 minus L0 & ncm\_inspired\_gru\_mansoury & 44 & 18844 & mean\_1\_30 & 15.4556 & percentage points \\
+movielens & L2 minus L0 & ncm\_inspired\_gru\_mansoury & 44 & 18844 & iteration\_30 & 16 & percentage points \\
+movielens & L2 minus L0 & ncm\_inspired\_gru\_uniform & 44 & 18844 & mean\_1\_30 & 18.6778 & percentage points \\
+movielens & L2 minus L0 & ncm\_inspired\_gru\_uniform & 44 & 18844 & iteration\_30 & 20 & percentage points \\
+movielens & L2 minus L0 & position\_biased & 44 & 18844 & mean\_1\_30 & 13.7667 & percentage points \\
+movielens & L2 minus L0 & position\_biased & 44 & 18844 & iteration\_30 & 11.3333 & percentage points \\
+\hline
+\end{tabular}
+\caption{Signed matched Head-click share differences, in percentage points, for both time summaries. Each row retains its dataset, model, simulation seed, population seed, and comparison.}
+\label{chap:results:tab:rq6_cross_dataset_head_click_effects}
+\end{table}

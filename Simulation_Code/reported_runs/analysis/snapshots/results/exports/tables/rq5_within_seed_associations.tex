@@ -1,0 +1,26 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{llrrllrrll}
+\hline
+dataset & study & seed & population\_seed & window & predictor\_family & n\_models & spearman\_rho & models & interpretation \\
+\hline
+movielens & movielens\_mitigation\_a300\_e804 & 42 & 1054 & mean\_1\_30 & LLM common-valid agreement gap & 2 & \textemdash{} & agentic\_recommender; direct\_llm & Descriptive only; separate predictor families, no p-value. \\
+movielens & movielens\_mitigation\_a300\_e804 & 42 & 1054 & iteration\_30 & LLM common-valid agreement gap & 2 & \textemdash{} & agentic\_recommender; direct\_llm & Descriptive only; separate predictor families, no p-value. \\
+movielens & movielens\_mitigation\_a300\_e804 & 42 & 1054 & mean\_1\_30 & Computational probability TVD & 3 & 0.5 & ncm\_inspired\_gru\_mansoury; ncm\_inspired\_gru\_uniform; position\_biased & Descriptive only; separate predictor families, no p-value. \\
+movielens & movielens\_mitigation\_a300\_e804 & 42 & 1054 & iteration\_30 & Computational probability TVD & 3 & 1 & ncm\_inspired\_gru\_mansoury; ncm\_inspired\_gru\_uniform; position\_biased & Descriptive only; separate predictor families, no p-value. \\
+movielens & movielens\_mitigation\_a300\_e804 & 43 & 19277 & mean\_1\_30 & LLM common-valid agreement gap & 2 & \textemdash{} & agentic\_recommender; direct\_llm & Descriptive only; separate predictor families, no p-value. \\
+movielens & movielens\_mitigation\_a300\_e804 & 43 & 19277 & iteration\_30 & LLM common-valid agreement gap & 2 & \textemdash{} & agentic\_recommender; direct\_llm & Descriptive only; separate predictor families, no p-value. \\
+movielens & movielens\_mitigation\_a300\_e804 & 43 & 19277 & mean\_1\_30 & Computational probability TVD & 3 & 1 & ncm\_inspired\_gru\_mansoury; ncm\_inspired\_gru\_uniform; position\_biased & Descriptive only; separate predictor families, no p-value. \\
+movielens & movielens\_mitigation\_a300\_e804 & 43 & 19277 & iteration\_30 & Computational probability TVD & 3 & 0.5 & ncm\_inspired\_gru\_mansoury; ncm\_inspired\_gru\_uniform; position\_biased & Descriptive only; separate predictor families, no p-value. \\
+movielens & movielens\_mitigation\_a300\_e804 & 44 & 18844 & mean\_1\_30 & LLM common-valid agreement gap & 2 & \textemdash{} & agentic\_recommender; direct\_llm & Descriptive only; separate predictor families, no p-value. \\
+movielens & movielens\_mitigation\_a300\_e804 & 44 & 18844 & iteration\_30 & LLM common-valid agreement gap & 2 & \textemdash{} & agentic\_recommender; direct\_llm & Descriptive only; separate predictor families, no p-value. \\
+movielens & movielens\_mitigation\_a300\_e804 & 44 & 18844 & mean\_1\_30 & Computational probability TVD & 3 & 1 & ncm\_inspired\_gru\_mansoury; ncm\_inspired\_gru\_uniform; position\_biased & Descriptive only; separate predictor families, no p-value. \\
+movielens & movielens\_mitigation\_a300\_e804 & 44 & 18844 & iteration\_30 & Computational probability TVD & 3 & 1 & ncm\_inspired\_gru\_mansoury; ncm\_inspired\_gru\_uniform; position\_biased & Descriptive only; separate predictor families, no p-value. \\
+\hline
+\end{tabular}
+\caption{Descriptive within-seed Spearman associations, separately by predictor family and outcome time summary. Undefined coefficients indicate insufficient, missing, or constant points; they are not zero.}
+\label{chap:results:tab:rq5_within_seed_associations}
+\end{table}

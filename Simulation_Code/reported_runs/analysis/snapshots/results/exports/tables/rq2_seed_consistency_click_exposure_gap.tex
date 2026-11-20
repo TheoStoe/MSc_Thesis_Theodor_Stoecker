@@ -1,0 +1,34 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lllllrrrrrrrll}
+\hline
+dataset & comparison & model & metric & window & n\_seed\_blocks & mean\_effect & min\_effect & max\_effect & positive & negative & zero & missing\_seeds & effect\_unit \\
+\hline
+movielens & L1 minus L0 & agentic\_recommender & click\_exposure\_gap & mean\_1\_30 & 3 & -4.11132 & -4.8404 & -3.12509 & 0 & 3 & 0 &  & percentage points \\
+movielens & L1 minus L0 & agentic\_recommender & click\_exposure\_gap & iteration\_30 & 3 & -6.14364 & -7.48003 & -3.8596 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 minus L1 & agentic\_recommender & click\_exposure\_gap & mean\_1\_30 & 3 & 0.48747 & -0.908802 & 1.34266 & 2 & 1 & 0 &  & percentage points \\
+movielens & L2 minus L1 & agentic\_recommender & click\_exposure\_gap & iteration\_30 & 3 & 2.54809 & -3.33349 & 5.57018 & 2 & 1 & 0 &  & percentage points \\
+movielens & L1 minus L0 & direct\_llm & click\_exposure\_gap & mean\_1\_30 & 3 & -0.602852 & -1.2472 & 0.53141 & 1 & 2 & 0 &  & percentage points \\
+movielens & L1 minus L0 & direct\_llm & click\_exposure\_gap & iteration\_30 & 3 & 4.94877 & -0.97619 & 10.013 & 2 & 1 & 0 &  & percentage points \\
+movielens & L2 minus L1 & direct\_llm & click\_exposure\_gap & mean\_1\_30 & 3 & -5.8213 & -7.22107 & -3.90967 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 minus L1 & direct\_llm & click\_exposure\_gap & iteration\_30 & 3 & -15.041 & -15.8422 & -14.1387 & 0 & 3 & 0 &  & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_mansoury & click\_exposure\_gap & mean\_1\_30 & 3 & 0.942963 & 0.448889 & 1.32333 & 3 & 0 & 0 &  & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_mansoury & click\_exposure\_gap & iteration\_30 & 3 & -2.4 & -7 & 0.133333 & 1 & 2 & 0 &  & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_mansoury & click\_exposure\_gap & mean\_1\_30 & 3 & 0.110741 & -0.215556 & 0.533333 & 2 & 1 & 0 &  & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_mansoury & click\_exposure\_gap & iteration\_30 & 3 & 0.211111 & -2.56667 & 5.73333 & 1 & 2 & 0 &  & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_uniform & click\_exposure\_gap & mean\_1\_30 & 3 & -1.05963 & -1.63667 & -0.617778 & 0 & 3 & 0 &  & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_uniform & click\_exposure\_gap & iteration\_30 & 3 & -7.1 & -10.4333 & -2.36667 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_uniform & click\_exposure\_gap & mean\_1\_30 & 3 & -5.70667 & -6.09111 & -5.33556 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_uniform & click\_exposure\_gap & iteration\_30 & 3 & -6.57778 & -7.26667 & -6.06667 & 0 & 3 & 0 &  & percentage points \\
+movielens & L1 minus L0 & position\_biased & click\_exposure\_gap & mean\_1\_30 & 3 & 0.374444 & -0.451111 & 1.22778 & 2 & 1 & 0 &  & percentage points \\
+movielens & L1 minus L0 & position\_biased & click\_exposure\_gap & iteration\_30 & 3 & -3.3 & -4.53333 & -1.36667 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 minus L1 & position\_biased & click\_exposure\_gap & mean\_1\_30 & 3 & 1.14593 & 1.05222 & 1.21667 & 3 & 0 & 0 &  & percentage points \\
+movielens & L2 minus L1 & position\_biased & click\_exposure\_gap & iteration\_30 & 3 & 3.13333 & -1.46667 & 6.36667 & 2 & 1 & 0 &  & percentage points \\
+\hline
+\end{tabular}
+\caption{Descriptive mean, minimum, maximum, and sign consistency of the paired effects across available seed/population blocks. Share differences use percentage points; missing seeds and block counts remain explicit.}
+\label{chap:results:tab:rq2_seed_consistency_click_exposure_gap}
+\end{table}

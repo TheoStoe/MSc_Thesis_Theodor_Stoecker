@@ -1,0 +1,67 @@
+dataset,comparison,model,metric,window,n_seed_blocks,mean_effect,min_effect,max_effect,positive,negative,zero,missing_seeds,effect_unit
+goodreads,L2 minus L0,agentic_recommender,weighted_female_exposure,mean_1_30,3,16.005917710631238,12.00001347518636,21.548266522057283,3,0,0,,percentage points
+goodreads,L2 minus L0,agentic_recommender,weighted_female_exposure,iteration_30,3,28.6910952259049,24.83404247697899,34.21269416815635,3,0,0,,percentage points
+goodreads,L3 full reflection minus L2 frozen agent,agentic_recommender,weighted_female_exposure,mean_1_30,3,-3.3778265906574103,-17.076995477403784,8.17441741828368,1,2,0,,percentage points
+goodreads,L3 full reflection minus L2 frozen agent,agentic_recommender,weighted_female_exposure,iteration_30,3,-11.55867616175671,-26.54260627341766,-1.9450772427474394,0,3,0,,percentage points
+goodreads,L2 minus L0,direct_llm,weighted_female_exposure,mean_1_30,3,0.0012811545396259245,-2.814843172375452,3.1511060250760994,1,2,0,,percentage points
+goodreads,L2 minus L0,direct_llm,weighted_female_exposure,iteration_30,3,0.0703939711317938,-6.802751475906954,5.766884599678823,2,1,0,,percentage points
+goodreads,L2 minus L0,ncm_inspired_gru_mansoury,weighted_female_exposure,mean_1_30,3,-4.5577273789941914,-4.891249803360287,-4.100599567561399,0,3,0,,percentage points
+goodreads,L2 minus L0,ncm_inspired_gru_mansoury,weighted_female_exposure,iteration_30,3,-8.497277493271282,-26.007711986974964,4.702058163664303,1,2,0,,percentage points
+goodreads,L2 minus L0,ncm_inspired_gru_uniform,weighted_female_exposure,mean_1_30,3,-4.690136759597128,-10.656090518175612,1.6535998785342552,1,2,0,,percentage points
+goodreads,L2 minus L0,ncm_inspired_gru_uniform,weighted_female_exposure,iteration_30,3,-7.3883916016759335,-17.21475875757029,10.294924008672762,1,2,0,,percentage points
+goodreads,L2 minus L0,position_biased,weighted_female_exposure,mean_1_30,3,2.6005617281502733,-1.3593451154128653,5.022202929652446,2,1,0,,percentage points
+goodreads,L2 minus L0,position_biased,weighted_female_exposure,iteration_30,3,2.7468127204165675,-0.7826984762901279,7.012240927046031,2,1,0,,percentage points
+goodreads,L0 in-processing minus control,ncm_inspired_gru_mansoury,weighted_female_exposure,mean_1_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L0 in-processing minus control,ncm_inspired_gru_mansoury,weighted_female_exposure,iteration_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L0 post-processing minus control,ncm_inspired_gru_mansoury,weighted_female_exposure,mean_1_30,3,-6.110265165107033,-6.4442752773845955,-5.762405862559551,0,3,0,,percentage points
+goodreads,L0 post-processing minus control,ncm_inspired_gru_mansoury,weighted_female_exposure,iteration_30,3,-8.33527297094217,-9.65109903331266,-7.39805686795334,0,3,0,,percentage points
+goodreads,L0 in-processing minus post-processing,ncm_inspired_gru_mansoury,weighted_female_exposure,mean_1_30,3,6.110265165107033,5.762405862559551,6.4442752773845955,3,0,0,,percentage points
+goodreads,L0 in-processing minus post-processing,ncm_inspired_gru_mansoury,weighted_female_exposure,iteration_30,3,8.33527297094217,7.39805686795334,9.65109903331266,3,0,0,,percentage points
+goodreads,L1 in-processing minus control,ncm_inspired_gru_mansoury,weighted_female_exposure,mean_1_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L1 in-processing minus control,ncm_inspired_gru_mansoury,weighted_female_exposure,iteration_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L1 post-processing minus control,ncm_inspired_gru_mansoury,weighted_female_exposure,mean_1_30,3,14.31595955957881,12.905860561427168,16.386095764022432,3,0,0,,percentage points
+goodreads,L1 post-processing minus control,ncm_inspired_gru_mansoury,weighted_female_exposure,iteration_30,3,12.734056775901356,9.640003703649658,16.562280081413107,3,0,0,,percentage points
+goodreads,L1 in-processing minus post-processing,ncm_inspired_gru_mansoury,weighted_female_exposure,mean_1_30,3,-14.31595955957881,-16.386095764022432,-12.905860561427168,0,3,0,,percentage points
+goodreads,L1 in-processing minus post-processing,ncm_inspired_gru_mansoury,weighted_female_exposure,iteration_30,3,-12.734056775901356,-16.562280081413107,-9.640003703649658,0,3,0,,percentage points
+goodreads,L2 in-processing minus control,ncm_inspired_gru_mansoury,weighted_female_exposure,mean_1_30,3,11.198558479419297,6.680707638384121,17.35594266759568,3,0,0,,percentage points
+goodreads,L2 in-processing minus control,ncm_inspired_gru_mansoury,weighted_female_exposure,iteration_30,3,9.558992860448742,-9.60550988719499,21.478073410408673,2,1,0,,percentage points
+goodreads,L2 post-processing minus control,ncm_inspired_gru_mansoury,weighted_female_exposure,mean_1_30,3,45.51575310267092,42.79663596474788,49.37709789337008,3,0,0,,percentage points
+goodreads,L2 post-processing minus control,ncm_inspired_gru_mansoury,weighted_female_exposure,iteration_30,3,54.358338090619725,39.35227604229748,68.16448008356932,3,0,0,,percentage points
+goodreads,L2 in-processing minus post-processing,ncm_inspired_gru_mansoury,weighted_female_exposure,mean_1_30,3,-34.31719462325162,-36.115928326363765,-32.0211552257744,0,3,0,,percentage points
+goodreads,L2 in-processing minus post-processing,ncm_inspired_gru_mansoury,weighted_female_exposure,iteration_30,3,-44.79934523017098,-48.95778592949247,-38.75384308785983,0,3,0,,percentage points
+goodreads,L0 in-processing minus control,ncm_inspired_gru_uniform,weighted_female_exposure,mean_1_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L0 in-processing minus control,ncm_inspired_gru_uniform,weighted_female_exposure,iteration_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L0 post-processing minus control,ncm_inspired_gru_uniform,weighted_female_exposure,mean_1_30,3,4.908448011992142,3.69138096864119,5.991421983878255,3,0,0,,percentage points
+goodreads,L0 post-processing minus control,ncm_inspired_gru_uniform,weighted_female_exposure,iteration_30,3,5.844662430062894,4.38393507558148,7.471400008670409,3,0,0,,percentage points
+goodreads,L0 in-processing minus post-processing,ncm_inspired_gru_uniform,weighted_female_exposure,mean_1_30,3,-4.908448011992142,-5.991421983878255,-3.69138096864119,0,3,0,,percentage points
+goodreads,L0 in-processing minus post-processing,ncm_inspired_gru_uniform,weighted_female_exposure,iteration_30,3,-5.844662430062894,-7.471400008670409,-4.38393507558148,0,3,0,,percentage points
+goodreads,L1 in-processing minus control,ncm_inspired_gru_uniform,weighted_female_exposure,mean_1_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L1 in-processing minus control,ncm_inspired_gru_uniform,weighted_female_exposure,iteration_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L1 post-processing minus control,ncm_inspired_gru_uniform,weighted_female_exposure,mean_1_30,3,10.221976177113811,8.701798250090532,12.568448835334216,3,0,0,,percentage points
+goodreads,L1 post-processing minus control,ncm_inspired_gru_uniform,weighted_female_exposure,iteration_30,3,9.217872022441858,5.8888756533391815,13.627391438567294,3,0,0,,percentage points
+goodreads,L1 in-processing minus post-processing,ncm_inspired_gru_uniform,weighted_female_exposure,mean_1_30,3,-10.221976177113811,-12.568448835334216,-8.701798250090532,0,3,0,,percentage points
+goodreads,L1 in-processing minus post-processing,ncm_inspired_gru_uniform,weighted_female_exposure,iteration_30,3,-9.217872022441858,-13.627391438567294,-5.8888756533391815,0,3,0,,percentage points
+goodreads,L2 in-processing minus control,ncm_inspired_gru_uniform,weighted_female_exposure,mean_1_30,3,7.291603726935693,2.8452632194819683,11.52260531918174,3,0,0,,percentage points
+goodreads,L2 in-processing minus control,ncm_inspired_gru_uniform,weighted_female_exposure,iteration_30,3,7.847691957147961,-2.22280141691813,15.162664291199942,2,1,0,,percentage points
+goodreads,L2 post-processing minus control,ncm_inspired_gru_uniform,weighted_female_exposure,mean_1_30,3,28.29162138903482,25.422973741233655,30.838719487738995,3,0,0,,percentage points
+goodreads,L2 post-processing minus control,ncm_inspired_gru_uniform,weighted_female_exposure,iteration_30,3,33.770602362557725,15.145226123560596,44.729389901595205,3,0,0,,percentage points
+goodreads,L2 in-processing minus post-processing,ncm_inspired_gru_uniform,weighted_female_exposure,mean_1_30,3,-21.000017662099125,-23.331776845595623,-17.09056561895007,0,3,0,,percentage points
+goodreads,L2 in-processing minus post-processing,ncm_inspired_gru_uniform,weighted_female_exposure,iteration_30,3,-25.922910405409766,-30.83397806535531,-17.368027540478725,0,3,0,,percentage points
+goodreads,L0 in-processing minus control,position_biased,weighted_female_exposure,mean_1_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L0 in-processing minus control,position_biased,weighted_female_exposure,iteration_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L0 post-processing minus control,position_biased,weighted_female_exposure,mean_1_30,3,-7.454159333359224,-8.161719759951437,-6.5671119398254385,0,3,0,,percentage points
+goodreads,L0 post-processing minus control,position_biased,weighted_female_exposure,iteration_30,3,-9.997141468230021,-12.44651794701584,-8.729324209548551,0,3,0,,percentage points
+goodreads,L0 in-processing minus post-processing,position_biased,weighted_female_exposure,mean_1_30,3,7.454159333359224,6.5671119398254385,8.161719759951437,3,0,0,,percentage points
+goodreads,L0 in-processing minus post-processing,position_biased,weighted_female_exposure,iteration_30,3,9.997141468230021,8.729324209548551,12.44651794701584,3,0,0,,percentage points
+goodreads,L1 in-processing minus control,position_biased,weighted_female_exposure,mean_1_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L1 in-processing minus control,position_biased,weighted_female_exposure,iteration_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L1 post-processing minus control,position_biased,weighted_female_exposure,mean_1_30,3,15.185033142818853,13.510216023095886,17.642987525967097,3,0,0,,percentage points
+goodreads,L1 post-processing minus control,position_biased,weighted_female_exposure,iteration_30,3,17.998338295784624,14.068492855056586,21.260566970641758,3,0,0,,percentage points
+goodreads,L1 in-processing minus post-processing,position_biased,weighted_female_exposure,mean_1_30,3,-15.185033142818853,-17.642987525967097,-13.510216023095886,0,3,0,,percentage points
+goodreads,L1 in-processing minus post-processing,position_biased,weighted_female_exposure,iteration_30,3,-17.998338295784624,-21.260566970641758,-14.068492855056586,0,3,0,,percentage points
+goodreads,L2 in-processing minus control,position_biased,weighted_female_exposure,mean_1_30,3,2.980441565494324,0.916259459669604,4.253751510431858,3,0,0,,percentage points
+goodreads,L2 in-processing minus control,position_biased,weighted_female_exposure,iteration_30,3,6.051892450656585,5.38715169713912,6.627871497618976,3,0,0,,percentage points
+goodreads,L2 post-processing minus control,position_biased,weighted_female_exposure,mean_1_30,3,45.70216238026575,45.4616937933248,45.93989788904798,3,0,0,,percentage points
+goodreads,L2 post-processing minus control,position_biased,weighted_female_exposure,iteration_30,3,53.01284507815013,48.77699657437378,56.330791720593545,3,0,0,,percentage points
+goodreads,L2 in-processing minus post-processing,position_biased,weighted_female_exposure,mean_1_30,3,-42.72172081477142,-44.788635998754835,-41.68614637861614,0,3,0,,percentage points
+goodreads,L2 in-processing minus post-processing,position_biased,weighted_female_exposure,iteration_30,3,-46.960952627493555,-50.19013756338189,-43.389844877234665,0,3,0,,percentage points

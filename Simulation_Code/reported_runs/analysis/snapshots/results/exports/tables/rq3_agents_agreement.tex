@@ -1,0 +1,38 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lrlrrrl}
+\hline
+Model & Seed & Time summary & Replica agreement minus shuffled agreement & Same-item replica agreement & Same-item shuffled agreement & Condition \\
+\hline
+Agent & 42 & iteration\_30 & 0.291498 & 0.566802 & 0.275304 & L2 -- frozen agent \\
+Agent & 42 & mean\_1\_30 & 0.259377 & 0.589348 & 0.329972 & L2 -- frozen agent \\
+Agent & 43 & iteration\_30 & 0.29249 & 0.549407 & 0.256917 & L2 -- frozen agent \\
+Agent & 43 & mean\_1\_30 & 0.250529 & 0.592154 & 0.341625 & L2 -- frozen agent \\
+Agent & 44 & iteration\_30 & 0.322957 & 0.618677 & 0.29572 & L2 -- frozen agent \\
+Agent & 44 & mean\_1\_30 & 0.269123 & 0.615462 & 0.346338 & L2 -- frozen agent \\
+Agent & 42 & iteration\_30 & 0.283898 & 0.614407 & 0.330508 & L3 -- full reflection \\
+Agent & 42 & mean\_1\_30 & 0.249772 & 0.624193 & 0.374421 & L3 -- full reflection \\
+Agent & 43 & iteration\_30 & 0.252964 & 0.557312 & 0.304348 & L3 -- full reflection \\
+Agent & 43 & mean\_1\_30 & 0.23724 & 0.618781 & 0.381542 & L3 -- full reflection \\
+Agent & 44 & iteration\_30 & 0.268199 & 0.601533 & 0.333333 & L3 -- full reflection \\
+Agent & 44 & mean\_1\_30 & 0.240853 & 0.635979 & 0.395126 & L3 -- full reflection \\
+Agent & 42 & iteration\_30 & 0.326772 & 0.614173 & 0.287402 & L3 -- fixed profile \\
+Agent & 42 & mean\_1\_30 & 0.245263 & 0.612175 & 0.366912 & L3 -- fixed profile \\
+Agent & 43 & iteration\_30 & 0.257812 & 0.550781 & 0.292969 & L3 -- fixed profile \\
+Agent & 43 & mean\_1\_30 & 0.228094 & 0.608993 & 0.380899 & L3 -- fixed profile \\
+Agent & 44 & iteration\_30 & 0.302419 & 0.637097 & 0.334677 & L3 -- fixed profile \\
+Agent & 44 & mean\_1\_30 & 0.254471 & 0.637957 & 0.383486 & L3 -- fixed profile \\
+Agent & 42 & iteration\_30 & 0.22619 & 0.575397 & 0.349206 & L3 -- no reflection \\
+Agent & 42 & mean\_1\_30 & 0.254762 & 0.582393 & 0.327631 & L3 -- no reflection \\
+Agent & 43 & iteration\_30 & 0.176923 & 0.569231 & 0.392308 & L3 -- no reflection \\
+Agent & 43 & mean\_1\_30 & 0.250892 & 0.597459 & 0.346567 & L3 -- no reflection \\
+Agent & 44 & iteration\_30 & 0.224 & 0.58 & 0.356 & L3 -- no reflection \\
+Agent & 44 & mean\_1\_30 & 0.26268 & 0.620534 & 0.357854 & L3 -- no reflection \\
+\hline
+\end{tabular}
+\caption{Paired response diagnostics by agent configuration. Equal-weight mean over iterations 1--30 and iteration-30 endpoint. Shares are fractions; share gaps are percentage points. Undefined denominators remain missing.}
+\label{chap:results:tab:rq3_agents_agreement}
+\end{table}

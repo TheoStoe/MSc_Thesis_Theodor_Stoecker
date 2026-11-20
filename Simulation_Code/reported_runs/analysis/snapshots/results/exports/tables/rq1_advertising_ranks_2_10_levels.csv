@@ -1,0 +1,19 @@
+Model,Seed,Time summary,Head exposure (displayed ranks 2–10),Weighted head exposure (displayed ranks 2–10),Condition
+Agent,42,iteration_30,0.6068376068376068,0.5914416638166777,Organic advertising control
+Agent,42,mean_1_30,0.7028474065725026,0.7018764066982365,Organic advertising control
+Agent,43,iteration_30,0.6703703703703704,0.667329106684206,Organic advertising control
+Agent,43,mean_1_30,0.7410617283950617,0.74201542185619,Organic advertising control
+Agent,44,iteration_30,0.64,0.6355095063305871,Organic advertising control
+Agent,44,mean_1_30,0.723432098765432,0.7227334089255002,Organic advertising control
+Agent,42,iteration_30,0.5771382893685052,0.5717179570320046,Static advertising
+Agent,42,mean_1_30,0.7096736350165049,0.7113077504937274,Static advertising
+Agent,43,iteration_30,0.6882716049382716,0.6788105323773825,Static advertising
+Agent,43,mean_1_30,0.7203875441375239,0.7180612363033174,Static advertising
+Agent,44,iteration_30,0.5177777777777778,0.4940995790616294,Static advertising
+Agent,44,mean_1_30,0.6666172839506175,0.6536397718294091,Static advertising
+Agent,42,iteration_30,0.6281481481481481,0.6242322159544038,L5 adaptive advertising
+Agent,42,mean_1_30,0.6826172839506175,0.683512140033669,L5 adaptive advertising
+Agent,43,iteration_30,0.6444444444444445,0.6342250616180455,L5 adaptive advertising
+Agent,43,mean_1_30,0.704716049382716,0.703247913563967,L5 adaptive advertising
+Agent,44,iteration_30,0.6125925925925926,0.6049950185509086,L5 adaptive advertising
+Agent,44,mean_1_30,0.6814074074074074,0.6784267180763247,L5 adaptive advertising

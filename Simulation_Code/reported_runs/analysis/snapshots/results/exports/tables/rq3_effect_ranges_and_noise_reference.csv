@@ -1,0 +1,19 @@
+comparison,metric,window,n_seed_blocks,min_effect,max_effect,reference_min,reference_max
+Decision-input noise check: no reflection minus frozen agent,head_click_share,iteration_30,3,-19.032458456282043,3.900709219858156,-19.032458456282043,3.900709219858156
+Reflection notes: fixed profile minus no reflection,head_click_share,iteration_30,3,-10.123918634556928,15.537017726798751,-19.032458456282043,3.900709219858156
+Profile updates: full reflection minus fixed profile,head_click_share,iteration_30,3,-9.218328840970353,1.023086043134791,-19.032458456282043,3.900709219858156
+Decision-input noise check: no reflection minus frozen agent,head_click_share,mean_1_30,3,-3.927342841600407,4.477142783580598,-3.927342841600407,4.477142783580598
+Reflection notes: fixed profile minus no reflection,head_click_share,mean_1_30,3,-7.535580717168187,-0.07323525041681182,-3.927342841600407,4.477142783580598
+Profile updates: full reflection minus fixed profile,head_click_share,mean_1_30,3,-3.468813096090357,2.8350004371733912,-3.927342841600407,4.477142783580598
+Decision-input noise check: no reflection minus frozen agent,head_exposure,iteration_30,3,-2.9333333333333322,6.533333333333335,-2.9333333333333322,6.533333333333335
+Reflection notes: fixed profile minus no reflection,head_exposure,iteration_30,3,-3.599999999999992,7.366666666666665,-2.9333333333333322,6.533333333333335
+Profile updates: full reflection minus fixed profile,head_exposure,iteration_30,3,-3.0000000000000027,0.6000000000000005,-2.9333333333333322,6.533333333333335
+Decision-input noise check: no reflection minus frozen agent,head_exposure,mean_1_30,3,-2.7788888888888894,6.631111111111114,-2.7788888888888894,6.631111111111114
+Reflection notes: fixed profile minus no reflection,head_exposure,mean_1_30,3,-6.5600000000000005,3.5000000000000004,-2.7788888888888894,6.631111111111114
+Profile updates: full reflection minus fixed profile,head_exposure,mean_1_30,3,-2.458888888888891,3.0477777777777773,-2.7788888888888894,6.631111111111114
+Decision-input noise check: no reflection minus frozen agent,weighted_head_exposure,iteration_30,3,-3.0953336536416964,6.907294349371096,-3.0953336536416964,6.907294349371096
+Reflection notes: fixed profile minus no reflection,weighted_head_exposure,iteration_30,3,-5.439673929535638,7.428110235005225,-3.0953336536416964,6.907294349371096
+Profile updates: full reflection minus fixed profile,weighted_head_exposure,iteration_30,3,-2.7890940906714956,1.5769499784171859,-3.0953336536416964,6.907294349371096
+Decision-input noise check: no reflection minus frozen agent,weighted_head_exposure,mean_1_30,3,-3.0653133640585115,7.22063856389113,-3.0653133640585115,7.22063856389113
+Reflection notes: fixed profile minus no reflection,weighted_head_exposure,mean_1_30,3,-6.621397068609186,1.985994800643037,-3.0653133640585115,7.22063856389113
+Profile updates: full reflection minus fixed profile,weighted_head_exposure,mean_1_30,3,-2.07418394696473,3.075110768958898,-3.0653133640585115,7.22063856389113

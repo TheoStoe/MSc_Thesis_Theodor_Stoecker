@@ -1,0 +1,73 @@
+{
+  "analysis_name": "main_rq3_ablation_effects",
+  "label": "chap:results:fig:main_rq3_ablation_effects",
+  "recommended_for_main_text": true,
+  "rationale": "Main-text version: one time summary, print width, no in-figure title.",
+  "context": {
+    "datasets": [
+      "MovieLens"
+    ],
+    "stages_by_model": {
+      "agentic_recommender": [
+        "L3"
+      ]
+    },
+    "seeds_by_model": {
+      "agentic_recommender": [
+        42,
+        43,
+        44
+      ]
+    },
+    "seeds_by_model_condition": {},
+    "time_summary": "Mean over iterations 1–30",
+    "windows": [
+      "mean_1_30"
+    ],
+    "protocol": "300 active users",
+    "comparisons": [
+      "Decision-input noise check: no reflection minus frozen agent",
+      "Profile updates: full reflection minus fixed profile",
+      "Reflection notes: fixed profile minus no reflection"
+    ],
+    "encoding": "Colours: models; markers: simulation seeds",
+    "text": "MovieLens | 300 active users | Treatment stages: L3\nMean over iterations 1–30 | Simulation seeds: 42, 43, 44",
+    "plot_spec": {
+      "kind": "effect",
+      "facet": "window",
+      "category": "comparison",
+      "metrics": [
+        "head_click_share",
+        "head_exposure",
+        "weighted_head_exposure"
+      ],
+      "main_text": true
+    }
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "main",
+    "source_blocks": [
+      {
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "main_rq3_ablation_effects.pdf": "4769b3d7a50f241999160df8dfd50e193c09f26943aa8b39af110be5a3957841",
+    "main_rq3_ablation_effects.png": "b4c6e108fbb47720a6fb1eadc240910ec50386e553abdfbb0d7675d104772851"
+  }
+}

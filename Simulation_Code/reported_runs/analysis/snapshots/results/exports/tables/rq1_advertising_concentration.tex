@@ -1,0 +1,32 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lrlrrl}
+\hline
+Model & Seed & Time summary & Gini (clicks) & Gini (exposure) & Condition \\
+\hline
+Agent & 42 & iteration\_30 & 0.985587 & 0.954181 & Organic advertising control \\
+Agent & 42 & mean\_1\_30 & 0.979575 & 0.915589 & Organic advertising control \\
+Agent & 43 & iteration\_30 & 0.982223 & 0.948242 & Organic advertising control \\
+Agent & 43 & mean\_1\_30 & 0.977268 & 0.907233 & Organic advertising control \\
+Agent & 44 & iteration\_30 & 0.985695 & 0.958738 & Organic advertising control \\
+Agent & 44 & mean\_1\_30 & 0.978974 & 0.919765 & Organic advertising control \\
+Agent & 42 & iteration\_30 & 0.989199 & 0.977371 & Static advertising \\
+Agent & 42 & mean\_1\_30 & 0.983899 & 0.946705 & Static advertising \\
+Agent & 43 & iteration\_30 & 0.983585 & 0.964126 & Static advertising \\
+Agent & 43 & mean\_1\_30 & 0.980664 & 0.934883 & Static advertising \\
+Agent & 44 & iteration\_30 & 0.988538 & 0.978769 & Static advertising \\
+Agent & 44 & mean\_1\_30 & 0.988985 & 0.96099 & Static advertising \\
+Agent & 42 & iteration\_30 & 0.983193 & 0.948164 & L5 adaptive advertising \\
+Agent & 42 & mean\_1\_30 & 0.980991 & 0.926597 & L5 adaptive advertising \\
+Agent & 43 & iteration\_30 & 0.983269 & 0.954925 & L5 adaptive advertising \\
+Agent & 43 & mean\_1\_30 & 0.981404 & 0.927733 & L5 adaptive advertising \\
+Agent & 44 & iteration\_30 & 0.983454 & 0.959357 & L5 adaptive advertising \\
+Agent & 44 & mean\_1\_30 & 0.982815 & 0.935328 & L5 adaptive advertising \\
+\hline
+\end{tabular}
+\caption{Matched advertising conditions. Click-exposure gaps here use the original full exposure over displayed ranks 1--10, including any sponsored rank-1 item; they do not use the separate ranks-2--10 companion. Equal-weight mean over iterations 1--30 and iteration-30 endpoint. Shares are fractions; share gaps are percentage points. Undefined denominators remain missing.}
+\label{chap:results:tab:rq1_advertising_concentration}
+\end{table}

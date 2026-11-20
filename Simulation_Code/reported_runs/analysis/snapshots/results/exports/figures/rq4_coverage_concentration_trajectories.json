@@ -1,0 +1,488 @@
+{
+  "analysis_name": "rq4_coverage_concentration_trajectories",
+  "label": "chap:results:fig:rq4_coverage_concentration_trajectories",
+  "recommended_for_main_text": false,
+  "rationale": "",
+  "context": {
+    "datasets": [
+      "MovieLens"
+    ],
+    "stages_by_model": {
+      "direct_llm": [
+        "L2"
+      ],
+      "ncm_inspired_gru_mansoury": [
+        "L2"
+      ],
+      "ncm_inspired_gru_uniform": [
+        "L2"
+      ],
+      "position_biased": [
+        "L2"
+      ],
+      "agentic_recommender": [
+        "L3 (full reflection)"
+      ]
+    },
+    "seeds_by_model": {
+      "direct_llm": [
+        42,
+        43,
+        44
+      ],
+      "ncm_inspired_gru_mansoury": [
+        42,
+        43,
+        44
+      ],
+      "ncm_inspired_gru_uniform": [
+        42,
+        43,
+        44
+      ],
+      "position_biased": [
+        42,
+        43,
+        44
+      ],
+      "agentic_recommender": [
+        42,
+        43,
+        44
+      ]
+    },
+    "seeds_by_model_condition": {
+      "direct_llm": {
+        "no mitigation": [
+          42,
+          43,
+          44
+        ],
+        "in-processing": [
+          42,
+          43,
+          44
+        ],
+        "post-processing": [
+          42,
+          43,
+          44
+        ]
+      },
+      "ncm_inspired_gru_mansoury": {
+        "no mitigation": [
+          42,
+          43,
+          44
+        ],
+        "in-processing": [
+          42,
+          43,
+          44
+        ],
+        "post-processing": [
+          42,
+          43,
+          44
+        ]
+      },
+      "ncm_inspired_gru_uniform": {
+        "no mitigation": [
+          42,
+          43,
+          44
+        ],
+        "in-processing": [
+          42,
+          43,
+          44
+        ],
+        "post-processing": [
+          42,
+          43,
+          44
+        ]
+      },
+      "position_biased": {
+        "no mitigation": [
+          42,
+          43,
+          44
+        ],
+        "in-processing": [
+          42,
+          43,
+          44
+        ],
+        "post-processing": [
+          42,
+          43,
+          44
+        ]
+      },
+      "agentic_recommender": {
+        "no mitigation": [
+          42,
+          43,
+          44
+        ],
+        "in-processing": [
+          42,
+          43,
+          44
+        ],
+        "post-processing": [
+          42,
+          43,
+          44
+        ]
+      }
+    },
+    "time_summary": "Per-iteration values, iterations 1–30",
+    "windows": [],
+    "protocol": "300 active users",
+    "comparisons": [],
+    "encoding": "Panels: models; line styles: conditions; markers: simulation seeds",
+    "text": "MovieLens | 300 active users | Stages: Position-biased/NCM P3/NCM P4/Direct LLM: L2; Agent: L3 (full reflection)\nPer-iteration values, iterations 1–30 | Simulation seeds: 42, 43, 44",
+    "plot_spec": {
+      "kind": "trajectory",
+      "facet": "model",
+      "series": "condition_label",
+      "metrics": [
+        "exposure_coverage",
+        "click_coverage",
+        "exposure_gini",
+        "click_gini"
+      ]
+    }
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq4",
+    "source_blocks": [
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__direct_llm__control__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__direct_llm__control__seed_42",
+        "condition_id": "direct_llm__control",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_mansoury__control__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_mansoury__control__seed_42",
+        "condition_id": "ncm_inspired_gru_mansoury__control",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_uniform__control__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_uniform__control__seed_42",
+        "condition_id": "ncm_inspired_gru_uniform__control",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__position_biased__control__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__position_biased__control__seed_42",
+        "condition_id": "position_biased__control",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__agentic_recommender__control__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__agentic_recommender__control__seed_42",
+        "condition_id": "agentic_recommender__control",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__direct_llm__control__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__direct_llm__control__seed_43",
+        "condition_id": "direct_llm__control",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_mansoury__control__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_mansoury__control__seed_43",
+        "condition_id": "ncm_inspired_gru_mansoury__control",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_uniform__control__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_uniform__control__seed_43",
+        "condition_id": "ncm_inspired_gru_uniform__control",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__position_biased__control__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__position_biased__control__seed_43",
+        "condition_id": "position_biased__control",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__agentic_recommender__control__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__agentic_recommender__control__seed_43",
+        "condition_id": "agentic_recommender__control",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__direct_llm__sasrec__order_probe__seed_44",
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__direct_llm__sasrec__order_probe__seed_44",
+        "condition_id": "direct_llm__control",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_44",
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_44",
+        "condition_id": "ncm_inspired_gru_mansoury__control",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_44",
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_44",
+        "condition_id": "ncm_inspired_gru_uniform__control",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__position_biased__sasrec__order_probe__seed_44",
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__position_biased__sasrec__order_probe__seed_44",
+        "condition_id": "position_biased__control",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L3_individual__agentic_recommender__sasrec__full_reflection__order_probe__seed_44",
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L3_individual__agentic_recommender__sasrec__full_reflection__order_probe__seed_44",
+        "condition_id": "agentic_recommender__control",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__agentic_recommender__in_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__agentic_recommender__in_processing__seed_42",
+        "condition_id": "agentic_recommender__in_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__agentic_recommender__post_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__agentic_recommender__post_processing__seed_42",
+        "condition_id": "agentic_recommender__post_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__direct_llm__in_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__direct_llm__in_processing__seed_42",
+        "condition_id": "direct_llm__in_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__direct_llm__post_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__direct_llm__post_processing__seed_42",
+        "condition_id": "direct_llm__post_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_mansoury__in_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_mansoury__in_processing__seed_42",
+        "condition_id": "ncm_inspired_gru_mansoury__in_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_42",
+        "condition_id": "ncm_inspired_gru_mansoury__post_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_uniform__in_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_uniform__in_processing__seed_42",
+        "condition_id": "ncm_inspired_gru_uniform__in_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_42",
+        "condition_id": "ncm_inspired_gru_uniform__post_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__position_biased__in_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__position_biased__in_processing__seed_42",
+        "condition_id": "position_biased__in_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__position_biased__post_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__position_biased__post_processing__seed_42",
+        "condition_id": "position_biased__post_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__agentic_recommender__in_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__agentic_recommender__in_processing__seed_43",
+        "condition_id": "agentic_recommender__in_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__agentic_recommender__post_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__agentic_recommender__post_processing__seed_43",
+        "condition_id": "agentic_recommender__post_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__direct_llm__in_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__direct_llm__in_processing__seed_43",
+        "condition_id": "direct_llm__in_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__direct_llm__post_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__direct_llm__post_processing__seed_43",
+        "condition_id": "direct_llm__post_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_mansoury__in_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_mansoury__in_processing__seed_43",
+        "condition_id": "ncm_inspired_gru_mansoury__in_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_43",
+        "condition_id": "ncm_inspired_gru_mansoury__post_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_uniform__in_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_uniform__in_processing__seed_43",
+        "condition_id": "ncm_inspired_gru_uniform__in_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_43",
+        "condition_id": "ncm_inspired_gru_uniform__post_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__position_biased__in_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__position_biased__in_processing__seed_43",
+        "condition_id": "position_biased__in_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__position_biased__post_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__position_biased__post_processing__seed_43",
+        "condition_id": "position_biased__post_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__agentic_recommender__in_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__agentic_recommender__in_processing__seed_44",
+        "condition_id": "agentic_recommender__in_processing",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__agentic_recommender__post_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__agentic_recommender__post_processing__seed_44",
+        "condition_id": "agentic_recommender__post_processing",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__direct_llm__in_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__direct_llm__in_processing__seed_44",
+        "condition_id": "direct_llm__in_processing",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__direct_llm__post_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__direct_llm__post_processing__seed_44",
+        "condition_id": "direct_llm__post_processing",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_mansoury__in_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_mansoury__in_processing__seed_44",
+        "condition_id": "ncm_inspired_gru_mansoury__in_processing",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_44",
+        "condition_id": "ncm_inspired_gru_mansoury__post_processing",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_uniform__in_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_uniform__in_processing__seed_44",
+        "condition_id": "ncm_inspired_gru_uniform__in_processing",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_44",
+        "condition_id": "ncm_inspired_gru_uniform__post_processing",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__position_biased__in_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__position_biased__in_processing__seed_44",
+        "condition_id": "position_biased__in_processing",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__position_biased__post_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__position_biased__post_processing__seed_44",
+        "condition_id": "position_biased__post_processing",
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq4_coverage_concentration_trajectories.pdf": "e10832464c115ce30f7cb85394fb0776b04315a9193089274562107132e8c3ba",
+    "rq4_coverage_concentration_trajectories.png": "b71fb74fa4ed2206cdcbf66722496161c386b29679075de223a7ba4846025ffb"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq1_seed44_advertising_spike_agreement",
+  "label": "chap:results:tab:rq1_seed44_advertising_spike_agreement",
+  "caption": "Saved first-iteration agreement across the original static and adaptive runs. Same-item agreement conditions on both responses being clicks; other rates use their stated paired denominators.",
+  "rows": 3,
+  "source_columns": [
+    "Measure",
+    "Agreement count",
+    "Compared pairs",
+    "Agreement"
+  ],
+  "source_dtypes": {
+    "Measure": "str",
+    "Agreement count": "int64",
+    "Compared pairs": "int64",
+    "Agreement": "float64"
+  },
+  "display_columns": [
+    "Measure",
+    "Agreement count",
+    "Compared pairs",
+    "Agreement"
+  ],
+  "display_rows": [
+    [
+      "Same item, both clicked",
+      "107",
+      "136",
+      "0.786765"
+    ],
+    [
+      "Same item or both no-click",
+      "109",
+      "150",
+      "0.726667"
+    ],
+    [
+      "Same sponsored-click decision",
+      "129",
+      "150",
+      "0.86"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq1_spike",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq1_seed44_advertising_spike_agreement.tex": "10925e8de01ea031f8681680d4a169d303c6f65addea7beff26e61c4e1628fd6",
+    "rq1_seed44_advertising_spike_agreement.csv": "12dbb69f3c4dd70ae1420d4aa651cd14f63a497f50847291a102c63a6f87c3b4"
+  }
+}

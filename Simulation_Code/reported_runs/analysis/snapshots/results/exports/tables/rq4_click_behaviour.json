@@ -1,0 +1,1234 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq4_click_behaviour",
+  "label": "chap:results:tab:rq4_click_behaviour",
+  "caption": "Mean-iteration and iteration-30 click behaviour by model, condition, and seed. Rates use valid responses; counts are valid clicks per iteration.",
+  "rows": 90,
+  "source_columns": [
+    "dataset",
+    "study",
+    "model",
+    "condition_id",
+    "seed",
+    "window",
+    "Click rate",
+    "No-click rate",
+    "Valid click counts"
+  ],
+  "source_dtypes": {
+    "dataset": "str",
+    "study": "str",
+    "model": "str",
+    "condition_id": "str",
+    "seed": "int64",
+    "window": "str",
+    "Click rate": "float64",
+    "No-click rate": "float64",
+    "Valid click counts": "float64"
+  },
+  "display_columns": [
+    "dataset",
+    "study",
+    "model",
+    "condition_id",
+    "seed",
+    "window",
+    "Click rate",
+    "No-click rate",
+    "Valid click counts"
+  ],
+  "display_rows": [
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "agentic_recommender",
+      "agentic_recommender__control",
+      "42",
+      "iteration_30",
+      "0.883333",
+      "0.116667",
+      "265"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "agentic_recommender",
+      "agentic_recommender__control",
+      "42",
+      "mean_1_30",
+      "0.925222",
+      "0.0747778",
+      "277.567"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "agentic_recommender",
+      "agentic_recommender__control",
+      "43",
+      "iteration_30",
+      "0.903333",
+      "0.0966667",
+      "271"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "agentic_recommender",
+      "agentic_recommender__control",
+      "43",
+      "mean_1_30",
+      "0.922222",
+      "0.0777778",
+      "276.667"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "agentic_recommender",
+      "agentic_recommender__control",
+      "44",
+      "iteration_30",
+      "0.933333",
+      "0.0666667",
+      "280"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "agentic_recommender",
+      "agentic_recommender__control",
+      "44",
+      "mean_1_30",
+      "0.935333",
+      "0.0646667",
+      "280.6"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "agentic_recommender",
+      "agentic_recommender__in_processing",
+      "42",
+      "iteration_30",
+      "0.873333",
+      "0.126667",
+      "262"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "agentic_recommender",
+      "agentic_recommender__in_processing",
+      "42",
+      "mean_1_30",
+      "0.910556",
+      "0.0894444",
+      "273.167"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "agentic_recommender",
+      "agentic_recommender__in_processing",
+      "43",
+      "iteration_30",
+      "0.91",
+      "0.09",
+      "273"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "agentic_recommender",
+      "agentic_recommender__in_processing",
+      "43",
+      "mean_1_30",
+      "0.926778",
+      "0.0732222",
+      "278.033"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "agentic_recommender",
+      "agentic_recommender__in_processing",
+      "44",
+      "iteration_30",
+      "0.916667",
+      "0.0833333",
+      "275"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "agentic_recommender",
+      "agentic_recommender__in_processing",
+      "44",
+      "mean_1_30",
+      "0.928444",
+      "0.0715556",
+      "278.533"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "agentic_recommender",
+      "agentic_recommender__post_processing",
+      "42",
+      "iteration_30",
+      "0.873333",
+      "0.126667",
+      "262"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "agentic_recommender",
+      "agentic_recommender__post_processing",
+      "42",
+      "mean_1_30",
+      "0.914222",
+      "0.0857778",
+      "274.267"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "agentic_recommender",
+      "agentic_recommender__post_processing",
+      "43",
+      "iteration_30",
+      "0.893333",
+      "0.106667",
+      "268"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "agentic_recommender",
+      "agentic_recommender__post_processing",
+      "43",
+      "mean_1_30",
+      "0.921",
+      "0.079",
+      "276.3"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "agentic_recommender",
+      "agentic_recommender__post_processing",
+      "44",
+      "iteration_30",
+      "0.92",
+      "0.08",
+      "276"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "agentic_recommender",
+      "agentic_recommender__post_processing",
+      "44",
+      "mean_1_30",
+      "0.929444",
+      "0.0705556",
+      "278.833"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "direct_llm",
+      "direct_llm__control",
+      "42",
+      "iteration_30",
+      "0.656667",
+      "0.343333",
+      "197"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "direct_llm",
+      "direct_llm__control",
+      "42",
+      "mean_1_30",
+      "0.536667",
+      "0.463333",
+      "161"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "direct_llm",
+      "direct_llm__control",
+      "43",
+      "iteration_30",
+      "0.723333",
+      "0.276667",
+      "217"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "direct_llm",
+      "direct_llm__control",
+      "43",
+      "mean_1_30",
+      "0.571889",
+      "0.428111",
+      "171.567"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "direct_llm",
+      "direct_llm__control",
+      "44",
+      "iteration_30",
+      "0.57",
+      "0.43",
+      "171"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "direct_llm",
+      "direct_llm__control",
+      "44",
+      "mean_1_30",
+      "0.515222",
+      "0.484778",
+      "154.567"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "direct_llm",
+      "direct_llm__in_processing",
+      "42",
+      "iteration_30",
+      "0.683333",
+      "0.316667",
+      "205"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "direct_llm",
+      "direct_llm__in_processing",
+      "42",
+      "mean_1_30",
+      "0.551444",
+      "0.448556",
+      "165.433"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "direct_llm",
+      "direct_llm__in_processing",
+      "43",
+      "iteration_30",
+      "0.696667",
+      "0.303333",
+      "209"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "direct_llm",
+      "direct_llm__in_processing",
+      "43",
+      "mean_1_30",
+      "0.524667",
+      "0.475333",
+      "157.4"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "direct_llm",
+      "direct_llm__in_processing",
+      "44",
+      "iteration_30",
+      "0.633333",
+      "0.366667",
+      "190"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "direct_llm",
+      "direct_llm__in_processing",
+      "44",
+      "mean_1_30",
+      "0.510556",
+      "0.489444",
+      "153.167"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "direct_llm",
+      "direct_llm__post_processing",
+      "42",
+      "iteration_30",
+      "0.59",
+      "0.41",
+      "177"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "direct_llm",
+      "direct_llm__post_processing",
+      "42",
+      "mean_1_30",
+      "0.494111",
+      "0.505889",
+      "148.233"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "direct_llm",
+      "direct_llm__post_processing",
+      "43",
+      "iteration_30",
+      "0.64",
+      "0.36",
+      "192"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "direct_llm",
+      "direct_llm__post_processing",
+      "43",
+      "mean_1_30",
+      "0.548778",
+      "0.451222",
+      "164.633"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "direct_llm",
+      "direct_llm__post_processing",
+      "44",
+      "iteration_30",
+      "0.63",
+      "0.37",
+      "189"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "direct_llm",
+      "direct_llm__post_processing",
+      "44",
+      "mean_1_30",
+      "0.526889",
+      "0.473111",
+      "158.067"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "ncm_inspired_gru_mansoury__control",
+      "42",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "ncm_inspired_gru_mansoury__control",
+      "42",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "ncm_inspired_gru_mansoury__control",
+      "43",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "ncm_inspired_gru_mansoury__control",
+      "43",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "ncm_inspired_gru_mansoury__control",
+      "44",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "ncm_inspired_gru_mansoury__control",
+      "44",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "ncm_inspired_gru_mansoury__in_processing",
+      "42",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "ncm_inspired_gru_mansoury__in_processing",
+      "42",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "ncm_inspired_gru_mansoury__in_processing",
+      "43",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "ncm_inspired_gru_mansoury__in_processing",
+      "43",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "ncm_inspired_gru_mansoury__in_processing",
+      "44",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "ncm_inspired_gru_mansoury__in_processing",
+      "44",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "ncm_inspired_gru_mansoury__post_processing",
+      "42",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "ncm_inspired_gru_mansoury__post_processing",
+      "42",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "ncm_inspired_gru_mansoury__post_processing",
+      "43",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "ncm_inspired_gru_mansoury__post_processing",
+      "43",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "ncm_inspired_gru_mansoury__post_processing",
+      "44",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "ncm_inspired_gru_mansoury__post_processing",
+      "44",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "ncm_inspired_gru_uniform__control",
+      "42",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "ncm_inspired_gru_uniform__control",
+      "42",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "ncm_inspired_gru_uniform__control",
+      "43",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "ncm_inspired_gru_uniform__control",
+      "43",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "ncm_inspired_gru_uniform__control",
+      "44",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "ncm_inspired_gru_uniform__control",
+      "44",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "ncm_inspired_gru_uniform__in_processing",
+      "42",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "ncm_inspired_gru_uniform__in_processing",
+      "42",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "ncm_inspired_gru_uniform__in_processing",
+      "43",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "ncm_inspired_gru_uniform__in_processing",
+      "43",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "ncm_inspired_gru_uniform__in_processing",
+      "44",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "ncm_inspired_gru_uniform__in_processing",
+      "44",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "ncm_inspired_gru_uniform__post_processing",
+      "42",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "ncm_inspired_gru_uniform__post_processing",
+      "42",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "ncm_inspired_gru_uniform__post_processing",
+      "43",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "ncm_inspired_gru_uniform__post_processing",
+      "43",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "ncm_inspired_gru_uniform__post_processing",
+      "44",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "ncm_inspired_gru_uniform__post_processing",
+      "44",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "position_biased",
+      "position_biased__control",
+      "42",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "position_biased",
+      "position_biased__control",
+      "42",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "position_biased",
+      "position_biased__control",
+      "43",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "position_biased",
+      "position_biased__control",
+      "43",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "position_biased",
+      "position_biased__control",
+      "44",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "position_biased",
+      "position_biased__control",
+      "44",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "position_biased",
+      "position_biased__in_processing",
+      "42",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "position_biased",
+      "position_biased__in_processing",
+      "42",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "position_biased",
+      "position_biased__in_processing",
+      "43",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "position_biased",
+      "position_biased__in_processing",
+      "43",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "position_biased",
+      "position_biased__in_processing",
+      "44",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "position_biased",
+      "position_biased__in_processing",
+      "44",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "position_biased",
+      "position_biased__post_processing",
+      "42",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "position_biased",
+      "position_biased__post_processing",
+      "42",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "position_biased",
+      "position_biased__post_processing",
+      "43",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "position_biased",
+      "position_biased__post_processing",
+      "43",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "position_biased",
+      "position_biased__post_processing",
+      "44",
+      "iteration_30",
+      "1",
+      "0",
+      "300"
+    ],
+    [
+      "movielens",
+      "movielens_mitigation_a300_e804",
+      "position_biased",
+      "position_biased__post_processing",
+      "44",
+      "mean_1_30",
+      "1",
+      "0",
+      "300"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "llllrlrrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq4",
+    "source_blocks": [
+      {
+        "condition_id": "agentic_recommender__control",
+        "seed": 42
+      },
+      {
+        "condition_id": "agentic_recommender__control",
+        "seed": 43
+      },
+      {
+        "condition_id": "agentic_recommender__control",
+        "seed": 44
+      },
+      {
+        "condition_id": "agentic_recommender__in_processing",
+        "seed": 42
+      },
+      {
+        "condition_id": "agentic_recommender__in_processing",
+        "seed": 43
+      },
+      {
+        "condition_id": "agentic_recommender__in_processing",
+        "seed": 44
+      },
+      {
+        "condition_id": "agentic_recommender__post_processing",
+        "seed": 42
+      },
+      {
+        "condition_id": "agentic_recommender__post_processing",
+        "seed": 43
+      },
+      {
+        "condition_id": "agentic_recommender__post_processing",
+        "seed": 44
+      },
+      {
+        "condition_id": "direct_llm__control",
+        "seed": 42
+      },
+      {
+        "condition_id": "direct_llm__control",
+        "seed": 43
+      },
+      {
+        "condition_id": "direct_llm__control",
+        "seed": 44
+      },
+      {
+        "condition_id": "direct_llm__in_processing",
+        "seed": 42
+      },
+      {
+        "condition_id": "direct_llm__in_processing",
+        "seed": 43
+      },
+      {
+        "condition_id": "direct_llm__in_processing",
+        "seed": 44
+      },
+      {
+        "condition_id": "direct_llm__post_processing",
+        "seed": 42
+      },
+      {
+        "condition_id": "direct_llm__post_processing",
+        "seed": 43
+      },
+      {
+        "condition_id": "direct_llm__post_processing",
+        "seed": 44
+      },
+      {
+        "condition_id": "ncm_inspired_gru_mansoury__control",
+        "seed": 42
+      },
+      {
+        "condition_id": "ncm_inspired_gru_mansoury__control",
+        "seed": 43
+      },
+      {
+        "condition_id": "ncm_inspired_gru_mansoury__control",
+        "seed": 44
+      },
+      {
+        "condition_id": "ncm_inspired_gru_mansoury__in_processing",
+        "seed": 42
+      },
+      {
+        "condition_id": "ncm_inspired_gru_mansoury__in_processing",
+        "seed": 43
+      },
+      {
+        "condition_id": "ncm_inspired_gru_mansoury__in_processing",
+        "seed": 44
+      },
+      {
+        "condition_id": "ncm_inspired_gru_mansoury__post_processing",
+        "seed": 42
+      },
+      {
+        "condition_id": "ncm_inspired_gru_mansoury__post_processing",
+        "seed": 43
+      },
+      {
+        "condition_id": "ncm_inspired_gru_mansoury__post_processing",
+        "seed": 44
+      },
+      {
+        "condition_id": "ncm_inspired_gru_uniform__control",
+        "seed": 42
+      },
+      {
+        "condition_id": "ncm_inspired_gru_uniform__control",
+        "seed": 43
+      },
+      {
+        "condition_id": "ncm_inspired_gru_uniform__control",
+        "seed": 44
+      },
+      {
+        "condition_id": "ncm_inspired_gru_uniform__in_processing",
+        "seed": 42
+      },
+      {
+        "condition_id": "ncm_inspired_gru_uniform__in_processing",
+        "seed": 43
+      },
+      {
+        "condition_id": "ncm_inspired_gru_uniform__in_processing",
+        "seed": 44
+      },
+      {
+        "condition_id": "ncm_inspired_gru_uniform__post_processing",
+        "seed": 42
+      },
+      {
+        "condition_id": "ncm_inspired_gru_uniform__post_processing",
+        "seed": 43
+      },
+      {
+        "condition_id": "ncm_inspired_gru_uniform__post_processing",
+        "seed": 44
+      },
+      {
+        "condition_id": "position_biased__control",
+        "seed": 42
+      },
+      {
+        "condition_id": "position_biased__control",
+        "seed": 43
+      },
+      {
+        "condition_id": "position_biased__control",
+        "seed": 44
+      },
+      {
+        "condition_id": "position_biased__in_processing",
+        "seed": 42
+      },
+      {
+        "condition_id": "position_biased__in_processing",
+        "seed": 43
+      },
+      {
+        "condition_id": "position_biased__in_processing",
+        "seed": 44
+      },
+      {
+        "condition_id": "position_biased__post_processing",
+        "seed": 42
+      },
+      {
+        "condition_id": "position_biased__post_processing",
+        "seed": 43
+      },
+      {
+        "condition_id": "position_biased__post_processing",
+        "seed": 44
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq4_click_behaviour.tex": "2299f098f6aa7b5d534f94a6fed62f1b59daabe9fa4e6bfeda8517354daf7974",
+    "rq4_click_behaviour.csv": "a813dea0be25fcf678b767e7221d6782df2cccb0129069d2184f916bd5d6b814"
+  }
+}

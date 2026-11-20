@@ -1,0 +1,33 @@
+dataset,comparison,model,metric,window,n_seed_blocks,mean_effect,min_effect,max_effect,positive,negative,zero,missing_seeds,effect_unit
+movielens,L1 minus L0,agentic_recommender,head_exposure,mean_1_30,3,1.0159259259259266,-0.6944444444444431,3.0855555555555565,2,1,0,,percentage points
+movielens,L1 minus L0,agentic_recommender,head_exposure,iteration_30,3,0.4888888888888907,-2.0999999999999908,4.766666666666664,1,2,0,,percentage points
+movielens,L2 minus L1,agentic_recommender,head_exposure,mean_1_30,3,-1.885555555555556,-3.5944444444444446,0.10999999999999907,1,2,0,,percentage points
+movielens,L2 minus L1,agentic_recommender,head_exposure,iteration_30,3,-13.08888888888889,-17.033333333333335,-9.066666666666666,0,3,0,,percentage points
+movielens,L3 full reflection minus L2 frozen agent,agentic_recommender,head_exposure,mean_1_30,3,-0.6122222222222222,-3.217777777777777,3.1188888888888893,1,2,0,,percentage points
+movielens,L3 full reflection minus L2 frozen agent,agentic_recommender,head_exposure,iteration_30,3,0.0888888888888902,-1.4666666666666717,1.8000000000000016,1,2,0,,percentage points
+movielens,L1 minus L0,direct_llm,head_exposure,mean_1_30,3,2.177407407407408,1.5677777777777788,2.9033333333333333,3,0,0,,percentage points
+movielens,L1 minus L0,direct_llm,head_exposure,iteration_30,3,2.7888888888888927,1.533333333333342,4.666666666666663,3,0,0,,percentage points
+movielens,L2 minus L1,direct_llm,head_exposure,mean_1_30,3,8.792592592592593,3.3444444444444454,12.85888888888889,3,0,0,,percentage points
+movielens,L2 minus L1,direct_llm,head_exposure,iteration_30,3,4.75555555555555,-4.0000000000000036,11.63333333333333,2,1,0,,percentage points
+movielens,L1 minus L0,ncm_inspired_gru_mansoury,head_exposure,mean_1_30,3,-0.9318518518518522,-2.401111111111111,0.8622222222222219,1,2,0,,percentage points
+movielens,L1 minus L0,ncm_inspired_gru_mansoury,head_exposure,iteration_30,3,0.7333333333333377,-2.3333333333333317,5.000000000000004,1,2,0,,percentage points
+movielens,L2 minus L1,ncm_inspired_gru_mansoury,head_exposure,mean_1_30,3,16.20777777777778,13.988888888888889,19.029999999999998,3,0,0,,percentage points
+movielens,L2 minus L1,ncm_inspired_gru_mansoury,head_exposure,iteration_30,3,17.344444444444438,12.6,21.199999999999996,3,0,0,,percentage points
+movielens,L1 minus L0,ncm_inspired_gru_uniform,head_exposure,mean_1_30,3,6.385555555555555,4.851111111111111,7.725555555555556,3,0,0,,percentage points
+movielens,L1 minus L0,ncm_inspired_gru_uniform,head_exposure,iteration_30,3,10.211111111111109,8.766666666666667,12.83333333333333,3,0,0,,percentage points
+movielens,L2 minus L1,ncm_inspired_gru_uniform,head_exposure,mean_1_30,3,19.888148148148147,18.715555555555557,21.513333333333325,3,0,0,,percentage points
+movielens,L2 minus L1,ncm_inspired_gru_uniform,head_exposure,iteration_30,3,26.80000000000001,25.06666666666668,27.73333333333334,3,0,0,,percentage points
+movielens,L1 minus L0,position_biased,head_exposure,mean_1_30,3,-1.5781481481481479,-2.5688888888888877,0.2955555555555553,1,2,0,,percentage points
+movielens,L1 minus L0,position_biased,head_exposure,iteration_30,3,-2.0333333333333314,-6.333333333333336,1.866666666666672,1,2,0,,percentage points
+movielens,L2 minus L1,position_biased,head_exposure,mean_1_30,3,13.776296296296294,11.419999999999996,15.96111111111111,3,0,0,,percentage points
+movielens,L2 minus L1,position_biased,head_exposure,iteration_30,3,14.866666666666665,9.499999999999996,19.799999999999997,3,0,0,,percentage points
+movielens,L4 -- cluster refill minus matched L3,agentic_recommender,head_exposure,mean_1_30,3,0.4488888888888889,-0.2955555555555561,1.0644444444444445,2,1,0,,percentage points
+movielens,L4 -- cluster refill minus matched L3,agentic_recommender,head_exposure,iteration_30,3,1.777777777777782,0.4666666666666708,3.066666666666673,3,0,0,,percentage points
+movielens,L4 -- no refill minus matched L3,agentic_recommender,head_exposure,mean_1_30,3,1.1967437967914936,0.12462270567235187,2.0838171974673534,3,0,0,,percentage points
+movielens,L4 -- no refill minus matched L3,agentic_recommender,head_exposure,iteration_30,3,2.4097751921281385,0.7282051282051283,4.072549019607852,3,0,0,,percentage points
+movielens,L4 -- uniform refill minus matched L3,agentic_recommender,head_exposure,mean_1_30,3,-1.4407407407407409,-1.74888888888889,-1.0244444444444438,0,3,0,,percentage points
+movielens,L4 -- uniform refill minus matched L3,agentic_recommender,head_exposure,iteration_30,3,-4.622222222222221,-6.799999999999995,-1.533333333333331,0,3,0,,percentage points
+movielens,Static advertising minus matched organic,agentic_recommender,head_exposure,mean_1_30,3,-9.488480208223455,-12.386666666666667,-6.658097374825302,0,3,0,,percentage points
+movielens,Static advertising minus matched organic,agentic_recommender,head_exposure,iteration_30,3,-9.784556317649843,-16.599999999999998,-5.255555555555558,0,3,0,,percentage points
+movielens,L5 adaptive advertising minus static advertising,agentic_recommender,head_exposure,mean_1_30,3,4.8522386994532125,3.620483959625678,6.49111111111111,3,0,0,,percentage points
+movielens,L5 adaptive advertising minus static advertising,agentic_recommender,head_exposure,iteration_30,3,8.526592059685584,1.8555555555555547,13.266666666666666,3,0,0,,percentage points

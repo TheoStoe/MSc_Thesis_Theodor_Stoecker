@@ -1,0 +1,135 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq1_sampling_turnover_totals",
+  "label": "chap:results:tab:rq1_sampling_turnover_totals",
+  "caption": "Total departures and replacements over all 30 iterations; these are event counts, not counts of independent replicate users.",
+  "rows": 12,
+  "source_columns": [
+    "Model",
+    "Seed",
+    "departures",
+    "replacements",
+    "Condition"
+  ],
+  "source_dtypes": {
+    "Model": "str",
+    "Seed": "int64",
+    "departures": "int64",
+    "replacements": "int64",
+    "Condition": "str"
+  },
+  "display_columns": [
+    "Model",
+    "Seed",
+    "departures",
+    "replacements",
+    "Condition"
+  ],
+  "display_rows": [
+    [
+      "Agent",
+      "42",
+      "0",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "53",
+      "53",
+      "L4: cluster refill"
+    ],
+    [
+      "Agent",
+      "42",
+      "80",
+      "0",
+      "L4: departures, no refill"
+    ],
+    [
+      "Agent",
+      "42",
+      "62",
+      "62",
+      "L4: uniform refill"
+    ],
+    [
+      "Agent",
+      "43",
+      "0",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "61",
+      "61",
+      "L4: cluster refill"
+    ],
+    [
+      "Agent",
+      "43",
+      "82",
+      "0",
+      "L4: departures, no refill"
+    ],
+    [
+      "Agent",
+      "43",
+      "68",
+      "68",
+      "L4: uniform refill"
+    ],
+    [
+      "Agent",
+      "44",
+      "0",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "66",
+      "66",
+      "L4: cluster refill"
+    ],
+    [
+      "Agent",
+      "44",
+      "85",
+      "0",
+      "L4: departures, no refill"
+    ],
+    [
+      "Agent",
+      "44",
+      "66",
+      "66",
+      "L4: uniform refill"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrrrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq1",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq1_sampling_turnover_totals.tex": "7981dbdd039247a871a1494f60b74d71045d1f36f4045fe149444d40d48628db",
+    "rq1_sampling_turnover_totals.csv": "66582ea1e18163ad47fe165df2176f28432cfd022e051c0546a429228ca3eca4"
+  }
+}

@@ -1,0 +1,44 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{llrrlrrrr}
+\hline
+model & stage & seed & population\_seed & window & Valid clicks in both post-processing arms & Post-processing canonical valid clicks & Control canonical valid clicks & Original-order probe valid clicks \\
+\hline
+agentic\_recommender & L3\_individual & 42 & 1054 & iteration\_30 & 253 & 262 & 265 & 273 \\
+agentic\_recommender & L3\_individual & 42 & 1054 & mean\_1\_30 & 261.933 & 274.267 & 277.567 & 275.033 \\
+agentic\_recommender & L3\_individual & 43 & 19277 & iteration\_30 & 255 & 268 & 271 & 269 \\
+agentic\_recommender & L3\_individual & 43 & 19277 & mean\_1\_30 & 262.667 & 276.3 & 276.667 & 275.333 \\
+agentic\_recommender & L3\_individual & 44 & 18844 & iteration\_30 & 261 & 276 & 280 & 272 \\
+agentic\_recommender & L3\_individual & 44 & 18844 & mean\_1\_30 & 268.1 & 278.833 & 280.6 & 280.2 \\
+direct\_llm & L2\_ml\_model & 42 & 1054 & iteration\_30 & 129 & 177 & 197 & 176 \\
+direct\_llm & L2\_ml\_model & 42 & 1054 & mean\_1\_30 & 102 & 148.233 & 161 & 150.767 \\
+direct\_llm & L2\_ml\_model & 43 & 19277 & iteration\_30 & 136 & 192 & 217 & 179 \\
+direct\_llm & L2\_ml\_model & 43 & 19277 & mean\_1\_30 & 114.233 & 164.633 & 171.567 & 162.3 \\
+direct\_llm & L2\_ml\_model & 44 & 18844 & iteration\_30 & 157 & 189 & 171 & 205 \\
+direct\_llm & L2\_ml\_model & 44 & 18844 & mean\_1\_30 & 110.267 & 158.067 & 154.567 & 158.2 \\
+ncm\_inspired\_gru\_mansoury & L2\_ml\_model & 42 & 1054 & iteration\_30 & 300 & 300 & 300 & 300 \\
+ncm\_inspired\_gru\_mansoury & L2\_ml\_model & 42 & 1054 & mean\_1\_30 & 300 & 300 & 300 & 300 \\
+ncm\_inspired\_gru\_mansoury & L2\_ml\_model & 43 & 19277 & iteration\_30 & 300 & 300 & 300 & 300 \\
+ncm\_inspired\_gru\_mansoury & L2\_ml\_model & 43 & 19277 & mean\_1\_30 & 300 & 300 & 300 & 300 \\
+ncm\_inspired\_gru\_mansoury & L2\_ml\_model & 44 & 18844 & iteration\_30 & 300 & 300 & 300 & 300 \\
+ncm\_inspired\_gru\_mansoury & L2\_ml\_model & 44 & 18844 & mean\_1\_30 & 300 & 300 & 300 & 300 \\
+ncm\_inspired\_gru\_uniform & L2\_ml\_model & 42 & 1054 & iteration\_30 & 300 & 300 & 300 & 300 \\
+ncm\_inspired\_gru\_uniform & L2\_ml\_model & 42 & 1054 & mean\_1\_30 & 300 & 300 & 300 & 300 \\
+ncm\_inspired\_gru\_uniform & L2\_ml\_model & 43 & 19277 & iteration\_30 & 300 & 300 & 300 & 300 \\
+ncm\_inspired\_gru\_uniform & L2\_ml\_model & 43 & 19277 & mean\_1\_30 & 300 & 300 & 300 & 300 \\
+ncm\_inspired\_gru\_uniform & L2\_ml\_model & 44 & 18844 & iteration\_30 & 300 & 300 & 300 & 300 \\
+ncm\_inspired\_gru\_uniform & L2\_ml\_model & 44 & 18844 & mean\_1\_30 & 300 & 300 & 300 & 300 \\
+position\_biased & L2\_ml\_model & 42 & 1054 & iteration\_30 & 300 & 300 & 300 & 300 \\
+position\_biased & L2\_ml\_model & 42 & 1054 & mean\_1\_30 & 300 & 300 & 300 & 300 \\
+position\_biased & L2\_ml\_model & 43 & 19277 & iteration\_30 & 300 & 300 & 300 & 300 \\
+position\_biased & L2\_ml\_model & 43 & 19277 & mean\_1\_30 & 300 & 300 & 300 & 300 \\
+position\_biased & L2\_ml\_model & 44 & 18844 & iteration\_30 & 300 & 300 & 300 & 300 \\
+position\_biased & L2\_ml\_model & 44 & 18844 & mean\_1\_30 & 300 & 300 & 300 & 300 \\
+\hline
+\end{tabular}
+\caption{Valid-click counts for post-processing canonical, original-order probe, and control canonical responses. Mean counts average iterations 1--30; endpoint counts use iteration 30. Each Head-click share uses a denominator specific to its arm. The both-arms count is diagnostic only and does not define a restricted common-click estimator.}
+\label{chap:results:tab:rq4_post_processing_click_denominators}
+\end{table}

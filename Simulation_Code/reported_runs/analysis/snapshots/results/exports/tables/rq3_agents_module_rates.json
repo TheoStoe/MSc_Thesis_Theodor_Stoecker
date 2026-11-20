@@ -1,0 +1,921 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq3_agents_module_rates",
+  "label": "chap:results:tab:rq3_agents_module_rates",
+  "caption": "Module counts and proportions of canonical decisions invoking each module. Equal-weight mean over iterations 1--30 and iteration-30 endpoint. Shares are fractions; share gaps are percentage points. Undefined denominators remain missing.",
+  "rows": 96,
+  "source_columns": [
+    "Model",
+    "Seed",
+    "module",
+    "Time summary",
+    "Proportion of decisions invoking the module",
+    "Module-invocation counts",
+    "Condition"
+  ],
+  "source_dtypes": {
+    "Model": "str",
+    "Seed": "int64",
+    "module": "str",
+    "Time summary": "str",
+    "Proportion of decisions invoking the module": "float64",
+    "Module-invocation counts": "float64",
+    "Condition": "str"
+  },
+  "display_columns": [
+    "Model",
+    "Seed",
+    "module",
+    "Time summary",
+    "Proportion of decisions invoking the module",
+    "Module-invocation counts",
+    "Condition"
+  ],
+  "display_rows": [
+    [
+      "Agent",
+      "42",
+      "action",
+      "iteration_30",
+      "1",
+      "300",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "action",
+      "mean_1_30",
+      "1",
+      "300",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "memory",
+      "iteration_30",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "memory",
+      "mean_1_30",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "planning",
+      "iteration_30",
+      "1",
+      "300",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "planning",
+      "mean_1_30",
+      "1",
+      "300",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "reflection",
+      "iteration_30",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "reflection",
+      "mean_1_30",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "action",
+      "iteration_30",
+      "1",
+      "300",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "action",
+      "mean_1_30",
+      "1",
+      "300",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "memory",
+      "iteration_30",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "memory",
+      "mean_1_30",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "planning",
+      "iteration_30",
+      "1",
+      "300",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "planning",
+      "mean_1_30",
+      "1",
+      "300",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "reflection",
+      "iteration_30",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "reflection",
+      "mean_1_30",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "action",
+      "iteration_30",
+      "1",
+      "300",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "action",
+      "mean_1_30",
+      "1",
+      "300",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "memory",
+      "iteration_30",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "memory",
+      "mean_1_30",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "planning",
+      "iteration_30",
+      "1",
+      "300",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "planning",
+      "mean_1_30",
+      "1",
+      "300",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "reflection",
+      "iteration_30",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "reflection",
+      "mean_1_30",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "action",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "action",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "memory",
+      "iteration_30",
+      "0",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "memory",
+      "mean_1_30",
+      "0",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "planning",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "planning",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "reflection",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "reflection",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "action",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "action",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "memory",
+      "iteration_30",
+      "0",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "memory",
+      "mean_1_30",
+      "0",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "planning",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "planning",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "reflection",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "reflection",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "action",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "action",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "memory",
+      "iteration_30",
+      "0",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "memory",
+      "mean_1_30",
+      "0",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "planning",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "planning",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "reflection",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "reflection",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "action",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "42",
+      "action",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "42",
+      "memory",
+      "iteration_30",
+      "0",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "42",
+      "memory",
+      "mean_1_30",
+      "0",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "42",
+      "planning",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "42",
+      "planning",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "42",
+      "reflection",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "42",
+      "reflection",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "43",
+      "action",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "43",
+      "action",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "43",
+      "memory",
+      "iteration_30",
+      "0",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "43",
+      "memory",
+      "mean_1_30",
+      "0",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "43",
+      "planning",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "43",
+      "planning",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "43",
+      "reflection",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "43",
+      "reflection",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "44",
+      "action",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "44",
+      "action",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "44",
+      "memory",
+      "iteration_30",
+      "0",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "44",
+      "memory",
+      "mean_1_30",
+      "0",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "44",
+      "planning",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "44",
+      "planning",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "44",
+      "reflection",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "44",
+      "reflection",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "42",
+      "action",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "action",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "memory",
+      "iteration_30",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "memory",
+      "mean_1_30",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "planning",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "planning",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "reflection",
+      "iteration_30",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "reflection",
+      "mean_1_30",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "action",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "action",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "memory",
+      "iteration_30",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "memory",
+      "mean_1_30",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "planning",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "planning",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "reflection",
+      "iteration_30",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "reflection",
+      "mean_1_30",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "action",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "action",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "memory",
+      "iteration_30",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "memory",
+      "mean_1_30",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "planning",
+      "iteration_30",
+      "1",
+      "300",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "planning",
+      "mean_1_30",
+      "1",
+      "300",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "reflection",
+      "iteration_30",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "reflection",
+      "mean_1_30",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrllrrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq3",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq3_agents_module_rates.tex": "ad21b9504266c1a6882c8fc8d6fe6c52f782fa67d796100b6686e7516577d5cd",
+    "rq3_agents_module_rates.csv": "a865e16fbd28f6c7947cf74fdd8db631f20ea0ea5915211b8c0e76ded580b4cb"
+  }
+}

@@ -1,0 +1,466 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq4_post_processing_head_exposure_component_seed_consistency",
+  "label": "chap:results:tab:rq4_post_processing_head_exposure_component_seed_consistency",
+  "caption": "Head exposure: descriptive mean, minimum, and maximum of each component across available paired seed/population blocks, in percentage points. Total, immediate reranking, and feedback/state components are kept separate; their number of defined seed blocks remains explicit. These are not confidence intervals or significance tests.",
+  "rows": 30,
+  "source_columns": [
+    "model",
+    "stage",
+    "window",
+    "component_label",
+    "n_seed_blocks",
+    "mean_effect",
+    "min_effect",
+    "max_effect"
+  ],
+  "source_dtypes": {
+    "model": "str",
+    "stage": "str",
+    "window": "str",
+    "component_label": "str",
+    "n_seed_blocks": "int64",
+    "mean_effect": "float64",
+    "min_effect": "float64",
+    "max_effect": "float64"
+  },
+  "display_columns": [
+    "model",
+    "stage",
+    "window",
+    "component_label",
+    "n_seed_blocks",
+    "mean_effect",
+    "min_effect",
+    "max_effect"
+  ],
+  "display_rows": [
+    [
+      "agentic_recommender",
+      "L3_individual",
+      "mean_1_30",
+      "Total",
+      "3",
+      "-6.19741",
+      "-8.60222",
+      "-4.06778"
+    ],
+    [
+      "agentic_recommender",
+      "L3_individual",
+      "iteration_30",
+      "Total",
+      "3",
+      "-4.4",
+      "-7.3",
+      "-1.03333"
+    ],
+    [
+      "agentic_recommender",
+      "L3_individual",
+      "mean_1_30",
+      "Immediate reranking",
+      "3",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "agentic_recommender",
+      "L3_individual",
+      "iteration_30",
+      "Immediate reranking",
+      "3",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "agentic_recommender",
+      "L3_individual",
+      "mean_1_30",
+      "Feedback component",
+      "3",
+      "-6.19741",
+      "-8.60222",
+      "-4.06778"
+    ],
+    [
+      "agentic_recommender",
+      "L3_individual",
+      "iteration_30",
+      "Feedback component",
+      "3",
+      "-4.4",
+      "-7.3",
+      "-1.03333"
+    ],
+    [
+      "direct_llm",
+      "L2_ml_model",
+      "mean_1_30",
+      "Total",
+      "3",
+      "-4.64667",
+      "-5.65889",
+      "-2.63"
+    ],
+    [
+      "direct_llm",
+      "L2_ml_model",
+      "iteration_30",
+      "Total",
+      "3",
+      "-9.33333",
+      "-12.0667",
+      "-6.46667"
+    ],
+    [
+      "direct_llm",
+      "L2_ml_model",
+      "mean_1_30",
+      "Immediate reranking",
+      "3",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "direct_llm",
+      "L2_ml_model",
+      "iteration_30",
+      "Immediate reranking",
+      "3",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "direct_llm",
+      "L2_ml_model",
+      "mean_1_30",
+      "Feedback component",
+      "3",
+      "-4.64667",
+      "-5.65889",
+      "-2.63"
+    ],
+    [
+      "direct_llm",
+      "L2_ml_model",
+      "iteration_30",
+      "Feedback component",
+      "3",
+      "-9.33333",
+      "-12.0667",
+      "-6.46667"
+    ],
+    [
+      "ncm_inspired_gru_mansoury",
+      "L2_ml_model",
+      "mean_1_30",
+      "Total",
+      "3",
+      "-41.7467",
+      "-43.0233",
+      "-39.3444"
+    ],
+    [
+      "ncm_inspired_gru_mansoury",
+      "L2_ml_model",
+      "iteration_30",
+      "Total",
+      "3",
+      "-65.0111",
+      "-68.7333",
+      "-61.7667"
+    ],
+    [
+      "ncm_inspired_gru_mansoury",
+      "L2_ml_model",
+      "mean_1_30",
+      "Immediate reranking",
+      "3",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "ncm_inspired_gru_mansoury",
+      "L2_ml_model",
+      "iteration_30",
+      "Immediate reranking",
+      "3",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "ncm_inspired_gru_mansoury",
+      "L2_ml_model",
+      "mean_1_30",
+      "Feedback component",
+      "3",
+      "-41.7467",
+      "-43.0233",
+      "-39.3444"
+    ],
+    [
+      "ncm_inspired_gru_mansoury",
+      "L2_ml_model",
+      "iteration_30",
+      "Feedback component",
+      "3",
+      "-65.0111",
+      "-68.7333",
+      "-61.7667"
+    ],
+    [
+      "ncm_inspired_gru_uniform",
+      "L2_ml_model",
+      "mean_1_30",
+      "Total",
+      "3",
+      "-16.3337",
+      "-20.4811",
+      "-12.2756"
+    ],
+    [
+      "ncm_inspired_gru_uniform",
+      "L2_ml_model",
+      "iteration_30",
+      "Total",
+      "3",
+      "-28.8778",
+      "-33.8",
+      "-26.3"
+    ],
+    [
+      "ncm_inspired_gru_uniform",
+      "L2_ml_model",
+      "mean_1_30",
+      "Immediate reranking",
+      "3",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "ncm_inspired_gru_uniform",
+      "L2_ml_model",
+      "iteration_30",
+      "Immediate reranking",
+      "3",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "ncm_inspired_gru_uniform",
+      "L2_ml_model",
+      "mean_1_30",
+      "Feedback component",
+      "3",
+      "-16.3337",
+      "-20.4811",
+      "-12.2756"
+    ],
+    [
+      "ncm_inspired_gru_uniform",
+      "L2_ml_model",
+      "iteration_30",
+      "Feedback component",
+      "3",
+      "-28.8778",
+      "-33.8",
+      "-26.3"
+    ],
+    [
+      "position_biased",
+      "L2_ml_model",
+      "mean_1_30",
+      "Total",
+      "3",
+      "-48.7974",
+      "-51.4244",
+      "-43.9044"
+    ],
+    [
+      "position_biased",
+      "L2_ml_model",
+      "iteration_30",
+      "Total",
+      "3",
+      "-74.1333",
+      "-78.1333",
+      "-71.6"
+    ],
+    [
+      "position_biased",
+      "L2_ml_model",
+      "mean_1_30",
+      "Immediate reranking",
+      "3",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "position_biased",
+      "L2_ml_model",
+      "iteration_30",
+      "Immediate reranking",
+      "3",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "position_biased",
+      "L2_ml_model",
+      "mean_1_30",
+      "Feedback component",
+      "3",
+      "-48.7974",
+      "-51.4244",
+      "-43.9044"
+    ],
+    [
+      "position_biased",
+      "L2_ml_model",
+      "iteration_30",
+      "Feedback component",
+      "3",
+      "-74.1333",
+      "-78.1333",
+      "-71.6"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "llllrrrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq4",
+    "source_blocks": [
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__agentic_recommender__post_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__agentic_recommender__post_processing__seed_42",
+        "condition_id": "agentic_recommender__post_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__direct_llm__post_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__direct_llm__post_processing__seed_42",
+        "condition_id": "direct_llm__post_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_42",
+        "condition_id": "ncm_inspired_gru_mansoury__post_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_42",
+        "condition_id": "ncm_inspired_gru_uniform__post_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__position_biased__post_processing__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__position_biased__post_processing__seed_42",
+        "condition_id": "position_biased__post_processing",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__agentic_recommender__post_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__agentic_recommender__post_processing__seed_43",
+        "condition_id": "agentic_recommender__post_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__direct_llm__post_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__direct_llm__post_processing__seed_43",
+        "condition_id": "direct_llm__post_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_43",
+        "condition_id": "ncm_inspired_gru_mansoury__post_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_43",
+        "condition_id": "ncm_inspired_gru_uniform__post_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__position_biased__post_processing__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__position_biased__post_processing__seed_43",
+        "condition_id": "position_biased__post_processing",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__agentic_recommender__post_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__agentic_recommender__post_processing__seed_44",
+        "condition_id": "agentic_recommender__post_processing",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__direct_llm__post_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__direct_llm__post_processing__seed_44",
+        "condition_id": "direct_llm__post_processing",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_44",
+        "condition_id": "ncm_inspired_gru_mansoury__post_processing",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_44",
+        "condition_id": "ncm_inspired_gru_uniform__post_processing",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__position_biased__post_processing__seed_44",
+        "run_id": "mitigation_v1_primary_p18844_a300_r0__position_biased__post_processing__seed_44",
+        "condition_id": "position_biased__post_processing",
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq4_post_processing_head_exposure_component_seed_consistency.tex": "b2a57e5615d061a1f3e85bed757e4353602e937326c6873bb07b42b4b2e1e485",
+    "rq4_post_processing_head_exposure_component_seed_consistency.csv": "77549d5a5ec066fe00850961da68293c5d13093c7e0fa6e89f670c55958d41fc"
+  }
+}

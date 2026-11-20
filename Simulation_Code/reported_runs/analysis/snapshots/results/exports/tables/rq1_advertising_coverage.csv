@@ -1,0 +1,19 @@
+Model,Seed,Time summary,Catalogue coverage (clicks),Catalogue coverage (exposure),Condition
+Agent,42,iteration_30,0.0219555035128805,0.1179742388758782,Organic advertising control
+Agent,42,mean_1_30,0.02807377049180322,0.1630269320843091,Organic advertising control
+Agent,43,iteration_30,0.0257611241217798,0.1270491803278688,Organic advertising control
+Agent,43,mean_1_30,0.029781420765027287,0.1695452771272443,Organic advertising control
+Agent,44,iteration_30,0.0228337236533957,0.1129976580796253,Organic advertising control
+Agent,44,mean_1_30,0.028483606557377007,0.1552790788446526,Organic advertising control
+Agent,42,iteration_30,0.0181498829039812,0.0714285714285714,Static advertising
+Agent,42,mean_1_30,0.024326697892271622,0.12376073380171736,Static advertising
+Agent,43,iteration_30,0.0242974238875878,0.0989461358313817,Static advertising
+Agent,43,mean_1_30,0.027254098360655694,0.14121779859484773,Static advertising
+Agent,44,iteration_30,0.0196135831381733,0.0737704918032786,Static advertising
+Agent,44,mean_1_30,0.019857533177205254,0.1062451209992193,Static advertising
+Agent,42,iteration_30,0.025175644028103,0.1323185011709602,L5 adaptive advertising
+Agent,42,mean_1_30,0.027205308352849292,0.15346409055425445,L5 adaptive advertising
+Agent,43,iteration_30,0.0248829039812646,0.1194379391100702,L5 adaptive advertising
+Agent,43,mean_1_30,0.026600312256049915,0.1489363778298204,L5 adaptive advertising
+Agent,44,iteration_30,0.0248829039812646,0.1129976580796253,L5 adaptive advertising
+Agent,44,mean_1_30,0.02553669008587037,0.14060304449648708,L5 adaptive advertising

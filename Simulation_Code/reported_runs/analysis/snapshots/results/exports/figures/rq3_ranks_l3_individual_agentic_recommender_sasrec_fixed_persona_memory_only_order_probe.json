@@ -1,0 +1,67 @@
+{
+  "analysis_name": "rq3_ranks_l3_individual_agentic_recommender_sasrec_fixed_persona_memory_only_order_probe",
+  "label": "chap:results:fig:rq3_ranks_l3_individual_agentic_recommender_sasrec_fixed_persona_memory_only_order_probe",
+  "recommended_for_main_text": false,
+  "rationale": "",
+  "context": {
+    "datasets": [
+      "MovieLens"
+    ],
+    "stages_by_model": {
+      "agentic_recommender": [
+        "L3"
+      ]
+    },
+    "seeds_by_model": {
+      "agentic_recommender": [
+        42,
+        43,
+        44
+      ]
+    },
+    "seeds_by_model_condition": {},
+    "time_summary": "Click counts pooled over iterations 1–30",
+    "windows": [],
+    "protocol": "300 active users",
+    "comparisons": [],
+    "encoding": "Panels: models; line styles: presentation arms; markers: simulation seeds",
+    "text": "MovieLens | 300 active users | Stages: L3\nClick counts pooled over iterations 1–30 | Simulation seeds: 42, 43, 44",
+    "plot_spec": {
+      "kind": "rank",
+      "facet": "model",
+      "pooled_iterations": [
+        1,
+        30
+      ]
+    }
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq3",
+    "source_blocks": [
+      {
+        "condition_id": "L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "condition_id": "L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "condition_id": "L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq3_ranks_l3_individual_agentic_recommender_sasrec_fixed_persona_memory_only_order_probe.pdf": "0f19f91192e615004ce315c808396de823d7dfbbb1b0b4e32d4af68ba97b3389",
+    "rq3_ranks_l3_individual_agentic_recommender_sasrec_fixed_persona_memory_only_order_probe.png": "5a1b91e32480abc959dbaf4abf202da1f83396b4a7948ec343a22b2aa2f65553"
+  }
+}

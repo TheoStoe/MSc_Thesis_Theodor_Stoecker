@@ -1,0 +1,110 @@
+{
+  "analysis_name": "main_rq1_advertising_delivery",
+  "label": "chap:results:fig:main_rq1_advertising_delivery",
+  "recommended_for_main_text": true,
+  "rationale": "Main-text version: one time summary, print width, no in-figure title.",
+  "context": {
+    "datasets": [
+      "MovieLens"
+    ],
+    "stages_by_model": {
+      "agentic_recommender": [
+        "L4",
+        "L5"
+      ]
+    },
+    "seeds_by_model": {
+      "agentic_recommender": [
+        42,
+        43,
+        44
+      ]
+    },
+    "seeds_by_model_condition": {
+      "agentic_recommender": {
+        "Static advertising": [
+          42,
+          43,
+          44
+        ],
+        "L5 adaptive advertising": [
+          42,
+          43,
+          44
+        ]
+      }
+    },
+    "time_summary": "Per-iteration values, iterations 1–30",
+    "windows": [],
+    "protocol": "Initially 150 active + 150 reserve users",
+    "comparisons": [],
+    "encoding": "Panels: simulation seeds; line styles/markers: conditions",
+    "text": "MovieLens | Initially 150 active + 150 reserve users | Stages: L4, L5\nPer-iteration values, iterations 1–30 | Simulation seeds: 42, 43, 44",
+    "plot_spec": {
+      "kind": "trajectory",
+      "facet": "seed",
+      "series": "condition_label",
+      "metrics": [
+        "sponsored_exposures",
+        "sponsored_clicks"
+      ],
+      "main_text": true
+    }
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "main",
+    "source_blocks": [
+      {
+        "physical_run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O1_static_ad__seed_42",
+        "run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O1_static_ad__seed_42",
+        "condition_id": "O1_static_ad",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_42",
+        "run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_42",
+        "condition_id": "O2_adaptive_ad_three_strike",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O1_static_ad__seed_43",
+        "run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O1_static_ad__seed_43",
+        "condition_id": "O1_static_ad",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_43",
+        "run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_43",
+        "condition_id": "O2_adaptive_ad_three_strike",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O1_static_ad__seed_44",
+        "run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O1_static_ad__seed_44",
+        "condition_id": "O1_static_ad",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_44",
+        "run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_44",
+        "condition_id": "O2_adaptive_ad_three_strike",
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "main_rq1_advertising_delivery.pdf": "32ca9115fe94e0daaad2329022539c324d1bb21643f2b6cc3df86d04c4387b13",
+    "main_rq1_advertising_delivery.png": "2e8ec0dc3a236b237bea3c1186801f24ac042e46e0e35a284498297b3e511359"
+  }
+}

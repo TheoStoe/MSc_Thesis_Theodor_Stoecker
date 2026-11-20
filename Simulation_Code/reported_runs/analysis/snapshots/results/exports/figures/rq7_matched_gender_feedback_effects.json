@@ -1,0 +1,105 @@
+{
+  "analysis_name": "rq7_matched_gender_feedback_effects",
+  "label": "chap:results:fig:rq7_matched_gender_feedback_effects",
+  "recommended_for_main_text": false,
+  "rationale": "",
+  "context": {
+    "datasets": [
+      "Goodreads"
+    ],
+    "stages_by_model": {
+      "agentic_recommender": [
+        "L2",
+        "L3"
+      ],
+      "direct_llm": [
+        "L2"
+      ],
+      "ncm_inspired_gru_mansoury": [
+        "L2"
+      ],
+      "ncm_inspired_gru_uniform": [
+        "L2"
+      ],
+      "position_biased": [
+        "L2"
+      ]
+    },
+    "seeds_by_model": {
+      "agentic_recommender": [
+        42,
+        43,
+        44
+      ],
+      "direct_llm": [
+        42,
+        43,
+        44
+      ],
+      "ncm_inspired_gru_mansoury": [
+        42,
+        43,
+        44
+      ],
+      "ncm_inspired_gru_uniform": [
+        42,
+        43,
+        44
+      ],
+      "position_biased": [
+        42,
+        43,
+        44
+      ]
+    },
+    "seeds_by_model_condition": {},
+    "time_summary": "Mean over iterations 1–30 and iteration-30 endpoint (separate panels)",
+    "windows": [
+      "iteration_30",
+      "mean_1_30"
+    ],
+    "protocol": "300 active users",
+    "comparisons": [
+      "L2 minus L0",
+      "L3 full reflection minus L2 frozen agent"
+    ],
+    "encoding": "Colours: models; markers: simulation seeds",
+    "text": "Goodreads | 300 active users | Treatment stages: Agent: L2, L3; Position-biased/NCM P3/NCM P4/Direct LLM: L2\nMean over iterations 1–30 and iteration-30 endpoint (separate panels) | Simulation seeds: 42, 43, 44",
+    "plot_spec": {
+      "kind": "effect",
+      "facet": "window",
+      "category": "comparison",
+      "metrics": [
+        "female_click_share",
+        "female_exposure",
+        "weighted_female_exposure"
+      ]
+    }
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq7",
+    "source_blocks": [
+      {
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "seed": 44,
+        "population_seed": 5245
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq7_matched_gender_feedback_effects.pdf": "fbac8d79e884654c2a103822845247c01d17eae33a5df7e9523ba4b242b9aa59",
+    "rq7_matched_gender_feedback_effects.png": "f349d0a3367a5fa164d7f9f10b466c2e7cebe561fa755a24ee2dd86b3e835672"
+  }
+}

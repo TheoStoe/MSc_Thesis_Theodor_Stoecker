@@ -1,0 +1,67 @@
+dataset,comparison,model,metric,window,n_seed_blocks,mean_effect,min_effect,max_effect,positive,negative,zero,missing_seeds,effect_unit
+goodreads,L2 minus L0,agentic_recommender,female_click_share,mean_1_30,3,15.72835085590795,12.664357220619518,18.091138712626265,3,0,0,,percentage points
+goodreads,L2 minus L0,agentic_recommender,female_click_share,iteration_30,3,30.598844769547487,27.51937984496125,35.77715446368121,3,0,0,,percentage points
+goodreads,L3 full reflection minus L2 frozen agent,agentic_recommender,female_click_share,mean_1_30,3,-4.234037696631816,-17.432481719654,4.301135772869614,2,1,0,,percentage points
+goodreads,L3 full reflection minus L2 frozen agent,agentic_recommender,female_click_share,iteration_30,3,-11.899154416783981,-14.591056262024315,-7.301528939547142,0,3,0,,percentage points
+goodreads,L2 minus L0,direct_llm,female_click_share,mean_1_30,2,-3.6279556263768287,-7.95984076982529,0.7039295170716329,1,1,0,43,percentage points
+goodreads,L2 minus L0,direct_llm,female_click_share,iteration_30,3,22.74509803921568,-2.9411764705882417,41.17647058823529,2,1,0,,percentage points
+goodreads,L2 minus L0,ncm_inspired_gru_mansoury,female_click_share,mean_1_30,3,-4.640740740740742,-7.188888888888891,-2.555555555555556,0,3,0,,percentage points
+goodreads,L2 minus L0,ncm_inspired_gru_mansoury,female_click_share,iteration_30,3,-0.9999999999999988,-31.33333333333334,15.333333333333343,2,1,0,,percentage points
+goodreads,L2 minus L0,ncm_inspired_gru_uniform,female_click_share,mean_1_30,3,-6.855555555555554,-11.855555555555553,1.1333333333333355,1,2,0,,percentage points
+goodreads,L2 minus L0,ncm_inspired_gru_uniform,female_click_share,iteration_30,3,0.11111111111111487,-13.999999999999998,18.66666666666667,1,2,0,,percentage points
+goodreads,L2 minus L0,position_biased,female_click_share,mean_1_30,3,3.522222222222222,-0.7999999999999999,6.477777777777778,2,1,0,,percentage points
+goodreads,L2 minus L0,position_biased,female_click_share,iteration_30,3,2.0,-2.6666666666666616,8.333333333333332,2,1,0,,percentage points
+goodreads,L0 in-processing minus control,ncm_inspired_gru_mansoury,female_click_share,mean_1_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L0 in-processing minus control,ncm_inspired_gru_mansoury,female_click_share,iteration_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L0 post-processing minus control,ncm_inspired_gru_mansoury,female_click_share,mean_1_30,3,4.500000000000001,4.022222222222222,5.17777777777778,3,0,0,,percentage points
+goodreads,L0 post-processing minus control,ncm_inspired_gru_mansoury,female_click_share,iteration_30,3,1.3333333333333326,-1.3333333333333308,2.9999999999999973,2,1,0,,percentage points
+goodreads,L0 in-processing minus post-processing,ncm_inspired_gru_mansoury,female_click_share,mean_1_30,3,-4.500000000000001,-5.17777777777778,-4.022222222222222,0,3,0,,percentage points
+goodreads,L0 in-processing minus post-processing,ncm_inspired_gru_mansoury,female_click_share,iteration_30,3,-1.3333333333333326,-2.9999999999999973,1.3333333333333308,1,2,0,,percentage points
+goodreads,L1 in-processing minus control,ncm_inspired_gru_mansoury,female_click_share,mean_1_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L1 in-processing minus control,ncm_inspired_gru_mansoury,female_click_share,iteration_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L1 post-processing minus control,ncm_inspired_gru_mansoury,female_click_share,mean_1_30,3,41.92962962962964,39.833333333333336,43.85555555555556,3,0,0,,percentage points
+goodreads,L1 post-processing minus control,ncm_inspired_gru_mansoury,female_click_share,iteration_30,3,38.111111111111114,34.333333333333336,41.333333333333336,3,0,0,,percentage points
+goodreads,L1 in-processing minus post-processing,ncm_inspired_gru_mansoury,female_click_share,mean_1_30,3,-41.92962962962964,-43.85555555555556,-39.833333333333336,0,3,0,,percentage points
+goodreads,L1 in-processing minus post-processing,ncm_inspired_gru_mansoury,female_click_share,iteration_30,3,-38.111111111111114,-41.333333333333336,-34.333333333333336,0,3,0,,percentage points
+goodreads,L2 in-processing minus control,ncm_inspired_gru_mansoury,female_click_share,mean_1_30,3,13.651851851851854,6.566666666666667,22.644444444444446,3,0,0,,percentage points
+goodreads,L2 in-processing minus control,ncm_inspired_gru_mansoury,female_click_share,iteration_30,3,3.4444444444444393,-19.00000000000001,15.66666666666667,2,1,0,,percentage points
+goodreads,L2 post-processing minus control,ncm_inspired_gru_mansoury,female_click_share,mean_1_30,3,64.60740740740742,61.56666666666668,69.26666666666667,3,0,0,,percentage points
+goodreads,L2 post-processing minus control,ncm_inspired_gru_mansoury,female_click_share,iteration_30,3,62.888888888888886,47.00000000000001,93.66666666666666,3,0,0,,percentage points
+goodreads,L2 in-processing minus post-processing,ncm_inspired_gru_mansoury,female_click_share,mean_1_30,3,-50.955555555555556,-57.52222222222223,-40.34444444444445,0,3,0,,percentage points
+goodreads,L2 in-processing minus post-processing,ncm_inspired_gru_mansoury,female_click_share,iteration_30,3,-59.444444444444436,-77.99999999999999,-34.333333333333336,0,3,0,,percentage points
+goodreads,L0 in-processing minus control,ncm_inspired_gru_uniform,female_click_share,mean_1_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L0 in-processing minus control,ncm_inspired_gru_uniform,female_click_share,iteration_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L0 post-processing minus control,ncm_inspired_gru_uniform,female_click_share,mean_1_30,3,1.118518518518519,0.922222222222223,1.3222222222222209,3,0,0,,percentage points
+goodreads,L0 post-processing minus control,ncm_inspired_gru_uniform,female_click_share,iteration_30,3,0.3333333333333373,-0.33333333333332993,1.0000000000000009,2,1,0,,percentage points
+goodreads,L0 in-processing minus post-processing,ncm_inspired_gru_uniform,female_click_share,mean_1_30,3,-1.118518518518519,-1.3222222222222209,-0.922222222222223,0,3,0,,percentage points
+goodreads,L0 in-processing minus post-processing,ncm_inspired_gru_uniform,female_click_share,iteration_30,3,-0.3333333333333373,-1.0000000000000009,0.33333333333332993,1,2,0,,percentage points
+goodreads,L1 in-processing minus control,ncm_inspired_gru_uniform,female_click_share,mean_1_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L1 in-processing minus control,ncm_inspired_gru_uniform,female_click_share,iteration_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L1 post-processing minus control,ncm_inspired_gru_uniform,female_click_share,mean_1_30,3,21.792592592592595,20.633333333333333,23.3,3,0,0,,percentage points
+goodreads,L1 post-processing minus control,ncm_inspired_gru_uniform,female_click_share,iteration_30,3,21.333333333333332,15.666666666666668,25.0,3,0,0,,percentage points
+goodreads,L1 in-processing minus post-processing,ncm_inspired_gru_uniform,female_click_share,mean_1_30,3,-21.792592592592595,-23.3,-20.633333333333333,0,3,0,,percentage points
+goodreads,L1 in-processing minus post-processing,ncm_inspired_gru_uniform,female_click_share,iteration_30,3,-21.333333333333332,-25.0,-15.666666666666668,0,3,0,,percentage points
+goodreads,L2 in-processing minus control,ncm_inspired_gru_uniform,female_click_share,mean_1_30,3,7.5740740740740735,4.4,10.61111111111111,3,0,0,,percentage points
+goodreads,L2 in-processing minus control,ncm_inspired_gru_uniform,female_click_share,iteration_30,3,-0.11111111111111101,-16.33333333333334,8.333333333333337,2,1,0,,percentage points
+goodreads,L2 post-processing minus control,ncm_inspired_gru_uniform,female_click_share,mean_1_30,3,48.540740740740745,44.58888888888889,53.122222222222234,3,0,0,,percentage points
+goodreads,L2 post-processing minus control,ncm_inspired_gru_uniform,female_click_share,iteration_30,3,43.22222222222223,25.33333333333333,53.66666666666667,3,0,0,,percentage points
+goodreads,L2 in-processing minus post-processing,ncm_inspired_gru_uniform,female_click_share,mean_1_30,3,-40.96666666666667,-45.41111111111112,-37.3,0,3,0,,percentage points
+goodreads,L2 in-processing minus post-processing,ncm_inspired_gru_uniform,female_click_share,iteration_30,3,-43.333333333333336,-46.0,-41.66666666666667,0,3,0,,percentage points
+goodreads,L0 in-processing minus control,position_biased,female_click_share,mean_1_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L0 in-processing minus control,position_biased,female_click_share,iteration_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L0 post-processing minus control,position_biased,female_click_share,mean_1_30,3,4.61851851851852,4.155555555555558,5.222222222222223,3,0,0,,percentage points
+goodreads,L0 post-processing minus control,position_biased,female_click_share,iteration_30,3,-1.5555555555555582,-4.666666666666669,2.9999999999999916,1,2,0,,percentage points
+goodreads,L0 in-processing minus post-processing,position_biased,female_click_share,mean_1_30,3,-4.61851851851852,-5.222222222222223,-4.155555555555558,0,3,0,,percentage points
+goodreads,L0 in-processing minus post-processing,position_biased,female_click_share,iteration_30,3,1.5555555555555582,-2.9999999999999916,4.666666666666669,2,1,0,,percentage points
+goodreads,L1 in-processing minus control,position_biased,female_click_share,mean_1_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L1 in-processing minus control,position_biased,female_click_share,iteration_30,3,0.0,0.0,0.0,0,0,3,,percentage points
+goodreads,L1 post-processing minus control,position_biased,female_click_share,mean_1_30,3,40.27407407407408,39.544444444444444,40.988888888888894,3,0,0,,percentage points
+goodreads,L1 post-processing minus control,position_biased,female_click_share,iteration_30,3,44.555555555555564,41.333333333333336,47.0,3,0,0,,percentage points
+goodreads,L1 in-processing minus post-processing,position_biased,female_click_share,mean_1_30,3,-40.27407407407408,-40.988888888888894,-39.544444444444444,0,3,0,,percentage points
+goodreads,L1 in-processing minus post-processing,position_biased,female_click_share,iteration_30,3,-44.555555555555564,-47.0,-41.333333333333336,0,3,0,,percentage points
+goodreads,L2 in-processing minus control,position_biased,female_click_share,mean_1_30,3,2.822222222222223,-0.2888888888888886,5.4333333333333345,2,1,0,,percentage points
+goodreads,L2 in-processing minus control,position_biased,female_click_share,iteration_30,3,9.11111111111111,3.666666666666668,13.33333333333333,3,0,0,,percentage points
+goodreads,L2 post-processing minus control,position_biased,female_click_share,mean_1_30,3,56.333333333333336,54.266666666666666,58.32222222222223,3,0,0,,percentage points
+goodreads,L2 post-processing minus control,position_biased,female_click_share,iteration_30,3,59.22222222222223,54.666666666666664,63.666666666666686,3,0,0,,percentage points
+goodreads,L2 in-processing minus post-processing,position_biased,female_click_share,mean_1_30,3,-53.51111111111112,-54.55555555555556,-52.8888888888889,0,3,0,,percentage points
+goodreads,L2 in-processing minus post-processing,position_biased,female_click_share,iteration_30,3,-50.111111111111114,-51.0,-49.0,0,3,0,,percentage points

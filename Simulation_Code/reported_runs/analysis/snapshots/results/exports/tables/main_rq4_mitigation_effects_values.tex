@@ -1,0 +1,44 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lllrrrrr}
+\hline
+Contrast & Model & Metric & Seed 42 & Seed 43 & Seed 44 & Mean of seeds & Seeds \\
+\hline
+In-processing & Position-biased & Head-click share & -10.0556 & -7.62222 & -3.94444 & -7.20741 & 3 \\
+In-processing & Position-biased & Head exposure & -6.32111 & -4.44222 & -1.23333 & -3.99889 & 3 \\
+In-processing & Position-biased & Weighted head exposure & -7.37917 & -5.35421 & -2.03244 & -4.92194 & 3 \\
+In-processing & NCM P3 (uniform) & Head-click share & -1.17778 & 0.844444 & -1.13333 & -0.488889 & 3 \\
+In-processing & NCM P3 (uniform) & Head exposure & -0.727778 & 1.25889 & -0.672222 & -0.047037 & 3 \\
+In-processing & NCM P3 (uniform) & Weighted head exposure & -0.846779 & 1.03588 & -0.926725 & -0.245874 & 3 \\
+In-processing & NCM P4 (Mansoury) & Head-click share & -5.87778 & -2.32222 & -1.01111 & -3.07037 & 3 \\
+In-processing & NCM P4 (Mansoury) & Head exposure & -4.89111 & -1.15778 & 0.605556 & -1.81444 & 3 \\
+In-processing & NCM P4 (Mansoury) & Weighted head exposure & -5.32465 & -1.33534 & 0.325065 & -2.11164 & 3 \\
+In-processing & Direct LLM & Head-click share & 0.627439 & 0.507662 & -1.96637 & -0.277091 & 3 \\
+In-processing & Direct LLM & Head exposure & -0.11 & -0.821111 & -1.76333 & -0.898148 & 3 \\
+In-processing & Direct LLM & Weighted head exposure & -0.512293 & -0.877554 & -2.03216 & -1.14067 & 3 \\
+In-processing & Agent & Head-click share & -3.18266 & -1.47373 & -2.46554 & -2.37397 & 3 \\
+In-processing & Agent & Head exposure & -5.36667 & -1.89222 & -1.50889 & -2.92259 & 3 \\
+In-processing & Agent & Weighted head exposure & -6.94191 & -2.94666 & -2.22791 & -4.03883 & 3 \\
+Post-processing & Position-biased & Head-click share & -73.3 & -72.9111 & -69.9 & -72.037 & 3 \\
+Post-processing & Position-biased & Head exposure & -51.4244 & -51.0633 & -43.9044 & -48.7974 & 3 \\
+Post-processing & Position-biased & Weighted head exposure & -57.6779 & -57.308 & -51.2907 & -55.4256 & 3 \\
+Post-processing & NCM P3 (uniform) & Head-click share & -33.9556 & -29.5667 & -25.2889 & -29.6037 & 3 \\
+Post-processing & NCM P3 (uniform) & Head exposure & -20.4811 & -16.2444 & -12.2756 & -16.3337 & 3 \\
+Post-processing & NCM P3 (uniform) & Weighted head exposure & -28.7844 & -24.7371 & -19.8692 & -24.4636 & 3 \\
+Post-processing & NCM P4 (Mansoury) & Head-click share & -71.7556 & -75.7333 & -74.8 & -74.0963 & 3 \\
+Post-processing & NCM P4 (Mansoury) & Head exposure & -39.3444 & -42.8722 & -43.0233 & -41.7467 & 3 \\
+Post-processing & NCM P4 (Mansoury) & Weighted head exposure & -48.008 & -51.5534 & -51.0624 & -50.208 & 3 \\
+Post-processing & Direct LLM & Head-click share & -12.8412 & -16.1867 & -17.4625 & -15.4968 & 3 \\
+Post-processing & Direct LLM & Head exposure & -2.63 & -5.65111 & -5.65889 & -4.64667 & 3 \\
+Post-processing & Direct LLM & Weighted head exposure & -10.6261 & -12.622 & -13.572 & -12.2734 & 3 \\
+Post-processing & Agent & Head-click share & -7.93692 & -12.2005 & -10.9829 & -10.3734 & 3 \\
+Post-processing & Agent & Head exposure & -4.06778 & -8.60222 & -5.92222 & -6.19741 & 3 \\
+Post-processing & Agent & Weighted head exposure & -12.9176 & -17.9874 & -15.7615 & -15.5555 & 3 \\
+\hline
+\end{tabular}
+\caption{Values plotted in the main-text mitigation figure, in percentage points (mean over iterations 1--30).}
+\label{chap:results:tab:main_rq4_mitigation_effects_values}
+\end{table}

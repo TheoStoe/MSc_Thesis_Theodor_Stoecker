@@ -1,0 +1,19 @@
+Model,Seed,Time summary,Sponsored click share,Sponsored exposure share,Weighted sponsored exposure,Condition
+Agent,42,iteration_30,0.0,0.0,0.0,Organic advertising control
+Agent,42,mean_1_30,0.0,0.0,0.0,Organic advertising control
+Agent,43,iteration_30,0.0,0.0,0.0,Organic advertising control
+Agent,43,mean_1_30,0.0,0.0,0.0,Organic advertising control
+Agent,44,iteration_30,0.0,0.0,0.0,Organic advertising control
+Agent,44,mean_1_30,0.0,0.0,0.0,Organic advertising control
+Agent,42,iteration_30,0.0229007633587786,0.1,0.2200917662980797,Static advertising
+Agent,42,mean_1_30,0.029004727932065377,0.10000000000000003,0.2200917662980796,Static advertising
+Agent,43,iteration_30,0.0,0.1,0.2200917662980797,Static advertising
+Agent,43,mean_1_30,0.03233956167554788,0.10000000000000003,0.2200917662980796,Static advertising
+Agent,44,iteration_30,0.0204081632653061,0.1,0.2200917662980797,Static advertising
+Agent,44,mean_1_30,0.042743832327522914,0.10000000000000003,0.2200917662980796,Static advertising
+Agent,42,iteration_30,0.0,0.002,0.0044018353259615,L5 adaptive advertising
+Agent,42,mean_1_30,0.009276465053858037,0.0151333333333333,0.03330722063310932,L5 adaptive advertising
+Agent,43,iteration_30,0.0070921985815602,0.0026666666666666,0.0058691137679487,L5 adaptive advertising
+Agent,43,mean_1_30,0.015198591178810866,0.014688888888888854,0.03232903500511786,L5 adaptive advertising
+Agent,44,iteration_30,0.0,0.0006666666666666,0.0014672784419871,L5 adaptive advertising
+Agent,44,mean_1_30,0.015084273565747498,0.014377777777777743,0.03164430506552383,L5 adaptive advertising

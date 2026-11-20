@@ -1,0 +1,54 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{llllrrrrr}
+\hline
+model\_a & model\_b & focal\_model & mitigation & model\_absolute\_difference\_of\_means & mitigation\_absolute\_difference\_of\_means & model\_mean\_absolute\_iteration\_difference & mitigation\_mean\_absolute\_iteration\_difference & same\_feedback\_stage \\
+\hline
+agentic\_recommender & direct\_llm & agentic\_recommender & in-processing & 23.1964 & 1.47373 & 23.1964 & 4.75932 & False \\
+agentic\_recommender & direct\_llm & agentic\_recommender & post-processing & 23.1964 & 12.2005 & 23.1964 & 12.2005 & False \\
+agentic\_recommender & direct\_llm & direct\_llm & in-processing & 23.1964 & 0.507662 & 23.1964 & 3.25574 & False \\
+agentic\_recommender & direct\_llm & direct\_llm & post-processing & 23.1964 & 16.1867 & 23.1964 & 16.1867 & False \\
+agentic\_recommender & ncm\_inspired\_gru\_mansoury & agentic\_recommender & in-processing & 24.9323 & 1.47373 & 24.9323 & 4.75932 & False \\
+agentic\_recommender & ncm\_inspired\_gru\_mansoury & agentic\_recommender & post-processing & 24.9323 & 12.2005 & 24.9323 & 12.2005 & False \\
+agentic\_recommender & ncm\_inspired\_gru\_mansoury & ncm\_inspired\_gru\_mansoury & in-processing & 24.9323 & 2.32222 & 24.9323 & 3.25556 & False \\
+agentic\_recommender & ncm\_inspired\_gru\_mansoury & ncm\_inspired\_gru\_mansoury & post-processing & 24.9323 & 75.7333 & 24.9323 & 75.7333 & False \\
+agentic\_recommender & ncm\_inspired\_gru\_uniform & agentic\_recommender & in-processing & 29.6656 & 1.47373 & 29.6656 & 4.75932 & False \\
+agentic\_recommender & ncm\_inspired\_gru\_uniform & agentic\_recommender & post-processing & 29.6656 & 12.2005 & 29.6656 & 12.2005 & False \\
+agentic\_recommender & ncm\_inspired\_gru\_uniform & ncm\_inspired\_gru\_uniform & in-processing & 29.6656 & 0.844444 & 29.6656 & 1.6 & False \\
+agentic\_recommender & ncm\_inspired\_gru\_uniform & ncm\_inspired\_gru\_uniform & post-processing & 29.6656 & 29.5667 & 29.6656 & 29.5667 & False \\
+agentic\_recommender & position\_biased & agentic\_recommender & in-processing & 21.5323 & 1.47373 & 21.8434 & 4.75932 & False \\
+agentic\_recommender & position\_biased & agentic\_recommender & post-processing & 21.5323 & 12.2005 & 21.8434 & 12.2005 & False \\
+agentic\_recommender & position\_biased & position\_biased & in-processing & 21.5323 & 7.62222 & 21.8434 & 7.66667 & False \\
+agentic\_recommender & position\_biased & position\_biased & post-processing & 21.5323 & 72.9111 & 21.8434 & 72.9111 & False \\
+direct\_llm & ncm\_inspired\_gru\_mansoury & direct\_llm & in-processing & 1.73593 & 0.507662 & 3.63093 & 3.25574 & True \\
+direct\_llm & ncm\_inspired\_gru\_mansoury & direct\_llm & post-processing & 1.73593 & 16.1867 & 3.63093 & 16.1867 & True \\
+direct\_llm & ncm\_inspired\_gru\_mansoury & ncm\_inspired\_gru\_mansoury & in-processing & 1.73593 & 2.32222 & 3.63093 & 3.25556 & True \\
+direct\_llm & ncm\_inspired\_gru\_mansoury & ncm\_inspired\_gru\_mansoury & post-processing & 1.73593 & 75.7333 & 3.63093 & 75.7333 & True \\
+direct\_llm & ncm\_inspired\_gru\_uniform & direct\_llm & in-processing & 6.46926 & 0.507662 & 6.50725 & 3.25574 & True \\
+direct\_llm & ncm\_inspired\_gru\_uniform & direct\_llm & post-processing & 6.46926 & 16.1867 & 6.50725 & 16.1867 & True \\
+direct\_llm & ncm\_inspired\_gru\_uniform & ncm\_inspired\_gru\_uniform & in-processing & 6.46926 & 0.844444 & 6.50725 & 1.6 & True \\
+direct\_llm & ncm\_inspired\_gru\_uniform & ncm\_inspired\_gru\_uniform & post-processing & 6.46926 & 29.5667 & 6.50725 & 29.5667 & True \\
+direct\_llm & position\_biased & direct\_llm & in-processing & 1.66407 & 0.507662 & 4.7614 & 3.25574 & True \\
+direct\_llm & position\_biased & direct\_llm & post-processing & 1.66407 & 16.1867 & 4.7614 & 16.1867 & True \\
+direct\_llm & position\_biased & position\_biased & in-processing & 1.66407 & 7.62222 & 4.7614 & 7.66667 & True \\
+direct\_llm & position\_biased & position\_biased & post-processing & 1.66407 & 72.9111 & 4.7614 & 72.9111 & True \\
+ncm\_inspired\_gru\_mansoury & ncm\_inspired\_gru\_uniform & ncm\_inspired\_gru\_mansoury & in-processing & 4.73333 & 2.32222 & 4.97778 & 3.25556 & True \\
+ncm\_inspired\_gru\_mansoury & ncm\_inspired\_gru\_uniform & ncm\_inspired\_gru\_mansoury & post-processing & 4.73333 & 75.7333 & 4.97778 & 75.7333 & True \\
+ncm\_inspired\_gru\_mansoury & ncm\_inspired\_gru\_uniform & ncm\_inspired\_gru\_uniform & in-processing & 4.73333 & 0.844444 & 4.97778 & 1.6 & True \\
+ncm\_inspired\_gru\_mansoury & ncm\_inspired\_gru\_uniform & ncm\_inspired\_gru\_uniform & post-processing & 4.73333 & 29.5667 & 4.97778 & 29.5667 & True \\
+ncm\_inspired\_gru\_mansoury & position\_biased & ncm\_inspired\_gru\_mansoury & in-processing & 3.4 & 2.32222 & 4.02222 & 3.25556 & True \\
+ncm\_inspired\_gru\_mansoury & position\_biased & ncm\_inspired\_gru\_mansoury & post-processing & 3.4 & 75.7333 & 4.02222 & 75.7333 & True \\
+ncm\_inspired\_gru\_mansoury & position\_biased & position\_biased & in-processing & 3.4 & 7.62222 & 4.02222 & 7.66667 & True \\
+ncm\_inspired\_gru\_mansoury & position\_biased & position\_biased & post-processing & 3.4 & 72.9111 & 4.02222 & 72.9111 & True \\
+ncm\_inspired\_gru\_uniform & position\_biased & ncm\_inspired\_gru\_uniform & in-processing & 8.13333 & 0.844444 & 8.13333 & 1.6 & True \\
+ncm\_inspired\_gru\_uniform & position\_biased & ncm\_inspired\_gru\_uniform & post-processing & 8.13333 & 29.5667 & 8.13333 & 29.5667 & True \\
+ncm\_inspired\_gru\_uniform & position\_biased & position\_biased & in-processing & 8.13333 & 7.62222 & 8.13333 & 7.66667 & True \\
+ncm\_inspired\_gru\_uniform & position\_biased & position\_biased & post-processing & 8.13333 & 72.9111 & 8.13333 & 72.9111 & True \\
+\hline
+\end{tabular}
+\caption{Model-configuration and own-control mitigation magnitudes for seed 43, in percentage points. Absolute means and mean absolute trajectory differences are separate columns.}
+\label{chap:results:tab:rq4_model_vs_mitigation_seed_43}
+\end{table}

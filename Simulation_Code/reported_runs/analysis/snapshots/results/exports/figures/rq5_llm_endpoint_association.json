@@ -1,0 +1,72 @@
+{
+  "analysis_name": "rq5_llm_endpoint_association",
+  "label": "chap:results:fig:rq5_llm_endpoint_association",
+  "recommended_for_main_text": false,
+  "rationale": "",
+  "context": {
+    "datasets": [
+      "MovieLens"
+    ],
+    "stages_by_model": {
+      "agentic_recommender": [
+        "L3"
+      ],
+      "direct_llm": [
+        "L2"
+      ]
+    },
+    "seeds_by_model": {
+      "agentic_recommender": [
+        42,
+        43,
+        44
+      ],
+      "direct_llm": [
+        42,
+        43,
+        44
+      ]
+    },
+    "seeds_by_model_condition": {},
+    "time_summary": "Predictor: mean over iterations 1–30; outcome: iteration 30",
+    "windows": [
+      "iteration_30"
+    ],
+    "protocol": "300 active users",
+    "comparisons": [],
+    "encoding": "Panels: simulation seeds; colours/markers: models",
+    "text": "MovieLens | 300 active users | Stages: Agent: L3; Direct LLM: L2\nPredictor: mean over iterations 1–30; outcome: iteration 30 | Simulation seeds: 42, 43, 44",
+    "plot_spec": {
+      "kind": "association",
+      "facet": "seed",
+      "x": "baseline_order_sensitivity",
+      "y": "head_click_reduction_pp"
+    }
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq5",
+    "source_blocks": [
+      {
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq5_llm_endpoint_association.pdf": "3b57f6c1c3365aef90aaa182a9fcdec3c133245f9eca953a23065f88088781c5",
+    "rq5_llm_endpoint_association.png": "2650459182b2c519a6af79f72479d2a5a1ba66c110ec4a4c081d7439f7aa98e4"
+  }
+}

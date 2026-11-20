@@ -1,0 +1,72 @@
+{
+  "analysis_name": "rq1_sampling_exposure_effects",
+  "label": "chap:results:fig:rq1_sampling_exposure_effects",
+  "recommended_for_main_text": false,
+  "rationale": "",
+  "context": {
+    "datasets": [
+      "MovieLens"
+    ],
+    "stages_by_model": {
+      "agentic_recommender": [
+        "L4"
+      ]
+    },
+    "seeds_by_model": {
+      "agentic_recommender": [
+        42,
+        43,
+        44
+      ]
+    },
+    "seeds_by_model_condition": {},
+    "time_summary": "Mean over iterations 1–30 and iteration-30 endpoint (separate panels)",
+    "windows": [
+      "iteration_30",
+      "mean_1_30"
+    ],
+    "protocol": "Initially 150 active + 150 reserve users",
+    "comparisons": [
+      "L4 -- cluster refill minus matched L3",
+      "L4 -- no refill minus matched L3",
+      "L4 -- uniform refill minus matched L3"
+    ],
+    "encoding": "Colours: models; markers: simulation seeds",
+    "text": "MovieLens | Initially 150 active + 150 reserve users | Treatment stages: L4\nMean over iterations 1–30 and iteration-30 endpoint (separate panels) | Simulation seeds: 42, 43, 44",
+    "plot_spec": {
+      "kind": "effect",
+      "facet": "window",
+      "category": "comparison",
+      "metrics": [
+        "head_exposure",
+        "weighted_head_exposure"
+      ]
+    }
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq1",
+    "source_blocks": [
+      {
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq1_sampling_exposure_effects.pdf": "c605bba6d013e8de451dc43faaa78ae715c29bb7096c3adaba2cc0d8d65de168",
+    "rq1_sampling_exposure_effects.png": "7a0285fbc280ad68937f806ce3a4ed60b050a544bf690393059fe44a6238a26e"
+  }
+}

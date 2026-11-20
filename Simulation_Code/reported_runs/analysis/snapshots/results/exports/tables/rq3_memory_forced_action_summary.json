@@ -1,0 +1,269 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq3_memory_forced_action_summary",
+  "label": "chap:results:tab:rq3_memory_forced_action_summary",
+  "caption": "Recorded memory-module calls and forced-action fallbacks over iterations 1--30. Canonical RQ III decisions and the separate 150/150 protocol are counted independently; diagnostic probes are excluded.",
+  "rows": 2,
+  "source_columns": [
+    "Protocol",
+    "Presentation arm",
+    "Runs",
+    "Decisions",
+    "Memory calls",
+    "Forced actions"
+  ],
+  "source_dtypes": {
+    "Protocol": "str",
+    "Presentation arm": "str",
+    "Runs": "int64",
+    "Decisions": "int64",
+    "Memory calls": "int64",
+    "Forced actions": "int64"
+  },
+  "display_columns": [
+    "Protocol",
+    "Presentation arm",
+    "Runs",
+    "Decisions",
+    "Memory calls",
+    "Forced actions"
+  ],
+  "display_rows": [
+    [
+      "RQ III: 300 active users (L2/L3)",
+      "canonical",
+      "12",
+      "108000",
+      "0",
+      "0"
+    ],
+    [
+      "150 active / 150 reserve protocol",
+      "canonical",
+      "21",
+      "89177",
+      "2",
+      "0"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "llrrrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq3",
+    "source_blocks": [
+      {
+        "run_id": "feedback_new_sampling_p1054_a300_r0_e804__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_42",
+        "condition_id": "L2_ml_model__agentic_recommender__sasrec__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "run_id": "feedback_new_sampling_p1054_a300_r0_e804__L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe__seed_42",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__agentic_recommender__control__seed_42",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "run_id": "feedback_new_sampling_p1054_a300_r0_e804__L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe__seed_42",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "run_id": "feedback_new_sampling_p19277_a300_r0_e804__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_43",
+        "condition_id": "L2_ml_model__agentic_recommender__sasrec__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "run_id": "feedback_new_sampling_p19277_a300_r0_e804__L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe__seed_43",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__agentic_recommender__control__seed_43",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "run_id": "feedback_new_sampling_p19277_a300_r0_e804__L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe__seed_43",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_44",
+        "condition_id": "L2_ml_model__agentic_recommender__sasrec__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe__seed_44",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L3_individual__agentic_recommender__sasrec__full_reflection__order_probe__seed_44",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe__seed_44",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__seed_42",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__seed_42",
+        "condition_id": "L4_sampling__agentic_recommender__sasrec__full_reflection",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__exit_only_ablation__seed_42",
+        "condition_id": "L4_sampling__agentic_recommender__sasrec__full_reflection__exit_only_ablation",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__uniform_refill_control__seed_42",
+        "condition_id": "L4_sampling__agentic_recommender__sasrec__full_reflection__uniform_refill_control",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O0_organic__seed_42",
+        "condition_id": "O0_organic",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O1_static_ad__seed_42",
+        "condition_id": "O1_static_ad",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_42",
+        "condition_id": "O2_adaptive_ad_three_strike",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__seed_43",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__seed_43",
+        "condition_id": "L4_sampling__agentic_recommender__sasrec__full_reflection",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__exit_only_ablation__seed_43",
+        "condition_id": "L4_sampling__agentic_recommender__sasrec__full_reflection__exit_only_ablation",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__uniform_refill_control__seed_43",
+        "condition_id": "L4_sampling__agentic_recommender__sasrec__full_reflection__uniform_refill_control",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O0_organic__seed_43",
+        "condition_id": "O0_organic",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O1_static_ad__seed_43",
+        "condition_id": "O1_static_ad",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_43",
+        "condition_id": "O2_adaptive_ad_three_strike",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__seed_44",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__seed_44",
+        "condition_id": "L4_sampling__agentic_recommender__sasrec__full_reflection",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__exit_only_ablation__seed_44",
+        "condition_id": "L4_sampling__agentic_recommender__sasrec__full_reflection__exit_only_ablation",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__uniform_refill_control__seed_44",
+        "condition_id": "L4_sampling__agentic_recommender__sasrec__full_reflection__uniform_refill_control",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O0_organic__seed_44",
+        "condition_id": "O0_organic",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O1_static_ad__seed_44",
+        "condition_id": "O1_static_ad",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_44",
+        "condition_id": "O2_adaptive_ad_three_strike",
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq3_memory_forced_action_summary.tex": "5ba268626350f1bb6477ef2108f0ec83bb87b8a26cbb68856c758aeb5d6e598b",
+    "rq3_memory_forced_action_summary.csv": "fc062a5c3f8bfb4f6550ad5a382874a43fb6a3909f6c79ed31406d92e3900f2d"
+  }
+}

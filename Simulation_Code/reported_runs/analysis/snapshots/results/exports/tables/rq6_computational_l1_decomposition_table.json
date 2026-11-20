@@ -1,0 +1,433 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq6_computational_l1_decomposition_table",
+  "label": "chap:results:tab:rq6_computational_l1_decomposition_table",
+  "caption": "Supplementary computational feedback decomposition for Head-click share, in percentage points. Reused control trajectories are retained as explicit memberships and are not additional replications.",
+  "rows": 36,
+  "source_columns": [
+    "dataset",
+    "comparison",
+    "model",
+    "seed",
+    "population_seed",
+    "window",
+    "value",
+    "effect_unit"
+  ],
+  "source_dtypes": {
+    "dataset": "str",
+    "comparison": "str",
+    "model": "str",
+    "seed": "int64",
+    "population_seed": "int64",
+    "window": "str",
+    "value": "float64",
+    "effect_unit": "str"
+  },
+  "display_columns": [
+    "dataset",
+    "comparison",
+    "model",
+    "seed",
+    "population_seed",
+    "window",
+    "value",
+    "effect_unit"
+  ],
+  "display_rows": [
+    [
+      "goodreads",
+      "L1 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "16040",
+      "mean_1_30",
+      "4.78889",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "16040",
+      "iteration_30",
+      "-0.333333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L1",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "16040",
+      "mean_1_30",
+      "19.4333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L1",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "16040",
+      "iteration_30",
+      "23.3333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 minus L0",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "16040",
+      "mean_1_30",
+      "17",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 minus L0",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "16040",
+      "iteration_30",
+      "17.3333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L1",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "16040",
+      "mean_1_30",
+      "9.81111",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L1",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "16040",
+      "iteration_30",
+      "11",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 minus L0",
+      "position_biased",
+      "42",
+      "16040",
+      "mean_1_30",
+      "-1.95556",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 minus L0",
+      "position_biased",
+      "42",
+      "16040",
+      "iteration_30",
+      "-8",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L1",
+      "position_biased",
+      "42",
+      "16040",
+      "mean_1_30",
+      "5.6",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L1",
+      "position_biased",
+      "42",
+      "16040",
+      "iteration_30",
+      "-9.33333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "11615",
+      "mean_1_30",
+      "5.41111",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "11615",
+      "iteration_30",
+      "6.33333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L1",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "11615",
+      "mean_1_30",
+      "17.9889",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L1",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "11615",
+      "iteration_30",
+      "23",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 minus L0",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "11615",
+      "mean_1_30",
+      "18.3889",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 minus L0",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "11615",
+      "iteration_30",
+      "19.6667",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L1",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "11615",
+      "mean_1_30",
+      "8.78889",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L1",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "11615",
+      "iteration_30",
+      "11.3333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 minus L0",
+      "position_biased",
+      "43",
+      "11615",
+      "mean_1_30",
+      "-4.17778",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 minus L0",
+      "position_biased",
+      "43",
+      "11615",
+      "iteration_30",
+      "-10.6667",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L1",
+      "position_biased",
+      "43",
+      "11615",
+      "mean_1_30",
+      "-1.75556",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L1",
+      "position_biased",
+      "43",
+      "11615",
+      "iteration_30",
+      "-5.66667",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "5245",
+      "mean_1_30",
+      "0.133333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 minus L0",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "5245",
+      "iteration_30",
+      "2",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L1",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "5245",
+      "mean_1_30",
+      "19.6556",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L1",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "5245",
+      "iteration_30",
+      "21",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 minus L0",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "5245",
+      "mean_1_30",
+      "11.9556",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 minus L0",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "5245",
+      "iteration_30",
+      "16",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L1",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "5245",
+      "mean_1_30",
+      "9.91111",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L1",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "5245",
+      "iteration_30",
+      "11",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 minus L0",
+      "position_biased",
+      "44",
+      "5245",
+      "mean_1_30",
+      "-6.68889",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L1 minus L0",
+      "position_biased",
+      "44",
+      "5245",
+      "iteration_30",
+      "-3.33333",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L1",
+      "position_biased",
+      "44",
+      "5245",
+      "mean_1_30",
+      "7.2",
+      "percentage points"
+    ],
+    [
+      "goodreads",
+      "L2 minus L1",
+      "position_biased",
+      "44",
+      "5245",
+      "iteration_30",
+      "-8.66667",
+      "percentage points"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lllrrlrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq6",
+    "source_blocks": [
+      {
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "seed": 44,
+        "population_seed": 5245
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq6_computational_l1_decomposition_table.tex": "8e6d628ae9867071cad283d76aac9783523720082ee669e669fab73dc4dd0d72",
+    "rq6_computational_l1_decomposition_table.csv": "d1c6a1dc4487e57beb376325c447d5f7881c426eb8e7b3223821bca11cd6f103"
+  }
+}

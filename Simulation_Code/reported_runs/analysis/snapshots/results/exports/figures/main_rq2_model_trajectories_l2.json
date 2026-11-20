@@ -1,0 +1,228 @@
+{
+  "analysis_name": "main_rq2_model_trajectories_l2",
+  "label": "chap:results:fig:main_rq2_model_trajectories_l2",
+  "recommended_for_main_text": true,
+  "rationale": "Main-text version: one time summary, print width, no in-figure title.",
+  "context": {
+    "datasets": [
+      "MovieLens"
+    ],
+    "stages_by_model": {
+      "agentic_recommender": [
+        "L2"
+      ],
+      "direct_llm": [
+        "L2"
+      ],
+      "ncm_inspired_gru_mansoury": [
+        "L2"
+      ],
+      "ncm_inspired_gru_uniform": [
+        "L2"
+      ],
+      "position_biased": [
+        "L2"
+      ]
+    },
+    "seeds_by_model": {
+      "agentic_recommender": [
+        42,
+        43,
+        44
+      ],
+      "direct_llm": [
+        42,
+        43,
+        44
+      ],
+      "ncm_inspired_gru_mansoury": [
+        42,
+        43,
+        44
+      ],
+      "ncm_inspired_gru_uniform": [
+        42,
+        43,
+        44
+      ],
+      "position_biased": [
+        42,
+        43,
+        44
+      ]
+    },
+    "seeds_by_model_condition": {
+      "agentic_recommender": {
+        "L2 -- frozen agent": [
+          42,
+          43,
+          44
+        ]
+      },
+      "direct_llm": {
+        "L2": [
+          42,
+          43,
+          44
+        ]
+      },
+      "ncm_inspired_gru_mansoury": {
+        "L2": [
+          42,
+          43,
+          44
+        ]
+      },
+      "ncm_inspired_gru_uniform": {
+        "L2": [
+          42,
+          43,
+          44
+        ]
+      },
+      "position_biased": {
+        "L2": [
+          42,
+          43,
+          44
+        ]
+      }
+    },
+    "time_summary": "Per-iteration values, iterations 1–30",
+    "windows": [],
+    "protocol": "300 active users",
+    "comparisons": [],
+    "encoding": "Panels: simulation seeds; colours/markers: models",
+    "text": "MovieLens | 300 active users | Stages: L2\nPer-iteration values, iterations 1–30 | Simulation seeds: 42, 43, 44",
+    "plot_spec": {
+      "kind": "trajectory",
+      "facet": "seed",
+      "series": "model",
+      "metrics": [
+        "head_click_share",
+        "click_exposure_gap",
+        "weighted_click_exposure_gap"
+      ],
+      "main_text": true
+    }
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "main",
+    "source_blocks": [
+      {
+        "physical_run_id": "feedback_new_sampling_p1054_a300_r0_e804__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_42",
+        "run_id": "feedback_new_sampling_p1054_a300_r0_e804__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_42",
+        "condition_id": "L2_ml_model__agentic_recommender__sasrec__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__direct_llm__control__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__direct_llm__control__seed_42",
+        "condition_id": "L2_ml_model__direct_llm__sasrec__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_mansoury__control__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_mansoury__control__seed_42",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_uniform__control__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_uniform__control__seed_42",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__position_biased__control__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__position_biased__control__seed_42",
+        "condition_id": "L2_ml_model__position_biased__sasrec__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p19277_a300_r0_e804__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_43",
+        "run_id": "feedback_new_sampling_p19277_a300_r0_e804__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_43",
+        "condition_id": "L2_ml_model__agentic_recommender__sasrec__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__direct_llm__control__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__direct_llm__control__seed_43",
+        "condition_id": "L2_ml_model__direct_llm__sasrec__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_mansoury__control__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_mansoury__control__seed_43",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_uniform__control__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_uniform__control__seed_43",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__position_biased__control__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__position_biased__control__seed_43",
+        "condition_id": "L2_ml_model__position_biased__sasrec__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_44",
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_44",
+        "condition_id": "L2_ml_model__agentic_recommender__sasrec__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__direct_llm__sasrec__order_probe__seed_44",
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__direct_llm__sasrec__order_probe__seed_44",
+        "condition_id": "L2_ml_model__direct_llm__sasrec__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_44",
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_44",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_44",
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_44",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__position_biased__sasrec__order_probe__seed_44",
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__position_biased__sasrec__order_probe__seed_44",
+        "condition_id": "L2_ml_model__position_biased__sasrec__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "main_rq2_model_trajectories_l2.pdf": "5f7a6e94163c6d255a2d0c8135e5f1320c8bcd5bad253275f2eef08709a68961",
+    "main_rq2_model_trajectories_l2.png": "ee0d93326b69b6b41230d6d075bdfeb6c155528106c67c7c11a1393ab53796bd"
+  }
+}

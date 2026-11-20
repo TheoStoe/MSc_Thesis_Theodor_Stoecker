@@ -1,0 +1,125 @@
+{
+  "analysis_name": "rq7_gender_mitigation_l2_effects",
+  "label": "chap:results:fig:rq7_gender_mitigation_l2_effects",
+  "recommended_for_main_text": true,
+  "rationale": "This directly shows the effects of the tested interventions on both exposure and selection, with all three computational seeds visible.",
+  "context": {
+    "datasets": [
+      "Goodreads"
+    ],
+    "stages_by_model": {
+      "ncm_inspired_gru_mansoury": [
+        "L2"
+      ],
+      "ncm_inspired_gru_uniform": [
+        "L2"
+      ],
+      "position_biased": [
+        "L2"
+      ]
+    },
+    "seeds_by_model": {
+      "ncm_inspired_gru_mansoury": [
+        42,
+        43,
+        44
+      ],
+      "ncm_inspired_gru_uniform": [
+        42,
+        43,
+        44
+      ],
+      "position_biased": [
+        42,
+        43,
+        44
+      ]
+    },
+    "seeds_by_model_condition": {
+      "ncm_inspired_gru_mansoury": {
+        "in-processing": [
+          42,
+          43,
+          44
+        ],
+        "post-processing": [
+          42,
+          43,
+          44
+        ]
+      },
+      "ncm_inspired_gru_uniform": {
+        "in-processing": [
+          42,
+          43,
+          44
+        ],
+        "post-processing": [
+          42,
+          43,
+          44
+        ]
+      },
+      "position_biased": {
+        "in-processing": [
+          42,
+          43,
+          44
+        ],
+        "post-processing": [
+          42,
+          43,
+          44
+        ]
+      }
+    },
+    "time_summary": "Mean over iterations 1–30 and iteration-30 endpoint (separate panels)",
+    "windows": [
+      "iteration_30",
+      "mean_1_30"
+    ],
+    "protocol": "300 active users",
+    "comparisons": [
+      "L2 in-processing minus control",
+      "L2 post-processing minus control"
+    ],
+    "encoding": "Colours: models; markers: simulation seeds",
+    "text": "Goodreads | 300 active users | Treatment stages: L2\nMean over iterations 1–30 and iteration-30 endpoint (separate panels) | Simulation seeds: 42, 43, 44\nEach mitigation minus its matched unmitigated control",
+    "plot_spec": {
+      "kind": "effect",
+      "facet": "window",
+      "category": "comparison",
+      "metrics": [
+        "female_click_share",
+        "female_exposure",
+        "weighted_female_exposure"
+      ]
+    }
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq7",
+    "source_blocks": [
+      {
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "seed": 44,
+        "population_seed": 5245
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq7_gender_mitigation_l2_effects.pdf": "48167e40873264cb1c356a123e31184bb30fab028d431622cc5e9de31d30072c",
+    "rq7_gender_mitigation_l2_effects.png": "fe717db2250abb1f3544df34a862eb635edba3dd33b4958166de971c9cdbeeab"
+  }
+}

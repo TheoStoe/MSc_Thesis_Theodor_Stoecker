@@ -1,0 +1,67 @@
+{
+  "analysis_name": "rq1_spike_sponsored_clicks",
+  "label": "chap:results:fig:rq1_spike_sponsored_clicks",
+  "recommended_for_main_text": false,
+  "rationale": "",
+  "context": {
+    "datasets": [
+      "MovieLens"
+    ],
+    "stages_by_model": {
+      "agentic_recommender": [
+        "L4",
+        "L5"
+      ]
+    },
+    "seeds_by_model": {
+      "agentic_recommender": [
+        44
+      ]
+    },
+    "seeds_by_model_condition": {
+      "agentic_recommender": {
+        "O1_static_ad": [
+          44
+        ],
+        "O2_adaptive_ad_three_strike": [
+          44
+        ]
+      }
+    },
+    "time_summary": "Per-iteration values, iterations 1–30",
+    "windows": [],
+    "protocol": "Initially 150 active + 150 reserve users",
+    "comparisons": [],
+    "encoding": "",
+    "text": "MovieLens | Initially 150 active + 150 reserve users | Stages: L4, L5\nPer-iteration values, iterations 1–30 | Simulation seeds: 44",
+    "plot_spec": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq1_spike",
+    "source_blocks": [
+      {
+        "physical_run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O1_static_ad__seed_44",
+        "run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O1_static_ad__seed_44",
+        "condition_id": "O1_static_ad",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_44",
+        "run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_44",
+        "condition_id": "O2_adaptive_ad_three_strike",
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq1_spike_sponsored_clicks.pdf": "a2164719a6492471465c1e68e99cb7c2a72be56c05c2e4bbb615b46deb9e8400",
+    "rq1_spike_sponsored_clicks.png": "ec9cc9ec2c7d8a0cd0696619ef185fd89ab62cf065bd166745327dcf94a3d122"
+  }
+}

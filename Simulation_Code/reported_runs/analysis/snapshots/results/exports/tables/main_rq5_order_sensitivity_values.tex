@@ -1,0 +1,29 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{llrrr}
+\hline
+predictor\_family & Model & seed & baseline\_order\_sensitivity & head\_click\_reduction\_pp \\
+\hline
+LLM common-valid agreement gap & Agent & 42 & 0.249772 & 7.93692 \\
+LLM common-valid agreement gap & Direct LLM & 42 & 0.353267 & 12.8412 \\
+Computational probability TVD & NCM P4 (Mansoury) & 42 & 0.882039 & 71.7556 \\
+Computational probability TVD & NCM P3 (uniform) & 42 & 0.670173 & 33.9556 \\
+Computational probability TVD & Position-biased & 42 & 0.784146 & 73.3 \\
+LLM common-valid agreement gap & Agent & 43 & 0.23724 & 12.2005 \\
+LLM common-valid agreement gap & Direct LLM & 43 & 0.36913 & 16.1867 \\
+Computational probability TVD & NCM P4 (Mansoury) & 43 & 0.884852 & 75.7333 \\
+Computational probability TVD & NCM P3 (uniform) & 43 & 0.707137 & 29.5667 \\
+Computational probability TVD & Position-biased & 43 & 0.781691 & 72.9111 \\
+LLM common-valid agreement gap & Agent & 44 & 0.240853 & 10.9829 \\
+LLM common-valid agreement gap & Direct LLM & 44 & 0.3467 & 17.4625 \\
+Computational probability TVD & NCM P4 (Mansoury) & 44 & 0.88683 & 74.8 \\
+Computational probability TVD & NCM P3 (uniform) & 44 & 0.719168 & 25.2889 \\
+Computational probability TVD & Position-biased & 44 & 0.784221 & 69.9 \\
+\hline
+\end{tabular}
+\caption{Values plotted in the main-text order-sensitivity figure: control order sensitivity (TVD, or agreement gap as a fraction) and the mean post-processing reduction in head-click share in percentage points.}
+\label{chap:results:tab:main_rq5_order_sensitivity_values}
+\end{table}

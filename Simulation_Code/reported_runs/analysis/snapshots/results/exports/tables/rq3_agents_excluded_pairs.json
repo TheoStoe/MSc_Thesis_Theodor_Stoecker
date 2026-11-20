@@ -1,0 +1,246 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq3_agents_excluded_pairs",
+  "label": "chap:results:tab:rq3_agents_excluded_pairs",
+  "caption": "Paired response diagnostics by agent configuration. Equal-weight mean over iterations 1--30 and iteration-30 endpoint. Shares are fractions; share gaps are percentage points. Undefined denominators remain missing.",
+  "rows": 24,
+  "source_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Replica excluded non valid pairs",
+    "Shuffled excluded non valid pairs",
+    "Condition"
+  ],
+  "source_dtypes": {
+    "Model": "str",
+    "Seed": "int64",
+    "Time summary": "str",
+    "Replica excluded non valid pairs": "float64",
+    "Shuffled excluded non valid pairs": "float64",
+    "Condition": "str"
+  },
+  "display_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Replica excluded non valid pairs",
+    "Shuffled excluded non valid pairs",
+    "Condition"
+  ],
+  "display_rows": [
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrlrrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq3",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq3_agents_excluded_pairs.tex": "e7bd4b4399379891ee6bfee96fbd90ca4629480af4e840d1d1cf09c90356c2cf",
+    "rq3_agents_excluded_pairs.csv": "71b84fb1eb2e03deae8cd0aa64624fd46d30110963ae2848326f56e7984f5b47"
+  }
+}

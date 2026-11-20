@@ -1,0 +1,280 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "main_rq1_feedback_exposure_values",
+  "label": "chap:results:tab:main_rq1_feedback_exposure_values",
+  "caption": "Values plotted in the main-text feedback-exposure figure, in percentage points (mean over iterations 1--30).",
+  "rows": 22,
+  "source_columns": [
+    "Contrast",
+    "Model",
+    "Metric",
+    "Seed 42",
+    "Seed 43",
+    "Seed 44",
+    "Mean of seeds",
+    "Seeds"
+  ],
+  "source_dtypes": {
+    "Contrast": "str",
+    "Model": "str",
+    "Metric": "str",
+    "Seed 42": "float64",
+    "Seed 43": "float64",
+    "Seed 44": "float64",
+    "Mean of seeds": "float64",
+    "Seeds": "int64"
+  },
+  "display_columns": [
+    "Contrast",
+    "Model",
+    "Metric",
+    "Seed 42",
+    "Seed 43",
+    "Seed 44",
+    "Mean of seeds",
+    "Seeds"
+  ],
+  "display_rows": [
+    [
+      "L1 minus L0 (feature feedback)",
+      "Position-biased",
+      "Head exposure",
+      "0.295556",
+      "-2.56889",
+      "-2.46111",
+      "-1.57815",
+      "3"
+    ],
+    [
+      "L1 minus L0 (feature feedback)",
+      "Position-biased",
+      "Weighted head exposure",
+      "0.31597",
+      "-2.583",
+      "-2.21398",
+      "-1.49367",
+      "3"
+    ],
+    [
+      "L1 minus L0 (feature feedback)",
+      "NCM P3 (uniform)",
+      "Head exposure",
+      "7.72556",
+      "4.85111",
+      "6.58",
+      "6.38556",
+      "3"
+    ],
+    [
+      "L1 minus L0 (feature feedback)",
+      "NCM P3 (uniform)",
+      "Weighted head exposure",
+      "10.4575",
+      "7.94124",
+      "9.89841",
+      "9.43238",
+      "3"
+    ],
+    [
+      "L1 minus L0 (feature feedback)",
+      "NCM P4 (Mansoury)",
+      "Head exposure",
+      "0.862222",
+      "-2.40111",
+      "-1.25667",
+      "-0.931852",
+      "3"
+    ],
+    [
+      "L1 minus L0 (feature feedback)",
+      "NCM P4 (Mansoury)",
+      "Weighted head exposure",
+      "2.13767",
+      "-1.10345",
+      "0.068401",
+      "0.367542",
+      "3"
+    ],
+    [
+      "L1 minus L0 (feature feedback)",
+      "Direct LLM",
+      "Head exposure",
+      "2.90333",
+      "1.56778",
+      "2.06111",
+      "2.17741",
+      "3"
+    ],
+    [
+      "L1 minus L0 (feature feedback)",
+      "Direct LLM",
+      "Weighted head exposure",
+      "3.0976",
+      "2.43386",
+      "2.61001",
+      "2.71382",
+      "3"
+    ],
+    [
+      "L1 minus L0 (feature feedback)",
+      "Agent",
+      "Head exposure",
+      "3.08556",
+      "-0.694444",
+      "0.656667",
+      "1.01593",
+      "3"
+    ],
+    [
+      "L1 minus L0 (feature feedback)",
+      "Agent",
+      "Weighted head exposure",
+      "2.97379",
+      "-0.524093",
+      "0.50293",
+      "0.984209",
+      "3"
+    ],
+    [
+      "L2 minus L1 (model feedback)",
+      "Position-biased",
+      "Head exposure",
+      "11.42",
+      "15.9611",
+      "13.9478",
+      "13.7763",
+      "3"
+    ],
+    [
+      "L2 minus L1 (model feedback)",
+      "Position-biased",
+      "Weighted head exposure",
+      "11.8381",
+      "16.4755",
+      "14.3692",
+      "14.2276",
+      "3"
+    ],
+    [
+      "L2 minus L1 (model feedback)",
+      "NCM P3 (uniform)",
+      "Head exposure",
+      "19.4356",
+      "21.5133",
+      "18.7156",
+      "19.8881",
+      "3"
+    ],
+    [
+      "L2 minus L1 (model feedback)",
+      "NCM P3 (uniform)",
+      "Weighted head exposure",
+      "19.8562",
+      "21.7969",
+      "18.8509",
+      "20.168",
+      "3"
+    ],
+    [
+      "L2 minus L1 (model feedback)",
+      "NCM P4 (Mansoury)",
+      "Head exposure",
+      "13.9889",
+      "19.03",
+      "15.6044",
+      "16.2078",
+      "3"
+    ],
+    [
+      "L2 minus L1 (model feedback)",
+      "NCM P4 (Mansoury)",
+      "Weighted head exposure",
+      "14.3975",
+      "19.3424",
+      "15.7657",
+      "16.5019",
+      "3"
+    ],
+    [
+      "L2 minus L1 (model feedback)",
+      "Direct LLM",
+      "Head exposure",
+      "3.34444",
+      "12.8589",
+      "10.1744",
+      "8.79259",
+      "3"
+    ],
+    [
+      "L2 minus L1 (model feedback)",
+      "Direct LLM",
+      "Weighted head exposure",
+      "3.14996",
+      "12.6946",
+      "10.0987",
+      "8.64776",
+      "3"
+    ],
+    [
+      "L2 minus L1 (model feedback)",
+      "Agent",
+      "Head exposure",
+      "-3.59444",
+      "-2.17222",
+      "0.11",
+      "-1.88556",
+      "3"
+    ],
+    [
+      "L2 minus L1 (model feedback)",
+      "Agent",
+      "Weighted head exposure",
+      "-3.56684",
+      "-3.43631",
+      "-0.00427019",
+      "-2.33581",
+      "3"
+    ],
+    [
+      "L3 minus L2 (individual, agent only)",
+      "Agent",
+      "Head exposure",
+      "-1.73778",
+      "3.11889",
+      "-3.21778",
+      "-0.612222",
+      "3"
+    ],
+    [
+      "L3 minus L2 (individual, agent only)",
+      "Agent",
+      "Weighted head exposure",
+      "-3.1535",
+      "3.67435",
+      "-3.79031",
+      "-1.08982",
+      "3"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lllrrrrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "main",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "main_rq1_feedback_exposure_values.tex": "6eecd7c2237c2021867f460cd38bf455c72827e320245b964ee1fdba9a4ae959",
+    "main_rq1_feedback_exposure_values.csv": "9162ac8df51cd42e62368f940156ccef8c19fbf6f92f0289fafd0f748d740f00"
+  }
+}

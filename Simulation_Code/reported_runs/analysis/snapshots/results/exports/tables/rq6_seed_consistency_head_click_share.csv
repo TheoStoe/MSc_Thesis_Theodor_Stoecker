@@ -1,0 +1,25 @@
+dataset,comparison,model,metric,window,n_seed_blocks,mean_effect,min_effect,max_effect,positive,negative,zero,missing_seeds,effect_unit
+goodreads,L2 minus L0,agentic_recommender,head_click_share,mean_1_30,3,-18.150575051979825,-24.34187932077289,-10.656694892439385,0,3,0,,percentage points
+goodreads,L2 minus L0,agentic_recommender,head_click_share,iteration_30,3,-28.87917331732734,-43.02325581395349,-13.969230769230768,0,3,0,,percentage points
+goodreads,L3 full reflection minus L2 frozen agent,agentic_recommender,head_click_share,mean_1_30,3,-1.636083793842871,-17.16902188782976,10.445152411962066,2,1,0,,percentage points
+goodreads,L3 full reflection minus L2 frozen agent,agentic_recommender,head_click_share,iteration_30,3,3.3527081126611384,-14.60487804878049,17.800349296810364,2,1,0,,percentage points
+goodreads,L2 minus L0,direct_llm,head_click_share,mean_1_30,2,-7.135016261746868,-15.558332602041492,1.2883000785477554,1,1,0,43,percentage points
+goodreads,L2 minus L0,direct_llm,head_click_share,iteration_30,3,-29.607843137254903,-41.17647058823529,-17.647058823529417,0,3,0,,percentage points
+goodreads,L2 minus L0,ncm_inspired_gru_mansoury,head_click_share,mean_1_30,3,22.47037037037037,19.78888888888889,24.22222222222222,3,0,0,,percentage points
+goodreads,L2 minus L0,ncm_inspired_gru_mansoury,head_click_share,iteration_30,3,25.111111111111104,23.0,29.33333333333332,3,0,0,,percentage points
+goodreads,L2 minus L0,ncm_inspired_gru_uniform,head_click_share,mean_1_30,3,25.285185185185185,21.866666666666667,27.17777777777778,3,0,0,,percentage points
+goodreads,L2 minus L0,ncm_inspired_gru_uniform,head_click_share,iteration_30,3,28.777777777777782,27.0,31.000000000000007,3,0,0,,percentage points
+goodreads,L2 minus L0,position_biased,head_click_share,mean_1_30,3,-0.592592592592593,-5.933333333333334,3.644444444444444,2,1,0,,percentage points
+goodreads,L2 minus L0,position_biased,head_click_share,iteration_30,3,-15.222222222222223,-17.333333333333336,-12.0,0,3,0,,percentage points
+movielens,L2 minus L0,agentic_recommender,head_click_share,mean_1_30,3,-4.493477768160328,-6.9005615305261605,-2.731073851543797,0,3,0,,percentage points
+movielens,L2 minus L0,agentic_recommender,head_click_share,iteration_30,3,-16.19555004437977,-18.359754124878673,-14.176516942474382,0,3,0,,percentage points
+movielens,L3 full reflection minus L2 frozen agent,agentic_recommender,head_click_share,mean_1_30,3,-4.083718355466333,-7.469391188107575,-0.22343749641419633,0,3,0,,percentage points
+movielens,L3 full reflection minus L2 frozen agent,agentic_recommender,head_click_share,iteration_30,3,-8.182849579782234,-12.713769570453643,-2.5895917322162623,0,3,0,,percentage points
+movielens,L2 minus L0,direct_llm,head_click_share,mean_1_30,3,4.545848480390698,-2.220497395784819,8.857294811577752,2,1,0,,percentage points
+movielens,L2 minus L0,direct_llm,head_click_share,iteration_30,3,-2.547818296253135,-8.018433179723505,8.037535699714404,1,2,0,,percentage points
+movielens,L2 minus L0,ncm_inspired_gru_mansoury,head_click_share,mean_1_30,3,16.32962962962963,15.455555555555554,17.700000000000003,3,0,0,,percentage points
+movielens,L2 minus L0,ncm_inspired_gru_mansoury,head_click_share,iteration_30,3,15.888888888888886,15.333333333333332,16.333333333333332,3,0,0,,percentage points
+movielens,L2 minus L0,ncm_inspired_gru_uniform,head_click_share,mean_1_30,3,19.50740740740741,18.677777777777774,20.18888888888889,3,0,0,,percentage points
+movielens,L2 minus L0,ncm_inspired_gru_uniform,head_click_share,iteration_30,3,23.333333333333343,19.999999999999996,27.000000000000014,3,0,0,,percentage points
+movielens,L2 minus L0,position_biased,head_click_share,mean_1_30,3,13.718518518518517,12.433333333333334,14.955555555555552,3,0,0,,percentage points
+movielens,L2 minus L0,position_biased,head_click_share,iteration_30,3,12.666666666666671,11.33333333333334,15.333333333333332,3,0,0,,percentage points

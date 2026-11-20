@@ -1,0 +1,34 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lllllrrrrrrrll}
+\hline
+dataset & comparison & model & metric & window & n\_seed\_blocks & mean\_effect & min\_effect & max\_effect & positive & negative & zero & missing\_seeds & effect\_unit \\
+\hline
+movielens & L1 minus L0 & agentic\_recommender & head\_click\_share & mean\_1\_30 & 3 & -3.09539 & -4.18374 & -1.2829 & 0 & 3 & 0 &  & percentage points \\
+movielens & L1 minus L0 & agentic\_recommender & head\_click\_share & iteration\_30 & 3 & -5.65475 & -8.2913 & -2.71337 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 minus L1 & agentic\_recommender & head\_click\_share & mean\_1\_30 & 3 & -1.39809 & -3.08102 & 1.45266 & 1 & 2 & 0 &  & percentage points \\
+movielens & L2 minus L1 & agentic\_recommender & head\_click\_share & iteration\_30 & 3 & -10.5408 & -12.4002 & -7.75908 & 0 & 3 & 0 &  & percentage points \\
+movielens & L1 minus L0 & direct\_llm & head\_click\_share & mean\_1\_30 & 3 & 1.57455 & 0.475011 & 2.59252 & 3 & 0 & 0 &  & percentage points \\
+movielens & L1 minus L0 & direct\_llm & head\_click\_share & iteration\_30 & 3 & 7.73766 & 1.19048 & 11.5463 & 3 & 0 & 0 &  & percentage points \\
+movielens & L2 minus L1 & direct\_llm & head\_click\_share & mean\_1\_30 & 3 & 2.97129 & -3.87663 & 6.52574 & 2 & 1 & 0 &  & percentage points \\
+movielens & L2 minus L1 & direct\_llm & head\_click\_share & iteration\_30 & 3 & -10.2855 & -18.1387 & -3.50877 & 0 & 3 & 0 &  & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_mansoury & head\_click\_share & mean\_1\_30 & 3 & 0.0111111 & -1.34444 & 1.31111 & 2 & 1 & 0 &  & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_mansoury & head\_click\_share & iteration\_30 & 3 & -1.66667 & -2.66667 & -0.333333 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_mansoury & head\_click\_share & mean\_1\_30 & 3 & 16.3185 & 14.5222 & 19.0444 & 3 & 0 & 0 &  & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_mansoury & head\_click\_share & iteration\_30 & 3 & 17.5556 & 15.6667 & 18.6667 & 3 & 0 & 0 &  & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_uniform & head\_click\_share & mean\_1\_30 & 3 & 5.32593 & 4.23333 & 6.08889 & 3 & 0 & 0 &  & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_uniform & head\_click\_share & iteration\_30 & 3 & 3.11111 & -1.66667 & 6.66667 & 2 & 1 & 0 &  & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_uniform & head\_click\_share & mean\_1\_30 & 3 & 14.1815 & 13.0222 & 15.4222 & 3 & 0 & 0 &  & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_uniform & head\_click\_share & iteration\_30 & 3 & 20.2222 & 18.6667 & 21.6667 & 3 & 0 & 0 &  & percentage points \\
+movielens & L1 minus L0 & position\_biased & head\_click\_share & mean\_1\_30 & 3 & -1.2037 & -2.22222 & -0.155556 & 0 & 3 & 0 &  & percentage points \\
+movielens & L1 minus L0 & position\_biased & head\_click\_share & iteration\_30 & 3 & -5.33333 & -10.3333 & -2.66667 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 minus L1 & position\_biased & head\_click\_share & mean\_1\_30 & 3 & 14.9222 & 12.5889 & 17.1778 & 3 & 0 & 0 &  & percentage points \\
+movielens & L2 minus L1 & position\_biased & head\_click\_share & iteration\_30 & 3 & 18 & 14 & 21.6667 & 3 & 0 & 0 &  & percentage points \\
+\hline
+\end{tabular}
+\caption{Descriptive mean, minimum, maximum, and sign consistency of the paired effects across available seed/population blocks. Share differences use percentage points; missing seeds and block counts remain explicit.}
+\label{chap:results:tab:rq2_seed_consistency_head_click_share}
+\end{table}

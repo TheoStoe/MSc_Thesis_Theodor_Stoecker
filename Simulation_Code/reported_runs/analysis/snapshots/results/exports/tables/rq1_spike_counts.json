@@ -1,0 +1,94 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq1_spike_counts",
+  "label": "chap:results:tab:rq1_spike_counts",
+  "caption": "Seed44 sponsored deliveries, clicks, and click/delivery rates at iterations1 and5. Source item metadata is not redistributed.",
+  "rows": 4,
+  "source_columns": [
+    "iteration",
+    "condition",
+    "shown",
+    "clicks",
+    "rate"
+  ],
+  "source_dtypes": {
+    "iteration": "int64",
+    "condition": "str",
+    "shown": "int64",
+    "clicks": "int64",
+    "rate": "float64"
+  },
+  "display_columns": [
+    "iteration",
+    "condition",
+    "shown",
+    "clicks",
+    "rate"
+  ],
+  "display_rows": [
+    [
+      "1",
+      "L5 adaptive advertising",
+      "150",
+      "52",
+      "0.346667"
+    ],
+    [
+      "1",
+      "Static advertising",
+      "150",
+      "61",
+      "0.406667"
+    ],
+    [
+      "5",
+      "L5 adaptive advertising",
+      "13",
+      "2",
+      "0.153846"
+    ],
+    [
+      "5",
+      "Static advertising",
+      "150",
+      "48",
+      "0.32"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "rlrrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq1_spike",
+    "source_blocks": [
+      {
+        "physical_run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O1_static_ad__seed_44",
+        "run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O1_static_ad__seed_44",
+        "condition_id": "O1_static_ad",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_44",
+        "run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_44",
+        "condition_id": "O2_adaptive_ad_three_strike",
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq1_spike_counts.tex": "1fa1dcdfe29b8aefcd83a7eea54eefd55e7834a414e37f30e3d2a4e01a21d606",
+    "rq1_spike_counts.csv": "59c0b5da23966794e84fe03bb28938431656b2c0e38765988ead18c93c79ef41"
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "main_rq7_gender_feedback_effects_values",
+  "label": "chap:results:tab:main_rq7_gender_feedback_effects_values",
+  "caption": "Values plotted in the main-text gender feedback figure, in percentage points (mean over iterations 1--30).",
+  "rows": 18,
+  "source_columns": [
+    "Contrast",
+    "Model",
+    "Metric",
+    "Seed 42",
+    "Seed 43",
+    "Seed 44",
+    "Mean of seeds",
+    "Seeds"
+  ],
+  "source_dtypes": {
+    "Contrast": "str",
+    "Model": "str",
+    "Metric": "str",
+    "Seed 42": "float64",
+    "Seed 43": "float64",
+    "Seed 44": "float64",
+    "Mean of seeds": "float64",
+    "Seeds": "int64"
+  },
+  "display_columns": [
+    "Contrast",
+    "Model",
+    "Metric",
+    "Seed 42",
+    "Seed 43",
+    "Seed 44",
+    "Mean of seeds",
+    "Seeds"
+  ],
+  "display_rows": [
+    [
+      "L2 minus L0",
+      "Position-biased",
+      "Women-authored click share",
+      "6.47778",
+      "-0.8",
+      "4.88889",
+      "3.52222",
+      "3"
+    ],
+    [
+      "L2 minus L0",
+      "Position-biased",
+      "Women-authored exposure",
+      "4.30667",
+      "-1.37778",
+      "4.19111",
+      "2.37333",
+      "3"
+    ],
+    [
+      "L2 minus L0",
+      "Position-biased",
+      "Weighted women-authored exposure",
+      "5.0222",
+      "-1.35935",
+      "4.13883",
+      "2.60056",
+      "3"
+    ],
+    [
+      "L2 minus L0",
+      "NCM P3 (uniform)",
+      "Women-authored click share",
+      "-11.8556",
+      "1.13333",
+      "-9.84444",
+      "-6.85556",
+      "3"
+    ],
+    [
+      "L2 minus L0",
+      "NCM P3 (uniform)",
+      "Women-authored exposure",
+      "-3.35444",
+      "1.95222",
+      "-10.3444",
+      "-3.91556",
+      "3"
+    ],
+    [
+      "L2 minus L0",
+      "NCM P3 (uniform)",
+      "Weighted women-authored exposure",
+      "-5.06792",
+      "1.6536",
+      "-10.6561",
+      "-4.69014",
+      "3"
+    ],
+    [
+      "L2 minus L0",
+      "NCM P4 (Mansoury)",
+      "Women-authored click share",
+      "-7.18889",
+      "-4.17778",
+      "-2.55556",
+      "-4.64074",
+      "3"
+    ],
+    [
+      "L2 minus L0",
+      "NCM P4 (Mansoury)",
+      "Women-authored exposure",
+      "-4.16111",
+      "-4.15",
+      "-3.78778",
+      "-4.03296",
+      "3"
+    ],
+    [
+      "L2 minus L0",
+      "NCM P4 (Mansoury)",
+      "Weighted women-authored exposure",
+      "-4.89125",
+      "-4.68133",
+      "-4.1006",
+      "-4.55773",
+      "3"
+    ],
+    [
+      "L2 minus L0",
+      "Direct LLM",
+      "Women-authored click share",
+      "-7.95984",
+      "—",
+      "0.70393",
+      "-3.62796",
+      "2"
+    ],
+    [
+      "L2 minus L0",
+      "Direct LLM",
+      "Women-authored exposure",
+      "-0.457778",
+      "2.59333",
+      "-2.84556",
+      "-0.236667",
+      "3"
+    ],
+    [
+      "L2 minus L0",
+      "Direct LLM",
+      "Weighted women-authored exposure",
+      "-0.332419",
+      "3.15111",
+      "-2.81484",
+      "0.00128115",
+      "3"
+    ],
+    [
+      "L2 minus L0",
+      "Agent",
+      "Women-authored click share",
+      "18.0911",
+      "12.6644",
+      "16.4296",
+      "15.7284",
+      "3"
+    ],
+    [
+      "L2 minus L0",
+      "Agent",
+      "Women-authored exposure",
+      "20.8667",
+      "9.17",
+      "13.6611",
+      "14.5659",
+      "3"
+    ],
+    [
+      "L2 minus L0",
+      "Agent",
+      "Weighted women-authored exposure",
+      "21.5483",
+      "12",
+      "14.4695",
+      "16.0059",
+      "3"
+    ],
+    [
+      "L3 minus L2 (agent)",
+      "Agent",
+      "Women-authored click share",
+      "-17.4325",
+      "4.30114",
+      "0.429233",
+      "-4.23404",
+      "3"
+    ],
+    [
+      "L3 minus L2 (agent)",
+      "Agent",
+      "Women-authored exposure",
+      "-17.0944",
+      "10.9344",
+      "-1.44",
+      "-2.53333",
+      "3"
+    ],
+    [
+      "L3 minus L2 (agent)",
+      "Agent",
+      "Weighted women-authored exposure",
+      "-17.077",
+      "8.17442",
+      "-1.2309",
+      "-3.37783",
+      "3"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lllrrrrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "main",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "main_rq7_gender_feedback_effects_values.tex": "7c2f90c24b45a9eddd362eab25d7fb53cd14f2a3c479f073787c2a540cd03c43",
+    "main_rq7_gender_feedback_effects_values.csv": "7a358a73ec5e32cbfaf7cbe9db77a74e52547fa3d94303a9aac2ba2bb5b21351"
+  }
+}

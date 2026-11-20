@@ -1,0 +1,65 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq1_seed44_spike_reason_keywords",
+  "label": "chap:results:tab:rq1_seed44_spike_reason_keywords",
+  "caption": "Saved descriptive keyword counts among static iteration5 sponsor-click reasons. Categories overlap; individual reasons are not included.",
+  "rows": 4,
+  "source_columns": [
+    "Reason mentions",
+    "Static reasons",
+    "Total reasons"
+  ],
+  "source_dtypes": {
+    "Reason mentions": "str",
+    "Static reasons": "int64",
+    "Total reasons": "int64"
+  },
+  "display_columns": [
+    "Reason mentions",
+    "Static reasons",
+    "Total reasons"
+  ],
+  "display_rows": [
+    [
+      "Crime or noir",
+      "48",
+      "48"
+    ],
+    [
+      "Thriller or suspense",
+      "46",
+      "48"
+    ],
+    [
+      "Character, motive, or psychological",
+      "33",
+      "48"
+    ],
+    [
+      "Moral, ethical, or consequences",
+      "32",
+      "48"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq1_spike",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq1_seed44_spike_reason_keywords.tex": "dbb650fd40a8d2580f93f35ea5450def05a28ba49077ee60dce9f9bd9ea27588",
+    "rq1_seed44_spike_reason_keywords.csv": "ecb38ba725b00a018a71cd74155d846e3ae2c16b4405cec4009a050eb5503ae5"
+  }
+}

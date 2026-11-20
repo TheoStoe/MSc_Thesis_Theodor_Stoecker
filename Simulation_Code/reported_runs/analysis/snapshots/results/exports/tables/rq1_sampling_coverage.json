@@ -1,0 +1,246 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq1_sampling_coverage",
+  "label": "chap:results:tab:rq1_sampling_coverage",
+  "caption": "Matched 150/150 sampling conditions. Equal-weight mean over iterations 1--30 and iteration-30 endpoint. Shares are fractions; share gaps are percentage points. Undefined denominators remain missing.",
+  "rows": 24,
+  "source_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Catalogue coverage (clicks)",
+    "Catalogue coverage (exposure)",
+    "Condition"
+  ],
+  "source_dtypes": {
+    "Model": "str",
+    "Seed": "int64",
+    "Time summary": "str",
+    "Catalogue coverage (clicks)": "float64",
+    "Catalogue coverage (exposure)": "float64",
+    "Condition": "str"
+  },
+  "display_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Catalogue coverage (clicks)",
+    "Catalogue coverage (exposure)",
+    "Condition"
+  ],
+  "display_rows": [
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0.0260539",
+      "0.132904",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0.0282689",
+      "0.164744",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0.0242974",
+      "0.140808",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0.0305718",
+      "0.181274",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0.0251756",
+      "0.138173",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0.030445",
+      "0.17381",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0.028103",
+      "0.149883",
+      "L4: cluster refill"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0.029235",
+      "0.170023",
+      "L4: cluster refill"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0.0245902",
+      "0.117681",
+      "L4: cluster refill"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0.0282884",
+      "0.15324",
+      "L4: cluster refill"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0.0231265",
+      "0.123244",
+      "L4: cluster refill"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0.0283275",
+      "0.163027",
+      "L4: cluster refill"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0.0152225",
+      "0.0892857",
+      "L4: departures, no refill"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0.0207358",
+      "0.135988",
+      "L4: departures, no refill"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0.0155152",
+      "0.117681",
+      "L4: departures, no refill"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0.0206674",
+      "0.142418",
+      "L4: departures, no refill"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0.0140515",
+      "0.0954333",
+      "L4: departures, no refill"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0.02258",
+      "0.145628",
+      "L4: departures, no refill"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0.0263466",
+      "0.125878",
+      "L4: uniform refill"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0.0285226",
+      "0.163964",
+      "L4: uniform refill"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0.0245902",
+      "0.121194",
+      "L4: uniform refill"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0.0302108",
+      "0.172073",
+      "L4: uniform refill"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0.0248829",
+      "0.117974",
+      "L4: uniform refill"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0.0301425",
+      "0.171292",
+      "L4: uniform refill"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrlrrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq1",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq1_sampling_coverage.tex": "71c1a6f1f853a8dfdf0731a3b9cca84d10f0fed839280349f5024fa159a6a363",
+    "rq1_sampling_coverage.csv": "3873e232ddf2f2f0e2bfb8d66024817867192bd05fb25a3ee3bcbbbd86acc697"
+  }
+}

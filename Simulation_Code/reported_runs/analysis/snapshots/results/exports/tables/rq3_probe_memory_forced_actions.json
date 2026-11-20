@@ -1,0 +1,143 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq3_probe_memory_forced_actions",
+  "label": "chap:results:tab:rq3_probe_memory_forced_actions",
+  "caption": "Recorded module use in nonpersistent diagnostic responses, separately by presentation arm. Probe retrieval does not change the canonical user state.",
+  "rows": 2,
+  "source_columns": [
+    "Protocol",
+    "Presentation arm",
+    "Runs",
+    "Decisions",
+    "Memory calls",
+    "Forced actions"
+  ],
+  "source_dtypes": {
+    "Protocol": "str",
+    "Presentation arm": "str",
+    "Runs": "int64",
+    "Decisions": "int64",
+    "Memory calls": "int64",
+    "Forced actions": "int64"
+  },
+  "display_columns": [
+    "Protocol",
+    "Presentation arm",
+    "Runs",
+    "Decisions",
+    "Memory calls",
+    "Forced actions"
+  ],
+  "display_rows": [
+    [
+      "RQ III: 300 active users (L2/L3)",
+      "replica",
+      "12",
+      "108000",
+      "1",
+      "0"
+    ],
+    [
+      "RQ III: 300 active users (L2/L3)",
+      "shuffled",
+      "12",
+      "108000",
+      "1",
+      "0"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "llrrrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq3",
+    "source_blocks": [
+      {
+        "run_id": "feedback_new_sampling_p1054_a300_r0_e804__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_42",
+        "condition_id": "L2_ml_model__agentic_recommender__sasrec__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "run_id": "feedback_new_sampling_p1054_a300_r0_e804__L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe__seed_42",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__agentic_recommender__control__seed_42",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "run_id": "feedback_new_sampling_p1054_a300_r0_e804__L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe__seed_42",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "run_id": "feedback_new_sampling_p19277_a300_r0_e804__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_43",
+        "condition_id": "L2_ml_model__agentic_recommender__sasrec__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "run_id": "feedback_new_sampling_p19277_a300_r0_e804__L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe__seed_43",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__agentic_recommender__control__seed_43",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "run_id": "feedback_new_sampling_p19277_a300_r0_e804__L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe__seed_43",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_44",
+        "condition_id": "L2_ml_model__agentic_recommender__sasrec__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe__seed_44",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L3_individual__agentic_recommender__sasrec__full_reflection__order_probe__seed_44",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe__seed_44",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq3_probe_memory_forced_actions.tex": "8639696f1b0f3bb52f1b870ef694c95ead9af1b7ee987570130cda4ccf4515a5",
+    "rq3_probe_memory_forced_actions.csv": "968b69617ee9a457f138b422e329bc38681bdda39cf3e493905c07c91bc06f12"
+  }
+}

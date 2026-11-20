@@ -1,0 +1,80 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lllrrlrl}
+\hline
+dataset & comparison & model & seed & population\_seed & window & value & effect\_unit \\
+\hline
+movielens & L1 minus L0 & agentic\_recommender & 42 & 1054 & mean\_1\_30 & 2.97379 & percentage points \\
+movielens & L1 minus L0 & agentic\_recommender & 42 & 1054 & iteration\_30 & 4.00089 & percentage points \\
+movielens & L2 minus L1 & agentic\_recommender & 42 & 1054 & mean\_1\_30 & -3.56684 & percentage points \\
+movielens & L2 minus L1 & agentic\_recommender & 42 & 1054 & iteration\_30 & -18.9482 & percentage points \\
+movielens & L3 full reflection minus L2 frozen agent & agentic\_recommender & 42 & 1054 & mean\_1\_30 & -3.1535 & percentage points \\
+movielens & L3 full reflection minus L2 frozen agent & agentic\_recommender & 42 & 1054 & iteration\_30 & 1.54368 & percentage points \\
+movielens & L1 minus L0 & direct\_llm & 42 & 1054 & mean\_1\_30 & 3.0976 & percentage points \\
+movielens & L1 minus L0 & direct\_llm & 42 & 1054 & iteration\_30 & 4.8552 & percentage points \\
+movielens & L2 minus L1 & direct\_llm & 42 & 1054 & mean\_1\_30 & 3.14996 & percentage points \\
+movielens & L2 minus L1 & direct\_llm & 42 & 1054 & iteration\_30 & -4.46357 & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_mansoury & 42 & 1054 & mean\_1\_30 & 2.13767 & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_mansoury & 42 & 1054 & iteration\_30 & 5.91604 & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_mansoury & 42 & 1054 & mean\_1\_30 & 14.3975 & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_mansoury & 42 & 1054 & iteration\_30 & 13.21 & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_uniform & 42 & 1054 & mean\_1\_30 & 10.4575 & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_uniform & 42 & 1054 & iteration\_30 & 15.5336 & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_uniform & 42 & 1054 & mean\_1\_30 & 19.8562 & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_uniform & 42 & 1054 & iteration\_30 & 26.1926 & percentage points \\
+movielens & L1 minus L0 & position\_biased & 42 & 1054 & mean\_1\_30 & 0.31597 & percentage points \\
+movielens & L1 minus L0 & position\_biased & 42 & 1054 & iteration\_30 & 1.50113 & percentage points \\
+movielens & L2 minus L1 & position\_biased & 42 & 1054 & mean\_1\_30 & 11.8381 & percentage points \\
+movielens & L2 minus L1 & position\_biased & 42 & 1054 & iteration\_30 & 10.0142 & percentage points \\
+movielens & L1 minus L0 & agentic\_recommender & 43 & 19277 & mean\_1\_30 & -0.524093 & percentage points \\
+movielens & L1 minus L0 & agentic\_recommender & 43 & 19277 & iteration\_30 & -2.96659 & percentage points \\
+movielens & L2 minus L1 & agentic\_recommender & 43 & 19277 & mean\_1\_30 & -3.43631 & percentage points \\
+movielens & L2 minus L1 & agentic\_recommender & 43 & 19277 & iteration\_30 & -12.1535 & percentage points \\
+movielens & L3 full reflection minus L2 frozen agent & agentic\_recommender & 43 & 19277 & mean\_1\_30 & 3.67435 & percentage points \\
+movielens & L3 full reflection minus L2 frozen agent & agentic\_recommender & 43 & 19277 & iteration\_30 & 0.0761414 & percentage points \\
+movielens & L1 minus L0 & direct\_llm & 43 & 19277 & mean\_1\_30 & 2.43386 & percentage points \\
+movielens & L1 minus L0 & direct\_llm & 43 & 19277 & iteration\_30 & 3.11741 & percentage points \\
+movielens & L2 minus L1 & direct\_llm & 43 & 19277 & mean\_1\_30 & 12.6946 & percentage points \\
+movielens & L2 minus L1 & direct\_llm & 43 & 19277 & iteration\_30 & 4.68615 & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_mansoury & 43 & 19277 & mean\_1\_30 & -1.10345 & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_mansoury & 43 & 19277 & iteration\_30 & 0.764964 & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_mansoury & 43 & 19277 & mean\_1\_30 & 19.3424 & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_mansoury & 43 & 19277 & iteration\_30 & 18.4449 & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_uniform & 43 & 19277 & mean\_1\_30 & 7.94124 & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_uniform & 43 & 19277 & iteration\_30 & 13.2775 & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_uniform & 43 & 19277 & mean\_1\_30 & 21.7969 & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_uniform & 43 & 19277 & iteration\_30 & 28.0388 & percentage points \\
+movielens & L1 minus L0 & position\_biased & 43 & 19277 & mean\_1\_30 & -2.583 & percentage points \\
+movielens & L1 minus L0 & position\_biased & 43 & 19277 & iteration\_30 & -1.91787 & percentage points \\
+movielens & L2 minus L1 & position\_biased & 43 & 19277 & mean\_1\_30 & 16.4755 & percentage points \\
+movielens & L2 minus L1 & position\_biased & 43 & 19277 & iteration\_30 & 19.9118 & percentage points \\
+movielens & L1 minus L0 & agentic\_recommender & 44 & 18844 & mean\_1\_30 & 0.50293 & percentage points \\
+movielens & L1 minus L0 & agentic\_recommender & 44 & 18844 & iteration\_30 & -1.53128 & percentage points \\
+movielens & L2 minus L1 & agentic\_recommender & 44 & 18844 & mean\_1\_30 & -0.00427019 & percentage points \\
+movielens & L2 minus L1 & agentic\_recommender & 44 & 18844 & iteration\_30 & -14.27 & percentage points \\
+movielens & L3 full reflection minus L2 frozen agent & agentic\_recommender & 44 & 18844 & mean\_1\_30 & -3.79031 & percentage points \\
+movielens & L3 full reflection minus L2 frozen agent & agentic\_recommender & 44 & 18844 & iteration\_30 & -1.01831 & percentage points \\
+movielens & L1 minus L0 & direct\_llm & 44 & 18844 & mean\_1\_30 & 2.61001 & percentage points \\
+movielens & L1 minus L0 & direct\_llm & 44 & 18844 & iteration\_30 & 2.39548 & percentage points \\
+movielens & L2 minus L1 & direct\_llm & 44 & 18844 & mean\_1\_30 & 10.0987 & percentage points \\
+movielens & L2 minus L1 & direct\_llm & 44 & 18844 & iteration\_30 & 11.5554 & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_mansoury & 44 & 18844 & mean\_1\_30 & 0.068401 & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_mansoury & 44 & 18844 & iteration\_30 & -0.944792 & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_mansoury & 44 & 18844 & mean\_1\_30 & 15.7657 & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_mansoury & 44 & 18844 & iteration\_30 & 21.2095 & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_uniform & 44 & 18844 & mean\_1\_30 & 9.89841 & percentage points \\
+movielens & L1 minus L0 & ncm\_inspired\_gru\_uniform & 44 & 18844 & iteration\_30 & 12.4532 & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_uniform & 44 & 18844 & mean\_1\_30 & 18.8509 & percentage points \\
+movielens & L2 minus L1 & ncm\_inspired\_gru\_uniform & 44 & 18844 & iteration\_30 & 28.5124 & percentage points \\
+movielens & L1 minus L0 & position\_biased & 44 & 18844 & mean\_1\_30 & -2.21398 & percentage points \\
+movielens & L1 minus L0 & position\_biased & 44 & 18844 & iteration\_30 & -6.53712 & percentage points \\
+movielens & L2 minus L1 & position\_biased & 44 & 18844 & mean\_1\_30 & 14.3692 & percentage points \\
+movielens & L2 minus L1 & position\_biased & 44 & 18844 & iteration\_30 & 16.3922 & percentage points \\
+\hline
+\end{tabular}
+\caption{Matched weighted-head-exposure effects by seed and time summary, in percentage points.}
+\label{chap:results:tab:rq1_feedback_weighted_head_exposure}
+\end{table}

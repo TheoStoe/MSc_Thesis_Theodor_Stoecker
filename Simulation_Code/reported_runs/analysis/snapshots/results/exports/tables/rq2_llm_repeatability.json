@@ -1,0 +1,342 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq2_llm_repeatability",
+  "label": "chap:results:tab:rq2_llm_repeatability",
+  "caption": "Paired LLM response diagnostics. Equal-weight mean over iterations 1--30 and iteration-30 endpoint. Shares are fractions; share gaps are percentage points. Undefined denominators remain missing.",
+  "rows": 36,
+  "source_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Replica both no click share",
+    "Same-item replica agreement (both click)",
+    "Condition"
+  ],
+  "source_dtypes": {
+    "Model": "str",
+    "Seed": "int64",
+    "Time summary": "str",
+    "Replica both no click share": "float64",
+    "Same-item replica agreement (both click)": "float64",
+    "Condition": "str"
+  },
+  "display_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Replica both no click share",
+    "Same-item replica agreement (both click)",
+    "Condition"
+  ],
+  "display_rows": [
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0.453333",
+      "0.683673",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0.254",
+      "0.693213",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0.406667",
+      "0.722222",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0.253",
+      "0.691025",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0.416667",
+      "0.721154",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0.260222",
+      "0.686641",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0.04",
+      "0.700405",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0.0324444",
+      "0.690281",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0.0566667",
+      "0.633858",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0.0358889",
+      "0.708261",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0.08",
+      "0.708",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0.052",
+      "0.703791",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0.03",
+      "0.561798",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0.0216667",
+      "0.588658",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0.0333333",
+      "0.550943",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0.0248889",
+      "0.592893",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0.0266667",
+      "0.617647",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0.0171111",
+      "0.615315",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "iteration_30",
+      "0.786667",
+      "0.571429",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "mean_1_30",
+      "0.723333",
+      "0.503996",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "iteration_30",
+      "0.813333",
+      "0",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "mean_1_30",
+      "0.688556",
+      "0.483476",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "iteration_30",
+      "0.793333",
+      "0.666667",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "mean_1_30",
+      "0.703",
+      "0.545249",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "iteration_30",
+      "0.726667",
+      "0.642857",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "mean_1_30",
+      "0.612333",
+      "0.572446",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "iteration_30",
+      "0.693333",
+      "0.625",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "mean_1_30",
+      "0.604333",
+      "0.59965",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "iteration_30",
+      "0.736667",
+      "0.695652",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "mean_1_30",
+      "0.600667",
+      "0.592501",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "iteration_30",
+      "0.21",
+      "0.707792",
+      "L2"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "mean_1_30",
+      "0.320667",
+      "0.610036",
+      "L2"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "iteration_30",
+      "0.186667",
+      "0.662577",
+      "L2"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "mean_1_30",
+      "0.287222",
+      "0.650849",
+      "L2"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "iteration_30",
+      "0.263333",
+      "0.601562",
+      "L2"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "mean_1_30",
+      "0.333222",
+      "0.62602",
+      "L2"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrlrrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq2",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq2_llm_repeatability.tex": "17e5c7a317bd3bef4523337e9bad4b218a867655b6489c67dbd007664ed4a5ad",
+    "rq2_llm_repeatability.csv": "6920f797066cb25d8b0413ad24657e955cdca3bdad95d07f02eac70d5e1e60e0"
+  }
+}

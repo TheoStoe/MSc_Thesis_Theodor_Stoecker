@@ -1,0 +1,204 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq1_advertising_ranks_2_10_seed_consistency",
+  "label": "chap:results:tab:rq1_advertising_ranks_2_10_seed_consistency",
+  "caption": "Descriptive consistency of matched advertising effects for head exposure restricted to displayed ranks 2--10 in every condition. Effects and their observed seed ranges are percentage points; the weighted version retains original rank discounts. Seed/population blocks remain separate replications.",
+  "rows": 8,
+  "source_columns": [
+    "comparison",
+    "metric",
+    "window",
+    "n_seed_blocks",
+    "mean_effect",
+    "min_effect",
+    "max_effect",
+    "same_nonzero_sign"
+  ],
+  "source_dtypes": {
+    "comparison": "str",
+    "metric": "str",
+    "window": "str",
+    "n_seed_blocks": "int64",
+    "mean_effect": "float64",
+    "min_effect": "float64",
+    "max_effect": "float64",
+    "same_nonzero_sign": "bool"
+  },
+  "display_columns": [
+    "comparison",
+    "metric",
+    "window",
+    "n_seed_blocks",
+    "mean_effect",
+    "min_effect",
+    "max_effect",
+    "same_nonzero_sign"
+  ],
+  "display_rows": [
+    [
+      "Static advertising minus matched organic",
+      "Head exposure (displayed ranks 2–10)",
+      "mean_1_30",
+      "3",
+      "-2.35543",
+      "-5.68148",
+      "0.682623",
+      "False"
+    ],
+    [
+      "Static advertising minus matched organic",
+      "Head exposure (displayed ranks 2–10)",
+      "iteration_30",
+      "3",
+      "-4.46734",
+      "-12.2222",
+      "1.79012",
+      "False"
+    ],
+    [
+      "Static advertising minus matched organic",
+      "Weighted head exposure (displayed ranks 2–10)",
+      "mean_1_30",
+      "3",
+      "-2.78722",
+      "-6.90936",
+      "0.943134",
+      "False"
+    ],
+    [
+      "Static advertising minus matched organic",
+      "Weighted head exposure (displayed ranks 2–10)",
+      "iteration_30",
+      "3",
+      "-4.98841",
+      "-14.141",
+      "1.14814",
+      "False"
+    ],
+    [
+      "L5 adaptive advertising minus static advertising",
+      "Head exposure (displayed ranks 2–10)",
+      "mean_1_30",
+      "3",
+      "-0.931257",
+      "-2.70564",
+      "1.47901",
+      "False"
+    ],
+    [
+      "L5 adaptive advertising minus static advertising",
+      "Head exposure (displayed ranks 2–10)",
+      "iteration_30",
+      "3",
+      "3.39992",
+      "-4.38272",
+      "9.48148",
+      "False"
+    ],
+    [
+      "L5 adaptive advertising minus static advertising",
+      "Weighted head exposure (displayed ranks 2–10)",
+      "mean_1_30",
+      "3",
+      "-0.594066",
+      "-2.77956",
+      "2.47869",
+      "False"
+    ],
+    [
+      "L5 adaptive advertising minus static advertising",
+      "Weighted head exposure (displayed ranks 2–10)",
+      "iteration_30",
+      "3",
+      "3.96081",
+      "-4.45855",
+      "11.0895",
+      "False"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lllrrrrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq1",
+    "source_blocks": [
+      {
+        "physical_run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O0_organic__seed_42",
+        "run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O0_organic__seed_42",
+        "condition_id": "O0_organic",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O1_static_ad__seed_42",
+        "run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O1_static_ad__seed_42",
+        "condition_id": "O1_static_ad",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_42",
+        "run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_42",
+        "condition_id": "O2_adaptive_ad_three_strike",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O0_organic__seed_43",
+        "run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O0_organic__seed_43",
+        "condition_id": "O0_organic",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O1_static_ad__seed_43",
+        "run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O1_static_ad__seed_43",
+        "condition_id": "O1_static_ad",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_43",
+        "run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_43",
+        "condition_id": "O2_adaptive_ad_three_strike",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O0_organic__seed_44",
+        "run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O0_organic__seed_44",
+        "condition_id": "O0_organic",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O1_static_ad__seed_44",
+        "run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O1_static_ad__seed_44",
+        "condition_id": "O1_static_ad",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_44",
+        "run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_44",
+        "condition_id": "O2_adaptive_ad_three_strike",
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq1_advertising_ranks_2_10_seed_consistency.tex": "dab964c137dbf9781b70734e06a76d2a679a5f27dc2888aaf80c19ce5a0b9d5b",
+    "rq1_advertising_ranks_2_10_seed_consistency.csv": "3ef8c2378114c2d4136639bda03f2d90f9efe6a9d298c3d5052032dad7ec7f49"
+  }
+}

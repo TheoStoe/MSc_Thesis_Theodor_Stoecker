@@ -1,0 +1,2226 @@
+{
+  "schema_version": "thesis-rq-results-snapshot-v1",
+  "snapshot_id": "results_20261116_goodreads_agent_l0",
+  "created_at_utc": "2026-11-16T00:04:14.396792+00:00",
+  "started_at_utc": "2026-11-16T00:01:08.410242+00:00",
+  "metric_version": "final-rq-metrics-v1-dcg-one-based",
+  "rank_discount": "1/log2(r+1), one-based r=1..K",
+  "draft_path": "[thesis source not included]",
+  "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+  "rq_plan_sha256": "59c3299174fb4ce7816e1a9d7f0102e92975f1d2dd3c39396139fb777d26a7af",
+  "source_inventory_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+  "code_sha256": {
+    "advertising_slots.py": "0c68c80f08ca5c9c2eb775d29b72a3da109c0a04ed741fc523e6102716bf0782",
+    "advertising_views.py": "a27e7b7b709915abf2349847d2bfdd8b2c1927b3c6f68f4279f1890219beda89",
+    "agent_ablation_views.py": "fef79c0311479fd9c52c43a78aee8076980b142f8fc13fe66777592d1012b3cf",
+    "agent_usage.py": "2448e93ce38026b93eb143fe3ec318b81147f006dc4be1873d402a678d24031b",
+    "build.py": "1ee8637755283496afe65e618f40d0e0fee93a86cfc499c7a6f83d8b6467c426",
+    "comparisons.py": "ebbf6fb65f5012451d277fbce450d4fc2ac6229626cab9187cc67999b8e6692d",
+    "create_notebooks.py": "0782e981e857b93753d74ab9757d8654ae04f21e00c460b4ae02c8ea35a1f82a",
+    "execute.py": "cb2b631cc9c60dfd9cd386dd85c4c44fdcdee21dc882bed83107267447376c6e",
+    "figure_context.py": "c3f4bcbe55f63c9c5e416a3965b1ad0463140e1f702c240ce9ba2554a8c9b6ac",
+    "head_ties.py": "9d4be6f4e72d15a225895a521886b26f625cebfef674981fd2b13de8b42cf8e2",
+    "head_tie_views.py": "36c9be15b87bee4b9a392deed7b564e6c694d2b1332add976b33c02007d77fab",
+    "main_text.py": "6da33a53d514b57db7fe6332d6de508946f80d12bbf017336f50dd495e53866c",
+    "metrics.py": "83384bfaa49cd95a61dade8b853b1fe34f8750966f12c06afbbace0b52a808d5",
+    "mitigation_decomposition.py": "8daedad8ebd2e1f1d51badde0d5a02a613da913830c54ea99b73747ae2778f9a",
+    "mitigation_decomposition_views.py": "7dc31e1949c1ed7dc6ce54cda66d133198fedb93809a26102b89a9de1ff51f22",
+    "overview.py": "976010b056d52909beced58244184d6b1956a62eb811af19a022468fbd659e47",
+    "plotting.py": "092728572e0844c63e2059076d89cac44dfce0c945ac697adae249f35c3f3f82",
+    "presentation.py": "6eb4f64d74c1f9efafa18ef32e65ef53ea321b55391e7c001491e4d3e0b67cc8",
+    "profile_review.py": "2bfc5698a0fbf21301a47e9ac01fdbb020a7e0ad0d3dad482bae1137b7dd2d44",
+    "profile_review_assessments.py": "9018162bb153a9db8f5baf912596dce66064e32b90cd63fa44528d49c00c1d92",
+    "profile_review_views.py": "e807a22ca7b985fa4fd82f875c452798c0f04df77e196fefa8e368801f56ac6b",
+    "profile_review_workflow.py": "540f04abfd5cf66b9aeab6e4ae61fc16a3d1d19d6b3efcbaf1b59f613db7f345",
+    "readers.py": "db156dbd6c773ae589809c97d64c7e5cc67c520d1ef1da68aca63374f74a7753",
+    "replica_agreement.py": "b894d212ff32ee170179835b3b7003b7347d942324e47422823f78267c07ec1c",
+    "replica_agreement_views.py": "a5c0ebecdfaef59e0cf8437e1f5c561baf1cc8654f371ab41b8d2f5a48c5b959",
+    "sections_profile_review.py": "141dd28d07cf7e8a2f3710d91b2ded4259886450bb43df6f9b41959435b60585",
+    "sections_rq1_3.py": "37f73e04b785ce0692b99c83d51fd992bd1ca727966d0c7544f5e727a045e46e",
+    "sections_rq4_5.py": "9634e10a4e39a83dbc043803735098207a9885e7b464a71fbfb3c0c51571e7bd",
+    "sections_rq6_7.py": "c7d1b2a1f8199207943b2f51e19216f084a7e8640a268a5dbe07feebe69d30a1",
+    "sources.py": "1c3d273d9ffd335cf64e31603d19bfb6c62807967cbfae156e8fbe8dc2dd2a57",
+    "tables.py": "5f86062a0ad180f0202b753bca5a160d82078edf747fd7db07ecfd072181121e"
+  },
+  "completed_logical_cells": 243,
+  "completed_physical_runs": 183,
+  "pending_logical_cells": 0,
+  "dataframes": {
+    "advertising": {
+      "path": "data/advertising.pkl.gz",
+      "rows": 7290,
+      "sha256": "c4f857a19cc32ac79ecf13ef8f9b7e4815df0a097d62bbc17c3bc08e8ff136e7",
+      "original_csv_sha256": "cf75d700b88b081d57875e85305759ba36dd3a32f2eb3758a5321e99436cdf2e",
+      "format": "trusted-gzip-pickle"
+    },
+    "agent": {
+      "path": "data/agent.pkl.gz",
+      "rows": 7290,
+      "sha256": "716c3c78bf0204d79e69950126f1a92224617f4eb6ec310960a89c67f4cf5a4c",
+      "original_csv_sha256": "1c4360cae35bfb99ec103ade9a6b73ac8911f2cab561f43d0efc147c678f7306",
+      "format": "trusted-gzip-pickle"
+    },
+    "clusters": {
+      "path": "data/clusters.pkl.gz",
+      "rows": 21690,
+      "sha256": "753b82e4f66ee5dd3e5f3e67f42f726b3d30519ea4811a5dfed72ca1e8484876",
+      "original_csv_sha256": "25bddc3241061c8a01427e4a4b6d9bc0d333b60eb03f72e366739795943cb7a2",
+      "format": "trusted-gzip-pickle"
+    },
+    "comparison_plan": {
+      "path": "data/comparison_plan.pkl.gz",
+      "rows": 234,
+      "sha256": "943b72bcfda0b533927f39ec7008f45913a2b468490990892683bf3dfc838c0d",
+      "original_csv_sha256": "e5d6d97cd579e80b33b942f64fd5e0b0f5862aae27254a8a2bdf512f76734bbf",
+      "format": "trusted-gzip-pickle"
+    },
+    "effects": {
+      "path": "data/effects.pkl.gz",
+      "rows": 294840,
+      "sha256": "412da301a2950fe90b665d4481a906e3186b1240729379155e950c983902690b",
+      "original_csv_sha256": "7870cff8357f4c81f9f5f1331f256501a1eb47d1d28a4197a9bac2b45306f1aa",
+      "format": "trusted-gzip-pickle"
+    },
+    "effect_summaries": {
+      "path": "data/effect_summaries.pkl.gz",
+      "rows": 19656,
+      "sha256": "3501675be00d37b797e531cdfa8120a604971450ce027b84f42753ec299581d4",
+      "original_csv_sha256": "8d977663ff0ffd8c758e5a7403737334b5e9bea4dfe815a21e52b196772cf3b6",
+      "format": "trusted-gzip-pickle"
+    },
+    "health": {
+      "path": "data/health.pkl.gz",
+      "rows": 243,
+      "sha256": "a8c254c4aa9a99c84538262df618a67686f61c8cf7aa6d32e2fe062d15a9c15c",
+      "original_csv_sha256": "9372d03dae8e5ee021bb4e74c42895230b6b3225552a9ae02a8659f262cf6087",
+      "format": "trusted-gzip-pickle"
+    },
+    "mitigation_magnitudes": {
+      "path": "data/mitigation_magnitudes.pkl.gz",
+      "rows": 120,
+      "sha256": "413834de8ffa4b4b551de15e107e97908094d11ad22591e114f41ead5ee6b1d7",
+      "original_csv_sha256": "a693b3d13f78887e12457e3cf00186740a5588942873b3b3d0a1bad4d82f31b5",
+      "format": "trusted-gzip-pickle"
+    },
+    "model_differences": {
+      "path": "data/model_differences.pkl.gz",
+      "rows": 290,
+      "sha256": "e1557519c90e231f30a86910b52f9980fc4fa8254499fd15ec43306f369f2097",
+      "original_csv_sha256": "e43ac97d95db02d05cdd0df37a2ca52441cd458834a8732358a0b2f3407ba539",
+      "format": "trusted-gzip-pickle"
+    },
+    "modules": {
+      "path": "data/modules.pkl.gz",
+      "rows": 29160,
+      "sha256": "ebc5a6fe112e4bb0994104f2e52272f39f2aada9788c7138ea7ea5a009ec02a1",
+      "original_csv_sha256": "4385b644048c1f0895004a5d870d891456f80f1925d0508b4a310812abba3a0a",
+      "format": "trusted-gzip-pickle"
+    },
+    "order_correlations": {
+      "path": "data/order_correlations.pkl.gz",
+      "rows": 12,
+      "sha256": "9c13675eb44fb76a777fb7fa50651c66ba459db56e0621795b0abfaa3407cc7d",
+      "original_csv_sha256": "2294ae5f970fd333cab505caebeb1d9b17612c8bedfda20aaffed8ffadcc568f",
+      "format": "trusted-gzip-pickle"
+    },
+    "order_pairs": {
+      "path": "data/order_pairs.pkl.gz",
+      "rows": 30,
+      "sha256": "ce60e32aed4c464d8eab421671d32b1b7b169a31d6926075eede167dac75a006",
+      "original_csv_sha256": "b84d3f18286bbcae46d1e8dcbb1aa53631919dc30170728d86f6416677ed7c8b",
+      "format": "trusted-gzip-pickle"
+    },
+    "pending_sources": {
+      "path": "data/pending_sources.pkl.gz",
+      "rows": 0,
+      "sha256": "e0d86ccf92053781e7002d9816bc400e69a627ee4b290731c19e0a23d9f7f646",
+      "original_csv_sha256": "151e00c26938797ed91fea29d4439889dc58f326528276679966ce22ad0eb11c",
+      "format": "trusted-gzip-pickle"
+    },
+    "population": {
+      "path": "data/population.pkl.gz",
+      "rows": 7290,
+      "sha256": "db66edd9dca1c3e3cb821e3ab6f3fc1ae5eda54d353a600817d52cfb1636e061",
+      "original_csv_sha256": "7b74c5865ec20351e0dc489935ecc5114ee6f2f0956a87b95469014e57482192",
+      "format": "trusted-gzip-pickle"
+    },
+    "probes": {
+      "path": "data/probes.pkl.gz",
+      "rows": 7290,
+      "sha256": "1dc84bebc15c64764edd3d517a4ceb97ee9fbc3b94deda4aafe4ea5ee86aa5e9",
+      "original_csv_sha256": "e3b77913ac0a65acff63b7557ece6bfe22c24c9c1b04abc7d6f237dd6084a49a",
+      "format": "trusted-gzip-pickle"
+    },
+    "profiles": {
+      "path": "data/profiles.pkl.gz",
+      "rows": 7863,
+      "sha256": "38cd193c3cb3c5ec3036467b874f4a1d49df4d030d167e8a2206a37d471b9a59",
+      "original_csv_sha256": "e85cd3b2736cd377bce7ae3c3f82bd6094301475f163d31eb2cc6f84432a0552",
+      "format": "trusted-gzip-pickle"
+    },
+    "profile_changes": {
+      "path": "data/profile_changes.pkl.gz",
+      "rows": 36610,
+      "sha256": "d2c331e62256bed372ceb0143c9abbed232f4eb7ede5ae0d70979238cb087f52",
+      "original_csv_sha256": "449a7ba32c143dbcdbfbae2989f708fb0898026a27d2afe820035cd0d9e81a1a",
+      "format": "trusted-gzip-pickle"
+    },
+    "qualitative_review": {
+      "path": "data/qualitative_review.pkl.gz",
+      "rows": 30,
+      "sha256": "3011b228543ee95788ea045b125fb24b1299eaa8d06bf43e0e31aaf669c5d608",
+      "original_csv_sha256": "32094d8aa01fc9b221406de28e73730dc1a91a92d34d2c158402780221141c96",
+      "format": "trusted-gzip-pickle"
+    },
+    "ranks": {
+      "path": "data/ranks.pkl.gz",
+      "rows": 210600,
+      "sha256": "e303579ef9756d5d7b9941c5b57decf9258a9b5e3392556a48742987a1276eba",
+      "original_csv_sha256": "e92e3c9dad21323401206e7c7fa503f9431a68337662b52d2632aff80b766aa3",
+      "format": "trusted-gzip-pickle"
+    },
+    "references": {
+      "path": "data/references.pkl.gz",
+      "rows": 243,
+      "sha256": "6c27d974f8683126421e9b63a58e6904d2f9dddbb922b2853986e455c1fcaf13",
+      "original_csv_sha256": "638219c5fde9c2495839b549a2b7e8472540d705db42e61d71792f35eef5cdb7",
+      "format": "trusted-gzip-pickle"
+    },
+    "seed_consistency": {
+      "path": "data/seed_consistency.pkl.gz",
+      "rows": 6552,
+      "sha256": "6b0ba5b11b59ef3eef25b7669b5d353de66592b1bef7bd54624090249a1897f8",
+      "original_csv_sha256": "de21d8b5fda409fc50fb362153821f5c34d946e6109f1895e20ea7f46356cc0a",
+      "format": "trusted-gzip-pickle"
+    },
+    "sources": {
+      "path": "data/sources.pkl.gz",
+      "rows": 243,
+      "sha256": "049014efaf2402286d84a95d05a81e2e37423f8cfd758dee758e3f4be3fa1e91",
+      "original_csv_sha256": "771a7ba005748c7892ad53203dc795fc461cd1d6e9db534f66bfd947b1cad820",
+      "format": "trusted-gzip-pickle"
+    },
+    "summaries": {
+      "path": "data/summaries.pkl.gz",
+      "rows": 28188,
+      "sha256": "c40bac10142f16fad33c4a09e583952ae72740f168a9289eb0a364852956a4e7",
+      "original_csv_sha256": "8c7c3fdc85f7aea485055af248898cb5fa9eae0ea75f1c371ee04a732a289621",
+      "format": "trusted-gzip-pickle"
+    },
+    "top_items": {
+      "path": "data/top_items.pkl.gz",
+      "rows": 7290,
+      "sha256": "99a5df251664c8f310fe810fbb4e8aedbd950c1a4e2ef436d2a29aa28efe2251",
+      "original_csv_sha256": "67353bdd17f0756c591d6a941b04afabce05aff89aa74b9e2afca45057b6a90f",
+      "format": "trusted-gzip-pickle"
+    },
+    "trajectory": {
+      "path": "data/trajectory.pkl.gz",
+      "rows": 7290,
+      "sha256": "312cf72cb93c1c1fe47c5fd00e7fb15c7b930ea5c94732fb3433706e277270ad",
+      "original_csv_sha256": "a8adfa805aaf5906f6d9bf271e654004286613de6b6bde6eefb1eb70fae813bc",
+      "format": "trusted-gzip-pickle"
+    }
+  },
+  "plot_scales": {
+    "iteration": {
+      "limits": [
+        0,
+        32.400000000000006
+      ],
+      "difference_limits": [
+        -32.400000000000006,
+        32.400000000000006
+      ]
+    },
+    "opportunities": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "valid_actions": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "valid_clicks": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -200.20000000000002,
+        200.20000000000002
+      ],
+      "difference_unit": "metric units"
+    },
+    "valid_no_clicks": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "slots": {
+      "limits": [
+        0,
+        3240.0
+      ],
+      "difference_limits": [
+        -3240.0,
+        3240.0
+      ]
+    },
+    "invalid_responses": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.01,
+        0.01
+      ]
+    },
+    "click_rate": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -66.73333333333335,
+        66.73333333333335
+      ],
+      "difference_unit": "percentage points"
+    },
+    "no_click_rate": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -66.73333333333335,
+        66.73333333333335
+      ],
+      "difference_unit": "percentage points"
+    },
+    "invalid_rate": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.01,
+        0.01
+      ],
+      "difference_unit": "percentage points"
+    },
+    "clicks_per_opportunity": {
+      "limits": [
+        0,
+        1.08
+      ],
+      "difference_limits": [
+        -1.08,
+        1.08
+      ]
+    },
+    "head_click_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -95.33333333333334,
+        95.33333333333334
+      ],
+      "difference_unit": "percentage points"
+    },
+    "head_exposure": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -85.94666666666666,
+        85.94666666666666
+      ],
+      "difference_unit": "percentage points"
+    },
+    "weighted_head_exposure": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -88.50395667556039,
+        88.50395667556039
+      ],
+      "difference_unit": "percentage points"
+    },
+    "exposure_coverage": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -28.0152224824356,
+        28.0152224824356
+      ],
+      "difference_unit": "percentage points"
+    },
+    "click_coverage": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -5.409836065573775,
+        5.409836065573775
+      ],
+      "difference_unit": "percentage points"
+    },
+    "exposure_gini": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.21861493411420205,
+        0.21861493411420205
+      ],
+      "difference_unit": "metric units"
+    },
+    "click_gini": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.0590231332357247,
+        0.0590231332357247
+      ],
+      "difference_unit": "metric units"
+    },
+    "cumulative_exposure_coverage": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -23.61693067620509,
+        23.61693067620509
+      ],
+      "difference_unit": "percentage points"
+    },
+    "cumulative_click_coverage": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -27.08138173302108,
+        27.08138173302108
+      ],
+      "difference_unit": "percentage points"
+    },
+    "mean_clicked_rank": {
+      "limits": [
+        1,
+        10
+      ],
+      "difference_limits": [
+        -10.8,
+        10.8
+      ]
+    },
+    "first_position_click_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -72.23333333333333,
+        72.23333333333333
+      ],
+      "difference_unit": "percentage points"
+    },
+    "eligible_head_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.7487881741917194,
+        0.7487881741917194
+      ],
+      "difference_unit": "percentage points"
+    },
+    "eligible_candidate_count_mean": {
+      "limits": [
+        0,
+        28736.715600000003
+      ],
+      "difference_limits": [
+        -28736.715600000003,
+        28736.715600000003
+      ]
+    },
+    "click_exposure_gap": {
+      "limits": [
+        -1,
+        1
+      ],
+      "difference_limits": [
+        -42.58078431372549,
+        42.58078431372549
+      ],
+      "difference_unit": "percentage points"
+    },
+    "weighted_click_exposure_gap": {
+      "limits": [
+        -1,
+        1
+      ],
+      "difference_limits": [
+        -43.105635971240744,
+        43.105635971240744
+      ],
+      "difference_unit": "percentage points"
+    },
+    "female_exposure": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -63.286666666666676,
+        63.286666666666676
+      ],
+      "difference_unit": "percentage points"
+    },
+    "weighted_female_exposure": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -74.98092809192626,
+        74.98092809192626
+      ],
+      "difference_unit": "percentage points"
+    },
+    "female_click_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -103.03333333333333,
+        103.03333333333333
+      ],
+      "difference_unit": "percentage points"
+    },
+    "eligible_female_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.08787273133637753,
+        0.08787273133637753
+      ],
+      "difference_unit": "percentage points"
+    },
+    "male_exposure": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -57.05333333333333,
+        57.05333333333333
+      ],
+      "difference_unit": "percentage points"
+    },
+    "weighted_male_exposure": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -60.43631457243797,
+        60.43631457243797
+      ],
+      "difference_unit": "percentage points"
+    },
+    "male_click_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -71.1764705882353,
+        71.1764705882353
+      ],
+      "difference_unit": "percentage points"
+    },
+    "eligible_male_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.04289672570781444,
+        0.04289672570781444
+      ],
+      "difference_unit": "percentage points"
+    },
+    "nonbinary_exposure": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.01,
+        0.01
+      ]
+    },
+    "weighted_nonbinary_exposure": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.01,
+        0.01
+      ]
+    },
+    "nonbinary_click_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.01,
+        0.01
+      ]
+    },
+    "eligible_nonbinary_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.01,
+        0.01
+      ]
+    },
+    "other_exposure": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.01,
+        0.01
+      ]
+    },
+    "weighted_other_exposure": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.01,
+        0.01
+      ]
+    },
+    "other_click_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.01,
+        0.01
+      ]
+    },
+    "eligible_other_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.01,
+        0.01
+      ]
+    },
+    "unknown_exposure": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -16.023333333333337,
+        16.023333333333337
+      ],
+      "difference_unit": "percentage points"
+    },
+    "weighted_unknown_exposure": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -18.44503980904341,
+        18.44503980904341
+      ],
+      "difference_unit": "percentage points"
+    },
+    "unknown_click_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -55.00000000000001,
+        55.00000000000001
+      ],
+      "difference_unit": "percentage points"
+    },
+    "eligible_unknown_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.010514857343089101,
+        0.010514857343089101
+      ],
+      "difference_unit": "percentage points"
+    },
+    "ambiguous_exposure": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -21.767777777777788,
+        21.767777777777788
+      ],
+      "difference_unit": "percentage points"
+    },
+    "weighted_ambiguous_exposure": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -24.263473163653945,
+        24.263473163653945
+      ],
+      "difference_unit": "percentage points"
+    },
+    "ambiguous_click_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -37.84,
+        37.84
+      ],
+      "difference_unit": "percentage points"
+    },
+    "eligible_ambiguous_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.047736023690640596,
+        0.047736023690640596
+      ],
+      "difference_unit": "percentage points"
+    },
+    "female_among_binary_clicks": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -101.92837837837838,
+        101.92837837837838
+      ],
+      "difference_unit": "percentage points"
+    },
+    "female_among_binary_exposure": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -79.32084903549982,
+        79.32084903549982
+      ],
+      "difference_unit": "percentage points"
+    },
+    "weighted_female_among_binary_exposure": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -85.98100953371555,
+        85.98100953371555
+      ],
+      "difference_unit": "percentage points"
+    },
+    "female_click_exposure_gap": {
+      "limits": [
+        -1,
+        1
+      ],
+      "difference_limits": [
+        -52.224117647058826,
+        52.224117647058826
+      ],
+      "difference_unit": "percentage points"
+    },
+    "weighted_female_click_exposure_gap": {
+      "limits": [
+        -1,
+        1
+      ],
+      "difference_limits": [
+        -52.77714427055646,
+        52.77714427055646
+      ],
+      "difference_unit": "percentage points"
+    },
+    "binary_female_click_exposure_gap": {
+      "limits": [
+        -1,
+        1
+      ],
+      "difference_limits": [
+        -67.20309789086001,
+        67.20309789086001
+      ],
+      "difference_unit": "percentage points"
+    },
+    "weighted_binary_female_click_exposure_gap": {
+      "limits": [
+        -1,
+        1
+      ],
+      "difference_limits": [
+        -67.74948697334237,
+        67.74948697334237
+      ],
+      "difference_unit": "percentage points"
+    },
+    "female_exposure_minus_candidate_share": {
+      "limits": [
+        -1,
+        1
+      ],
+      "difference_limits": [
+        -63.36878828309703,
+        63.36878828309703
+      ],
+      "difference_unit": "percentage points"
+    },
+    "weighted_female_exposure_minus_candidate_share": {
+      "limits": [
+        -1,
+        1
+      ],
+      "difference_limits": [
+        -75.06304970835662,
+        75.06304970835662
+      ],
+      "difference_unit": "percentage points"
+    },
+    "seed": {
+      "limits": [
+        0,
+        47.52
+      ],
+      "difference_limits": [
+        -47.52,
+        47.52
+      ]
+    },
+    "population_seed": {
+      "limits": [
+        0,
+        20819.16
+      ],
+      "difference_limits": [
+        -20819.16,
+        20819.16
+      ]
+    },
+    "triple_valid_clicks": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "replica_same_item": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "shuffled_same_item": {
+      "limits": [
+        0,
+        176.04000000000002
+      ],
+      "difference_limits": [
+        -176.04000000000002,
+        176.04000000000002
+      ]
+    },
+    "replica_pairs": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "replica_valid_pairs": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "replica_excluded_non_valid_pairs": {
+      "limits": [
+        0,
+        1.08
+      ],
+      "difference_limits": [
+        -1.08,
+        1.08
+      ]
+    },
+    "replica_both_clicks": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "replica_pair_same_item": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "replica_action_agreements": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "replica_action_item_agreements": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "replica_both_no_clicks": {
+      "limits": [
+        0,
+        321.84000000000003
+      ],
+      "difference_limits": [
+        -321.84000000000003,
+        321.84000000000003
+      ]
+    },
+    "shuffled_pairs": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "shuffled_valid_pairs": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "shuffled_excluded_non_valid_pairs": {
+      "limits": [
+        0,
+        1.08
+      ],
+      "difference_limits": [
+        -1.08,
+        1.08
+      ]
+    },
+    "shuffled_both_clicks": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "shuffled_pair_same_item": {
+      "limits": [
+        0,
+        180.36
+      ],
+      "difference_limits": [
+        -180.36,
+        180.36
+      ]
+    },
+    "shuffled_action_agreements": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "shuffled_action_item_agreements": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -317.52000000000004,
+        317.52000000000004
+      ]
+    },
+    "shuffled_both_no_clicks": {
+      "limits": [
+        0,
+        317.52000000000004
+      ],
+      "difference_limits": [
+        -317.52000000000004,
+        317.52000000000004
+      ]
+    },
+    "shuffled_changed_order": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "replica_agreement": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -1.08,
+        1.08
+      ]
+    },
+    "shuffled_agreement": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -1.08,
+        1.08
+      ]
+    },
+    "shuffle_tvd": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -1.0011948256717818,
+        1.0011948256717818
+      ]
+    },
+    "replica_tvd": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.01,
+        0.01
+      ]
+    },
+    "original_order_tvd": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.4427373911272696,
+        0.4427373911272696
+      ]
+    },
+    "tvd_opportunities": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "agreement_sensitivity": {
+      "limits": [
+        -1,
+        1
+      ],
+      "difference_limits": [
+        -1.08,
+        1.08
+      ]
+    },
+    "replica_pair_agreement": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -1.08,
+        1.08
+      ]
+    },
+    "replica_action_agreement": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -1.08,
+        1.08
+      ]
+    },
+    "replica_action_disagreement": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.3960000000000001,
+        0.3960000000000001
+      ]
+    },
+    "replica_action_item_agreement": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -1.08,
+        1.08
+      ]
+    },
+    "replica_both_no_click_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -1.0728,
+        1.0728
+      ]
+    },
+    "shuffled_pair_agreement": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -1.08,
+        1.08
+      ]
+    },
+    "shuffled_action_agreement": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -1.08,
+        1.08
+      ]
+    },
+    "shuffled_action_disagreement": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.5004000000000001,
+        0.5004000000000001
+      ]
+    },
+    "shuffled_action_item_agreement": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -1.0584,
+        1.0584
+      ]
+    },
+    "shuffled_both_no_click_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -1.0584,
+        1.0584
+      ]
+    },
+    "original_valid_pairs": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "original_same_item": {
+      "limits": [
+        0,
+        322.92
+      ],
+      "difference_limits": [
+        -322.92,
+        322.92
+      ]
+    },
+    "rank": {
+      "limits": [
+        0,
+        32.400000000000006
+      ],
+      "difference_limits": [
+        -32.400000000000006,
+        32.400000000000006
+      ]
+    },
+    "clicks": {
+      "limits": [
+        0,
+        322.92
+      ],
+      "difference_limits": [
+        -322.92,
+        322.92
+      ]
+    },
+    "click_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -1.08,
+        1.08
+      ]
+    },
+    "reflection_requested": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "reflection_applied": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "reflection_failed": {
+      "limits": [
+        0,
+        1.08
+      ],
+      "difference_limits": [
+        -1.08,
+        1.08
+      ]
+    },
+    "profile_changes": {
+      "limits": [
+        0,
+        187.92000000000002
+      ],
+      "difference_limits": [
+        -187.92000000000002,
+        187.92000000000002
+      ]
+    },
+    "reflection_error_rate": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.013012048192771044,
+        0.013012048192771044
+      ]
+    },
+    "profile_change_rate": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.6912,
+        0.6912
+      ]
+    },
+    "profile_changed_users": {
+      "limits": [
+        0,
+        187.92000000000002
+      ],
+      "difference_limits": [
+        -187.92000000000002,
+        187.92000000000002
+      ]
+    },
+    "cumulative_profile_changed_users": {
+      "limits": [
+        0,
+        311.04
+      ],
+      "difference_limits": [
+        -311.04,
+        311.04
+      ]
+    },
+    "memory_invocations": {
+      "limits": [
+        0,
+        1.08
+      ],
+      "difference_limits": [
+        -1.08,
+        1.08
+      ]
+    },
+    "memory_invocation_rate": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.01,
+        0.01
+      ]
+    },
+    "invocations": {
+      "limits": [
+        0,
+        325.08000000000004
+      ],
+      "difference_limits": [
+        -325.08000000000004,
+        325.08000000000004
+      ]
+    },
+    "decisions_invoking": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "invocation_rate": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -1.08,
+        1.08
+      ]
+    },
+    "user_id": {
+      "limits": [
+        0,
+        6517.8
+      ],
+      "difference_limits": [
+        -6517.8,
+        6517.8
+      ]
+    },
+    "clicked_item_id": {
+      "limits": [
+        0,
+        28881.36
+      ],
+      "difference_limits": [
+        -28881.36,
+        28881.36
+      ]
+    },
+    "review_classification": {
+      "limits": [
+        0,
+        1.08
+      ],
+      "difference_limits": [
+        -1.08,
+        1.08
+      ]
+    },
+    "review_notes": {
+      "limits": [
+        0,
+        1.08
+      ],
+      "difference_limits": [
+        -1.08,
+        1.08
+      ]
+    },
+    "active_users": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "departures": {
+      "limits": [
+        0,
+        18.36
+      ],
+      "difference_limits": [
+        -18.36,
+        18.36
+      ]
+    },
+    "replacements": {
+      "limits": [
+        0,
+        18.36
+      ],
+      "difference_limits": [
+        -18.36,
+        18.36
+      ]
+    },
+    "scheduled_departures": {
+      "limits": [
+        0,
+        18.36
+      ],
+      "difference_limits": [
+        -18.36,
+        18.36
+      ]
+    },
+    "cumulative_users": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "cluster": {
+      "limits": [
+        0,
+        4.32
+      ],
+      "difference_limits": [
+        -4.32,
+        4.32
+      ]
+    },
+    "active_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -1.08,
+        1.08
+      ]
+    },
+    "advertising_eligible_users": {
+      "limits": [
+        0,
+        162.0
+      ],
+      "difference_limits": [
+        -162.0,
+        162.0
+      ]
+    },
+    "advertising_eligibility_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -1.08,
+        1.08
+      ]
+    },
+    "sponsored_exposures": {
+      "limits": [
+        0,
+        162.0
+      ],
+      "difference_limits": [
+        -162.0,
+        162.0
+      ]
+    },
+    "sponsored_clicks": {
+      "limits": [
+        0,
+        65.88000000000001
+      ],
+      "difference_limits": [
+        -65.88000000000001,
+        65.88000000000001
+      ]
+    },
+    "sponsored_exposure_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.10800000000000001,
+        0.10800000000000001
+      ]
+    },
+    "weighted_sponsored_exposure": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.23769910760192609,
+        0.23769910760192609
+      ]
+    },
+    "sponsored_click_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.46069930069930065,
+        0.46069930069930065
+      ]
+    },
+    "sponsored_click_through_rate": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.54,
+        0.54
+      ]
+    },
+    "catalogue_size": {
+      "limits": [
+        0,
+        28888.920000000002
+      ],
+      "difference_limits": [
+        -28888.920000000002,
+        28888.920000000002
+      ]
+    },
+    "head_count": {
+      "limits": [
+        0,
+        5778.0
+      ],
+      "difference_limits": [
+        -5778.0,
+        5778.0
+      ]
+    },
+    "head_catalogue_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.21625292740046836,
+        0.21625292740046836
+      ]
+    },
+    "initial_training_head_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.6772475598234385,
+        0.6772475598234385
+      ]
+    },
+    "catalogue_female_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.5141549993538104,
+        0.5141549993538104
+      ]
+    },
+    "initial_training_female_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.4945992492824023,
+        0.4945992492824023
+      ]
+    },
+    "catalogue_male_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.3936999514000524,
+        0.3936999514000524
+      ]
+    },
+    "initial_training_male_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.41601930036188184,
+        0.41601930036188184
+      ]
+    },
+    "catalogue_nonbinary_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.01,
+        0.01
+      ]
+    },
+    "initial_training_nonbinary_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.01,
+        0.01
+      ]
+    },
+    "catalogue_other_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.01,
+        0.01
+      ]
+    },
+    "initial_training_other_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.01,
+        0.01
+      ]
+    },
+    "catalogue_unknown_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.23591311824741112,
+        0.23591311824741112
+      ]
+    },
+    "initial_training_unknown_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.16340878450294474,
+        0.16340878450294474
+      ]
+    },
+    "catalogue_ambiguous_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.061808891159938685,
+        0.061808891159938685
+      ]
+    },
+    "initial_training_ambiguous_share": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.11218370501214393,
+        0.11218370501214393
+      ]
+    },
+    "canonical_opportunities": {
+      "limits": [
+        0,
+        9720.0
+      ],
+      "difference_limits": [
+        -9720.0,
+        9720.0
+      ]
+    },
+    "iterations": {
+      "limits": [
+        0,
+        32.400000000000006
+      ],
+      "difference_limits": [
+        -32.400000000000006,
+        32.400000000000006
+      ]
+    },
+    "item_id": {
+      "limits": [
+        0,
+        28732.320000000003
+      ],
+      "difference_limits": [
+        -28732.320000000003,
+        28732.320000000003
+      ]
+    },
+    "presentations": {
+      "limits": [
+        0,
+        4824.360000000001
+      ],
+      "difference_limits": [
+        -4824.360000000001,
+        4824.360000000001
+      ]
+    },
+    "simulation_seed": {
+      "limits": [
+        0,
+        47.52
+      ],
+      "difference_limits": [
+        -47.52,
+        47.52
+      ]
+    },
+    "initial_active_users": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "initial_reserve_users": {
+      "limits": [
+        0,
+        162.0
+      ],
+      "difference_limits": [
+        -162.0,
+        162.0
+      ]
+    },
+    "training_users": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "sasrec_epochs": {
+      "limits": [
+        0,
+        868.32
+      ],
+      "difference_limits": [
+        -868.32,
+        868.32
+      ]
+    },
+    "slate_size": {
+      "limits": [
+        0,
+        10.8
+      ],
+      "difference_limits": [
+        -10.8,
+        10.8
+      ]
+    },
+    "event_rows": {
+      "limits": [
+        0,
+        38880.0
+      ],
+      "difference_limits": [
+        -38880.0,
+        38880.0
+      ]
+    },
+    "value": {
+      "limits": [
+        0,
+        28736.32116
+      ],
+      "difference_limits": [
+        -28736.32116,
+        28736.32116
+      ]
+    },
+    "available_mean": {
+      "limits": [
+        0,
+        28736.32116
+      ],
+      "difference_limits": [
+        -28736.32116,
+        28736.32116
+      ]
+    },
+    "n_iterations": {
+      "limits": [
+        0,
+        32.400000000000006
+      ],
+      "difference_limits": [
+        -32.400000000000006,
+        32.400000000000006
+      ]
+    },
+    "n_defined": {
+      "limits": [
+        0,
+        32.400000000000006
+      ],
+      "difference_limits": [
+        -32.400000000000006,
+        32.400000000000006
+      ]
+    },
+    "treatment_value": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "control_value": {
+      "limits": [
+        0,
+        324.0
+      ],
+      "difference_limits": [
+        -324.0,
+        324.0
+      ]
+    },
+    "n_seed_blocks": {
+      "limits": [
+        0,
+        3.24
+      ],
+      "difference_limits": [
+        -3.24,
+        3.24
+      ]
+    },
+    "mean_effect": {
+      "limits": [
+        0,
+        167.4
+      ],
+      "difference_limits": [
+        -167.4,
+        167.4
+      ]
+    },
+    "min_effect": {
+      "limits": [
+        0,
+        138.24
+      ],
+      "difference_limits": [
+        -138.24,
+        138.24
+      ]
+    },
+    "max_effect": {
+      "limits": [
+        0,
+        196.56
+      ],
+      "difference_limits": [
+        -196.56,
+        196.56
+      ]
+    },
+    "positive": {
+      "limits": [
+        0,
+        3.24
+      ],
+      "difference_limits": [
+        -3.24,
+        3.24
+      ]
+    },
+    "negative": {
+      "limits": [
+        0,
+        3.24
+      ],
+      "difference_limits": [
+        -3.24,
+        3.24
+      ]
+    },
+    "zero": {
+      "limits": [
+        0,
+        3.24
+      ],
+      "difference_limits": [
+        -3.24,
+        3.24
+      ]
+    },
+    "signed_difference_of_means": {
+      "limits": [
+        0,
+        63.05951867007408
+      ],
+      "difference_limits": [
+        -63.05951867007408,
+        63.05951867007408
+      ]
+    },
+    "absolute_difference_of_means": {
+      "limits": [
+        0,
+        63.05951867007408
+      ],
+      "difference_limits": [
+        -63.05951867007408,
+        63.05951867007408
+      ]
+    },
+    "mean_absolute_iteration_difference": {
+      "limits": [
+        0,
+        63.05951867007408
+      ],
+      "difference_limits": [
+        -63.05951867007408,
+        63.05951867007408
+      ]
+    },
+    "model_absolute_difference_of_means": {
+      "limits": [
+        0,
+        35.689699353728436
+      ],
+      "difference_limits": [
+        -35.689699353728436,
+        35.689699353728436
+      ]
+    },
+    "model_mean_absolute_iteration_difference": {
+      "limits": [
+        0,
+        35.689699353728436
+      ],
+      "difference_limits": [
+        -35.689699353728436,
+        35.689699353728436
+      ]
+    },
+    "mitigation_signed_difference_of_means": {
+      "limits": [
+        0,
+        81.79200000000002
+      ],
+      "difference_limits": [
+        -81.79200000000002,
+        81.79200000000002
+      ]
+    },
+    "mitigation_absolute_difference_of_means": {
+      "limits": [
+        0,
+        81.79200000000002
+      ],
+      "difference_limits": [
+        -81.79200000000002,
+        81.79200000000002
+      ]
+    },
+    "mitigation_mean_absolute_iteration_difference": {
+      "limits": [
+        0,
+        81.79200000000002
+      ],
+      "difference_limits": [
+        -81.79200000000002,
+        81.79200000000002
+      ]
+    },
+    "baseline_order_sensitivity": {
+      "limits": [
+        0,
+        1
+      ],
+      "difference_limits": [
+        -0.9577767444946235,
+        0.9577767444946235
+      ]
+    },
+    "head_click_reduction_pp": {
+      "limits": [
+        0,
+        92.52000000000001
+      ],
+      "difference_limits": [
+        -92.52000000000001,
+        92.52000000000001
+      ]
+    },
+    "n_models": {
+      "limits": [
+        0,
+        3.24
+      ],
+      "difference_limits": [
+        -3.24,
+        3.24
+      ]
+    },
+    "spearman_rho": {
+      "limits": [
+        0,
+        1.08
+      ],
+      "difference_limits": [
+        -1.08,
+        1.08
+      ]
+    },
+    "review_order": {
+      "limits": [
+        0,
+        10.8
+      ],
+      "difference_limits": [
+        -10.8,
+        10.8
+      ]
+    },
+    "eligible_users": {
+      "limits": [
+        0,
+        308.88
+      ],
+      "difference_limits": [
+        -308.88,
+        308.88
+      ]
+    },
+    "requested_sample": {
+      "limits": [
+        0,
+        10.8
+      ],
+      "difference_limits": [
+        -10.8,
+        10.8
+      ]
+    },
+    "applied_change_count": {
+      "limits": [
+        0,
+        18.36
+      ],
+      "difference_limits": [
+        -18.36,
+        18.36
+      ]
+    },
+    "first_change_iteration": {
+      "limits": [
+        0,
+        18.36
+      ],
+      "difference_limits": [
+        -18.36,
+        18.36
+      ]
+    },
+    "last_change_iteration": {
+      "limits": [
+        0,
+        32.400000000000006
+      ],
+      "difference_limits": [
+        -32.400000000000006,
+        32.400000000000006
+      ]
+    }
+  },
+  "notes": [
+    "Only complete saved runs enter metrics; pending cells are explicitly retained in the availability table.",
+    "Logical aliases are calculated once physically and restored as explicit study memberships.",
+    "Mean1\u201330 is undefined if any of its 30 iteration values is undefined; endpoint is iteration30.",
+    "Paired share differences use percentage points; no user-level or iteration-level significance tests.",
+    "LLM and computational order predictors remain separate estimands.",
+    "No experiments or paid calls are started; rerun the build for a new snapshot after pending runs finish."
+  ],
+  "public_replay": {
+    "original_snapshot": "results_20261116_goodreads_agent_l0",
+    "scope": "Derived aggregate measurements and coded human assessments; no raw logs, datasets, profile text, or model weights.",
+    "omitted_text_columns": [
+      "displayed_titles",
+      "evidence_notes",
+      "final_profile",
+      "initial_profile",
+      "memory_note",
+      "retained_interests",
+      "review_notes",
+      "supported_additions",
+      "title",
+      "unsupported_changes"
+    ],
+    "reader_keys": "Non-linkable aliases; original reader IDs and alias map are not distributed.",
+    "source_verification": "Recorded verification results refer to the original extraction; replay does not re-verify unbundled sources.",
+    "metric_preservation": "Numeric aggregate measurements, seed/population pairing, definitions, and plot scales are unchanged."
+  }
+}

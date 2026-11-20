@@ -1,0 +1,25 @@
+dataset,comparison,model,metric,window,n_seed_blocks,mean_effect,min_effect,max_effect,positive,negative,zero,missing_seeds,effect_unit
+goodreads,L2 minus L0,agentic_recommender,weighted_head_exposure,mean_1_30,3,-9.87005019642258,-23.332183621786655,-1.354579811035084,0,3,0,,percentage points
+goodreads,L2 minus L0,agentic_recommender,weighted_head_exposure,iteration_30,3,-13.72326645164941,-23.282122107568348,0.8643419551687459,1,2,0,,percentage points
+goodreads,L3 full reflection minus L2 frozen agent,agentic_recommender,weighted_head_exposure,mean_1_30,3,-2.1701286785222482,-17.599476918760455,12.941709818759382,1,2,0,,percentage points
+goodreads,L3 full reflection minus L2 frozen agent,agentic_recommender,weighted_head_exposure,iteration_30,3,-1.4735643763042254,-22.32951524184029,11.039958028964204,2,1,0,,percentage points
+goodreads,L2 minus L0,direct_llm,weighted_head_exposure,mean_1_30,3,5.313358485016567,0.11802380713221412,9.825756605906804,3,0,0,,percentage points
+goodreads,L2 minus L0,direct_llm,weighted_head_exposure,iteration_30,3,7.791756839355045,-2.0914359591251763,16.279764685153275,2,1,0,,percentage points
+goodreads,L2 minus L0,ncm_inspired_gru_mansoury,weighted_head_exposure,mean_1_30,3,26.69929264118768,24.6534710014026,29.249224104942076,3,0,0,,percentage points
+goodreads,L2 minus L0,ncm_inspired_gru_mansoury,weighted_head_exposure,iteration_30,3,28.06301229826046,25.926555763496385,30.77843823056786,3,0,0,,percentage points
+goodreads,L2 minus L0,ncm_inspired_gru_uniform,weighted_head_exposure,mean_1_30,3,39.22410297074387,33.57135505394885,43.903583624222655,3,0,0,,percentage points
+goodreads,L2 minus L0,ncm_inspired_gru_uniform,weighted_head_exposure,iteration_30,3,44.634307298010434,38.094584499783615,50.5608730671137,3,0,0,,percentage points
+goodreads,L2 minus L0,position_biased,weighted_head_exposure,mean_1_30,3,2.650129298689671,-1.6967280569929277,6.315555514457366,2,1,0,,percentage points
+goodreads,L2 minus L0,position_biased,weighted_head_exposure,iteration_30,3,-10.620299669403034,-14.48067074809507,-4.166140918959282,0,3,0,,percentage points
+movielens,L2 minus L0,agentic_recommender,weighted_head_exposure,mean_1_30,3,-1.3515996452043921,-3.960407217213253,0.49865949062539533,1,2,0,,percentage points
+movielens,L2 minus L0,agentic_recommender,weighted_head_exposure,iteration_30,3,-15.289567116946486,-15.80124256415083,-14.947322123722707,0,3,0,,percentage points
+movielens,L3 full reflection minus L2 frozen agent,agentic_recommender,weighted_head_exposure,mean_1_30,3,-1.089819688868974,-3.7903088204675592,3.674352264240842,1,2,0,,percentage points
+movielens,L3 full reflection minus L2 frozen agent,agentic_recommender,weighted_head_exposure,iteration_30,3,0.20050464650132419,-1.0183099162850429,1.5436824906920332,2,1,0,,percentage points
+movielens,L2 minus L0,direct_llm,weighted_head_exposure,mean_1_30,3,11.361586138059893,6.247564594487789,15.12849464564448,3,0,0,,percentage points
+movielens,L2 minus L0,direct_llm,weighted_head_exposure,iteration_30,3,7.382036996459284,0.3916284040161422,13.950915497990268,3,0,0,,percentage points
+movielens,L2 minus L0,ncm_inspired_gru_mansoury,weighted_head_exposure,mean_1_30,3,16.869432208301692,15.834131228245017,18.238976544103124,3,0,0,,percentage points
+movielens,L2 minus L0,ncm_inspired_gru_mansoury,weighted_head_exposure,iteration_30,3,19.533545094004367,19.126082422923083,20.264704154220436,3,0,0,,percentage points
+movielens,L2 minus L0,ncm_inspired_gru_uniform,weighted_head_exposure,mean_1_30,3,29.60037036875033,28.7493088407367,30.31370114144447,3,0,0,,percentage points
+movielens,L2 minus L0,ncm_inspired_gru_uniform,weighted_head_exposure,iteration_30,3,41.336046470948084,40.96566662520904,41.726186109033,3,0,0,,percentage points
+movielens,L2 minus L0,position_biased,weighted_head_exposure,mean_1_30,3,12.733921789817694,12.154059343536364,13.892454413057115,3,0,0,,percentage points
+movielens,L2 minus L0,position_biased,weighted_head_exposure,iteration_30,3,13.121455452799504,9.85502953959646,17.99395860738091,3,0,0,,percentage points

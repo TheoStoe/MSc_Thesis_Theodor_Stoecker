@@ -1,0 +1,4 @@
+Measure,Agreement count,Compared pairs,Agreement
+"Same item, both clicked",107,136,0.7867647058823529
+Same item or both no-click,109,150,0.7266666666666667
+Same sponsored-click decision,129,150,0.86

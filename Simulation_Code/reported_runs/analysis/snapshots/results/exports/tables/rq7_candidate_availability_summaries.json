@@ -1,0 +1,1156 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq7_candidate_availability_summaries",
+  "label": "chap:results:tab:rq7_candidate_availability_summaries",
+  "caption": "Women-authored candidate shares and signed exposure-minus-candidate-share differences. Candidate shares are fractions; the labelled differences are percentage points. Availability is evaluated before each canonical decision, retaining population-specific catalogues.",
+  "rows": 84,
+  "source_columns": [
+    "dataset",
+    "study",
+    "model",
+    "condition_id",
+    "seed",
+    "window",
+    "Women-authored share among eligible candidates",
+    "Women-authored exposure minus candidate share (pp)",
+    "Rank-weighted women-authored exposure minus candidate share (pp)"
+  ],
+  "source_dtypes": {
+    "dataset": "str",
+    "study": "str",
+    "model": "str",
+    "condition_id": "str",
+    "seed": "int64",
+    "window": "str",
+    "Women-authored share among eligible candidates": "float64",
+    "Women-authored exposure minus candidate share (pp)": "float64",
+    "Rank-weighted women-authored exposure minus candidate share (pp)": "float64"
+  },
+  "display_columns": [
+    "dataset",
+    "study",
+    "model",
+    "condition_id",
+    "seed",
+    "window",
+    "Women-authored share among eligible candidates",
+    "Women-authored exposure minus candidate share (pp)",
+    "Rank-weighted women-authored exposure minus candidate share (pp)"
+  ],
+  "display_rows": [
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "agentic_recommender",
+      "L0_control__agentic_recommender__sasrec__order_probe",
+      "42",
+      "iteration_30",
+      "0.366483",
+      "-6.2816",
+      "-6.73738"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "agentic_recommender",
+      "L0_control__agentic_recommender__sasrec__order_probe",
+      "42",
+      "mean_1_30",
+      "0.366486",
+      "-5.17302",
+      "-5.96856"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "agentic_recommender",
+      "L0_control__agentic_recommender__sasrec__order_probe",
+      "43",
+      "iteration_30",
+      "0.476192",
+      "-11.3525",
+      "-12.4835"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "agentic_recommender",
+      "L0_control__agentic_recommender__sasrec__order_probe",
+      "43",
+      "mean_1_30",
+      "0.476179",
+      "-11.6068",
+      "-12.7854"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "agentic_recommender",
+      "L0_control__agentic_recommender__sasrec__order_probe",
+      "44",
+      "iteration_30",
+      "0.416619",
+      "-6.46186",
+      "-6.66341"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "agentic_recommender",
+      "L0_control__agentic_recommender__sasrec__order_probe",
+      "44",
+      "mean_1_30",
+      "0.416612",
+      "-4.97671",
+      "-4.8953"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "agentic_recommender",
+      "L2_ml_model__agentic_recommender__sasrec__order_probe",
+      "42",
+      "iteration_30",
+      "0.366316",
+      "28.035",
+      "27.4919"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "agentic_recommender",
+      "L2_ml_model__agentic_recommender__sasrec__order_probe",
+      "42",
+      "mean_1_30",
+      "0.366415",
+      "15.7007",
+      "15.5867"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "agentic_recommender",
+      "L2_ml_model__agentic_recommender__sasrec__order_probe",
+      "43",
+      "iteration_30",
+      "0.476096",
+      "9.0571",
+      "12.3602"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "agentic_recommender",
+      "L2_ml_model__agentic_recommender__sasrec__order_probe",
+      "43",
+      "mean_1_30",
+      "0.476142",
+      "-2.43311",
+      "-0.781675"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "agentic_recommender",
+      "L2_ml_model__agentic_recommender__sasrec__order_probe",
+      "44",
+      "iteration_30",
+      "0.416457",
+      "19.5876",
+      "20.3793"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "agentic_recommender",
+      "L2_ml_model__agentic_recommender__sasrec__order_probe",
+      "44",
+      "mean_1_30",
+      "0.416546",
+      "8.69093",
+      "9.58071"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "agentic_recommender",
+      "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+      "42",
+      "iteration_30",
+      "0.366476",
+      "2.6524",
+      "0.933368"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "agentic_recommender",
+      "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+      "42",
+      "mean_1_30",
+      "0.366484",
+      "-1.40063",
+      "-1.49711"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "agentic_recommender",
+      "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+      "43",
+      "iteration_30",
+      "0.476045",
+      "12.3288",
+      "10.4202"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "agentic_recommender",
+      "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+      "43",
+      "mean_1_30",
+      "0.476116",
+      "8.50393",
+      "7.39534"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "agentic_recommender",
+      "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+      "44",
+      "iteration_30",
+      "0.416451",
+      "13.2215",
+      "14.1915"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "agentic_recommender",
+      "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+      "44",
+      "mean_1_30",
+      "0.41655",
+      "7.25058",
+      "8.34946"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "direct_llm",
+      "L0_control__direct_llm__sasrec__order_probe",
+      "42",
+      "iteration_30",
+      "0.366495",
+      "-2.58281",
+      "-2.78779"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "direct_llm",
+      "L0_control__direct_llm__sasrec__order_probe",
+      "42",
+      "mean_1_30",
+      "0.366495",
+      "-2.66169",
+      "-2.96473"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "direct_llm",
+      "L0_control__direct_llm__sasrec__order_probe",
+      "43",
+      "iteration_30",
+      "0.476168",
+      "-9.91679",
+      "-10.6665"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "direct_llm",
+      "L0_control__direct_llm__sasrec__order_probe",
+      "43",
+      "mean_1_30",
+      "0.476167",
+      "-10.02",
+      "-10.7681"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "direct_llm",
+      "L0_control__direct_llm__sasrec__order_probe",
+      "44",
+      "iteration_30",
+      "0.416611",
+      "-2.36113",
+      "-2.21236"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "direct_llm",
+      "L0_control__direct_llm__sasrec__order_probe",
+      "44",
+      "mean_1_30",
+      "0.416611",
+      "-2.27216",
+      "-2.09276"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "direct_llm",
+      "L2_ml_model__direct_llm__sasrec__order_probe",
+      "42",
+      "iteration_30",
+      "0.366497",
+      "-2.14974",
+      "-1.54101"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "direct_llm",
+      "L2_ml_model__direct_llm__sasrec__order_probe",
+      "42",
+      "mean_1_30",
+      "0.366496",
+      "-3.11957",
+      "-3.29726"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "direct_llm",
+      "L2_ml_model__direct_llm__sasrec__order_probe",
+      "43",
+      "iteration_30",
+      "0.476169",
+      "-4.51689",
+      "-4.89968"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "direct_llm",
+      "L2_ml_model__direct_llm__sasrec__order_probe",
+      "43",
+      "mean_1_30",
+      "0.476167",
+      "-7.42671",
+      "-7.61707"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "direct_llm",
+      "L2_ml_model__direct_llm__sasrec__order_probe",
+      "44",
+      "iteration_30",
+      "0.41662",
+      "-8.66202",
+      "-9.01599"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "direct_llm",
+      "L2_ml_model__direct_llm__sasrec__order_probe",
+      "44",
+      "mean_1_30",
+      "0.416613",
+      "-5.11795",
+      "-4.90783"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "L0_control__ncm_inspired_gru_mansoury__sasrec__order_probe",
+      "42",
+      "iteration_30",
+      "0.366518",
+      "0.381544",
+      "0.895248"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "L0_control__ncm_inspired_gru_mansoury__sasrec__order_probe",
+      "42",
+      "mean_1_30",
+      "0.366508",
+      "-1.14967",
+      "-1.03876"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "L0_control__ncm_inspired_gru_mansoury__sasrec__order_probe",
+      "43",
+      "iteration_30",
+      "0.476266",
+      "-3.09327",
+      "-2.69107"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "L0_control__ncm_inspired_gru_mansoury__sasrec__order_probe",
+      "43",
+      "mean_1_30",
+      "0.476223",
+      "-5.87674",
+      "-5.97549"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "L0_control__ncm_inspired_gru_mansoury__sasrec__order_probe",
+      "44",
+      "iteration_30",
+      "0.416656",
+      "-3.66565",
+      "-2.82577"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "L0_control__ncm_inspired_gru_mansoury__sasrec__order_probe",
+      "44",
+      "mean_1_30",
+      "0.41663",
+      "-3.0774",
+      "-2.42832"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "L1_feature__ncm_inspired_gru_mansoury__sasrec__order_probe",
+      "42",
+      "iteration_30",
+      "0.3665",
+      "2.51663",
+      "2.33934"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "L1_feature__ncm_inspired_gru_mansoury__sasrec__order_probe",
+      "42",
+      "mean_1_30",
+      "0.366502",
+      "0.56091",
+      "0.268489"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "L1_feature__ncm_inspired_gru_mansoury__sasrec__order_probe",
+      "43",
+      "iteration_30",
+      "0.476306",
+      "-6.96395",
+      "-7.47185"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "L1_feature__ncm_inspired_gru_mansoury__sasrec__order_probe",
+      "43",
+      "mean_1_30",
+      "0.476241",
+      "-7.62075",
+      "-8.07934"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "L1_feature__ncm_inspired_gru_mansoury__sasrec__order_probe",
+      "44",
+      "iteration_30",
+      "0.416633",
+      "-1.42992",
+      "-1.22283"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "L1_feature__ncm_inspired_gru_mansoury__sasrec__order_probe",
+      "44",
+      "mean_1_30",
+      "0.416616",
+      "-2.20934",
+      "-2.15273"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe",
+      "42",
+      "iteration_30",
+      "0.366588",
+      "-22.6254",
+      "-25.1194"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe",
+      "42",
+      "mean_1_30",
+      "0.36653",
+      "-5.31297",
+      "-5.93219"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe",
+      "43",
+      "iteration_30",
+      "0.476326",
+      "-7.46594",
+      "-6.88326"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe",
+      "43",
+      "mean_1_30",
+      "0.476249",
+      "-10.0293",
+      "-10.6594"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe",
+      "44",
+      "iteration_30",
+      "0.416696",
+      "-0.0696014",
+      "1.87233"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_mansoury",
+      "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe",
+      "44",
+      "mean_1_30",
+      "0.416666",
+      "-6.86886",
+      "-6.5326"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "L0_control__ncm_inspired_gru_uniform__sasrec__order_probe",
+      "42",
+      "iteration_30",
+      "0.366513",
+      "-1.01793",
+      "-0.678108"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "L0_control__ncm_inspired_gru_uniform__sasrec__order_probe",
+      "42",
+      "mean_1_30",
+      "0.366506",
+      "-1.52731",
+      "-1.32312"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "L0_control__ncm_inspired_gru_uniform__sasrec__order_probe",
+      "43",
+      "iteration_30",
+      "0.476265",
+      "-3.35982",
+      "-4.11366"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "L0_control__ncm_inspired_gru_uniform__sasrec__order_probe",
+      "43",
+      "mean_1_30",
+      "0.476224",
+      "-5.60686",
+      "-6.14358"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "L0_control__ncm_inspired_gru_uniform__sasrec__order_probe",
+      "44",
+      "iteration_30",
+      "0.416664",
+      "-1.89974",
+      "-1.27751"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "L0_control__ncm_inspired_gru_uniform__sasrec__order_probe",
+      "44",
+      "mean_1_30",
+      "0.416634",
+      "-2.11226",
+      "-1.88524"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "L1_feature__ncm_inspired_gru_uniform__sasrec__order_probe",
+      "42",
+      "iteration_30",
+      "0.366523",
+      "1.94774",
+      "2.00839"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "L1_feature__ncm_inspired_gru_uniform__sasrec__order_probe",
+      "42",
+      "mean_1_30",
+      "0.366513",
+      "0.0531383",
+      "-0.253033"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "L1_feature__ncm_inspired_gru_uniform__sasrec__order_probe",
+      "43",
+      "iteration_30",
+      "0.476282",
+      "-4.39488",
+      "-3.7242"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "L1_feature__ncm_inspired_gru_uniform__sasrec__order_probe",
+      "43",
+      "mean_1_30",
+      "0.476233",
+      "-7.70442",
+      "-7.93421"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "L1_feature__ncm_inspired_gru_uniform__sasrec__order_probe",
+      "44",
+      "iteration_30",
+      "0.41667",
+      "-4.26701",
+      "-4.53474"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "L1_feature__ncm_inspired_gru_uniform__sasrec__order_probe",
+      "44",
+      "mean_1_30",
+      "0.416634",
+      "-4.65677",
+      "-4.70852"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe",
+      "42",
+      "iteration_30",
+      "0.366645",
+      "-16.9645",
+      "-15.9367"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe",
+      "42",
+      "mean_1_30",
+      "0.366568",
+      "-4.88787",
+      "-6.39715"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe",
+      "43",
+      "iteration_30",
+      "0.476258",
+      "5.07418",
+      "6.18192"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe",
+      "43",
+      "mean_1_30",
+      "0.476234",
+      "-3.65566",
+      "-4.491"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe",
+      "44",
+      "iteration_30",
+      "0.416785",
+      "-17.2785",
+      "-18.5043"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "ncm_inspired_gru_uniform",
+      "L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe",
+      "44",
+      "mean_1_30",
+      "0.416691",
+      "-12.4624",
+      "-12.5471"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "position_biased",
+      "L0_control__position_biased__sasrec__order_probe",
+      "42",
+      "iteration_30",
+      "0.366514",
+      "-0.75137",
+      "-1.24644"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "position_biased",
+      "L0_control__position_biased__sasrec__order_probe",
+      "42",
+      "mean_1_30",
+      "0.366506",
+      "-1.59507",
+      "-1.87966"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "position_biased",
+      "L0_control__position_biased__sasrec__order_probe",
+      "43",
+      "iteration_30",
+      "0.476263",
+      "-3.79297",
+      "-3.3648"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "position_biased",
+      "L0_control__position_biased__sasrec__order_probe",
+      "43",
+      "mean_1_30",
+      "0.47622",
+      "-6.56311",
+      "-6.84094"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "position_biased",
+      "L0_control__position_biased__sasrec__order_probe",
+      "44",
+      "iteration_30",
+      "0.416649",
+      "-5.53152",
+      "-5.40912"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "position_biased",
+      "L0_control__position_biased__sasrec__order_probe",
+      "44",
+      "mean_1_30",
+      "0.416626",
+      "-3.81931",
+      "-3.66229"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "position_biased",
+      "L1_feature__position_biased__sasrec__order_probe",
+      "42",
+      "iteration_30",
+      "0.366497",
+      "1.48359",
+      "1.30548"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "position_biased",
+      "L1_feature__position_biased__sasrec__order_probe",
+      "42",
+      "mean_1_30",
+      "0.3665",
+      "0.313376",
+      "0.145905"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "position_biased",
+      "L1_feature__position_biased__sasrec__order_probe",
+      "43",
+      "iteration_30",
+      "0.476261",
+      "-8.15944",
+      "-7.64257"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "position_biased",
+      "L1_feature__position_biased__sasrec__order_probe",
+      "43",
+      "mean_1_30",
+      "0.476222",
+      "-7.37223",
+      "-7.49311"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "position_biased",
+      "L1_feature__position_biased__sasrec__order_probe",
+      "44",
+      "iteration_30",
+      "0.416598",
+      "0.173539",
+      "0.248292"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "position_biased",
+      "L1_feature__position_biased__sasrec__order_probe",
+      "44",
+      "mean_1_30",
+      "0.416604",
+      "-0.0437677",
+      "0.101126"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "position_biased",
+      "L2_ml_model__position_biased__sasrec__order_probe",
+      "42",
+      "iteration_30",
+      "0.366441",
+      "0.955905",
+      "0.771727"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "position_biased",
+      "L2_ml_model__position_biased__sasrec__order_probe",
+      "42",
+      "mean_1_30",
+      "0.36648",
+      "2.71427",
+      "3.14521"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "position_biased",
+      "L2_ml_model__position_biased__sasrec__order_probe",
+      "43",
+      "iteration_30",
+      "0.476272",
+      "-3.5939",
+      "-4.14843"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "position_biased",
+      "L2_ml_model__position_biased__sasrec__order_probe",
+      "43",
+      "mean_1_30",
+      "0.47623",
+      "-7.94187",
+      "-8.20126"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "position_biased",
+      "L2_ml_model__position_biased__sasrec__order_probe",
+      "44",
+      "iteration_30",
+      "0.416589",
+      "1.44108",
+      "1.60905"
+    ],
+    [
+      "goodreads",
+      "goodreads_gender_a300_e804",
+      "position_biased",
+      "L2_ml_model__position_biased__sasrec__order_probe",
+      "44",
+      "mean_1_30",
+      "0.416605",
+      "0.373912",
+      "0.478651"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "llllrlrrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq7",
+    "source_blocks": [
+      {
+        "condition_id": "L0_control__agentic_recommender__sasrec__order_probe",
+        "seed": 42
+      },
+      {
+        "condition_id": "L0_control__agentic_recommender__sasrec__order_probe",
+        "seed": 43
+      },
+      {
+        "condition_id": "L0_control__agentic_recommender__sasrec__order_probe",
+        "seed": 44
+      },
+      {
+        "condition_id": "L2_ml_model__agentic_recommender__sasrec__order_probe",
+        "seed": 42
+      },
+      {
+        "condition_id": "L2_ml_model__agentic_recommender__sasrec__order_probe",
+        "seed": 43
+      },
+      {
+        "condition_id": "L2_ml_model__agentic_recommender__sasrec__order_probe",
+        "seed": 44
+      },
+      {
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+        "seed": 42
+      },
+      {
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+        "seed": 43
+      },
+      {
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+        "seed": 44
+      },
+      {
+        "condition_id": "L0_control__direct_llm__sasrec__order_probe",
+        "seed": 42
+      },
+      {
+        "condition_id": "L0_control__direct_llm__sasrec__order_probe",
+        "seed": 43
+      },
+      {
+        "condition_id": "L0_control__direct_llm__sasrec__order_probe",
+        "seed": 44
+      },
+      {
+        "condition_id": "L2_ml_model__direct_llm__sasrec__order_probe",
+        "seed": 42
+      },
+      {
+        "condition_id": "L2_ml_model__direct_llm__sasrec__order_probe",
+        "seed": 43
+      },
+      {
+        "condition_id": "L2_ml_model__direct_llm__sasrec__order_probe",
+        "seed": 44
+      },
+      {
+        "condition_id": "L0_control__ncm_inspired_gru_mansoury__sasrec__order_probe",
+        "seed": 42
+      },
+      {
+        "condition_id": "L0_control__ncm_inspired_gru_mansoury__sasrec__order_probe",
+        "seed": 43
+      },
+      {
+        "condition_id": "L0_control__ncm_inspired_gru_mansoury__sasrec__order_probe",
+        "seed": 44
+      },
+      {
+        "condition_id": "L1_feature__ncm_inspired_gru_mansoury__sasrec__order_probe",
+        "seed": 42
+      },
+      {
+        "condition_id": "L1_feature__ncm_inspired_gru_mansoury__sasrec__order_probe",
+        "seed": 43
+      },
+      {
+        "condition_id": "L1_feature__ncm_inspired_gru_mansoury__sasrec__order_probe",
+        "seed": 44
+      },
+      {
+        "condition_id": "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe",
+        "seed": 42
+      },
+      {
+        "condition_id": "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe",
+        "seed": 43
+      },
+      {
+        "condition_id": "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe",
+        "seed": 44
+      },
+      {
+        "condition_id": "L0_control__ncm_inspired_gru_uniform__sasrec__order_probe",
+        "seed": 42
+      },
+      {
+        "condition_id": "L0_control__ncm_inspired_gru_uniform__sasrec__order_probe",
+        "seed": 43
+      },
+      {
+        "condition_id": "L0_control__ncm_inspired_gru_uniform__sasrec__order_probe",
+        "seed": 44
+      },
+      {
+        "condition_id": "L1_feature__ncm_inspired_gru_uniform__sasrec__order_probe",
+        "seed": 42
+      },
+      {
+        "condition_id": "L1_feature__ncm_inspired_gru_uniform__sasrec__order_probe",
+        "seed": 43
+      },
+      {
+        "condition_id": "L1_feature__ncm_inspired_gru_uniform__sasrec__order_probe",
+        "seed": 44
+      },
+      {
+        "condition_id": "L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe",
+        "seed": 42
+      },
+      {
+        "condition_id": "L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe",
+        "seed": 43
+      },
+      {
+        "condition_id": "L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe",
+        "seed": 44
+      },
+      {
+        "condition_id": "L0_control__position_biased__sasrec__order_probe",
+        "seed": 42
+      },
+      {
+        "condition_id": "L0_control__position_biased__sasrec__order_probe",
+        "seed": 43
+      },
+      {
+        "condition_id": "L0_control__position_biased__sasrec__order_probe",
+        "seed": 44
+      },
+      {
+        "condition_id": "L1_feature__position_biased__sasrec__order_probe",
+        "seed": 42
+      },
+      {
+        "condition_id": "L1_feature__position_biased__sasrec__order_probe",
+        "seed": 43
+      },
+      {
+        "condition_id": "L1_feature__position_biased__sasrec__order_probe",
+        "seed": 44
+      },
+      {
+        "condition_id": "L2_ml_model__position_biased__sasrec__order_probe",
+        "seed": 42
+      },
+      {
+        "condition_id": "L2_ml_model__position_biased__sasrec__order_probe",
+        "seed": 43
+      },
+      {
+        "condition_id": "L2_ml_model__position_biased__sasrec__order_probe",
+        "seed": 44
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq7_candidate_availability_summaries.tex": "975bf0b0cc61d26635a60ec43f64a58517a36e860180d22e113efc0e8bec937f",
+    "rq7_candidate_availability_summaries.csv": "a7b5ada27bbcbd350c9b4d43b7fc2f7125bf79376d6fd05406527dfe1e16a771"
+  }
+}

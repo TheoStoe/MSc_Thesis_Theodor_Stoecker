@@ -1,0 +1,44 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{llrrlrrr}
+\hline
+model & stage & seed & population\_seed & window & Total (pp) & Immediate (pp) & Feedback (pp) \\
+\hline
+agentic\_recommender & L3\_individual & 42 & 1054 & mean\_1\_30 & -7.93692 & -10.2694 & 2.33252 \\
+agentic\_recommender & L3\_individual & 42 & 1054 & iteration\_30 & -3.26804 & -14.3179 & 11.0498 \\
+direct\_llm & L2\_ml\_model & 42 & 1054 & mean\_1\_30 & -12.8412 & -14.1977 & 1.35653 \\
+direct\_llm & L2\_ml\_model & 42 & 1054 & iteration\_30 & -24.4601 & -15.0231 & -9.43701 \\
+ncm\_inspired\_gru\_mansoury & L2\_ml\_model & 42 & 1054 & mean\_1\_30 & -71.7556 & -22.7556 & -49 \\
+ncm\_inspired\_gru\_mansoury & L2\_ml\_model & 42 & 1054 & iteration\_30 & -85.6667 & -8.33333 & -77.3333 \\
+ncm\_inspired\_gru\_uniform & L2\_ml\_model & 42 & 1054 & mean\_1\_30 & -33.9556 & -18.3333 & -15.6222 \\
+ncm\_inspired\_gru\_uniform & L2\_ml\_model & 42 & 1054 & iteration\_30 & -48.3333 & -26.6667 & -21.6667 \\
+position\_biased & L2\_ml\_model & 42 & 1054 & mean\_1\_30 & -73.3 & -12.8889 & -60.4111 \\
+position\_biased & L2\_ml\_model & 42 & 1054 & iteration\_30 & -79.6667 & -3.33333 & -76.3333 \\
+agentic\_recommender & L3\_individual & 43 & 19277 & mean\_1\_30 & -12.2005 & -8.7278 & -3.47271 \\
+agentic\_recommender & L3\_individual & 43 & 19277 & iteration\_30 & -11.7847 & -13.2511 & 1.46641 \\
+direct\_llm & L2\_ml\_model & 43 & 19277 & mean\_1\_30 & -16.1867 & -11.8543 & -4.33248 \\
+direct\_llm & L2\_ml\_model & 43 & 19277 & iteration\_30 & -35.2703 & -14.1905 & -21.0797 \\
+ncm\_inspired\_gru\_mansoury & L2\_ml\_model & 43 & 19277 & mean\_1\_30 & -75.7333 & -22.3111 & -53.4222 \\
+ncm\_inspired\_gru\_mansoury & L2\_ml\_model & 43 & 19277 & iteration\_30 & -79.3333 & -6 & -73.3333 \\
+ncm\_inspired\_gru\_uniform & L2\_ml\_model & 43 & 19277 & mean\_1\_30 & -29.5667 & -17.8 & -11.7667 \\
+ncm\_inspired\_gru\_uniform & L2\_ml\_model & 43 & 19277 & iteration\_30 & -34 & -18.3333 & -15.6667 \\
+position\_biased & L2\_ml\_model & 43 & 19277 & mean\_1\_30 & -72.9111 & -13.4 & -59.5111 \\
+position\_biased & L2\_ml\_model & 43 & 19277 & iteration\_30 & -82 & -0.666667 & -81.3333 \\
+agentic\_recommender & L3\_individual & 44 & 18844 & mean\_1\_30 & -10.9829 & -10.1603 & -0.822578 \\
+agentic\_recommender & L3\_individual & 44 & 18844 & iteration\_30 & 1.39752 & -12.468 & 13.8655 \\
+direct\_llm & L2\_ml\_model & 44 & 18844 & mean\_1\_30 & -17.4625 & -12.8448 & -4.61764 \\
+direct\_llm & L2\_ml\_model & 44 & 18844 & iteration\_30 & -24.2551 & -23.7502 & -0.504921 \\
+ncm\_inspired\_gru\_mansoury & L2\_ml\_model & 44 & 18844 & mean\_1\_30 & -74.8 & -19.4556 & -55.3444 \\
+ncm\_inspired\_gru\_mansoury & L2\_ml\_model & 44 & 18844 & iteration\_30 & -85.6667 & -6 & -79.6667 \\
+ncm\_inspired\_gru\_uniform & L2\_ml\_model & 44 & 18844 & mean\_1\_30 & -25.2889 & -17.5778 & -7.71111 \\
+ncm\_inspired\_gru\_uniform & L2\_ml\_model & 44 & 18844 & iteration\_30 & -37 & -21.6667 & -15.3333 \\
+position\_biased & L2\_ml\_model & 44 & 18844 & mean\_1\_30 & -69.9 & -14.9333 & -54.9667 \\
+position\_biased & L2\_ml\_model & 44 & 18844 & iteration\_30 & -81.3333 & -2.66667 & -78.6667 \\
+\hline
+\end{tabular}
+\caption{Head-click share: total, immediate-reranking, and feedback/state components in percentage points. Total is post canonical minus control canonical; immediate uses post canonical minus its original-order response or recommender exposure; feedback uses that original-order value minus control. Each click arm uses its own valid-click denominator. Means require all 30 iterations; endpoints use iteration 30. Exposure covers all displayed ranks 1--10. The components are descriptive and include response variation.}
+\label{chap:results:tab:rq4_post_processing_head_click_share_components}
+\end{table}

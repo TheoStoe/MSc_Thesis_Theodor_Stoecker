@@ -1,0 +1,136 @@
+{
+  "analysis_name": "rq1_feedback_trajectory_position_biased",
+  "label": "chap:results:fig:rq1_feedback_trajectory_position_biased",
+  "recommended_for_main_text": false,
+  "rationale": "",
+  "context": {
+    "datasets": [
+      "MovieLens"
+    ],
+    "stages_by_model": {
+      "position_biased": [
+        "L0",
+        "L1",
+        "L2"
+      ]
+    },
+    "seeds_by_model": {
+      "position_biased": [
+        42,
+        43,
+        44
+      ]
+    },
+    "seeds_by_model_condition": {
+      "position_biased": {
+        "L0": [
+          42,
+          43,
+          44
+        ],
+        "L1": [
+          42,
+          43,
+          44
+        ],
+        "L2": [
+          42,
+          43,
+          44
+        ]
+      }
+    },
+    "time_summary": "Per-iteration values, iterations 1–30",
+    "windows": [],
+    "protocol": "300 active users",
+    "comparisons": [],
+    "encoding": "Panels: simulation seeds; line styles/markers: conditions",
+    "text": "MovieLens | 300 active users | Stages: L0, L1, L2\nPer-iteration values, iterations 1–30 | Simulation seeds: 42, 43, 44",
+    "plot_spec": {
+      "kind": "trajectory",
+      "facet": "seed",
+      "series": "condition_label",
+      "metrics": [
+        "head_exposure",
+        "weighted_head_exposure"
+      ]
+    }
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq1",
+    "source_blocks": [
+      {
+        "physical_run_id": "feedback_new_sampling_p1054_a300_r0_e804__L0_control__position_biased__sasrec__order_probe__seed_42",
+        "run_id": "feedback_new_sampling_p1054_a300_r0_e804__L0_control__position_biased__sasrec__order_probe__seed_42",
+        "condition_id": "L0_control__position_biased__sasrec__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p1054_a300_r0_e804__L1_feature__position_biased__sasrec__order_probe__seed_42",
+        "run_id": "feedback_new_sampling_p1054_a300_r0_e804__L1_feature__position_biased__sasrec__order_probe__seed_42",
+        "condition_id": "L1_feature__position_biased__sasrec__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__position_biased__control__seed_42",
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__position_biased__control__seed_42",
+        "condition_id": "L2_ml_model__position_biased__sasrec__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p19277_a300_r0_e804__L0_control__position_biased__sasrec__order_probe__seed_43",
+        "run_id": "feedback_new_sampling_p19277_a300_r0_e804__L0_control__position_biased__sasrec__order_probe__seed_43",
+        "condition_id": "L0_control__position_biased__sasrec__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p19277_a300_r0_e804__L1_feature__position_biased__sasrec__order_probe__seed_43",
+        "run_id": "feedback_new_sampling_p19277_a300_r0_e804__L1_feature__position_biased__sasrec__order_probe__seed_43",
+        "condition_id": "L1_feature__position_biased__sasrec__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__position_biased__control__seed_43",
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__position_biased__control__seed_43",
+        "condition_id": "L2_ml_model__position_biased__sasrec__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L0_control__position_biased__sasrec__order_probe__seed_44",
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L0_control__position_biased__sasrec__order_probe__seed_44",
+        "condition_id": "L0_control__position_biased__sasrec__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L1_feature__position_biased__sasrec__order_probe__seed_44",
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L1_feature__position_biased__sasrec__order_probe__seed_44",
+        "condition_id": "L1_feature__position_biased__sasrec__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__position_biased__sasrec__order_probe__seed_44",
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__position_biased__sasrec__order_probe__seed_44",
+        "condition_id": "L2_ml_model__position_biased__sasrec__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq1_feedback_trajectory_position_biased.pdf": "c180bbe1aef685f795a9c255a3f59060a84f546ebd3f027169c244f9dbe58ca9",
+    "rq1_feedback_trajectory_position_biased.png": "c6a36bc89ab25d8e8e20f14d521ea45b29d0dc1db6c4ece6232f8ecbd4e5ed77"
+  }
+}

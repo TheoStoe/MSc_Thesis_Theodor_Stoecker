@@ -1,0 +1,486 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq2_computational_saved_probability_coverage",
+  "label": "chap:results:tab:rq2_computational_saved_probability_coverage",
+  "caption": "Exact saved computational item-choice probability diagnostics. Equal-weight mean over iterations 1--30 and iteration-30 endpoint. Shares are fractions; share gaps are percentage points. Undefined denominators remain missing.",
+  "rows": 54,
+  "source_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Triple valid clicks",
+    "Tvd opportunities",
+    "Condition"
+  ],
+  "source_dtypes": {
+    "Model": "str",
+    "Seed": "int64",
+    "Time summary": "str",
+    "Triple valid clicks": "float64",
+    "Tvd opportunities": "float64",
+    "Condition": "str"
+  },
+  "display_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Triple valid clicks",
+    "Tvd opportunities",
+    "Condition"
+  ],
+  "display_rows": [
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "iteration_30",
+      "300",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "mean_1_30",
+      "300",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "iteration_30",
+      "300",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "mean_1_30",
+      "300",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "iteration_30",
+      "300",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "mean_1_30",
+      "300",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "iteration_30",
+      "300",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "mean_1_30",
+      "300",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "iteration_30",
+      "300",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "mean_1_30",
+      "300",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "iteration_30",
+      "300",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "mean_1_30",
+      "300",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "iteration_30",
+      "300",
+      "300",
+      "L2"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "mean_1_30",
+      "300",
+      "300",
+      "L2"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "iteration_30",
+      "300",
+      "300",
+      "L2"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "mean_1_30",
+      "300",
+      "300",
+      "L2"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "iteration_30",
+      "300",
+      "300",
+      "L2"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "mean_1_30",
+      "300",
+      "300",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "iteration_30",
+      "300",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "mean_1_30",
+      "300",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "iteration_30",
+      "300",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "mean_1_30",
+      "300",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "iteration_30",
+      "300",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "mean_1_30",
+      "300",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "iteration_30",
+      "300",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "mean_1_30",
+      "300",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "iteration_30",
+      "300",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "mean_1_30",
+      "300",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "iteration_30",
+      "300",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "mean_1_30",
+      "300",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "iteration_30",
+      "300",
+      "300",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "mean_1_30",
+      "300",
+      "300",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "iteration_30",
+      "300",
+      "300",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "mean_1_30",
+      "300",
+      "300",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "iteration_30",
+      "300",
+      "300",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "mean_1_30",
+      "300",
+      "300",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "iteration_30",
+      "300",
+      "300",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "mean_1_30",
+      "300",
+      "300",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "iteration_30",
+      "300",
+      "300",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "mean_1_30",
+      "300",
+      "300",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "iteration_30",
+      "300",
+      "300",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "mean_1_30",
+      "300",
+      "300",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "iteration_30",
+      "300",
+      "300",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "mean_1_30",
+      "300",
+      "300",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "iteration_30",
+      "300",
+      "300",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "mean_1_30",
+      "300",
+      "300",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "iteration_30",
+      "300",
+      "300",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "mean_1_30",
+      "300",
+      "300",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "iteration_30",
+      "300",
+      "300",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "mean_1_30",
+      "300",
+      "300",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "iteration_30",
+      "300",
+      "300",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "mean_1_30",
+      "300",
+      "300",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "iteration_30",
+      "300",
+      "300",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "mean_1_30",
+      "300",
+      "300",
+      "L2"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrlrrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq2",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq2_computational_saved_probability_coverage.tex": "fe43be5841de17b66487ad5b1c7dc80c3bb28d50eb2f970cf411d49511048c2e",
+    "rq2_computational_saved_probability_coverage.csv": "86958a6b577bd8724779211eb49f1dd4d66eb6082d6b213238054683fab5b6aa"
+  }
+}

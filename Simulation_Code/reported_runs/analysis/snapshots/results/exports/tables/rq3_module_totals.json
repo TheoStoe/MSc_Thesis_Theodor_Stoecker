@@ -1,0 +1,438 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq3_module_totals",
+  "label": "chap:results:tab:rq3_module_totals",
+  "caption": "Module invocations and canonical decisions invoking each module over all 30 iterations. Counts are descriptive and are not additional replications.",
+  "rows": 48,
+  "source_columns": [
+    "Model",
+    "Seed",
+    "module",
+    "invocations",
+    "decisions_invoking",
+    "Condition"
+  ],
+  "source_dtypes": {
+    "Model": "str",
+    "Seed": "int64",
+    "module": "str",
+    "invocations": "int64",
+    "decisions_invoking": "int64",
+    "Condition": "str"
+  },
+  "display_columns": [
+    "Model",
+    "Seed",
+    "module",
+    "invocations",
+    "decisions_invoking",
+    "Condition"
+  ],
+  "display_rows": [
+    [
+      "Agent",
+      "42",
+      "planning",
+      "9000",
+      "9000",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "memory",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "action",
+      "9000",
+      "9000",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "reflection",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "planning",
+      "9000",
+      "9000",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "42",
+      "memory",
+      "0",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "42",
+      "action",
+      "9000",
+      "9000",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "42",
+      "reflection",
+      "9000",
+      "9000",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "42",
+      "planning",
+      "9000",
+      "9000",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "memory",
+      "0",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "action",
+      "9000",
+      "9000",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "reflection",
+      "9000",
+      "9000",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "planning",
+      "9000",
+      "9000",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "memory",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "action",
+      "9000",
+      "9000",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "reflection",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "planning",
+      "9000",
+      "9000",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "memory",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "action",
+      "9000",
+      "9000",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "reflection",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "planning",
+      "9000",
+      "9000",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "43",
+      "memory",
+      "0",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "43",
+      "action",
+      "9000",
+      "9000",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "43",
+      "reflection",
+      "9000",
+      "9000",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "43",
+      "planning",
+      "9000",
+      "9000",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "memory",
+      "0",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "action",
+      "9000",
+      "9000",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "reflection",
+      "9000",
+      "9000",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "planning",
+      "9000",
+      "9000",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "memory",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "action",
+      "9000",
+      "9000",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "reflection",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "planning",
+      "9000",
+      "9000",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "memory",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "action",
+      "9000",
+      "9000",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "reflection",
+      "0",
+      "0",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "planning",
+      "9000",
+      "9000",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "44",
+      "memory",
+      "0",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "44",
+      "action",
+      "9000",
+      "9000",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "44",
+      "reflection",
+      "9000",
+      "9000",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "44",
+      "planning",
+      "9000",
+      "9000",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "memory",
+      "0",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "action",
+      "9000",
+      "9000",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "reflection",
+      "9000",
+      "9000",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "planning",
+      "9000",
+      "9000",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "memory",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "action",
+      "9000",
+      "9000",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "reflection",
+      "0",
+      "0",
+      "L3 -- no reflection"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrlrrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq3",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq3_module_totals.tex": "fbd1ad235049f9883eed31f3342f664ddf04a23e3e82930eabfa2c3b91b5cc03",
+    "rq3_module_totals.csv": "58c2d6fe8ae3cf3570be554db69f092e5e839d58bfe016d18f68fd6656462a79"
+  }
+}

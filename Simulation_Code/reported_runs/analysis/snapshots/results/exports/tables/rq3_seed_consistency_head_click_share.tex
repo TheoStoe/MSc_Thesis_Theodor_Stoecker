@@ -1,0 +1,20 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lllllrrrrrrrll}
+\hline
+dataset & comparison & model & metric & window & n\_seed\_blocks & mean\_effect & min\_effect & max\_effect & positive & negative & zero & missing\_seeds & effect\_unit \\
+\hline
+movielens & Decision-input noise check: no reflection minus frozen agent & agentic\_recommender & head\_click\_share & mean\_1\_30 & 3 & 0.751009 & -3.92734 & 4.47714 & 2 & 1 & 0 &  & percentage points \\
+movielens & Decision-input noise check: no reflection minus frozen agent & agentic\_recommender & head\_click\_share & iteration\_30 & 3 & -7.11226 & -19.0325 & 3.90071 & 1 & 2 & 0 &  & percentage points \\
+movielens & Reflection notes: fixed profile minus no reflection & agentic\_recommender & head\_click\_share & mean\_1\_30 & 3 & -4.49784 & -7.53558 & -0.0732353 & 0 & 3 & 0 &  & percentage points \\
+movielens & Reflection notes: fixed profile minus no reflection & agentic\_recommender & head\_click\_share & iteration\_30 & 3 & 2.66849 & -10.1239 & 15.537 & 2 & 1 & 0 &  & percentage points \\
+movielens & Profile updates: full reflection minus fixed profile & agentic\_recommender & head\_click\_share & mean\_1\_30 & 3 & -0.336885 & -3.46881 & 2.835 & 1 & 2 & 0 &  & percentage points \\
+movielens & Profile updates: full reflection minus fixed profile & agentic\_recommender & head\_click\_share & iteration\_30 & 3 & -3.73907 & -9.21833 & 1.02309 & 1 & 2 & 0 &  & percentage points \\
+\hline
+\end{tabular}
+\caption{Descriptive mean, minimum, maximum, and sign consistency of the paired effects across available seed/population blocks. Share differences use percentage points; missing seeds and block counts remain explicit.}
+\label{chap:results:tab:rq3_seed_consistency_head_click_share}
+\end{table}

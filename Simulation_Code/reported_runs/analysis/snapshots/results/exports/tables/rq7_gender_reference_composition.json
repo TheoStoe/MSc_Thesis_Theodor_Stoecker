@@ -1,0 +1,97 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq7_gender_reference_composition",
+  "label": "chap:results:tab:rq7_gender_reference_composition",
+  "caption": "Goodreads primary-author gender-label composition in each frozen catalogue and its initial training histories. Unknown and ambiguous annotations are retained. Values are shares.",
+  "rows": 3,
+  "source_columns": [
+    "seed",
+    "population_seed",
+    "catalogue_size",
+    "catalogue_female_share",
+    "initial_training_female_share",
+    "catalogue_unknown_share",
+    "catalogue_ambiguous_share"
+  ],
+  "source_dtypes": {
+    "seed": "int64",
+    "population_seed": "int64",
+    "catalogue_size": "int64",
+    "catalogue_female_share": "float64",
+    "initial_training_female_share": "float64",
+    "catalogue_unknown_share": "float64",
+    "catalogue_ambiguous_share": "float64"
+  },
+  "display_columns": [
+    "seed",
+    "population_seed",
+    "catalogue_size",
+    "catalogue_female_share",
+    "initial_training_female_share",
+    "catalogue_unknown_share",
+    "catalogue_ambiguous_share"
+  ],
+  "display_rows": [
+    [
+      "42",
+      "16040",
+      "26749",
+      "0.366518",
+      "0.371485",
+      "0.218438",
+      "0.0505066"
+    ],
+    [
+      "43",
+      "11615",
+      "23213",
+      "0.476069",
+      "0.457962",
+      "0.144014",
+      "0.0571232"
+    ],
+    [
+      "44",
+      "5245",
+      "23484",
+      "0.416667",
+      "0.425649",
+      "0.164239",
+      "0.0572305"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "rrrrrrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq7",
+    "source_blocks": [
+      {
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "seed": 44,
+        "population_seed": 5245
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq7_gender_reference_composition.tex": "1281844b6e84f2c385c1cc91b889d247a55721ecf718873f12c40d4ff73b2d9f",
+    "rq7_gender_reference_composition.csv": "6e13d93f81c8ebcda0951a30802bd1b67b8f0e4b1c0b132c768b4acff4de0f26"
+  }
+}

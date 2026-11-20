@@ -1,0 +1,19 @@
+Model,Seed,Time summary,Gini (clicks),Gini (exposure),Condition
+Agent,42,iteration_30,0.9855874816983896,0.9541811629073708,Organic advertising control
+Agent,42,mean_1_30,0.9795746317701697,0.9155888715564872,Organic advertising control
+Agent,43,iteration_30,0.9822227760298226,0.9482424597364568,Organic advertising control
+Agent,43,mean_1_30,0.9772684795621758,0.9072332650073206,Organic advertising control
+Agent,44,iteration_30,0.985694539720894,0.9587381161542216,Organic advertising control
+Agent,44,mean_1_30,0.9789738753479669,0.919764841386042,Organic advertising control
+Agent,42,iteration_30,0.9891989762274652,0.9773710987286306,Static advertising
+Agent,42,mean_1_30,0.9838989003849404,0.9467046215522398,Static advertising
+Agent,43,iteration_30,0.9835847815477328,0.964125589718562,Static advertising
+Agent,43,mean_1_30,0.9806642407489419,0.93488295096165,Static advertising
+Agent,44,iteration_30,0.9885379627692952,0.978768570034163,Static advertising
+Agent,44,mean_1_30,0.9889852311609897,0.960989738083618,Static advertising
+Agent,42,iteration_30,0.9831926031408572,0.9481635919960956,L5 adaptive advertising
+Agent,42,mean_1_30,0.9809905121578903,0.9265973255246462,L5 adaptive advertising
+Agent,43,iteration_30,0.9832694723944218,0.9549247437774524,L5 adaptive advertising
+Agent,43,mean_1_30,0.9814044933037865,0.9277331901740686,L5 adaptive advertising
+Agent,44,iteration_30,0.9834543202039542,0.959357345046364,L5 adaptive advertising
+Agent,44,mean_1_30,0.9828149309141119,0.9353275809337889,L5 adaptive advertising

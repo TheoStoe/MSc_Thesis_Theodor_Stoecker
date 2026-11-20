@@ -1,0 +1,55 @@
+Model,Seed,Time summary,Triple valid clicks,Tvd opportunities,Condition
+NCM P4 (Mansoury),42,iteration_30,300.0,300.0,L0
+NCM P4 (Mansoury),42,mean_1_30,300.0,300.0,L0
+NCM P4 (Mansoury),43,iteration_30,300.0,300.0,L0
+NCM P4 (Mansoury),43,mean_1_30,300.0,300.0,L0
+NCM P4 (Mansoury),44,iteration_30,300.0,300.0,L0
+NCM P4 (Mansoury),44,mean_1_30,300.0,300.0,L0
+NCM P4 (Mansoury),42,iteration_30,300.0,300.0,L1
+NCM P4 (Mansoury),42,mean_1_30,300.0,300.0,L1
+NCM P4 (Mansoury),43,iteration_30,300.0,300.0,L1
+NCM P4 (Mansoury),43,mean_1_30,300.0,300.0,L1
+NCM P4 (Mansoury),44,iteration_30,300.0,300.0,L1
+NCM P4 (Mansoury),44,mean_1_30,300.0,300.0,L1
+NCM P4 (Mansoury),42,iteration_30,300.0,300.0,L2
+NCM P4 (Mansoury),42,mean_1_30,300.0,300.0,L2
+NCM P4 (Mansoury),43,iteration_30,300.0,300.0,L2
+NCM P4 (Mansoury),43,mean_1_30,300.0,300.0,L2
+NCM P4 (Mansoury),44,iteration_30,300.0,300.0,L2
+NCM P4 (Mansoury),44,mean_1_30,300.0,300.0,L2
+NCM P3 (uniform),42,iteration_30,300.0,300.0,L0
+NCM P3 (uniform),42,mean_1_30,300.0,300.0,L0
+NCM P3 (uniform),43,iteration_30,300.0,300.0,L0
+NCM P3 (uniform),43,mean_1_30,300.0,300.0,L0
+NCM P3 (uniform),44,iteration_30,300.0,300.0,L0
+NCM P3 (uniform),44,mean_1_30,300.0,300.0,L0
+NCM P3 (uniform),42,iteration_30,300.0,300.0,L1
+NCM P3 (uniform),42,mean_1_30,300.0,300.0,L1
+NCM P3 (uniform),43,iteration_30,300.0,300.0,L1
+NCM P3 (uniform),43,mean_1_30,300.0,300.0,L1
+NCM P3 (uniform),44,iteration_30,300.0,300.0,L1
+NCM P3 (uniform),44,mean_1_30,300.0,300.0,L1
+NCM P3 (uniform),42,iteration_30,300.0,300.0,L2
+NCM P3 (uniform),42,mean_1_30,300.0,300.0,L2
+NCM P3 (uniform),43,iteration_30,300.0,300.0,L2
+NCM P3 (uniform),43,mean_1_30,300.0,300.0,L2
+NCM P3 (uniform),44,iteration_30,300.0,300.0,L2
+NCM P3 (uniform),44,mean_1_30,300.0,300.0,L2
+Position-biased,42,iteration_30,300.0,300.0,L0
+Position-biased,42,mean_1_30,300.0,300.0,L0
+Position-biased,43,iteration_30,300.0,300.0,L0
+Position-biased,43,mean_1_30,300.0,300.0,L0
+Position-biased,44,iteration_30,300.0,300.0,L0
+Position-biased,44,mean_1_30,300.0,300.0,L0
+Position-biased,42,iteration_30,300.0,300.0,L1
+Position-biased,42,mean_1_30,300.0,300.0,L1
+Position-biased,43,iteration_30,300.0,300.0,L1
+Position-biased,43,mean_1_30,300.0,300.0,L1
+Position-biased,44,iteration_30,300.0,300.0,L1
+Position-biased,44,mean_1_30,300.0,300.0,L1
+Position-biased,42,iteration_30,300.0,300.0,L2
+Position-biased,42,mean_1_30,300.0,300.0,L2
+Position-biased,43,iteration_30,300.0,300.0,L2
+Position-biased,43,mean_1_30,300.0,300.0,L2
+Position-biased,44,iteration_30,300.0,300.0,L2
+Position-biased,44,mean_1_30,300.0,300.0,L2

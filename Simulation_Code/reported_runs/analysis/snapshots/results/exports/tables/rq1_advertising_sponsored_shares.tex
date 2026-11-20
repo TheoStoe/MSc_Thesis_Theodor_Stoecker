@@ -1,0 +1,32 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lrlrrrl}
+\hline
+Model & Seed & Time summary & Sponsored click share & Sponsored exposure share & Weighted sponsored exposure & Condition \\
+\hline
+Agent & 42 & iteration\_30 & 0 & 0 & 0 & Organic advertising control \\
+Agent & 42 & mean\_1\_30 & 0 & 0 & 0 & Organic advertising control \\
+Agent & 43 & iteration\_30 & 0 & 0 & 0 & Organic advertising control \\
+Agent & 43 & mean\_1\_30 & 0 & 0 & 0 & Organic advertising control \\
+Agent & 44 & iteration\_30 & 0 & 0 & 0 & Organic advertising control \\
+Agent & 44 & mean\_1\_30 & 0 & 0 & 0 & Organic advertising control \\
+Agent & 42 & iteration\_30 & 0.0229008 & 0.1 & 0.220092 & Static advertising \\
+Agent & 42 & mean\_1\_30 & 0.0290047 & 0.1 & 0.220092 & Static advertising \\
+Agent & 43 & iteration\_30 & 0 & 0.1 & 0.220092 & Static advertising \\
+Agent & 43 & mean\_1\_30 & 0.0323396 & 0.1 & 0.220092 & Static advertising \\
+Agent & 44 & iteration\_30 & 0.0204082 & 0.1 & 0.220092 & Static advertising \\
+Agent & 44 & mean\_1\_30 & 0.0427438 & 0.1 & 0.220092 & Static advertising \\
+Agent & 42 & iteration\_30 & 0 & 0.002 & 0.00440184 & L5 adaptive advertising \\
+Agent & 42 & mean\_1\_30 & 0.00927647 & 0.0151333 & 0.0333072 & L5 adaptive advertising \\
+Agent & 43 & iteration\_30 & 0.0070922 & 0.00266667 & 0.00586911 & L5 adaptive advertising \\
+Agent & 43 & mean\_1\_30 & 0.0151986 & 0.0146889 & 0.032329 & L5 adaptive advertising \\
+Agent & 44 & iteration\_30 & 0 & 0.000666667 & 0.00146728 & L5 adaptive advertising \\
+Agent & 44 & mean\_1\_30 & 0.0150843 & 0.0143778 & 0.0316443 & L5 adaptive advertising \\
+\hline
+\end{tabular}
+\caption{Advertising mechanism diagnostics. Organic campaign eligibility is not applicable; its saved zeros are masked only in this display view, while genuine zero sponsored exposures/clicks remain zero. Equal-weight mean over iterations 1--30 and iteration-30 endpoint. Shares are fractions; share gaps are percentage points. Undefined denominators remain missing.}
+\label{chap:results:tab:rq1_advertising_sponsored_shares}
+\end{table}

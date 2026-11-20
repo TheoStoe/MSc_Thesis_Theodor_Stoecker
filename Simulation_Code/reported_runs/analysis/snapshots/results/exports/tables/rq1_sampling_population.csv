@@ -1,0 +1,25 @@
+Model,Seed,Time summary,Active-user counts,Departures,Replacements,Condition
+Agent,42,iteration_30,150.0,0.0,0.0,L3 -- full reflection
+Agent,42,mean_1_30,150.0,0.0,0.0,L3 -- full reflection
+Agent,43,iteration_30,150.0,0.0,0.0,L3 -- full reflection
+Agent,43,mean_1_30,150.0,0.0,0.0,L3 -- full reflection
+Agent,44,iteration_30,150.0,0.0,0.0,L3 -- full reflection
+Agent,44,mean_1_30,150.0,0.0,0.0,L3 -- full reflection
+Agent,42,iteration_30,150.0,1.0,1.0,L4: cluster refill
+Agent,42,mean_1_30,150.0,1.7666666666666666,1.7666666666666666,L4: cluster refill
+Agent,43,iteration_30,150.0,0.0,0.0,L4: cluster refill
+Agent,43,mean_1_30,150.0,2.033333333333333,2.033333333333333,L4: cluster refill
+Agent,44,iteration_30,150.0,2.0,2.0,L4: cluster refill
+Agent,44,mean_1_30,150.0,2.2,2.2,L4: cluster refill
+Agent,42,iteration_30,70.0,0.0,0.0,"L4: departures, no refill"
+Agent,42,mean_1_30,91.43333333333334,2.6666666666666665,0.0,"L4: departures, no refill"
+Agent,43,iteration_30,68.0,0.0,0.0,"L4: departures, no refill"
+Agent,43,mean_1_30,87.46666666666667,2.7333333333333334,0.0,"L4: departures, no refill"
+Agent,44,iteration_30,65.0,3.0,0.0,"L4: departures, no refill"
+Agent,44,mean_1_30,98.36666666666666,2.8333333333333335,0.0,"L4: departures, no refill"
+Agent,42,iteration_30,150.0,3.0,3.0,L4: uniform refill
+Agent,42,mean_1_30,150.0,2.066666666666667,2.066666666666667,L4: uniform refill
+Agent,43,iteration_30,150.0,1.0,1.0,L4: uniform refill
+Agent,43,mean_1_30,150.0,2.2666666666666666,2.2666666666666666,L4: uniform refill
+Agent,44,iteration_30,150.0,1.0,1.0,L4: uniform refill
+Agent,44,mean_1_30,150.0,2.2,2.2,L4: uniform refill

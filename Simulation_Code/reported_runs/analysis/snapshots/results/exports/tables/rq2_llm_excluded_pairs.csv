@@ -1,0 +1,37 @@
+Model,Seed,Time summary,Replica excluded non valid pairs,Shuffled excluded non valid pairs,Condition
+Agent,42,iteration_30,0.0,0.0,L0 -- frozen agent
+Agent,42,mean_1_30,0.0,0.0,L0 -- frozen agent
+Agent,43,iteration_30,0.0,0.0,L0 -- frozen agent
+Agent,43,mean_1_30,0.0,0.03333333333333333,L0 -- frozen agent
+Agent,44,iteration_30,0.0,0.0,L0 -- frozen agent
+Agent,44,mean_1_30,0.0,0.0,L0 -- frozen agent
+Agent,42,iteration_30,0.0,0.0,L1 -- frozen agent
+Agent,42,mean_1_30,0.0,0.0,L1 -- frozen agent
+Agent,43,iteration_30,0.0,0.0,L1 -- frozen agent
+Agent,43,mean_1_30,0.0,0.0,L1 -- frozen agent
+Agent,44,iteration_30,0.0,0.0,L1 -- frozen agent
+Agent,44,mean_1_30,0.0,0.0,L1 -- frozen agent
+Agent,42,iteration_30,0.0,0.0,L2 -- frozen agent
+Agent,42,mean_1_30,0.0,0.0,L2 -- frozen agent
+Agent,43,iteration_30,0.0,0.0,L2 -- frozen agent
+Agent,43,mean_1_30,0.0,0.0,L2 -- frozen agent
+Agent,44,iteration_30,0.0,0.0,L2 -- frozen agent
+Agent,44,mean_1_30,0.0,0.0,L2 -- frozen agent
+Direct LLM,42,iteration_30,0.0,0.0,L0
+Direct LLM,42,mean_1_30,0.0,0.0,L0
+Direct LLM,43,iteration_30,0.0,0.0,L0
+Direct LLM,43,mean_1_30,0.0,0.0,L0
+Direct LLM,44,iteration_30,0.0,0.0,L0
+Direct LLM,44,mean_1_30,0.0,0.0,L0
+Direct LLM,42,iteration_30,0.0,0.0,L1
+Direct LLM,42,mean_1_30,0.0,0.0,L1
+Direct LLM,43,iteration_30,0.0,0.0,L1
+Direct LLM,43,mean_1_30,0.0,0.0,L1
+Direct LLM,44,iteration_30,0.0,0.0,L1
+Direct LLM,44,mean_1_30,0.0,0.0,L1
+Direct LLM,42,iteration_30,0.0,0.0,L2
+Direct LLM,42,mean_1_30,0.0,0.0,L2
+Direct LLM,43,iteration_30,0.0,0.0,L2
+Direct LLM,43,mean_1_30,0.0,0.0,L2
+Direct LLM,44,iteration_30,0.0,0.0,L2
+Direct LLM,44,mean_1_30,0.0,0.0,L2

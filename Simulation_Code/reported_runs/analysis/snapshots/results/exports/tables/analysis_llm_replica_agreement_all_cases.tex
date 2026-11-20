@@ -1,0 +1,32 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{p{0.11\linewidth}p{0.10\linewidth}p{0.20\linewidth}p{0.13\linewidth}p{0.115\linewidth}p{0.115\linewidth}p{0.115\linewidth}}
+\hline
+Dataset & Model & Condition & Mitigation & Seed 42 & Seed 43 & Seed 44 \\
+\hline
+MovieLens & Direct LLM & L0 & None & 53.9\% (640) & 53.5\% (740) & 55.6\% (698) \\
+MovieLens & Direct LLM & L1 & None & 58.0\% (1,380) & 61.3\% (1,359) & 59.3\% (1,368) \\
+MovieLens & Direct LLM & L2 & None & 61.0\% (3,567) & 65.4\% (3,797) & 62.7\% (3,408) \\
+MovieLens & Direct LLM & L2 & In-processing & 58.2\% (3,692) & 63.1\% (3,305) & 62.1\% (3,326) \\
+MovieLens & Direct LLM & L2 & Post-processing & 60.5\% (3,173) & 62.3\% (3,561) & 60.5\% (3,460) \\
+MovieLens & Agent & L0 -- frozen agent & None & 69.3\% (4,723) & 69.2\% (4,663) & 68.8\% (4,685) \\
+MovieLens & Agent & L1 -- frozen agent & None & 69.0\% (7,864) & 70.8\% (7,835) & 70.4\% (7,692) \\
+MovieLens & Agent & L2 -- frozen agent & None & 59.0\% (8,059) & 59.4\% (8,037) & 61.6\% (8,152) \\
+MovieLens & Agent & L3 -- no reflection & None & 58.4\% (8,053) & 59.8\% (8,033) & 62.0\% (8,018) \\
+MovieLens & Agent & L3 -- fixed profile & None & 61.2\% (7,935) & 61.0\% (8,009) & 63.9\% (8,006) \\
+MovieLens & Agent & L3 -- full reflection & None & 62.5\% (7,956) & 61.9\% (7,913) & 63.6\% (8,064) \\
+MovieLens & Agent & L3 -- full reflection & In-processing & 61.1\% (7,883) & 63.1\% (7,950) & 62.9\% (7,965) \\
+MovieLens & Agent & L3 -- full reflection & Post-processing & 61.8\% (7,868) & 61.7\% (7,906) & 62.8\% (8,013) \\
+Goodreads & Direct LLM & L0 & None & 60.0\% (30) & 57.5\% (40) & 57.9\% (57) \\
+Goodreads & Direct LLM & L2 & None & 63.2\% (133) & 73.5\% (147) & 67.8\% (227) \\
+Goodreads & Agent & L0 -- frozen agent & None & 61.2\% (2,998) & 60.2\% (3,260) & 58.7\% (3,223) \\
+Goodreads & Agent & L2 -- frozen agent & None & 63.1\% (6,989) & 63.3\% (6,345) & 60.9\% (7,276) \\
+Goodreads & Agent & L3 -- full reflection & None & 69.5\% (6,208) & 71.0\% (6,670) & 67.3\% (7,250) \\
+\hline
+\end{tabular}
+\caption{Same-item replica agreement for every LLM condition with recorded identical-order replicas. Each cell reports agreement in per cent (number of pairs where both responses are valid clicks), pooling matching-item counts and eligible pairs over iterations 1--30 before division. The shuffled response does not affect eligibility. All listed runs have 300 active users. An em dash means that this seed was not run for that condition. The 150/150 sampling and advertising conditions have no recorded replicas and are excluded. Reused mitigation controls appear once, alongside their original feedback condition. This measures repeat-response variability at the same state and slate, rather than variability between complete simulation runs.}
+\label{chap:results:tab:analysis_llm_replica_agreement_all_cases}
+\end{table}

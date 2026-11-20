@@ -1,0 +1,193 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq1_advertising_head_exposure_ranks_1_10_effects",
+  "label": "chap:results:tab:rq1_advertising_head_exposure_ranks_1_10_effects",
+  "caption": "Head exposure: original full-slate matched effects over displayed ranks 1--10, including any sponsored item at rank 1, in percentage points. The companion for ranks 2--10 is exported separately.",
+  "rows": 12,
+  "source_columns": [
+    "dataset",
+    "comparison",
+    "model",
+    "seed",
+    "population_seed",
+    "window",
+    "Head exposure difference (displayed ranks 1–10; pp)",
+    "effect_unit"
+  ],
+  "source_dtypes": {
+    "dataset": "str",
+    "comparison": "str",
+    "model": "str",
+    "seed": "int64",
+    "population_seed": "int64",
+    "window": "str",
+    "Head exposure difference (displayed ranks 1–10; pp)": "float64",
+    "effect_unit": "str"
+  },
+  "display_columns": [
+    "dataset",
+    "comparison",
+    "model",
+    "seed",
+    "population_seed",
+    "window",
+    "Head exposure difference (displayed ranks 1–10; pp)",
+    "effect_unit"
+  ],
+  "display_rows": [
+    [
+      "movielens",
+      "Static advertising minus matched organic",
+      "agentic_recommender",
+      "42",
+      "1054",
+      "mean_1_30",
+      "-6.6581",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "Static advertising minus matched organic",
+      "agentic_recommender",
+      "42",
+      "1054",
+      "iteration_30",
+      "-7.49811",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L5 adaptive advertising minus static advertising",
+      "agentic_recommender",
+      "42",
+      "1054",
+      "mean_1_30",
+      "3.62048",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L5 adaptive advertising minus static advertising",
+      "agentic_recommender",
+      "42",
+      "1054",
+      "iteration_30",
+      "10.4576",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "Static advertising minus matched organic",
+      "agentic_recommender",
+      "43",
+      "19277",
+      "mean_1_30",
+      "-9.42068",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "Static advertising minus matched organic",
+      "agentic_recommender",
+      "43",
+      "19277",
+      "iteration_30",
+      "-5.25556",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L5 adaptive advertising minus static advertising",
+      "agentic_recommender",
+      "43",
+      "19277",
+      "mean_1_30",
+      "4.44512",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L5 adaptive advertising minus static advertising",
+      "agentic_recommender",
+      "43",
+      "19277",
+      "iteration_30",
+      "1.85556",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "Static advertising minus matched organic",
+      "agentic_recommender",
+      "44",
+      "18844",
+      "mean_1_30",
+      "-12.3867",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "Static advertising minus matched organic",
+      "agentic_recommender",
+      "44",
+      "18844",
+      "iteration_30",
+      "-16.6",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L5 adaptive advertising minus static advertising",
+      "agentic_recommender",
+      "44",
+      "18844",
+      "mean_1_30",
+      "6.49111",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L5 adaptive advertising minus static advertising",
+      "agentic_recommender",
+      "44",
+      "18844",
+      "iteration_30",
+      "13.2667",
+      "percentage points"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lllrrlrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq1",
+    "source_blocks": [
+      {
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq1_advertising_head_exposure_ranks_1_10_effects.tex": "64839f3171e12658050d62e4a789620b737b5c23de4742de97d37793febe7559",
+    "rq1_advertising_head_exposure_ranks_1_10_effects.csv": "8ec676a0546bddb52c8af350e00fac446b2c4e515ccb4010b994d80aef7e46fa"
+  }
+}

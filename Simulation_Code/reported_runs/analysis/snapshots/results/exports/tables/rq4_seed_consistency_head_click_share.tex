@@ -1,0 +1,44 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lllllrrrrrrrll}
+\hline
+dataset & comparison & model & metric & window & n\_seed\_blocks & mean\_effect & min\_effect & max\_effect & positive & negative & zero & missing\_seeds & effect\_unit \\
+\hline
+movielens & L3 in-processing minus control & agentic\_recommender & head\_click\_share & mean\_1\_30 & 3 & -2.37397 & -3.18266 & -1.47373 & 0 & 3 & 0 &  & percentage points \\
+movielens & L3 in-processing minus control & agentic\_recommender & head\_click\_share & iteration\_30 & 3 & -6.42831 & -12.81 & 2.66234 & 1 & 2 & 0 &  & percentage points \\
+movielens & L3 post-processing minus control & agentic\_recommender & head\_click\_share & mean\_1\_30 & 3 & -10.3734 & -12.2005 & -7.93692 & 0 & 3 & 0 &  & percentage points \\
+movielens & L3 post-processing minus control & agentic\_recommender & head\_click\_share & iteration\_30 & 3 & -4.55175 & -11.7847 & 1.39752 & 1 & 2 & 0 &  & percentage points \\
+movielens & L3 in-processing minus post-processing & agentic\_recommender & head\_click\_share & mean\_1\_30 & 3 & 7.99947 & 4.75427 & 10.7268 & 3 & 0 & 0 &  & percentage points \\
+movielens & L3 in-processing minus post-processing & agentic\_recommender & head\_click\_share & iteration\_30 & 3 & -1.87656 & -9.54198 & 2.64748 & 2 & 1 & 0 &  & percentage points \\
+movielens & L2 in-processing minus control & direct\_llm & head\_click\_share & mean\_1\_30 & 3 & -0.277091 & -1.96637 & 0.627439 & 2 & 1 & 0 &  & percentage points \\
+movielens & L2 in-processing minus control & direct\_llm & head\_click\_share & iteration\_30 & 3 & 3.64572 & -9.29825 & 14.1292 & 2 & 1 & 0 &  & percentage points \\
+movielens & L2 post-processing minus control & direct\_llm & head\_click\_share & mean\_1\_30 & 3 & -15.4968 & -17.4625 & -12.8412 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 post-processing minus control & direct\_llm & head\_click\_share & iteration\_30 & 3 & -27.9952 & -35.2703 & -24.2551 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 in-processing minus post-processing & direct\_llm & head\_click\_share & mean\_1\_30 & 3 & 15.2197 & 13.4687 & 16.6944 & 3 & 0 & 0 &  & percentage points \\
+movielens & L2 in-processing minus post-processing & direct\_llm & head\_click\_share & iteration\_30 & 3 & 31.6409 & 14.9568 & 49.3994 & 3 & 0 & 0 &  & percentage points \\
+movielens & L2 in-processing minus control & ncm\_inspired\_gru\_mansoury & head\_click\_share & mean\_1\_30 & 3 & -3.07037 & -5.87778 & -1.01111 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 in-processing minus control & ncm\_inspired\_gru\_mansoury & head\_click\_share & iteration\_30 & 3 & -1.88889 & -10 & 3.33333 & 2 & 1 & 0 &  & percentage points \\
+movielens & L2 post-processing minus control & ncm\_inspired\_gru\_mansoury & head\_click\_share & mean\_1\_30 & 3 & -74.0963 & -75.7333 & -71.7556 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 post-processing minus control & ncm\_inspired\_gru\_mansoury & head\_click\_share & iteration\_30 & 3 & -83.5556 & -85.6667 & -79.3333 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 in-processing minus post-processing & ncm\_inspired\_gru\_mansoury & head\_click\_share & mean\_1\_30 & 3 & 71.0259 & 65.8778 & 73.7889 & 3 & 0 & 0 &  & percentage points \\
+movielens & L2 in-processing minus post-processing & ncm\_inspired\_gru\_mansoury & head\_click\_share & iteration\_30 & 3 & 81.6667 & 75.6667 & 86.6667 & 3 & 0 & 0 &  & percentage points \\
+movielens & L2 in-processing minus control & ncm\_inspired\_gru\_uniform & head\_click\_share & mean\_1\_30 & 3 & -0.488889 & -1.17778 & 0.844444 & 1 & 2 & 0 &  & percentage points \\
+movielens & L2 in-processing minus control & ncm\_inspired\_gru\_uniform & head\_click\_share & iteration\_30 & 3 & -1.22222 & -3 & 0.333333 & 1 & 2 & 0 &  & percentage points \\
+movielens & L2 post-processing minus control & ncm\_inspired\_gru\_uniform & head\_click\_share & mean\_1\_30 & 3 & -29.6037 & -33.9556 & -25.2889 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 post-processing minus control & ncm\_inspired\_gru\_uniform & head\_click\_share & iteration\_30 & 3 & -39.7778 & -48.3333 & -34 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 in-processing minus post-processing & ncm\_inspired\_gru\_uniform & head\_click\_share & mean\_1\_30 & 3 & 29.1148 & 24.1556 & 32.7778 & 3 & 0 & 0 &  & percentage points \\
+movielens & L2 in-processing minus post-processing & ncm\_inspired\_gru\_uniform & head\_click\_share & iteration\_30 & 3 & 38.5556 & 34 & 47.3333 & 3 & 0 & 0 &  & percentage points \\
+movielens & L2 in-processing minus control & position\_biased & head\_click\_share & mean\_1\_30 & 3 & -7.20741 & -10.0556 & -3.94444 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 in-processing minus control & position\_biased & head\_click\_share & iteration\_30 & 3 & -10.2222 & -15.3333 & -7.33333 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 post-processing minus control & position\_biased & head\_click\_share & mean\_1\_30 & 3 & -72.037 & -73.3 & -69.9 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 post-processing minus control & position\_biased & head\_click\_share & iteration\_30 & 3 & -81 & -82 & -79.6667 & 0 & 3 & 0 &  & percentage points \\
+movielens & L2 in-processing minus post-processing & position\_biased & head\_click\_share & mean\_1\_30 & 3 & 64.8296 & 63.2444 & 65.9556 & 3 & 0 & 0 &  & percentage points \\
+movielens & L2 in-processing minus post-processing & position\_biased & head\_click\_share & iteration\_30 & 3 & 70.7778 & 64.3333 & 74.6667 & 3 & 0 & 0 &  & percentage points \\
+\hline
+\end{tabular}
+\caption{Descriptive mean, minimum, maximum, and sign consistency of the paired effects across available seed/population blocks. Share differences use percentage points; missing seeds and block counts remain explicit.}
+\label{chap:results:tab:rq4_seed_consistency_head_click_share}
+\end{table}

@@ -1,0 +1,59 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lllrrrrr}
+\hline
+Contrast & Model & Metric & Seed 42 & Seed 43 & Seed 44 & Mean of seeds & Seeds \\
+\hline
+Total & Position-biased & Head-click share & -73.3 & -72.9111 & -69.9 & -72.037 & 3 \\
+Total & Position-biased & Head exposure & -51.4244 & -51.0633 & -43.9044 & -48.7974 & 3 \\
+Total & Position-biased & Weighted head exposure & -57.6779 & -57.308 & -51.2907 & -55.4256 & 3 \\
+Total & NCM P3 (uniform) & Head-click share & -33.9556 & -29.5667 & -25.2889 & -29.6037 & 3 \\
+Total & NCM P3 (uniform) & Head exposure & -20.4811 & -16.2444 & -12.2756 & -16.3337 & 3 \\
+Total & NCM P3 (uniform) & Weighted head exposure & -28.7844 & -24.7371 & -19.8692 & -24.4636 & 3 \\
+Total & NCM P4 (Mansoury) & Head-click share & -71.7556 & -75.7333 & -74.8 & -74.0963 & 3 \\
+Total & NCM P4 (Mansoury) & Head exposure & -39.3444 & -42.8722 & -43.0233 & -41.7467 & 3 \\
+Total & NCM P4 (Mansoury) & Weighted head exposure & -48.008 & -51.5534 & -51.0624 & -50.208 & 3 \\
+Total & Direct LLM & Head-click share & -12.8412 & -16.1867 & -17.4625 & -15.4968 & 3 \\
+Total & Direct LLM & Head exposure & -2.63 & -5.65111 & -5.65889 & -4.64667 & 3 \\
+Total & Direct LLM & Weighted head exposure & -10.6261 & -12.622 & -13.572 & -12.2734 & 3 \\
+Total & Agent & Head-click share & -7.93692 & -12.2005 & -10.9829 & -10.3734 & 3 \\
+Total & Agent & Head exposure & -4.06778 & -8.60222 & -5.92222 & -6.19741 & 3 \\
+Total & Agent & Weighted head exposure & -12.9176 & -17.9874 & -15.7615 & -15.5555 & 3 \\
+Immediate reranking & Position-biased & Head-click share & -12.8889 & -13.4 & -14.9333 & -13.7407 & 3 \\
+Immediate reranking & Position-biased & Head exposure & 0 & 0 & 0 & 0 & 3 \\
+Immediate reranking & Position-biased & Weighted head exposure & -3.76201 & -3.76093 & -4.29789 & -3.94027 & 3 \\
+Immediate reranking & NCM P3 (uniform) & Head-click share & -18.3333 & -17.8 & -17.5778 & -17.9037 & 3 \\
+Immediate reranking & NCM P3 (uniform) & Head exposure & 0 & 0 & 0 & 0 & 3 \\
+Immediate reranking & NCM P3 (uniform) & Weighted head exposure & -7.38974 & -7.47148 & -7.11744 & -7.32622 & 3 \\
+Immediate reranking & NCM P4 (Mansoury) & Head-click share & -22.7556 & -22.3111 & -19.4556 & -21.5074 & 3 \\
+Immediate reranking & NCM P4 (Mansoury) & Head exposure & 0 & 0 & 0 & 0 & 3 \\
+Immediate reranking & NCM P4 (Mansoury) & Weighted head exposure & -5.6608 & -5.49041 & -4.94735 & -5.36618 & 3 \\
+Immediate reranking & Direct LLM & Head-click share & -14.1977 & -11.8543 & -12.8448 & -12.9656 & 3 \\
+Immediate reranking & Direct LLM & Head exposure & 0 & 0 & 0 & 0 & 3 \\
+Immediate reranking & Direct LLM & Weighted head exposure & -7.91228 & -6.66607 & -7.49634 & -7.35823 & 3 \\
+Immediate reranking & Agent & Head-click share & -10.2694 & -8.7278 & -10.1603 & -9.71919 & 3 \\
+Immediate reranking & Agent & Head exposure & 0 & 0 & 0 & 0 & 3 \\
+Immediate reranking & Agent & Weighted head exposure & -8.24014 & -7.71064 & -8.59481 & -8.18186 & 3 \\
+Feedback component & Position-biased & Head-click share & -60.4111 & -59.5111 & -54.9667 & -58.2963 & 3 \\
+Feedback component & Position-biased & Head exposure & -51.4244 & -51.0633 & -43.9044 & -48.7974 & 3 \\
+Feedback component & Position-biased & Weighted head exposure & -53.9159 & -53.5471 & -46.9928 & -51.4853 & 3 \\
+Feedback component & NCM P3 (uniform) & Head-click share & -15.6222 & -11.7667 & -7.71111 & -11.7 & 3 \\
+Feedback component & NCM P3 (uniform) & Head exposure & -20.4811 & -16.2444 & -12.2756 & -16.3337 & 3 \\
+Feedback component & NCM P3 (uniform) & Weighted head exposure & -21.3947 & -17.2657 & -12.7517 & -17.1374 & 3 \\
+Feedback component & NCM P4 (Mansoury) & Head-click share & -49 & -53.4222 & -55.3444 & -52.5889 & 3 \\
+Feedback component & NCM P4 (Mansoury) & Head exposure & -39.3444 & -42.8722 & -43.0233 & -41.7467 & 3 \\
+Feedback component & NCM P4 (Mansoury) & Weighted head exposure & -42.3472 & -46.063 & -46.1151 & -44.8418 & 3 \\
+Feedback component & Direct LLM & Head-click share & 1.35653 & -4.33248 & -4.61764 & -2.5312 & 3 \\
+Feedback component & Direct LLM & Head exposure & -2.63 & -5.65111 & -5.65889 & -4.64667 & 3 \\
+Feedback component & Direct LLM & Weighted head exposure & -2.71383 & -5.95592 & -6.07569 & -4.91515 & 3 \\
+Feedback component & Agent & Head-click share & 2.33252 & -3.47271 & -0.822578 & -0.654258 & 3 \\
+Feedback component & Agent & Head exposure & -4.06778 & -8.60222 & -5.92222 & -6.19741 & 3 \\
+Feedback component & Agent & Weighted head exposure & -4.67744 & -10.2767 & -7.16664 & -7.3736 & 3 \\
+\hline
+\end{tabular}
+\caption{Values plotted in the main-text post-processing component figure, in percentage points (mean over iterations 1--30).}
+\label{chap:results:tab:main_rq4_post_processing_components_values}
+\end{table}

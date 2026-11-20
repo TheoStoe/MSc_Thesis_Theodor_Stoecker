@@ -1,0 +1,13 @@
+Model,Seed,profile_changes,Condition
+Agent,42,0,L2 -- frozen agent
+Agent,42,0,L3 -- fixed profile
+Agent,42,1190,L3 -- full reflection
+Agent,42,0,L3 -- no reflection
+Agent,43,0,L2 -- frozen agent
+Agent,43,0,L3 -- fixed profile
+Agent,43,1254,L3 -- full reflection
+Agent,43,0,L3 -- no reflection
+Agent,44,0,L2 -- frozen agent
+Agent,44,0,L3 -- fixed profile
+Agent,44,1982,L3 -- full reflection
+Agent,44,0,L3 -- no reflection

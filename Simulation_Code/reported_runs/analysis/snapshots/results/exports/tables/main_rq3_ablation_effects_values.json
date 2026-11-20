@@ -1,0 +1,150 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "main_rq3_ablation_effects_values",
+  "label": "chap:results:tab:main_rq3_ablation_effects_values",
+  "caption": "Values plotted in the main-text agent-ablation figure, in percentage points (mean over iterations 1--30).",
+  "rows": 9,
+  "source_columns": [
+    "Contrast",
+    "Model",
+    "Metric",
+    "Seed 42",
+    "Seed 43",
+    "Seed 44",
+    "Mean of seeds",
+    "Seeds"
+  ],
+  "source_dtypes": {
+    "Contrast": "str",
+    "Model": "str",
+    "Metric": "str",
+    "Seed 42": "float64",
+    "Seed 43": "float64",
+    "Seed 44": "float64",
+    "Mean of seeds": "float64",
+    "Seeds": "int64"
+  },
+  "display_columns": [
+    "Contrast",
+    "Model",
+    "Metric",
+    "Seed 42",
+    "Seed 43",
+    "Seed 44",
+    "Mean of seeds",
+    "Seeds"
+  ],
+  "display_rows": [
+    [
+      "Noise check",
+      "Agent",
+      "Head-click share",
+      "-3.92734",
+      "4.47714",
+      "1.70323",
+      "0.751009",
+      "3"
+    ],
+    [
+      "Noise check",
+      "Agent",
+      "Head exposure",
+      "-2.77889",
+      "6.63111",
+      "1.70444",
+      "1.85222",
+      "3"
+    ],
+    [
+      "Noise check",
+      "Agent",
+      "Weighted head exposure",
+      "-3.06531",
+      "7.22064",
+      "1.33579",
+      "1.83037",
+      "3"
+    ],
+    [
+      "Reflection notes",
+      "Agent",
+      "Head-click share",
+      "-0.0732353",
+      "-7.53558",
+      "-5.88471",
+      "-4.49784",
+      "3"
+    ],
+    [
+      "Reflection notes",
+      "Agent",
+      "Head exposure",
+      "3.5",
+      "-6.56",
+      "-4.70444",
+      "-2.58815",
+      "3"
+    ],
+    [
+      "Reflection notes",
+      "Agent",
+      "Weighted head exposure",
+      "1.98599",
+      "-6.6214",
+      "-5.02052",
+      "-3.21864",
+      "3"
+    ],
+    [
+      "Profile updates",
+      "Agent",
+      "Head-click share",
+      "-3.46881",
+      "2.835",
+      "-0.376843",
+      "-0.336885",
+      "3"
+    ],
+    [
+      "Profile updates",
+      "Agent",
+      "Head exposure",
+      "-2.45889",
+      "3.04778",
+      "-0.217778",
+      "0.123704",
+      "3"
+    ],
+    [
+      "Profile updates",
+      "Agent",
+      "Weighted head exposure",
+      "-2.07418",
+      "3.07511",
+      "-0.105582",
+      "0.298448",
+      "3"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lllrrrrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "main",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "main_rq3_ablation_effects_values.tex": "15cd3c9ab1b03d007012b854b10ca01c29166cac49f571d684f6dab79b197d62",
+    "main_rq3_ablation_effects_values.csv": "ca3355021f14d8eb0db3238e9f6dbef51801dd57299ea85de06003c9e0fd65f2"
+  }
+}

@@ -1,0 +1,13 @@
+dataset,study,seed,population_seed,window,predictor_family,n_models,spearman_rho,models,interpretation
+movielens,movielens_mitigation_a300_e804,42,1054,mean_1_30,LLM common-valid agreement gap,2,,agentic_recommender; direct_llm,"Descriptive only; separate predictor families, no p-value."
+movielens,movielens_mitigation_a300_e804,42,1054,iteration_30,LLM common-valid agreement gap,2,,agentic_recommender; direct_llm,"Descriptive only; separate predictor families, no p-value."
+movielens,movielens_mitigation_a300_e804,42,1054,mean_1_30,Computational probability TVD,3,0.5,ncm_inspired_gru_mansoury; ncm_inspired_gru_uniform; position_biased,"Descriptive only; separate predictor families, no p-value."
+movielens,movielens_mitigation_a300_e804,42,1054,iteration_30,Computational probability TVD,3,1.0,ncm_inspired_gru_mansoury; ncm_inspired_gru_uniform; position_biased,"Descriptive only; separate predictor families, no p-value."
+movielens,movielens_mitigation_a300_e804,43,19277,mean_1_30,LLM common-valid agreement gap,2,,agentic_recommender; direct_llm,"Descriptive only; separate predictor families, no p-value."
+movielens,movielens_mitigation_a300_e804,43,19277,iteration_30,LLM common-valid agreement gap,2,,agentic_recommender; direct_llm,"Descriptive only; separate predictor families, no p-value."
+movielens,movielens_mitigation_a300_e804,43,19277,mean_1_30,Computational probability TVD,3,1.0,ncm_inspired_gru_mansoury; ncm_inspired_gru_uniform; position_biased,"Descriptive only; separate predictor families, no p-value."
+movielens,movielens_mitigation_a300_e804,43,19277,iteration_30,Computational probability TVD,3,0.5,ncm_inspired_gru_mansoury; ncm_inspired_gru_uniform; position_biased,"Descriptive only; separate predictor families, no p-value."
+movielens,movielens_mitigation_a300_e804,44,18844,mean_1_30,LLM common-valid agreement gap,2,,agentic_recommender; direct_llm,"Descriptive only; separate predictor families, no p-value."
+movielens,movielens_mitigation_a300_e804,44,18844,iteration_30,LLM common-valid agreement gap,2,,agentic_recommender; direct_llm,"Descriptive only; separate predictor families, no p-value."
+movielens,movielens_mitigation_a300_e804,44,18844,mean_1_30,Computational probability TVD,3,1.0,ncm_inspired_gru_mansoury; ncm_inspired_gru_uniform; position_biased,"Descriptive only; separate predictor families, no p-value."
+movielens,movielens_mitigation_a300_e804,44,18844,iteration_30,Computational probability TVD,3,1.0,ncm_inspired_gru_mansoury; ncm_inspired_gru_uniform; position_biased,"Descriptive only; separate predictor families, no p-value."

@@ -1,0 +1,173 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "main_rq1_l4_l5_effects",
+  "label": "chap:results:tab:main_rq1_l4_l5_effects",
+  "caption": "Effects of sampling feedback (L4) and advertising (static and L5 adaptive) on head exposure, in percentage points, averaged over iterations 1--30 and paired within seed and population. All conditions start with 150 active and 150 reserve users and use the reflective agent with full reflection. L4 variants are compared with the matched L3 reference over all ten displayed ranks; the advertising contrasts use displayed ranks 2--10 in every condition, so the sponsored item at rank 1 is excluded.",
+  "rows": 10,
+  "source_columns": [
+    "Contrast",
+    "Exposure scope",
+    "Metric",
+    "Seed 42",
+    "Seed 43",
+    "Seed 44",
+    "Mean of seeds",
+    "Seeds"
+  ],
+  "source_dtypes": {
+    "Contrast": "str",
+    "Exposure scope": "str",
+    "Metric": "str",
+    "Seed 42": "float64",
+    "Seed 43": "float64",
+    "Seed 44": "float64",
+    "Mean of seeds": "float64",
+    "Seeds": "int64"
+  },
+  "display_columns": [
+    "Contrast",
+    "Exposure scope",
+    "Metric",
+    "Seed 42",
+    "Seed 43",
+    "Seed 44",
+    "Mean of seeds",
+    "Seeds"
+  ],
+  "display_rows": [
+    [
+      "L4 departures, no refill minus L3",
+      "Ranks 1–10",
+      "Head exposure",
+      "1.38179",
+      "2.08382",
+      "0.124623",
+      "1.19674",
+      "3"
+    ],
+    [
+      "L4 departures, no refill minus L3",
+      "Ranks 1–10",
+      "Weighted head exposure",
+      "1.19931",
+      "2.29153",
+      "0.375844",
+      "1.2889",
+      "3"
+    ],
+    [
+      "L4 uniform refill minus L3",
+      "Ranks 1–10",
+      "Head exposure",
+      "-1.74889",
+      "-1.54889",
+      "-1.02444",
+      "-1.44074",
+      "3"
+    ],
+    [
+      "L4 uniform refill minus L3",
+      "Ranks 1–10",
+      "Weighted head exposure",
+      "-2.06809",
+      "-1.77437",
+      "-1.03369",
+      "-1.62538",
+      "3"
+    ],
+    [
+      "L4 cluster refill minus L3",
+      "Ranks 1–10",
+      "Head exposure",
+      "-0.295556",
+      "0.577778",
+      "1.06444",
+      "0.448889",
+      "3"
+    ],
+    [
+      "L4 cluster refill minus L3",
+      "Ranks 1–10",
+      "Weighted head exposure",
+      "-0.779832",
+      "0.250431",
+      "0.923529",
+      "0.131376",
+      "3"
+    ],
+    [
+      "Static advertising minus organic control",
+      "Ranks 2–10",
+      "Head exposure",
+      "0.682623",
+      "-2.06742",
+      "-5.68148",
+      "-2.35543",
+      "3"
+    ],
+    [
+      "Static advertising minus organic control",
+      "Ranks 2–10",
+      "Weighted head exposure",
+      "0.943134",
+      "-2.39542",
+      "-6.90936",
+      "-2.78722",
+      "3"
+    ],
+    [
+      "L5 adaptive minus static advertising",
+      "Ranks 2–10",
+      "Head exposure",
+      "-2.70564",
+      "-1.56715",
+      "1.47901",
+      "-0.931257",
+      "3"
+    ],
+    [
+      "L5 adaptive minus static advertising",
+      "Ranks 2–10",
+      "Weighted head exposure",
+      "-2.77956",
+      "-1.48133",
+      "2.47869",
+      "-0.594066",
+      "3"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lllrrrrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "main",
+    "source_blocks": [
+      {
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "main_rq1_l4_l5_effects.tex": "d448416f3d170b33f72c86d3192e50fe1ebfd9510dbb0ae9e7edf8686f610c45",
+    "main_rq1_l4_l5_effects.csv": "0b7144400907167ff0b72bd99b4ad3843d6834d404a7de4fa5d27e40b232d4fc"
+  }
+}

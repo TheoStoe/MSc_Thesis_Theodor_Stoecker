@@ -1,0 +1,133 @@
+{
+  "analysis_name": "rq7_gender_mitigation_all_stages",
+  "label": "chap:results:fig:rq7_gender_mitigation_all_stages",
+  "recommended_for_main_text": false,
+  "rationale": "",
+  "context": {
+    "datasets": [
+      "Goodreads"
+    ],
+    "stages_by_model": {
+      "ncm_inspired_gru_mansoury": [
+        "L0",
+        "L1",
+        "L2"
+      ],
+      "ncm_inspired_gru_uniform": [
+        "L0",
+        "L1",
+        "L2"
+      ],
+      "position_biased": [
+        "L0",
+        "L1",
+        "L2"
+      ]
+    },
+    "seeds_by_model": {
+      "ncm_inspired_gru_mansoury": [
+        42,
+        43,
+        44
+      ],
+      "ncm_inspired_gru_uniform": [
+        42,
+        43,
+        44
+      ],
+      "position_biased": [
+        42,
+        43,
+        44
+      ]
+    },
+    "seeds_by_model_condition": {
+      "ncm_inspired_gru_mansoury": {
+        "in-processing": [
+          42,
+          43,
+          44
+        ],
+        "post-processing": [
+          42,
+          43,
+          44
+        ]
+      },
+      "ncm_inspired_gru_uniform": {
+        "in-processing": [
+          42,
+          43,
+          44
+        ],
+        "post-processing": [
+          42,
+          43,
+          44
+        ]
+      },
+      "position_biased": {
+        "in-processing": [
+          42,
+          43,
+          44
+        ],
+        "post-processing": [
+          42,
+          43,
+          44
+        ]
+      }
+    },
+    "time_summary": "Mean over iterations 1–30",
+    "windows": [
+      "mean_1_30"
+    ],
+    "protocol": "300 active users",
+    "comparisons": [
+      "L0 in-processing minus control",
+      "L0 post-processing minus control",
+      "L1 in-processing minus control",
+      "L1 post-processing minus control",
+      "L2 in-processing minus control",
+      "L2 post-processing minus control"
+    ],
+    "encoding": "Colours: models; markers: simulation seeds",
+    "text": "Goodreads | 300 active users | Treatment stages: L0, L1, L2\nMean over iterations 1–30 | Simulation seeds: 42, 43, 44\nEach mitigation minus its matched unmitigated control",
+    "plot_spec": {
+      "kind": "effect",
+      "facet": "stage",
+      "category": "method",
+      "metrics": [
+        "female_click_share",
+        "weighted_female_exposure"
+      ]
+    }
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq7",
+    "source_blocks": [
+      {
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "seed": 44,
+        "population_seed": 5245
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq7_gender_mitigation_all_stages.pdf": "cca4358fc3fbf431d3e4a679fad7f26405f99437d55a645f9398fcaa12cc9d18",
+    "rq7_gender_mitigation_all_stages.png": "a221c808b386b002f049ab60598ffe0f54466ccc625cdcd9837481b43522f5f8"
+  }
+}

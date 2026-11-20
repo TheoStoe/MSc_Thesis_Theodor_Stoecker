@@ -1,0 +1,119 @@
+{
+  "analysis_name": "rq2_llm_order_l1",
+  "label": "chap:results:fig:rq2_llm_order_l1",
+  "recommended_for_main_text": false,
+  "rationale": "",
+  "context": {
+    "datasets": [
+      "MovieLens"
+    ],
+    "stages_by_model": {
+      "agentic_recommender": [
+        "L1"
+      ],
+      "direct_llm": [
+        "L1"
+      ]
+    },
+    "seeds_by_model": {
+      "agentic_recommender": [
+        42,
+        43,
+        44
+      ],
+      "direct_llm": [
+        42,
+        43,
+        44
+      ]
+    },
+    "seeds_by_model_condition": {
+      "agentic_recommender": {
+        "L1 -- frozen agent": [
+          42,
+          43,
+          44
+        ]
+      },
+      "direct_llm": {
+        "L1": [
+          42,
+          43,
+          44
+        ]
+      }
+    },
+    "time_summary": "Per-iteration values, iterations 1–30",
+    "windows": [],
+    "protocol": "300 active users",
+    "comparisons": [],
+    "encoding": "Panels: simulation seeds; colours/markers: models",
+    "text": "MovieLens | 300 active users | Stages: L1\nPer-iteration values, iterations 1–30 | Simulation seeds: 42, 43, 44",
+    "plot_spec": {
+      "kind": "trajectory",
+      "facet": "seed",
+      "series": "model",
+      "metrics": [
+        "replica_agreement",
+        "shuffled_agreement",
+        "agreement_sensitivity"
+      ]
+    }
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq2",
+    "source_blocks": [
+      {
+        "physical_run_id": "feedback_new_sampling_p1054_a300_r0_e804__L1_feature__agentic_recommender__sasrec__order_probe__seed_42",
+        "run_id": "feedback_new_sampling_p1054_a300_r0_e804__L1_feature__agentic_recommender__sasrec__order_probe__seed_42",
+        "condition_id": "L1_feature__agentic_recommender__sasrec__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p1054_a300_r0_e804__L1_feature__direct_llm__sasrec__order_probe__seed_42",
+        "run_id": "feedback_new_sampling_p1054_a300_r0_e804__L1_feature__direct_llm__sasrec__order_probe__seed_42",
+        "condition_id": "L1_feature__direct_llm__sasrec__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p19277_a300_r0_e804__L1_feature__agentic_recommender__sasrec__order_probe__seed_43",
+        "run_id": "feedback_new_sampling_p19277_a300_r0_e804__L1_feature__agentic_recommender__sasrec__order_probe__seed_43",
+        "condition_id": "L1_feature__agentic_recommender__sasrec__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p19277_a300_r0_e804__L1_feature__direct_llm__sasrec__order_probe__seed_43",
+        "run_id": "feedback_new_sampling_p19277_a300_r0_e804__L1_feature__direct_llm__sasrec__order_probe__seed_43",
+        "condition_id": "L1_feature__direct_llm__sasrec__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L1_feature__agentic_recommender__sasrec__order_probe__seed_44",
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L1_feature__agentic_recommender__sasrec__order_probe__seed_44",
+        "condition_id": "L1_feature__agentic_recommender__sasrec__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L1_feature__direct_llm__sasrec__order_probe__seed_44",
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L1_feature__direct_llm__sasrec__order_probe__seed_44",
+        "condition_id": "L1_feature__direct_llm__sasrec__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq2_llm_order_l1.pdf": "1648d25948523a307fa208edd79453df2ccdf08dd417204b60bcd21fd845e944",
+    "rq2_llm_order_l1.png": "60661f7074dcda18590eae090f799a7afb3ef50fd0a979cf4bd205dfdabbd4fd"
+  }
+}

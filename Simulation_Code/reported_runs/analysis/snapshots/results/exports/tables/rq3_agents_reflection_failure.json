@@ -1,0 +1,219 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq3_agents_reflection_failure",
+  "label": "chap:results:tab:rq3_agents_reflection_failure",
+  "caption": "Reflection request and outcome diagnostics. Equal-weight mean over iterations 1--30 and iteration-30 endpoint. Shares are fractions; share gaps are percentage points. Undefined denominators remain missing.",
+  "rows": 24,
+  "source_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Reflection failure rate",
+    "Condition"
+  ],
+  "source_dtypes": {
+    "Model": "str",
+    "Seed": "int64",
+    "Time summary": "str",
+    "Reflection failure rate": "float64",
+    "Condition": "str"
+  },
+  "display_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Reflection failure rate",
+    "Condition"
+  ],
+  "display_rows": [
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "—",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "—",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "—",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "—",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "—",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "—",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "—",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "—",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "—",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "—",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "—",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "—",
+      "L3 -- no reflection"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrlrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq3",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq3_agents_reflection_failure.tex": "80bd8281d933fcad42887a7d20ed6aa65fc840c9fdf6d5ddab7a11ddf02c45db",
+    "rq3_agents_reflection_failure.csv": "c5c596daba02ad63d6593263bc1ed2eb524cdbf03b60da778a989bb568e7dc22"
+  }
+}

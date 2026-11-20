@@ -1,0 +1,32 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lrlrrl}
+\hline
+Model & Seed & Time summary & Sponsored clicks & Sponsored exposures & Condition \\
+\hline
+Agent & 42 & iteration\_30 & 0 & 0 & Organic advertising control \\
+Agent & 42 & mean\_1\_30 & 0 & 0 & Organic advertising control \\
+Agent & 43 & iteration\_30 & 0 & 0 & Organic advertising control \\
+Agent & 43 & mean\_1\_30 & 0 & 0 & Organic advertising control \\
+Agent & 44 & iteration\_30 & 0 & 0 & Organic advertising control \\
+Agent & 44 & mean\_1\_30 & 0 & 0 & Organic advertising control \\
+Agent & 42 & iteration\_30 & 3 & 139 & Static advertising \\
+Agent & 42 & mean\_1\_30 & 4.06667 & 147.367 & Static advertising \\
+Agent & 43 & iteration\_30 & 0 & 144 & Static advertising \\
+Agent & 43 & mean\_1\_30 & 4.63333 & 148.667 & Static advertising \\
+Agent & 44 & iteration\_30 & 3 & 150 & Static advertising \\
+Agent & 44 & mean\_1\_30 & 6.16667 & 150 & Static advertising \\
+Agent & 42 & iteration\_30 & 0 & 3 & L5 adaptive advertising \\
+Agent & 42 & mean\_1\_30 & 1.3 & 22.7 & L5 adaptive advertising \\
+Agent & 43 & iteration\_30 & 1 & 4 & L5 adaptive advertising \\
+Agent & 43 & mean\_1\_30 & 2.16667 & 22.0333 & L5 adaptive advertising \\
+Agent & 44 & iteration\_30 & 0 & 1 & L5 adaptive advertising \\
+Agent & 44 & mean\_1\_30 & 2.13333 & 21.5667 & L5 adaptive advertising \\
+\hline
+\end{tabular}
+\caption{Advertising mechanism diagnostics. Organic campaign eligibility is not applicable; its saved zeros are masked only in this display view, while genuine zero sponsored exposures/clicks remain zero. Equal-weight mean over iterations 1--30 and iteration-30 endpoint. Shares are fractions; share gaps are percentage points. Undefined denominators remain missing.}
+\label{chap:results:tab:rq1_advertising_sponsored_counts}
+\end{table}

@@ -1,0 +1,381 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq2_llm_eligibility",
+  "label": "chap:results:tab:rq2_llm_eligibility",
+  "caption": "Paired LLM response diagnostics. Equal-weight mean over iterations 1--30 and iteration-30 endpoint. Shares are fractions; share gaps are percentage points. Undefined denominators remain missing.",
+  "rows": 36,
+  "source_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Replica both clicks",
+    "Shuffled both clicks",
+    "Triple valid clicks",
+    "Condition"
+  ],
+  "source_dtypes": {
+    "Model": "str",
+    "Seed": "int64",
+    "Time summary": "str",
+    "Replica both clicks": "float64",
+    "Shuffled both clicks": "float64",
+    "Triple valid clicks": "float64",
+    "Condition": "str"
+  },
+  "display_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Replica both clicks",
+    "Shuffled both clicks",
+    "Triple valid clicks",
+    "Condition"
+  ],
+  "display_rows": [
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "98",
+      "104",
+      "78",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "157.433",
+      "160.4",
+      "138.667",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "108",
+      "118",
+      "97",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "155.433",
+      "159.7",
+      "138.267",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "104",
+      "110",
+      "87",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "156.167",
+      "161.4",
+      "139.3",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "247",
+      "253",
+      "235",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "262.133",
+      "263.367",
+      "250.533",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "254",
+      "254",
+      "241",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "261.167",
+      "262.3",
+      "249.833",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "250",
+      "247",
+      "234",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "256.4",
+      "256.167",
+      "244.867",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "267",
+      "261",
+      "247",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "268.633",
+      "267.133",
+      "256.467",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "265",
+      "267",
+      "253",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "267.9",
+      "268.3",
+      "257.767",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "272",
+      "264",
+      "257",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "271.733",
+      "270.5",
+      "259.933",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "iteration_30",
+      "7",
+      "12",
+      "3",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "mean_1_30",
+      "21.3333",
+      "22.0333",
+      "10.4",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "iteration_30",
+      "3",
+      "12",
+      "3",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "mean_1_30",
+      "24.6667",
+      "25.8333",
+      "12.8",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "iteration_30",
+      "12",
+      "11",
+      "4",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "mean_1_30",
+      "23.2667",
+      "23.2333",
+      "12.3",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "iteration_30",
+      "28",
+      "31",
+      "18",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "mean_1_30",
+      "46",
+      "41.2333",
+      "27.8",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "iteration_30",
+      "24",
+      "30",
+      "15",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "mean_1_30",
+      "45.3",
+      "41.2",
+      "26.4",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "iteration_30",
+      "23",
+      "21",
+      "11",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "mean_1_30",
+      "45.6",
+      "43.0667",
+      "27.6",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "iteration_30",
+      "154",
+      "144",
+      "121",
+      "L2"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "mean_1_30",
+      "118.9",
+      "102.4",
+      "82.3",
+      "L2"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "iteration_30",
+      "163",
+      "162",
+      "125",
+      "L2"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "mean_1_30",
+      "126.567",
+      "109.067",
+      "86.5",
+      "L2"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "iteration_30",
+      "128",
+      "117",
+      "99",
+      "L2"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "mean_1_30",
+      "113.6",
+      "94.4667",
+      "74.8333",
+      "L2"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrlrrrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq2",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq2_llm_eligibility.tex": "2e6c545e5f4da14db8cce2e578c08cef8c0ab45548dbddf69b25b926e07bdd41",
+    "rq2_llm_eligibility.csv": "f990ebbd3e05eca3a9e461fc4fa54f0d0efab5304ed8031e7fa35738f98f6f2a"
+  }
+}

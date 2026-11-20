@@ -1,0 +1,136 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq6_popularity_references",
+  "label": "chap:results:tab:rq6_popularity_references",
+  "caption": "Frozen dataset-specific popularity references. Catalogue and initial training-history denominators are retained separately for each seed and population.",
+  "rows": 6,
+  "source_columns": [
+    "dataset",
+    "seed",
+    "population_seed",
+    "catalogue_size",
+    "head_count",
+    "head_catalogue_share",
+    "initial_training_head_share"
+  ],
+  "source_dtypes": {
+    "dataset": "str",
+    "seed": "int64",
+    "population_seed": "int64",
+    "catalogue_size": "int64",
+    "head_count": "int64",
+    "head_catalogue_share": "float64",
+    "initial_training_head_share": "float64"
+  },
+  "display_columns": [
+    "dataset",
+    "seed",
+    "population_seed",
+    "catalogue_size",
+    "head_count",
+    "head_catalogue_share",
+    "initial_training_head_share"
+  ],
+  "display_rows": [
+    [
+      "goodreads",
+      "42",
+      "16040",
+      "26749",
+      "5350",
+      "0.200007",
+      "0.500177"
+    ],
+    [
+      "goodreads",
+      "43",
+      "11615",
+      "23213",
+      "4643",
+      "0.200017",
+      "0.543829"
+    ],
+    [
+      "goodreads",
+      "44",
+      "5245",
+      "23484",
+      "4697",
+      "0.200009",
+      "0.537224"
+    ],
+    [
+      "movielens",
+      "42",
+      "1054",
+      "3416",
+      "684",
+      "0.200234",
+      "0.627081"
+    ],
+    [
+      "movielens",
+      "43",
+      "19277",
+      "3416",
+      "684",
+      "0.200234",
+      "0.627081"
+    ],
+    [
+      "movielens",
+      "44",
+      "18844",
+      "3416",
+      "684",
+      "0.200234",
+      "0.627081"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrrrrrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq6",
+    "source_blocks": [
+      {
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "seed": 44,
+        "population_seed": 5245
+      },
+      {
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq6_popularity_references.tex": "ca61c549b7ed6256b4efdc443f1da3d0b216205e58db815e57c020a69f0804c6",
+    "rq6_popularity_references.csv": "5fd1719713b5ee7c1f645314331fe7e666b378f39f70c8a3532646218cb1e3c3"
+  }
+}

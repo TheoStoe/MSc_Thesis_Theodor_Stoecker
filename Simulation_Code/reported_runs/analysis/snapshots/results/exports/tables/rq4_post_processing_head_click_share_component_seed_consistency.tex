@@ -1,0 +1,44 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{llllrrrr}
+\hline
+model & stage & window & component\_label & n\_seed\_blocks & mean\_effect & min\_effect & max\_effect \\
+\hline
+agentic\_recommender & L3\_individual & mean\_1\_30 & Total & 3 & -10.3734 & -12.2005 & -7.93692 \\
+agentic\_recommender & L3\_individual & iteration\_30 & Total & 3 & -4.55175 & -11.7847 & 1.39752 \\
+agentic\_recommender & L3\_individual & mean\_1\_30 & Immediate reranking & 3 & -9.71919 & -10.2694 & -8.7278 \\
+agentic\_recommender & L3\_individual & iteration\_30 & Immediate reranking & 3 & -13.3457 & -14.3179 & -12.468 \\
+agentic\_recommender & L3\_individual & mean\_1\_30 & Feedback component & 3 & -0.654258 & -3.47271 & 2.33252 \\
+agentic\_recommender & L3\_individual & iteration\_30 & Feedback component & 3 & 8.79393 & 1.46641 & 13.8655 \\
+direct\_llm & L2\_ml\_model & mean\_1\_30 & Total & 3 & -15.4968 & -17.4625 & -12.8412 \\
+direct\_llm & L2\_ml\_model & iteration\_30 & Total & 3 & -27.9952 & -35.2703 & -24.2551 \\
+direct\_llm & L2\_ml\_model & mean\_1\_30 & Immediate reranking & 3 & -12.9656 & -14.1977 & -11.8543 \\
+direct\_llm & L2\_ml\_model & iteration\_30 & Immediate reranking & 3 & -17.6546 & -23.7502 & -14.1905 \\
+direct\_llm & L2\_ml\_model & mean\_1\_30 & Feedback component & 3 & -2.5312 & -4.61764 & 1.35653 \\
+direct\_llm & L2\_ml\_model & iteration\_30 & Feedback component & 3 & -10.3406 & -21.0797 & -0.504921 \\
+ncm\_inspired\_gru\_mansoury & L2\_ml\_model & mean\_1\_30 & Total & 3 & -74.0963 & -75.7333 & -71.7556 \\
+ncm\_inspired\_gru\_mansoury & L2\_ml\_model & iteration\_30 & Total & 3 & -83.5556 & -85.6667 & -79.3333 \\
+ncm\_inspired\_gru\_mansoury & L2\_ml\_model & mean\_1\_30 & Immediate reranking & 3 & -21.5074 & -22.7556 & -19.4556 \\
+ncm\_inspired\_gru\_mansoury & L2\_ml\_model & iteration\_30 & Immediate reranking & 3 & -6.77778 & -8.33333 & -6 \\
+ncm\_inspired\_gru\_mansoury & L2\_ml\_model & mean\_1\_30 & Feedback component & 3 & -52.5889 & -55.3444 & -49 \\
+ncm\_inspired\_gru\_mansoury & L2\_ml\_model & iteration\_30 & Feedback component & 3 & -76.7778 & -79.6667 & -73.3333 \\
+ncm\_inspired\_gru\_uniform & L2\_ml\_model & mean\_1\_30 & Total & 3 & -29.6037 & -33.9556 & -25.2889 \\
+ncm\_inspired\_gru\_uniform & L2\_ml\_model & iteration\_30 & Total & 3 & -39.7778 & -48.3333 & -34 \\
+ncm\_inspired\_gru\_uniform & L2\_ml\_model & mean\_1\_30 & Immediate reranking & 3 & -17.9037 & -18.3333 & -17.5778 \\
+ncm\_inspired\_gru\_uniform & L2\_ml\_model & iteration\_30 & Immediate reranking & 3 & -22.2222 & -26.6667 & -18.3333 \\
+ncm\_inspired\_gru\_uniform & L2\_ml\_model & mean\_1\_30 & Feedback component & 3 & -11.7 & -15.6222 & -7.71111 \\
+ncm\_inspired\_gru\_uniform & L2\_ml\_model & iteration\_30 & Feedback component & 3 & -17.5556 & -21.6667 & -15.3333 \\
+position\_biased & L2\_ml\_model & mean\_1\_30 & Total & 3 & -72.037 & -73.3 & -69.9 \\
+position\_biased & L2\_ml\_model & iteration\_30 & Total & 3 & -81 & -82 & -79.6667 \\
+position\_biased & L2\_ml\_model & mean\_1\_30 & Immediate reranking & 3 & -13.7407 & -14.9333 & -12.8889 \\
+position\_biased & L2\_ml\_model & iteration\_30 & Immediate reranking & 3 & -2.22222 & -3.33333 & -0.666667 \\
+position\_biased & L2\_ml\_model & mean\_1\_30 & Feedback component & 3 & -58.2963 & -60.4111 & -54.9667 \\
+position\_biased & L2\_ml\_model & iteration\_30 & Feedback component & 3 & -78.7778 & -81.3333 & -76.3333 \\
+\hline
+\end{tabular}
+\caption{Head-click share: descriptive mean, minimum, and maximum of each component across available paired seed/population blocks, in percentage points. Total, immediate reranking, and feedback/state components are kept separate; their number of defined seed blocks remains explicit. These are not confidence intervals or significance tests.}
+\label{chap:results:tab:rq4_post_processing_head_click_share_component_seed_consistency}
+\end{table}

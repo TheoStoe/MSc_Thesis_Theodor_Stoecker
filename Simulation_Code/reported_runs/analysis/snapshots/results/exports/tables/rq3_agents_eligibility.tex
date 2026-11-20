@@ -1,0 +1,38 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lrlrrrl}
+\hline
+Model & Seed & Time summary & Replica valid pairs & Shuffled valid pairs & Triple valid clicks & Condition \\
+\hline
+Agent & 42 & iteration\_30 & 300 & 300 & 247 & L2 -- frozen agent \\
+Agent & 42 & mean\_1\_30 & 300 & 300 & 256.467 & L2 -- frozen agent \\
+Agent & 43 & iteration\_30 & 300 & 300 & 253 & L2 -- frozen agent \\
+Agent & 43 & mean\_1\_30 & 300 & 300 & 257.767 & L2 -- frozen agent \\
+Agent & 44 & iteration\_30 & 300 & 300 & 257 & L2 -- frozen agent \\
+Agent & 44 & mean\_1\_30 & 300 & 300 & 259.933 & L2 -- frozen agent \\
+Agent & 42 & iteration\_30 & 300 & 300 & 236 & L3 -- full reflection \\
+Agent & 42 & mean\_1\_30 & 300 & 300 & 255.333 & L3 -- full reflection \\
+Agent & 43 & iteration\_30 & 300 & 300 & 253 & L3 -- full reflection \\
+Agent & 43 & mean\_1\_30 & 300 & 300 & 252.067 & L3 -- full reflection \\
+Agent & 44 & iteration\_30 & 300 & 300 & 261 & L3 -- full reflection \\
+Agent & 44 & mean\_1\_30 & 300 & 300 & 258.233 & L3 -- full reflection \\
+Agent & 42 & iteration\_30 & 300 & 300 & 254 & L3 -- fixed profile \\
+Agent & 42 & mean\_1\_30 & 300 & 300 & 253.167 & L3 -- fixed profile \\
+Agent & 43 & iteration\_30 & 300 & 300 & 256 & L3 -- fixed profile \\
+Agent & 43 & mean\_1\_30 & 300 & 300 & 256.567 & L3 -- fixed profile \\
+Agent & 44 & iteration\_30 & 300 & 300 & 248 & L3 -- fixed profile \\
+Agent & 44 & mean\_1\_30 & 300 & 300 & 256.767 & L3 -- fixed profile \\
+Agent & 42 & iteration\_30 & 300 & 300 & 252 & L3 -- no reflection \\
+Agent & 42 & mean\_1\_30 & 300 & 300 & 257.767 & L3 -- no reflection \\
+Agent & 43 & iteration\_30 & 300 & 300 & 260 & L3 -- no reflection \\
+Agent & 43 & mean\_1\_30 & 300 & 300 & 256.367 & L3 -- no reflection \\
+Agent & 44 & iteration\_30 & 300 & 300 & 250 & L3 -- no reflection \\
+Agent & 44 & mean\_1\_30 & 300 & 300 & 256.7 & L3 -- no reflection \\
+\hline
+\end{tabular}
+\caption{Paired response diagnostics by agent configuration. Equal-weight mean over iterations 1--30 and iteration-30 endpoint. Shares are fractions; share gaps are percentage points. Undefined denominators remain missing.}
+\label{chap:results:tab:rq3_agents_eligibility}
+\end{table}

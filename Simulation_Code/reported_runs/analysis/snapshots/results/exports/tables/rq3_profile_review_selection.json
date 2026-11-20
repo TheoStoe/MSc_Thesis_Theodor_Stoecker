@@ -1,0 +1,406 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq3_profile_review_selection",
+  "label": "chap:results:tab:rq3_profile_review_selection",
+  "caption": "Deterministic sample of up to ten users with applied profile changes per seed; all manual judgements remain unassessed.",
+  "rows": 30,
+  "source_columns": [
+    "seed",
+    "population_seed",
+    "user_id",
+    "review_order",
+    "eligible_users",
+    "applied_change_count",
+    "first_change_iteration",
+    "last_change_iteration",
+    "manual_assessment"
+  ],
+  "source_dtypes": {
+    "seed": "int64",
+    "population_seed": "int64",
+    "user_id": "str",
+    "review_order": "int64",
+    "eligible_users": "int64",
+    "applied_change_count": "int64",
+    "first_change_iteration": "int64",
+    "last_change_iteration": "int64",
+    "manual_assessment": "str"
+  },
+  "display_columns": [
+    "seed",
+    "population_seed",
+    "user_id",
+    "review_order",
+    "eligible_users",
+    "applied_change_count",
+    "first_change_iteration",
+    "last_change_iteration",
+    "manual_assessment"
+  ],
+  "display_rows": [
+    [
+      "42",
+      "1054",
+      "reader_0e7d3e47d179",
+      "1",
+      "267",
+      "4",
+      "4",
+      "26",
+      "Not yet reviewed"
+    ],
+    [
+      "42",
+      "1054",
+      "reader_3b7c38d777a7",
+      "2",
+      "267",
+      "2",
+      "3",
+      "21",
+      "Not yet reviewed"
+    ],
+    [
+      "42",
+      "1054",
+      "reader_62026194a8e8",
+      "3",
+      "267",
+      "1",
+      "17",
+      "17",
+      "Not yet reviewed"
+    ],
+    [
+      "42",
+      "1054",
+      "reader_1f28c8670fb2",
+      "4",
+      "267",
+      "1",
+      "1",
+      "1",
+      "Not yet reviewed"
+    ],
+    [
+      "42",
+      "1054",
+      "reader_9e252ba516c9",
+      "5",
+      "267",
+      "2",
+      "1",
+      "16",
+      "Not yet reviewed"
+    ],
+    [
+      "42",
+      "1054",
+      "reader_4c782415b6d4",
+      "6",
+      "267",
+      "17",
+      "2",
+      "30",
+      "Not yet reviewed"
+    ],
+    [
+      "42",
+      "1054",
+      "reader_6f5a30303a57",
+      "7",
+      "267",
+      "2",
+      "4",
+      "6",
+      "Not yet reviewed"
+    ],
+    [
+      "42",
+      "1054",
+      "reader_5e0499cd1ffe",
+      "8",
+      "267",
+      "6",
+      "1",
+      "30",
+      "Not yet reviewed"
+    ],
+    [
+      "42",
+      "1054",
+      "reader_0a3f0bf548e3",
+      "9",
+      "267",
+      "10",
+      "1",
+      "20",
+      "Not yet reviewed"
+    ],
+    [
+      "42",
+      "1054",
+      "reader_b1be94fc7a70",
+      "10",
+      "267",
+      "7",
+      "2",
+      "27",
+      "Not yet reviewed"
+    ],
+    [
+      "43",
+      "19277",
+      "reader_373513871610",
+      "1",
+      "268",
+      "9",
+      "2",
+      "25",
+      "Not yet reviewed"
+    ],
+    [
+      "43",
+      "19277",
+      "reader_9da8c778a28e",
+      "2",
+      "268",
+      "3",
+      "4",
+      "23",
+      "Not yet reviewed"
+    ],
+    [
+      "43",
+      "19277",
+      "reader_fa4b63dfdeb8",
+      "3",
+      "268",
+      "4",
+      "1",
+      "13",
+      "Not yet reviewed"
+    ],
+    [
+      "43",
+      "19277",
+      "reader_802aa7854a8b",
+      "4",
+      "268",
+      "17",
+      "1",
+      "24",
+      "Not yet reviewed"
+    ],
+    [
+      "43",
+      "19277",
+      "reader_8bd79efcfa18",
+      "5",
+      "268",
+      "4",
+      "3",
+      "14",
+      "Not yet reviewed"
+    ],
+    [
+      "43",
+      "19277",
+      "reader_2692cd63b146",
+      "6",
+      "268",
+      "2",
+      "3",
+      "4",
+      "Not yet reviewed"
+    ],
+    [
+      "43",
+      "19277",
+      "reader_8c3d09962303",
+      "7",
+      "268",
+      "6",
+      "1",
+      "28",
+      "Not yet reviewed"
+    ],
+    [
+      "43",
+      "19277",
+      "reader_f9dd0e4e01bb",
+      "8",
+      "268",
+      "6",
+      "5",
+      "16",
+      "Not yet reviewed"
+    ],
+    [
+      "43",
+      "19277",
+      "reader_8cd266d54783",
+      "9",
+      "268",
+      "1",
+      "3",
+      "3",
+      "Not yet reviewed"
+    ],
+    [
+      "43",
+      "19277",
+      "reader_8b97eb812ee5",
+      "10",
+      "268",
+      "4",
+      "1",
+      "6",
+      "Not yet reviewed"
+    ],
+    [
+      "44",
+      "18844",
+      "reader_c940b36b1a58",
+      "1",
+      "286",
+      "14",
+      "2",
+      "30",
+      "Not yet reviewed"
+    ],
+    [
+      "44",
+      "18844",
+      "reader_abb7a6f4f19c",
+      "2",
+      "286",
+      "16",
+      "2",
+      "23",
+      "Not yet reviewed"
+    ],
+    [
+      "44",
+      "18844",
+      "reader_0406899a4a20",
+      "3",
+      "286",
+      "6",
+      "1",
+      "12",
+      "Not yet reviewed"
+    ],
+    [
+      "44",
+      "18844",
+      "reader_613a10af85ea",
+      "4",
+      "286",
+      "9",
+      "1",
+      "26",
+      "Not yet reviewed"
+    ],
+    [
+      "44",
+      "18844",
+      "reader_9998e3260a45",
+      "5",
+      "286",
+      "13",
+      "1",
+      "30",
+      "Not yet reviewed"
+    ],
+    [
+      "44",
+      "18844",
+      "reader_a424784ba7b5",
+      "6",
+      "286",
+      "7",
+      "1",
+      "26",
+      "Not yet reviewed"
+    ],
+    [
+      "44",
+      "18844",
+      "reader_55afb4363e88",
+      "7",
+      "286",
+      "7",
+      "1",
+      "18",
+      "Not yet reviewed"
+    ],
+    [
+      "44",
+      "18844",
+      "reader_fe72cc81d674",
+      "8",
+      "286",
+      "1",
+      "3",
+      "3",
+      "Not yet reviewed"
+    ],
+    [
+      "44",
+      "18844",
+      "reader_0efef1316e1b",
+      "9",
+      "286",
+      "8",
+      "2",
+      "16",
+      "Not yet reviewed"
+    ],
+    [
+      "44",
+      "18844",
+      "reader_c1d307a171f5",
+      "10",
+      "286",
+      "7",
+      "1",
+      "29",
+      "Not yet reviewed"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "rrlrrrrrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq3",
+    "source_blocks": [
+      {
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq3_profile_review_selection.tex": "271627132977c042bef207966bb99800ee9ea36e728afb8269ec4496966fa418",
+    "rq3_profile_review_selection.csv": "834bcd26c6ff97f46b50b4c52c3bb1fac6f3c6dabd6c7251488e64bda15a5c02"
+  }
+}

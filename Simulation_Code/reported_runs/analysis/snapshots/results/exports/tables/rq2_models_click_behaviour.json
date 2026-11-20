@@ -1,0 +1,960 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq2_models_click_behaviour",
+  "label": "chap:results:tab:rq2_models_click_behaviour",
+  "caption": "Click behaviour, coverage, and concentration at common feedback stages. Equal-weight mean over iterations 1--30 and iteration-30 endpoint. Shares are fractions; share gaps are percentage points. Undefined denominators remain missing.",
+  "rows": 90,
+  "source_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Click rate",
+    "Invalid-response rate",
+    "No-click rate",
+    "Valid click counts",
+    "Condition"
+  ],
+  "source_dtypes": {
+    "Model": "str",
+    "Seed": "int64",
+    "Time summary": "str",
+    "Click rate": "float64",
+    "Invalid-response rate": "float64",
+    "No-click rate": "float64",
+    "Valid click counts": "float64",
+    "Condition": "str"
+  },
+  "display_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Click rate",
+    "Invalid-response rate",
+    "No-click rate",
+    "Valid click counts",
+    "Condition"
+  ],
+  "display_rows": [
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0.45",
+      "0",
+      "0.55",
+      "135",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0.636222",
+      "0",
+      "0.363778",
+      "190.867",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0.513333",
+      "0",
+      "0.486667",
+      "154",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0.628889",
+      "0",
+      "0.371111",
+      "188.667",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0.483333",
+      "0",
+      "0.516667",
+      "145",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0.629444",
+      "0",
+      "0.370556",
+      "188.833",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0.92",
+      "0",
+      "0.08",
+      "276",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0.927444",
+      "0",
+      "0.0725556",
+      "278.233",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0.9",
+      "0",
+      "0.1",
+      "270",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0.919333",
+      "0",
+      "0.0806667",
+      "275.8",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0.893333",
+      "0",
+      "0.106667",
+      "268",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0.901333",
+      "0",
+      "0.0986667",
+      "270.4",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0.94",
+      "0",
+      "0.06",
+      "282",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0.937333",
+      "0",
+      "0.0626667",
+      "281.2",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0.936667",
+      "0",
+      "0.0633333",
+      "281",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0.934556",
+      "0",
+      "0.0654444",
+      "280.367",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0.94",
+      "0",
+      "0.06",
+      "282",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0.945",
+      "0",
+      "0.055",
+      "283.5",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "iteration_30",
+      "0.14",
+      "0",
+      "0.86",
+      "42",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "mean_1_30",
+      "0.175556",
+      "0",
+      "0.824444",
+      "52.6667",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "iteration_30",
+      "0.116667",
+      "0",
+      "0.883333",
+      "35",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "mean_1_30",
+      "0.202889",
+      "0",
+      "0.797111",
+      "60.8667",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "iteration_30",
+      "0.143333",
+      "0",
+      "0.856667",
+      "43",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "mean_1_30",
+      "0.190889",
+      "0",
+      "0.809111",
+      "57.2667",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "iteration_30",
+      "0.2",
+      "0",
+      "0.8",
+      "60",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "mean_1_30",
+      "0.267333",
+      "0",
+      "0.732667",
+      "80.2",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "iteration_30",
+      "0.2",
+      "0",
+      "0.8",
+      "60",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "mean_1_30",
+      "0.278111",
+      "0",
+      "0.721889",
+      "83.4333",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "iteration_30",
+      "0.19",
+      "0",
+      "0.81",
+      "57",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "mean_1_30",
+      "0.283",
+      "0",
+      "0.717",
+      "84.9",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "iteration_30",
+      "0.656667",
+      "0",
+      "0.343333",
+      "197",
+      "L2"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "mean_1_30",
+      "0.536667",
+      "0",
+      "0.463333",
+      "161",
+      "L2"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "iteration_30",
+      "0.723333",
+      "0",
+      "0.276667",
+      "217",
+      "L2"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "mean_1_30",
+      "0.571889",
+      "0",
+      "0.428111",
+      "171.567",
+      "L2"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "iteration_30",
+      "0.57",
+      "0",
+      "0.43",
+      "171",
+      "L2"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "mean_1_30",
+      "0.515222",
+      "0",
+      "0.484778",
+      "154.567",
+      "L2"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L2"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L2"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L2"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L2"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L2"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "iteration_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "mean_1_30",
+      "1",
+      "0",
+      "0",
+      "300",
+      "L2"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrlrrrrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq2",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq2_models_click_behaviour.tex": "1dd610da53b89a9fc727a8163be8bf313358fb581d2f6319a5e7a30c2f0ceaa8",
+    "rq2_models_click_behaviour.csv": "39e4a4f9abe01a88c19ecf8899283c9da7155c3f864479d5f861f72d81bcb591"
+  }
+}

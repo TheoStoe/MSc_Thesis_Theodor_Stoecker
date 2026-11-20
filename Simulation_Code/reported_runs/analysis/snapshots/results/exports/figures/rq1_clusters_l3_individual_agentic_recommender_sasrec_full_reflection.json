@@ -1,0 +1,73 @@
+{
+  "analysis_name": "rq1_clusters_l3_individual_agentic_recommender_sasrec_full_reflection",
+  "label": "chap:results:fig:rq1_clusters_l3_individual_agentic_recommender_sasrec_full_reflection",
+  "recommended_for_main_text": false,
+  "rationale": "",
+  "context": {
+    "datasets": [
+      "MovieLens"
+    ],
+    "stages_by_model": {
+      "agentic_recommender": [
+        "L3 (full reflection)"
+      ]
+    },
+    "seeds_by_model": {
+      "agentic_recommender": [
+        42,
+        43,
+        44
+      ]
+    },
+    "seeds_by_model_condition": {},
+    "time_summary": "Per-iteration values, iterations 1–30",
+    "windows": [],
+    "protocol": "Initially 150 active + 150 reserve users",
+    "comparisons": [],
+    "encoding": "Panels: simulation seeds; line styles/markers: clusters",
+    "text": "MovieLens | Initially 150 active + 150 reserve users | Stages: L3 (full reflection)\nPer-iteration values, iterations 1–30 | Simulation seeds: 42, 43, 44",
+    "plot_spec": {
+      "kind": "trajectory",
+      "facet": "seed",
+      "series": "cluster",
+      "metrics": [
+        "active_share"
+      ]
+    }
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq1",
+    "source_blocks": [
+      {
+        "physical_run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__seed_42",
+        "run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__seed_42",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__seed_43",
+        "run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__seed_43",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__seed_44",
+        "run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__seed_44",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection",
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq1_clusters_l3_individual_agentic_recommender_sasrec_full_reflection.pdf": "ba5b1ac6fd552277760cc7a0583ecbb5717a0dcbcf8b3684aa207832b27acbba",
+    "rq1_clusters_l3_individual_agentic_recommender_sasrec_full_reflection.png": "52e7ee61ed3607729e6ed14c31ee2f017bcd39c51ff1dfb5260bd8cfc80f590d"
+  }
+}

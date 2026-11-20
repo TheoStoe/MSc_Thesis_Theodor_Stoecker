@@ -1,0 +1,13 @@
+Configuration,Seed,Decisions,Memory-module calls,Forced actions,Reflection requests,Failed reflections,Applied profile changes,Users with a change by iteration 30
+L2 frozen agent,42,9000,0,0,0,0,0,0
+L2 frozen agent,43,9000,0,0,0,0,0,0
+L2 frozen agent,44,9000,0,0,0,0,0,0
+L3 no reflection,42,9000,0,0,0,0,0,0
+L3 no reflection,43,9000,0,0,0,0,0,0
+L3 no reflection,44,9000,0,0,0,0,0,0
+L3 fixed profile,42,9000,0,0,9000,0,0,0
+L3 fixed profile,43,9000,0,0,9000,0,0,0
+L3 fixed profile,44,9000,0,0,9000,0,0,0
+L3 full reflection,42,9000,0,0,9000,0,1190,267
+L3 full reflection,43,9000,0,0,9000,0,1254,268
+L3 full reflection,44,9000,0,0,9000,0,1982,286

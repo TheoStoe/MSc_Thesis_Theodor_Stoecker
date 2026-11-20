@@ -1,0 +1,26 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lllrrlrl}
+\hline
+dataset & comparison & model & seed & population\_seed & window & Head exposure difference (displayed ranks 1–10; pp) & effect\_unit \\
+\hline
+movielens & Static advertising minus matched organic & agentic\_recommender & 42 & 1054 & mean\_1\_30 & -6.6581 & percentage points \\
+movielens & Static advertising minus matched organic & agentic\_recommender & 42 & 1054 & iteration\_30 & -7.49811 & percentage points \\
+movielens & L5 adaptive advertising minus static advertising & agentic\_recommender & 42 & 1054 & mean\_1\_30 & 3.62048 & percentage points \\
+movielens & L5 adaptive advertising minus static advertising & agentic\_recommender & 42 & 1054 & iteration\_30 & 10.4576 & percentage points \\
+movielens & Static advertising minus matched organic & agentic\_recommender & 43 & 19277 & mean\_1\_30 & -9.42068 & percentage points \\
+movielens & Static advertising minus matched organic & agentic\_recommender & 43 & 19277 & iteration\_30 & -5.25556 & percentage points \\
+movielens & L5 adaptive advertising minus static advertising & agentic\_recommender & 43 & 19277 & mean\_1\_30 & 4.44512 & percentage points \\
+movielens & L5 adaptive advertising minus static advertising & agentic\_recommender & 43 & 19277 & iteration\_30 & 1.85556 & percentage points \\
+movielens & Static advertising minus matched organic & agentic\_recommender & 44 & 18844 & mean\_1\_30 & -12.3867 & percentage points \\
+movielens & Static advertising minus matched organic & agentic\_recommender & 44 & 18844 & iteration\_30 & -16.6 & percentage points \\
+movielens & L5 adaptive advertising minus static advertising & agentic\_recommender & 44 & 18844 & mean\_1\_30 & 6.49111 & percentage points \\
+movielens & L5 adaptive advertising minus static advertising & agentic\_recommender & 44 & 18844 & iteration\_30 & 13.2667 & percentage points \\
+\hline
+\end{tabular}
+\caption{Head exposure: original full-slate matched effects over displayed ranks 1--10, including any sponsored item at rank 1, in percentage points. The companion for ranks 2--10 is exported separately.}
+\label{chap:results:tab:rq1_advertising_head_exposure_ranks_1_10_effects}
+\end{table}

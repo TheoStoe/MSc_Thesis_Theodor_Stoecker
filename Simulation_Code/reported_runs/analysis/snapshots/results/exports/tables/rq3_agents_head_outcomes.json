@@ -1,0 +1,273 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq3_agents_head_outcomes",
+  "label": "chap:results:tab:rq3_agents_head_outcomes",
+  "caption": "Main 300-active-user agent configurations. Equal-weight mean over iterations 1--30 and iteration-30 endpoint. Shares are fractions; share gaps are percentage points. Undefined denominators remain missing.",
+  "rows": 24,
+  "source_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Head-click share",
+    "Head exposure",
+    "Weighted head exposure",
+    "Condition"
+  ],
+  "source_dtypes": {
+    "Model": "str",
+    "Seed": "int64",
+    "Time summary": "str",
+    "Head-click share": "float64",
+    "Head exposure": "float64",
+    "Weighted head exposure": "float64",
+    "Condition": "str"
+  },
+  "display_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Head-click share",
+    "Head exposure",
+    "Weighted head exposure",
+    "Condition"
+  ],
+  "display_rows": [
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0.606383",
+      "0.564",
+      "0.546514",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0.697789",
+      "0.697011",
+      "0.702201",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0.498221",
+      "0.591333",
+      "0.563339",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0.651245",
+      "0.687822",
+      "0.682495",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0.556738",
+      "0.564",
+      "0.558615",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0.698312",
+      "0.727078",
+      "0.731998",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0.479245",
+      "0.582",
+      "0.561951",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0.623095",
+      "0.679633",
+      "0.670666",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0.472325",
+      "0.576667",
+      "0.564101",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0.64901",
+      "0.719011",
+      "0.719238",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0.464286",
+      "0.563333",
+      "0.548432",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0.652729",
+      "0.6949",
+      "0.694095",
+      "L3 -- full reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0.571429",
+      "0.608333",
+      "0.589842",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0.657784",
+      "0.704222",
+      "0.691408",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0.462094",
+      "0.570667",
+      "0.548331",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0.62066",
+      "0.688533",
+      "0.688487",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0.494505",
+      "0.593333",
+      "0.573291",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0.656497",
+      "0.697078",
+      "0.695151",
+      "L3 -- fixed profile"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0.416058",
+      "0.534667",
+      "0.515561",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0.658516",
+      "0.669222",
+      "0.671548",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0.43617",
+      "0.567",
+      "0.543909",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0.696016",
+      "0.754133",
+      "0.754701",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0.595745",
+      "0.629333",
+      "0.627688",
+      "L3 -- no reflection"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0.715345",
+      "0.744122",
+      "0.745356",
+      "L3 -- no reflection"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrlrrrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq3",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq3_agents_head_outcomes.tex": "31af67ef7e31c0bfa722458444dce3acf6a980028035288f0c582ec0d02841a2",
+    "rq3_agents_head_outcomes.csv": "139b28939e6b57b428c211dafb40db78be5ec06ed0e762047e11bbedd9edc297"
+  }
+}

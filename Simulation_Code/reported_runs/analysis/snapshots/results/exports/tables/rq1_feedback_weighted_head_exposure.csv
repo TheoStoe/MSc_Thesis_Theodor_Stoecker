@@ -1,0 +1,67 @@
+dataset,comparison,model,seed,population_seed,window,value,effect_unit
+movielens,L1 minus L0,agentic_recommender,42,1054,mean_1_30,2.9737913948296013,percentage points
+movielens,L1 minus L0,agentic_recommender,42,1054,iteration_30,4.000893775378811,percentage points
+movielens,L2 minus L1,agentic_recommender,42,1054,mean_1_30,-3.566842603854919,percentage points
+movielens,L2 minus L1,agentic_recommender,42,1054,iteration_30,-18.948215899101516,percentage points
+movielens,L3 full reflection minus L2 frozen agent,agentic_recommender,42,1054,mean_1_30,-3.1535025103802043,percentage points
+movielens,L3 full reflection minus L2 frozen agent,agentic_recommender,42,1054,iteration_30,1.5436824906920332,percentage points
+movielens,L1 minus L0,direct_llm,42,1054,mean_1_30,3.0976019635442795,percentage points
+movielens,L1 minus L0,direct_llm,42,1054,iteration_30,4.855196049017907,percentage points
+movielens,L2 minus L1,direct_llm,42,1054,mean_1_30,3.149962630943511,percentage points
+movielens,L2 minus L1,direct_llm,42,1054,iteration_30,-4.463567645001765,percentage points
+movielens,L1 minus L0,ncm_inspired_gru_mansoury,42,1054,mean_1_30,2.137674783184204,percentage points
+movielens,L1 minus L0,ncm_inspired_gru_mansoury,42,1054,iteration_30,5.916039331465717,percentage points
+movielens,L2 minus L1,ncm_inspired_gru_mansoury,42,1054,mean_1_30,14.397514069372745,percentage points
+movielens,L2 minus L1,ncm_inspired_gru_mansoury,42,1054,iteration_30,13.210043091457369,percentage points
+movielens,L1 minus L0,ncm_inspired_gru_uniform,42,1054,mean_1_30,10.45750123728042,percentage points
+movielens,L1 minus L0,ncm_inspired_gru_uniform,42,1054,iteration_30,15.533594762738945,percentage points
+movielens,L2 minus L1,ncm_inspired_gru_uniform,42,1054,mean_1_30,19.856199904164047,percentage points
+movielens,L2 minus L1,ncm_inspired_gru_uniform,42,1054,iteration_30,26.19259134629406,percentage points
+movielens,L1 minus L0,position_biased,42,1054,mean_1_30,0.31596981934902646,percentage points
+movielens,L1 minus L0,position_biased,42,1054,iteration_30,1.5011320053101906,percentage points
+movielens,L2 minus L1,position_biased,42,1054,mean_1_30,11.83808952418734,percentage points
+movielens,L2 minus L1,position_biased,42,1054,iteration_30,10.014246206110954,percentage points
+movielens,L1 minus L0,agentic_recommender,43,19277,mean_1_30,-0.5240929095081993,percentage points
+movielens,L1 minus L0,agentic_recommender,43,19277,iteration_30,-2.9665917619700055,percentage points
+movielens,L2 minus L1,agentic_recommender,43,19277,mean_1_30,-3.436314307705055,percentage points
+movielens,L2 minus L1,agentic_recommender,43,19277,iteration_30,-12.153544900995916,percentage points
+movielens,L3 full reflection minus L2 frozen agent,agentic_recommender,43,19277,mean_1_30,3.674352264240842,percentage points
+movielens,L3 full reflection minus L2 frozen agent,agentic_recommender,43,19277,iteration_30,0.07614136509698222,percentage points
+movielens,L1 minus L0,direct_llm,43,19277,mean_1_30,2.4338552888755514,percentage points
+movielens,L1 minus L0,direct_llm,43,19277,iteration_30,3.117413946351777,percentage points
+movielens,L2 minus L1,direct_llm,43,19277,mean_1_30,12.694639356768928,percentage points
+movielens,L2 minus L1,direct_llm,43,19277,iteration_30,4.686153141019666,percentage points
+movielens,L1 minus L0,ncm_inspired_gru_mansoury,43,19277,mean_1_30,-1.103448731280487,percentage points
+movielens,L1 minus L0,ncm_inspired_gru_mansoury,43,19277,iteration_30,0.7649638964128291,percentage points
+movielens,L2 minus L1,ncm_inspired_gru_mansoury,43,19277,mean_1_30,19.342425275383608,percentage points
+movielens,L2 minus L1,ncm_inspired_gru_mansoury,43,19277,iteration_30,18.444884808456752,percentage points
+movielens,L1 minus L0,ncm_inspired_gru_uniform,43,19277,mean_1_30,7.941235844103953,percentage points
+movielens,L1 minus L0,ncm_inspired_gru_uniform,43,19277,iteration_30,13.277497577834874,percentage points
+movielens,L2 minus L1,ncm_inspired_gru_uniform,43,19277,mean_1_30,21.796865279965857,percentage points
+movielens,L2 minus L1,ncm_inspired_gru_uniform,43,19277,iteration_30,28.038789100767346,percentage points
+movielens,L1 minus L0,position_biased,43,19277,mean_1_30,-2.5830033382320168,percentage points
+movielens,L1 minus L0,position_biased,43,19277,iteration_30,-1.9178674110579719,percentage points
+movielens,L2 minus L1,position_biased,43,19277,mean_1_30,16.475457751289134,percentage points
+movielens,L2 minus L1,position_biased,43,19277,iteration_30,19.911826018438884,percentage points
+movielens,L1 minus L0,agentic_recommender,44,18844,mean_1_30,0.5029296849772595,percentage points
+movielens,L1 minus L0,agentic_recommender,44,18844,iteration_30,-1.531282697208658,percentage points
+movielens,L2 minus L1,agentic_recommender,44,18844,mean_1_30,-0.004270194351864435,percentage points
+movielens,L2 minus L1,agentic_recommender,44,18844,iteration_30,-14.269959866942173,percentage points
+movielens,L3 full reflection minus L2 frozen agent,agentic_recommender,44,18844,mean_1_30,-3.7903088204675592,percentage points
+movielens,L3 full reflection minus L2 frozen agent,agentic_recommender,44,18844,iteration_30,-1.0183099162850429,percentage points
+movielens,L1 minus L0,direct_llm,44,18844,mean_1_30,2.6100067690561732,percentage points
+movielens,L1 minus L0,direct_llm,44,18844,iteration_30,2.3954817738794043,percentage points
+movielens,L2 minus L1,direct_llm,44,18844,mean_1_30,10.098692404991235,percentage points
+movielens,L2 minus L1,direct_llm,44,18844,iteration_30,11.555433724110864,percentage points
+movielens,L1 minus L0,ncm_inspired_gru_mansoury,44,18844,mean_1_30,0.06840103441792868,percentage points
+movielens,L1 minus L0,ncm_inspired_gru_mansoury,44,18844,iteration_30,-0.9447924264651353,percentage points
+movielens,L2 minus L1,ncm_inspired_gru_mansoury,44,18844,mean_1_30,15.765730193827089,percentage points
+movielens,L2 minus L1,ncm_inspired_gru_mansoury,44,18844,iteration_30,21.20949658068557,percentage points
+movielens,L1 minus L0,ncm_inspired_gru_uniform,44,18844,mean_1_30,9.898413147660591,percentage points
+movielens,L1 minus L0,ncm_inspired_gru_uniform,44,18844,iteration_30,12.453249697809,percentage points
+movielens,L2 minus L1,ncm_inspired_gru_uniform,44,18844,mean_1_30,18.850895693076108,percentage points
+movielens,L2 minus L1,ncm_inspired_gru_uniform,44,18844,iteration_30,28.512416927400043,percentage points
+movielens,L1 minus L0,position_biased,44,18844,mean_1_30,-2.213980362901094,percentage points
+movielens,L1 minus L0,position_biased,44,18844,iteration_30,-6.537121225250364,percentage points
+movielens,L2 minus L1,position_biased,44,18844,mean_1_30,14.369231975760705,percentage points
+movielens,L2 minus L1,position_biased,44,18844,iteration_30,16.392150764846825,percentage points

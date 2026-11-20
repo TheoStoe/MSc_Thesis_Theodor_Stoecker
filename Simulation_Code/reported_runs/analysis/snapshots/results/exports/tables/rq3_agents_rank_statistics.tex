@@ -1,0 +1,38 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lrlrrl}
+\hline
+Model & Seed & Time summary & First-position click share & Mean clicked rank & Condition \\
+\hline
+Agent & 42 & iteration\_30 & 0.141844 & 4.85816 & L2 -- frozen agent \\
+Agent & 42 & mean\_1\_30 & 0.149976 & 4.14258 & L2 -- frozen agent \\
+Agent & 43 & iteration\_30 & 0.170819 & 4.03915 & L2 -- frozen agent \\
+Agent & 43 & mean\_1\_30 & 0.163326 & 4.04458 & L2 -- frozen agent \\
+Agent & 44 & iteration\_30 & 0.141844 & 4.51418 & L2 -- frozen agent \\
+Agent & 44 & mean\_1\_30 & 0.155225 & 4.00028 & L2 -- frozen agent \\
+Agent & 42 & iteration\_30 & 0.192453 & 4.00755 & L3 -- full reflection \\
+Agent & 42 & mean\_1\_30 & 0.14381 & 4.24553 & L3 -- full reflection \\
+Agent & 43 & iteration\_30 & 0.140221 & 4.26568 & L3 -- full reflection \\
+Agent & 43 & mean\_1\_30 & 0.147089 & 4.22977 & L3 -- full reflection \\
+Agent & 44 & iteration\_30 & 0.217857 & 4.025 & L3 -- full reflection \\
+Agent & 44 & mean\_1\_30 & 0.175162 & 4.03467 & L3 -- full reflection \\
+Agent & 42 & iteration\_30 & 0.164286 & 4.32857 & L3 -- fixed profile \\
+Agent & 42 & mean\_1\_30 & 0.155565 & 4.16953 & L3 -- fixed profile \\
+Agent & 43 & iteration\_30 & 0.162455 & 3.88809 & L3 -- fixed profile \\
+Agent & 43 & mean\_1\_30 & 0.149007 & 4.21824 & L3 -- fixed profile \\
+Agent & 44 & iteration\_30 & 0.150183 & 4.1685 & L3 -- fixed profile \\
+Agent & 44 & mean\_1\_30 & 0.152616 & 4.17144 & L3 -- fixed profile \\
+Agent & 42 & iteration\_30 & 0.120438 & 4.77372 & L3 -- no reflection \\
+Agent & 42 & mean\_1\_30 & 0.143843 & 4.1736 & L3 -- no reflection \\
+Agent & 43 & iteration\_30 & 0.177305 & 4.29433 & L3 -- no reflection \\
+Agent & 43 & mean\_1\_30 & 0.162173 & 4.02334 & L3 -- no reflection \\
+Agent & 44 & iteration\_30 & 0.163121 & 4.49645 & L3 -- no reflection \\
+Agent & 44 & mean\_1\_30 & 0.159111 & 4.04824 & L3 -- no reflection \\
+\hline
+\end{tabular}
+\caption{Agent click behaviour, coverage, and concentration. Equal-weight mean over iterations 1--30 and iteration-30 endpoint. Shares are fractions; share gaps are percentage points. Undefined denominators remain missing.}
+\label{chap:results:tab:rq3_agents_rank_statistics}
+\end{table}

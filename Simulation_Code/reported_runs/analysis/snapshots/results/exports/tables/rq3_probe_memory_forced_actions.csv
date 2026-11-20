@@ -1,0 +1,3 @@
+Protocol,Presentation arm,Runs,Decisions,Memory calls,Forced actions
+RQ III: 300 active users (L2/L3),replica,12,108000,1,0
+RQ III: 300 active users (L2/L3),shuffled,12,108000,1,0

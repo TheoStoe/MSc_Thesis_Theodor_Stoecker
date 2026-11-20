@@ -1,0 +1,219 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq1_advertising_sponsored_shares",
+  "label": "chap:results:tab:rq1_advertising_sponsored_shares",
+  "caption": "Advertising mechanism diagnostics. Organic campaign eligibility is not applicable; its saved zeros are masked only in this display view, while genuine zero sponsored exposures/clicks remain zero. Equal-weight mean over iterations 1--30 and iteration-30 endpoint. Shares are fractions; share gaps are percentage points. Undefined denominators remain missing.",
+  "rows": 18,
+  "source_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Sponsored click share",
+    "Sponsored exposure share",
+    "Weighted sponsored exposure",
+    "Condition"
+  ],
+  "source_dtypes": {
+    "Model": "str",
+    "Seed": "int64",
+    "Time summary": "str",
+    "Sponsored click share": "float64",
+    "Sponsored exposure share": "float64",
+    "Weighted sponsored exposure": "float64",
+    "Condition": "str"
+  },
+  "display_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Sponsored click share",
+    "Sponsored exposure share",
+    "Weighted sponsored exposure",
+    "Condition"
+  ],
+  "display_rows": [
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0",
+      "0",
+      "0",
+      "Organic advertising control"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0",
+      "0",
+      "0",
+      "Organic advertising control"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0",
+      "0",
+      "0",
+      "Organic advertising control"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0",
+      "0",
+      "0",
+      "Organic advertising control"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0",
+      "0",
+      "0",
+      "Organic advertising control"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0",
+      "0",
+      "0",
+      "Organic advertising control"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0.0229008",
+      "0.1",
+      "0.220092",
+      "Static advertising"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0.0290047",
+      "0.1",
+      "0.220092",
+      "Static advertising"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0",
+      "0.1",
+      "0.220092",
+      "Static advertising"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0.0323396",
+      "0.1",
+      "0.220092",
+      "Static advertising"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0.0204082",
+      "0.1",
+      "0.220092",
+      "Static advertising"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0.0427438",
+      "0.1",
+      "0.220092",
+      "Static advertising"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0",
+      "0.002",
+      "0.00440184",
+      "L5 adaptive advertising"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0.00927647",
+      "0.0151333",
+      "0.0333072",
+      "L5 adaptive advertising"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0.0070922",
+      "0.00266667",
+      "0.00586911",
+      "L5 adaptive advertising"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0.0151986",
+      "0.0146889",
+      "0.032329",
+      "L5 adaptive advertising"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0",
+      "0.000666667",
+      "0.00146728",
+      "L5 adaptive advertising"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0.0150843",
+      "0.0143778",
+      "0.0316443",
+      "L5 adaptive advertising"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrlrrrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq1",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq1_advertising_sponsored_shares.tex": "e02640d7807b67ddbde7d4293414f7beca4003eb34d7466a40f0479c59c3e12f",
+    "rq1_advertising_sponsored_shares.csv": "cd7d0c9cc16fa61db7ccb2b9588777805647f1729e256dc3a7923a6efe7c0691"
+  }
+}

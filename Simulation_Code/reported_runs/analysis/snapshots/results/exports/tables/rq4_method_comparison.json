@@ -1,0 +1,373 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq4_method_comparison",
+  "label": "chap:results:tab:rq4_method_comparison",
+  "caption": "In-processing minus post-processing Head-click share, paired within response model, stage, population, and seed, in percentage points.",
+  "rows": 30,
+  "source_columns": [
+    "dataset",
+    "comparison",
+    "model",
+    "seed",
+    "population_seed",
+    "window",
+    "value",
+    "effect_unit"
+  ],
+  "source_dtypes": {
+    "dataset": "str",
+    "comparison": "str",
+    "model": "str",
+    "seed": "int64",
+    "population_seed": "int64",
+    "window": "str",
+    "value": "float64",
+    "effect_unit": "str"
+  },
+  "display_columns": [
+    "dataset",
+    "comparison",
+    "model",
+    "seed",
+    "population_seed",
+    "window",
+    "value",
+    "effect_unit"
+  ],
+  "display_rows": [
+    [
+      "movielens",
+      "L3 in-processing minus post-processing",
+      "agentic_recommender",
+      "42",
+      "1054",
+      "mean_1_30",
+      "4.75427",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L3 in-processing minus post-processing",
+      "agentic_recommender",
+      "42",
+      "1054",
+      "iteration_30",
+      "-9.54198",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "direct_llm",
+      "42",
+      "1054",
+      "mean_1_30",
+      "13.4687",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "direct_llm",
+      "42",
+      "1054",
+      "iteration_30",
+      "30.5663",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "1054",
+      "mean_1_30",
+      "65.8778",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "ncm_inspired_gru_mansoury",
+      "42",
+      "1054",
+      "iteration_30",
+      "75.6667",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "1054",
+      "mean_1_30",
+      "32.7778",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "ncm_inspired_gru_uniform",
+      "42",
+      "1054",
+      "iteration_30",
+      "47.3333",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "position_biased",
+      "42",
+      "1054",
+      "mean_1_30",
+      "63.2444",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "position_biased",
+      "42",
+      "1054",
+      "iteration_30",
+      "64.3333",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L3 in-processing minus post-processing",
+      "agentic_recommender",
+      "43",
+      "19277",
+      "mean_1_30",
+      "10.7268",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L3 in-processing minus post-processing",
+      "agentic_recommender",
+      "43",
+      "19277",
+      "iteration_30",
+      "2.64748",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "direct_llm",
+      "43",
+      "19277",
+      "mean_1_30",
+      "16.6944",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "direct_llm",
+      "43",
+      "19277",
+      "iteration_30",
+      "49.3994",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "19277",
+      "mean_1_30",
+      "73.4111",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "ncm_inspired_gru_mansoury",
+      "43",
+      "19277",
+      "iteration_30",
+      "82.6667",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "19277",
+      "mean_1_30",
+      "30.4111",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "ncm_inspired_gru_uniform",
+      "43",
+      "19277",
+      "iteration_30",
+      "34.3333",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "position_biased",
+      "43",
+      "19277",
+      "mean_1_30",
+      "65.2889",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "position_biased",
+      "43",
+      "19277",
+      "iteration_30",
+      "74.6667",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L3 in-processing minus post-processing",
+      "agentic_recommender",
+      "44",
+      "18844",
+      "mean_1_30",
+      "8.51736",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L3 in-processing minus post-processing",
+      "agentic_recommender",
+      "44",
+      "18844",
+      "iteration_30",
+      "1.26482",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "direct_llm",
+      "44",
+      "18844",
+      "mean_1_30",
+      "15.4961",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "direct_llm",
+      "44",
+      "18844",
+      "iteration_30",
+      "14.9568",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "18844",
+      "mean_1_30",
+      "73.7889",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "ncm_inspired_gru_mansoury",
+      "44",
+      "18844",
+      "iteration_30",
+      "86.6667",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "18844",
+      "mean_1_30",
+      "24.1556",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "ncm_inspired_gru_uniform",
+      "44",
+      "18844",
+      "iteration_30",
+      "34",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "position_biased",
+      "44",
+      "18844",
+      "mean_1_30",
+      "65.9556",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L2 in-processing minus post-processing",
+      "position_biased",
+      "44",
+      "18844",
+      "iteration_30",
+      "73.3333",
+      "percentage points"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lllrrlrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq4",
+    "source_blocks": [
+      {
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq4_method_comparison.tex": "32aa8cf689761d8cc7649d4c2b39c10fa94f2777d63651c44c232dd130307ec4",
+    "rq4_method_comparison.csv": "181a84f952fdf181229fbf133f6f852f2cecb906868e1e1ee6fd7ee6ac9cfa47"
+  }
+}

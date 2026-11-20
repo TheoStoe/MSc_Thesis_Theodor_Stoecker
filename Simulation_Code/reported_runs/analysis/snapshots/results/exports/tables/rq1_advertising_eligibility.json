@@ -1,0 +1,198 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq1_advertising_eligibility",
+  "label": "chap:results:tab:rq1_advertising_eligibility",
+  "caption": "Advertising mechanism diagnostics. Organic campaign eligibility is not applicable; its saved zeros are masked only in this display view, while genuine zero sponsored exposures/clicks remain zero. Equal-weight mean over iterations 1--30 and iteration-30 endpoint. Shares are fractions; share gaps are percentage points. Undefined denominators remain missing.",
+  "rows": 18,
+  "source_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Advertising eligibility share",
+    "Users eligible for advertising",
+    "Condition"
+  ],
+  "source_dtypes": {
+    "Model": "str",
+    "Seed": "int64",
+    "Time summary": "str",
+    "Advertising eligibility share": "float64",
+    "Users eligible for advertising": "float64",
+    "Condition": "str"
+  },
+  "display_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Advertising eligibility share",
+    "Users eligible for advertising",
+    "Condition"
+  ],
+  "display_rows": [
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "—",
+      "—",
+      "Organic advertising control"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "—",
+      "—",
+      "Organic advertising control"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "—",
+      "—",
+      "Organic advertising control"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "—",
+      "—",
+      "Organic advertising control"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "—",
+      "—",
+      "Organic advertising control"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "—",
+      "—",
+      "Organic advertising control"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "1",
+      "139",
+      "Static advertising"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "1",
+      "147.367",
+      "Static advertising"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "1",
+      "144",
+      "Static advertising"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "1",
+      "148.667",
+      "Static advertising"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "1",
+      "150",
+      "Static advertising"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "1",
+      "150",
+      "Static advertising"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0.02",
+      "3",
+      "L5 adaptive advertising"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0.151333",
+      "22.7",
+      "L5 adaptive advertising"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0.0266667",
+      "4",
+      "L5 adaptive advertising"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0.146889",
+      "22.0333",
+      "L5 adaptive advertising"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0.00666667",
+      "1",
+      "L5 adaptive advertising"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0.143778",
+      "21.5667",
+      "L5 adaptive advertising"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrlrrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq1",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq1_advertising_eligibility.tex": "399b6ecd325ffcc88f0c227d4600d7fd0d6a4a5d94e482c0b0f0cea5b7ba6533",
+    "rq1_advertising_eligibility.csv": "9c25a2c0faabb086c28ecf26d1ce7891f1c1a14171beb8f5cab0e7b60f6db94b"
+  }
+}

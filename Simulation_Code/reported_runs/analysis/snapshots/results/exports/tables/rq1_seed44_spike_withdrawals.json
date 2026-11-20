@@ -1,0 +1,55 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq1_seed44_spike_withdrawals",
+  "label": "chap:results:tab:rq1_seed44_spike_withdrawals",
+  "caption": "Original three-strike withdrawal counts for users not receiving the iteration5 sponsor in the adaptive run.",
+  "rows": 2,
+  "source_columns": [
+    "Withdrawal effective",
+    "users",
+    "clicked_an_organic_item_on_all_three"
+  ],
+  "source_dtypes": {
+    "Withdrawal effective": "int64",
+    "users": "int64",
+    "clicked_an_organic_item_on_all_three": "int64"
+  },
+  "display_columns": [
+    "Withdrawal effective",
+    "users",
+    "clicked_an_organic_item_on_all_three"
+  ],
+  "display_rows": [
+    [
+      "4",
+      "87",
+      "79"
+    ],
+    [
+      "5",
+      "50",
+      "47"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "rrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq1_spike",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq1_seed44_spike_withdrawals.tex": "99a5d57fbc3d226b19520d676d2d571f1470438f9e4d900d35f80a28246ac692",
+    "rq1_seed44_spike_withdrawals.csv": "9b51124cc30ed76f2c60feda1bddeb21966a9c0096a613c41ba9c836ba3d01ef"
+  }
+}

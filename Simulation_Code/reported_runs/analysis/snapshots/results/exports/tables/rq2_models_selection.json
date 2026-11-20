@@ -1,0 +1,774 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq2_models_selection",
+  "label": "chap:results:tab:rq2_models_selection",
+  "caption": "Response models at comparable L0--L2 stages. Equal-weight mean over iterations 1--30 and iteration-30 endpoint. Shares are fractions; share gaps are percentage points. Undefined denominators remain missing.",
+  "rows": 90,
+  "source_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Click-exposure gap (unweighted exposure) (pp)",
+    "Click-exposure gap (rank-weighted exposure) (pp)",
+    "Condition"
+  ],
+  "source_dtypes": {
+    "Model": "str",
+    "Seed": "int64",
+    "Time summary": "str",
+    "Click-exposure gap (unweighted exposure) (pp)": "float64",
+    "Click-exposure gap (rank-weighted exposure) (pp)": "float64",
+    "Condition": "str"
+  },
+  "display_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Click-exposure gap (unweighted exposure) (pp)",
+    "Click-exposure gap (rank-weighted exposure) (pp)",
+    "Condition"
+  ],
+  "display_rows": [
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "6.14815",
+      "5.21605",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "3.41773",
+      "2.81456",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "-2.11818",
+      "-3.27226",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0.376158",
+      "-0.184849",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0.957471",
+      "0.0613996",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0.621185",
+      "-0.138879",
+      "L0 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "-1.33188",
+      "-1.49821",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "-0.950733",
+      "-1.44214",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "-5.97778",
+      "-6.26526",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "-2.74893",
+      "-3.48029",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "-6.13383",
+      "-6.69862",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "-4.21922",
+      "-4.82555",
+      "L1 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "4.2383",
+      "5.98686",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0.0778177",
+      "-0.441187",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "-9.31127",
+      "-6.51187",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "-3.65774",
+      "-3.125",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "-0.726241",
+      "-0.187737",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "-2.87656",
+      "-3.36861",
+      "L2 -- frozen agent"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "iteration_30",
+      "7.45714",
+      "7.22594",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "mean_1_30",
+      "11.6428",
+      "11.3413",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "iteration_30",
+      "8.27619",
+      "8.5032",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "mean_1_30",
+      "10.5144",
+      "10.6418",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "iteration_30",
+      "4.7186",
+      "4.41264",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "mean_1_30",
+      "8.56047",
+      "8.27159",
+      "L0"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "iteration_30",
+      "13.2667",
+      "12.8469",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "mean_1_30",
+      "10.3956",
+      "9.89988",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "iteration_30",
+      "7.3",
+      "6.57626",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "mean_1_30",
+      "9.42167",
+      "8.683",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "iteration_30",
+      "14.7316",
+      "13.5635",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "mean_1_30",
+      "9.09188",
+      "8.25411",
+      "L1"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "iteration_30",
+      "-0.872081",
+      "-0.82825",
+      "L2"
+    ],
+    [
+      "Direct LLM",
+      "42",
+      "mean_1_30",
+      "3.17449",
+      "2.87328",
+      "L2"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "iteration_30",
+      "-8.54224",
+      "-7.3188",
+      "L2"
+    ],
+    [
+      "Direct LLM",
+      "43",
+      "mean_1_30",
+      "3.08851",
+      "2.51409",
+      "L2"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "iteration_30",
+      "-0.410526",
+      "-1.50074",
+      "L2"
+    ],
+    [
+      "Direct LLM",
+      "44",
+      "mean_1_30",
+      "5.18221",
+      "4.42019",
+      "L2"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "iteration_30",
+      "6.96667",
+      "8.10533",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "mean_1_30",
+      "3.12111",
+      "4.164",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "iteration_30",
+      "2.5",
+      "4.00944",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "mean_1_30",
+      "3.13778",
+      "4.1277",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "iteration_30",
+      "3.26667",
+      "4.60884",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "mean_1_30",
+      "2.55333",
+      "3.50896",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "iteration_30",
+      "-0.0333333",
+      "0.189288",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "mean_1_30",
+      "3.57",
+      "3.33743",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "iteration_30",
+      "2.63333",
+      "2.91115",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "mean_1_30",
+      "4.19444",
+      "3.8867",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "iteration_30",
+      "2.93333",
+      "2.88697",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "mean_1_30",
+      "3.87667",
+      "3.50723",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "iteration_30",
+      "5.7",
+      "5.31258",
+      "L2"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "mean_1_30",
+      "4.10333",
+      "3.46214",
+      "L2"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "iteration_30",
+      "0.0666667",
+      "0.132927",
+      "L2"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "mean_1_30",
+      "4.20889",
+      "3.58872",
+      "L2"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "iteration_30",
+      "0.4",
+      "0.344137",
+      "L2"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "mean_1_30",
+      "3.66111",
+      "3.13038",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "iteration_30",
+      "17.4",
+      "20.7945",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "mean_1_30",
+      "11.5844",
+      "14.1313",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "iteration_30",
+      "12.9333",
+      "16.9604",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "mean_1_30",
+      "11.2567",
+      "13.917",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "iteration_30",
+      "18.8333",
+      "22.6189",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "mean_1_30",
+      "11.4233",
+      "14.3248",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "iteration_30",
+      "8.9",
+      "9.59426",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "mean_1_30",
+      "9.94778",
+      "9.76273",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "iteration_30",
+      "10.5667",
+      "10.3495",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "mean_1_30",
+      "10.6389",
+      "10.2091",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "iteration_30",
+      "8.4",
+      "8.49893",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "mean_1_30",
+      "10.4989",
+      "10.082",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "iteration_30",
+      "2.5",
+      "2.06834",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "mean_1_30",
+      "4.61222",
+      "4.00653",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "iteration_30",
+      "3.3",
+      "2.64408",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "mean_1_30",
+      "4.54778",
+      "3.83447",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "iteration_30",
+      "2.33333",
+      "1.65318",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "mean_1_30",
+      "4.80556",
+      "4.25331",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "iteration_30",
+      "1.8",
+      "1.33578",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "mean_1_30",
+      "1.14667",
+      "0.980102",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "iteration_30",
+      "1.43333",
+      "0.818457",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "mean_1_30",
+      "1.10667",
+      "0.773654",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "iteration_30",
+      "1.33333",
+      "1.10557",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "mean_1_30",
+      "0.774444",
+      "0.569332",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "iteration_30",
+      "-2.73333",
+      "-2.83202",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "mean_1_30",
+      "0.695556",
+      "0.508577",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "iteration_30",
+      "0.0666667",
+      "-0.263676",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "mean_1_30",
+      "1.45333",
+      "1.13443",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "iteration_30",
+      "-2.66667",
+      "-2.69064",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "mean_1_30",
+      "2.00222",
+      "1.54998",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "iteration_30",
+      "1.76667",
+      "1.15373",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "mean_1_30",
+      "1.86444",
+      "1.25938",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "iteration_30",
+      "-1.4",
+      "-1.84217",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "mean_1_30",
+      "2.67",
+      "1.83675",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "iteration_30",
+      "3.7",
+      "2.58388",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "mean_1_30",
+      "3.05444",
+      "2.18075",
+      "L2"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrlrrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq2",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq2_models_selection.tex": "c10c5925afada9ebd3837b4cbcfcaae802236188119179b62bd6c813df530b75",
+    "rq2_models_selection.csv": "41cdbad54ef2526cea08d5f66a17141203b7080711bedb8710cd08c7e3091536"
+  }
+}

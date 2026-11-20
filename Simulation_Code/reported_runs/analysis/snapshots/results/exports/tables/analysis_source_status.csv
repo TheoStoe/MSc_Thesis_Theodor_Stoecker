@@ -1,0 +1,6 @@
+dataset,study,status,logical_cells,physical_trajectories
+goodreads,goodreads_gender_a300_e804,complete,42,42
+goodreads,goodreads_gender_mitigation_a300_e804,complete,81,63
+movielens,movielens_feedback_a300_e804,complete,54,54
+movielens,movielens_mitigation_a300_e804,complete,45,45
+movielens,movielens_sampling_outcome_a150_r150_e804,complete,21,21

@@ -1,0 +1,165 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq3_reflection_totals",
+  "label": "chap:results:tab:rq3_reflection_totals",
+  "caption": "Requested, successfully applied, and failed reflection updates summed over all 30 iterations, with failed updates divided by all requested updates. Absence of a request is not a failed update; no requests gives an undefined proportion.",
+  "rows": 12,
+  "source_columns": [
+    "Model",
+    "Seed",
+    "reflection_requested",
+    "reflection_applied",
+    "reflection_failed",
+    "Condition",
+    "Failed / requested updates"
+  ],
+  "source_dtypes": {
+    "Model": "str",
+    "Seed": "int64",
+    "reflection_requested": "int64",
+    "reflection_applied": "int64",
+    "reflection_failed": "int64",
+    "Condition": "str",
+    "Failed / requested updates": "float64"
+  },
+  "display_columns": [
+    "Model",
+    "Seed",
+    "reflection_requested",
+    "reflection_applied",
+    "reflection_failed",
+    "Condition",
+    "Failed / requested updates"
+  ],
+  "display_rows": [
+    [
+      "Agent",
+      "42",
+      "0",
+      "0",
+      "0",
+      "L2 -- frozen agent",
+      "—"
+    ],
+    [
+      "Agent",
+      "42",
+      "9000",
+      "9000",
+      "0",
+      "L3 -- fixed profile",
+      "0"
+    ],
+    [
+      "Agent",
+      "42",
+      "9000",
+      "9000",
+      "0",
+      "L3 -- full reflection",
+      "0"
+    ],
+    [
+      "Agent",
+      "42",
+      "0",
+      "0",
+      "0",
+      "L3 -- no reflection",
+      "—"
+    ],
+    [
+      "Agent",
+      "43",
+      "0",
+      "0",
+      "0",
+      "L2 -- frozen agent",
+      "—"
+    ],
+    [
+      "Agent",
+      "43",
+      "9000",
+      "9000",
+      "0",
+      "L3 -- fixed profile",
+      "0"
+    ],
+    [
+      "Agent",
+      "43",
+      "9000",
+      "9000",
+      "0",
+      "L3 -- full reflection",
+      "0"
+    ],
+    [
+      "Agent",
+      "43",
+      "0",
+      "0",
+      "0",
+      "L3 -- no reflection",
+      "—"
+    ],
+    [
+      "Agent",
+      "44",
+      "0",
+      "0",
+      "0",
+      "L2 -- frozen agent",
+      "—"
+    ],
+    [
+      "Agent",
+      "44",
+      "9000",
+      "9000",
+      "0",
+      "L3 -- fixed profile",
+      "0"
+    ],
+    [
+      "Agent",
+      "44",
+      "9000",
+      "9000",
+      "0",
+      "L3 -- full reflection",
+      "0"
+    ],
+    [
+      "Agent",
+      "44",
+      "0",
+      "0",
+      "0",
+      "L3 -- no reflection",
+      "—"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrrrrlr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq3",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq3_reflection_totals.tex": "255200854aa4ffc707c823b8e0b42d740eb0baf0a58fa6c9e961ab0a254821f5",
+    "rq3_reflection_totals.csv": "ecd976211b2f6387e087c985d6adf30d07d4dfe72aa6341d30bd8fd8bc8c336d"
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq1_advertising_ranks_2_10_levels",
+  "label": "chap:results:tab:rq1_advertising_ranks_2_10_levels",
+  "caption": "Head exposure and weighted head exposure using only displayed ranks 2--10 in every advertising condition. Values are shares, with the mean over iterations 1--30 and iteration-30 endpoint separate. Weighted exposure retains original rank discounts d(2) through d(10), normalised over those nine weights.",
+  "rows": 18,
+  "source_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Head exposure (displayed ranks 2–10)",
+    "Weighted head exposure (displayed ranks 2–10)",
+    "Condition"
+  ],
+  "source_dtypes": {
+    "Model": "str",
+    "Seed": "int64",
+    "Time summary": "str",
+    "Head exposure (displayed ranks 2–10)": "float64",
+    "Weighted head exposure (displayed ranks 2–10)": "float64",
+    "Condition": "str"
+  },
+  "display_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Head exposure (displayed ranks 2–10)",
+    "Weighted head exposure (displayed ranks 2–10)",
+    "Condition"
+  ],
+  "display_rows": [
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0.606838",
+      "0.591442",
+      "Organic advertising control"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0.702847",
+      "0.701876",
+      "Organic advertising control"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0.67037",
+      "0.667329",
+      "Organic advertising control"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0.741062",
+      "0.742015",
+      "Organic advertising control"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0.64",
+      "0.63551",
+      "Organic advertising control"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0.723432",
+      "0.722733",
+      "Organic advertising control"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0.577138",
+      "0.571718",
+      "Static advertising"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0.709674",
+      "0.711308",
+      "Static advertising"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0.688272",
+      "0.678811",
+      "Static advertising"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0.720388",
+      "0.718061",
+      "Static advertising"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0.517778",
+      "0.4941",
+      "Static advertising"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0.666617",
+      "0.65364",
+      "Static advertising"
+    ],
+    [
+      "Agent",
+      "42",
+      "iteration_30",
+      "0.628148",
+      "0.624232",
+      "L5 adaptive advertising"
+    ],
+    [
+      "Agent",
+      "42",
+      "mean_1_30",
+      "0.682617",
+      "0.683512",
+      "L5 adaptive advertising"
+    ],
+    [
+      "Agent",
+      "43",
+      "iteration_30",
+      "0.644444",
+      "0.634225",
+      "L5 adaptive advertising"
+    ],
+    [
+      "Agent",
+      "43",
+      "mean_1_30",
+      "0.704716",
+      "0.703248",
+      "L5 adaptive advertising"
+    ],
+    [
+      "Agent",
+      "44",
+      "iteration_30",
+      "0.612593",
+      "0.604995",
+      "L5 adaptive advertising"
+    ],
+    [
+      "Agent",
+      "44",
+      "mean_1_30",
+      "0.681407",
+      "0.678427",
+      "L5 adaptive advertising"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrlrrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq1",
+    "source_blocks": [
+      {
+        "physical_run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O0_organic__seed_42",
+        "run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O0_organic__seed_42",
+        "condition_id": "O0_organic",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O1_static_ad__seed_42",
+        "run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O1_static_ad__seed_42",
+        "condition_id": "O1_static_ad",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_42",
+        "run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_42",
+        "condition_id": "O2_adaptive_ad_three_strike",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O0_organic__seed_43",
+        "run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O0_organic__seed_43",
+        "condition_id": "O0_organic",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O1_static_ad__seed_43",
+        "run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O1_static_ad__seed_43",
+        "condition_id": "O1_static_ad",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_43",
+        "run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_43",
+        "condition_id": "O2_adaptive_ad_three_strike",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O0_organic__seed_44",
+        "run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O0_organic__seed_44",
+        "condition_id": "O0_organic",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O1_static_ad__seed_44",
+        "run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O1_static_ad__seed_44",
+        "condition_id": "O1_static_ad",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_44",
+        "run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_44",
+        "condition_id": "O2_adaptive_ad_three_strike",
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq1_advertising_ranks_2_10_levels.tex": "d1a589721a80a96341e59c351c3a105cfdedb867e540ae1cac66be9080e4bf0c",
+    "rq1_advertising_ranks_2_10_levels.csv": "4bfa157de13203cd75e46c39b70838a8fe1e8988c87f1c4e4914e113eee9c57f"
+  }
+}

@@ -1,0 +1,32 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lllrrrrr}
+\hline
+comparison & metric & window & n\_seed\_blocks & min\_effect & max\_effect & reference\_min & reference\_max \\
+\hline
+Decision-input noise check: no reflection minus frozen agent & head\_click\_share & iteration\_30 & 3 & -19.0325 & 3.90071 & -19.0325 & 3.90071 \\
+Reflection notes: fixed profile minus no reflection & head\_click\_share & iteration\_30 & 3 & -10.1239 & 15.537 & -19.0325 & 3.90071 \\
+Profile updates: full reflection minus fixed profile & head\_click\_share & iteration\_30 & 3 & -9.21833 & 1.02309 & -19.0325 & 3.90071 \\
+Decision-input noise check: no reflection minus frozen agent & head\_click\_share & mean\_1\_30 & 3 & -3.92734 & 4.47714 & -3.92734 & 4.47714 \\
+Reflection notes: fixed profile minus no reflection & head\_click\_share & mean\_1\_30 & 3 & -7.53558 & -0.0732353 & -3.92734 & 4.47714 \\
+Profile updates: full reflection minus fixed profile & head\_click\_share & mean\_1\_30 & 3 & -3.46881 & 2.835 & -3.92734 & 4.47714 \\
+Decision-input noise check: no reflection minus frozen agent & head\_exposure & iteration\_30 & 3 & -2.93333 & 6.53333 & -2.93333 & 6.53333 \\
+Reflection notes: fixed profile minus no reflection & head\_exposure & iteration\_30 & 3 & -3.6 & 7.36667 & -2.93333 & 6.53333 \\
+Profile updates: full reflection minus fixed profile & head\_exposure & iteration\_30 & 3 & -3 & 0.6 & -2.93333 & 6.53333 \\
+Decision-input noise check: no reflection minus frozen agent & head\_exposure & mean\_1\_30 & 3 & -2.77889 & 6.63111 & -2.77889 & 6.63111 \\
+Reflection notes: fixed profile minus no reflection & head\_exposure & mean\_1\_30 & 3 & -6.56 & 3.5 & -2.77889 & 6.63111 \\
+Profile updates: full reflection minus fixed profile & head\_exposure & mean\_1\_30 & 3 & -2.45889 & 3.04778 & -2.77889 & 6.63111 \\
+Decision-input noise check: no reflection minus frozen agent & weighted\_head\_exposure & iteration\_30 & 3 & -3.09533 & 6.90729 & -3.09533 & 6.90729 \\
+Reflection notes: fixed profile minus no reflection & weighted\_head\_exposure & iteration\_30 & 3 & -5.43967 & 7.42811 & -3.09533 & 6.90729 \\
+Profile updates: full reflection minus fixed profile & weighted\_head\_exposure & iteration\_30 & 3 & -2.78909 & 1.57695 & -3.09533 & 6.90729 \\
+Decision-input noise check: no reflection minus frozen agent & weighted\_head\_exposure & mean\_1\_30 & 3 & -3.06531 & 7.22064 & -3.06531 & 7.22064 \\
+Reflection notes: fixed profile minus no reflection & weighted\_head\_exposure & mean\_1\_30 & 3 & -6.6214 & 1.98599 & -3.06531 & 7.22064 \\
+Profile updates: full reflection minus fixed profile & weighted\_head\_exposure & mean\_1\_30 & 3 & -2.07418 & 3.07511 & -3.06531 & 7.22064 \\
+\hline
+\end{tabular}
+\caption{Observed effect ranges across the available seed/population pairs, with the first contrast as a matched metric/time-summary reference. All effects are percentage points. Ranges are descriptive, not confidence intervals or significance thresholds.}
+\label{chap:results:tab:rq3_effect_ranges_and_noise_reference}
+\end{table}

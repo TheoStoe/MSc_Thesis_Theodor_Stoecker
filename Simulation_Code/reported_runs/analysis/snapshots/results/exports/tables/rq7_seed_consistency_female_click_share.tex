@@ -1,0 +1,80 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lllllrrrrrrrll}
+\hline
+dataset & comparison & model & metric & window & n\_seed\_blocks & mean\_effect & min\_effect & max\_effect & positive & negative & zero & missing\_seeds & effect\_unit \\
+\hline
+goodreads & L2 minus L0 & agentic\_recommender & female\_click\_share & mean\_1\_30 & 3 & 15.7284 & 12.6644 & 18.0911 & 3 & 0 & 0 &  & percentage points \\
+goodreads & L2 minus L0 & agentic\_recommender & female\_click\_share & iteration\_30 & 3 & 30.5988 & 27.5194 & 35.7772 & 3 & 0 & 0 &  & percentage points \\
+goodreads & L3 full reflection minus L2 frozen agent & agentic\_recommender & female\_click\_share & mean\_1\_30 & 3 & -4.23404 & -17.4325 & 4.30114 & 2 & 1 & 0 &  & percentage points \\
+goodreads & L3 full reflection minus L2 frozen agent & agentic\_recommender & female\_click\_share & iteration\_30 & 3 & -11.8992 & -14.5911 & -7.30153 & 0 & 3 & 0 &  & percentage points \\
+goodreads & L2 minus L0 & direct\_llm & female\_click\_share & mean\_1\_30 & 2 & -3.62796 & -7.95984 & 0.70393 & 1 & 1 & 0 & 43 & percentage points \\
+goodreads & L2 minus L0 & direct\_llm & female\_click\_share & iteration\_30 & 3 & 22.7451 & -2.94118 & 41.1765 & 2 & 1 & 0 &  & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_mansoury & female\_click\_share & mean\_1\_30 & 3 & -4.64074 & -7.18889 & -2.55556 & 0 & 3 & 0 &  & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_mansoury & female\_click\_share & iteration\_30 & 3 & -1 & -31.3333 & 15.3333 & 2 & 1 & 0 &  & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_uniform & female\_click\_share & mean\_1\_30 & 3 & -6.85556 & -11.8556 & 1.13333 & 1 & 2 & 0 &  & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_uniform & female\_click\_share & iteration\_30 & 3 & 0.111111 & -14 & 18.6667 & 1 & 2 & 0 &  & percentage points \\
+goodreads & L2 minus L0 & position\_biased & female\_click\_share & mean\_1\_30 & 3 & 3.52222 & -0.8 & 6.47778 & 2 & 1 & 0 &  & percentage points \\
+goodreads & L2 minus L0 & position\_biased & female\_click\_share & iteration\_30 & 3 & 2 & -2.66667 & 8.33333 & 2 & 1 & 0 &  & percentage points \\
+goodreads & L0 in-processing minus control & ncm\_inspired\_gru\_mansoury & female\_click\_share & mean\_1\_30 & 3 & 0 & 0 & 0 & 0 & 0 & 3 &  & percentage points \\
+goodreads & L0 in-processing minus control & ncm\_inspired\_gru\_mansoury & female\_click\_share & iteration\_30 & 3 & 0 & 0 & 0 & 0 & 0 & 3 &  & percentage points \\
+goodreads & L0 post-processing minus control & ncm\_inspired\_gru\_mansoury & female\_click\_share & mean\_1\_30 & 3 & 4.5 & 4.02222 & 5.17778 & 3 & 0 & 0 &  & percentage points \\
+goodreads & L0 post-processing minus control & ncm\_inspired\_gru\_mansoury & female\_click\_share & iteration\_30 & 3 & 1.33333 & -1.33333 & 3 & 2 & 1 & 0 &  & percentage points \\
+goodreads & L0 in-processing minus post-processing & ncm\_inspired\_gru\_mansoury & female\_click\_share & mean\_1\_30 & 3 & -4.5 & -5.17778 & -4.02222 & 0 & 3 & 0 &  & percentage points \\
+goodreads & L0 in-processing minus post-processing & ncm\_inspired\_gru\_mansoury & female\_click\_share & iteration\_30 & 3 & -1.33333 & -3 & 1.33333 & 1 & 2 & 0 &  & percentage points \\
+goodreads & L1 in-processing minus control & ncm\_inspired\_gru\_mansoury & female\_click\_share & mean\_1\_30 & 3 & 0 & 0 & 0 & 0 & 0 & 3 &  & percentage points \\
+goodreads & L1 in-processing minus control & ncm\_inspired\_gru\_mansoury & female\_click\_share & iteration\_30 & 3 & 0 & 0 & 0 & 0 & 0 & 3 &  & percentage points \\
+goodreads & L1 post-processing minus control & ncm\_inspired\_gru\_mansoury & female\_click\_share & mean\_1\_30 & 3 & 41.9296 & 39.8333 & 43.8556 & 3 & 0 & 0 &  & percentage points \\
+goodreads & L1 post-processing minus control & ncm\_inspired\_gru\_mansoury & female\_click\_share & iteration\_30 & 3 & 38.1111 & 34.3333 & 41.3333 & 3 & 0 & 0 &  & percentage points \\
+goodreads & L1 in-processing minus post-processing & ncm\_inspired\_gru\_mansoury & female\_click\_share & mean\_1\_30 & 3 & -41.9296 & -43.8556 & -39.8333 & 0 & 3 & 0 &  & percentage points \\
+goodreads & L1 in-processing minus post-processing & ncm\_inspired\_gru\_mansoury & female\_click\_share & iteration\_30 & 3 & -38.1111 & -41.3333 & -34.3333 & 0 & 3 & 0 &  & percentage points \\
+goodreads & L2 in-processing minus control & ncm\_inspired\_gru\_mansoury & female\_click\_share & mean\_1\_30 & 3 & 13.6519 & 6.56667 & 22.6444 & 3 & 0 & 0 &  & percentage points \\
+goodreads & L2 in-processing minus control & ncm\_inspired\_gru\_mansoury & female\_click\_share & iteration\_30 & 3 & 3.44444 & -19 & 15.6667 & 2 & 1 & 0 &  & percentage points \\
+goodreads & L2 post-processing minus control & ncm\_inspired\_gru\_mansoury & female\_click\_share & mean\_1\_30 & 3 & 64.6074 & 61.5667 & 69.2667 & 3 & 0 & 0 &  & percentage points \\
+goodreads & L2 post-processing minus control & ncm\_inspired\_gru\_mansoury & female\_click\_share & iteration\_30 & 3 & 62.8889 & 47 & 93.6667 & 3 & 0 & 0 &  & percentage points \\
+goodreads & L2 in-processing minus post-processing & ncm\_inspired\_gru\_mansoury & female\_click\_share & mean\_1\_30 & 3 & -50.9556 & -57.5222 & -40.3444 & 0 & 3 & 0 &  & percentage points \\
+goodreads & L2 in-processing minus post-processing & ncm\_inspired\_gru\_mansoury & female\_click\_share & iteration\_30 & 3 & -59.4444 & -78 & -34.3333 & 0 & 3 & 0 &  & percentage points \\
+goodreads & L0 in-processing minus control & ncm\_inspired\_gru\_uniform & female\_click\_share & mean\_1\_30 & 3 & 0 & 0 & 0 & 0 & 0 & 3 &  & percentage points \\
+goodreads & L0 in-processing minus control & ncm\_inspired\_gru\_uniform & female\_click\_share & iteration\_30 & 3 & 0 & 0 & 0 & 0 & 0 & 3 &  & percentage points \\
+goodreads & L0 post-processing minus control & ncm\_inspired\_gru\_uniform & female\_click\_share & mean\_1\_30 & 3 & 1.11852 & 0.922222 & 1.32222 & 3 & 0 & 0 &  & percentage points \\
+goodreads & L0 post-processing minus control & ncm\_inspired\_gru\_uniform & female\_click\_share & iteration\_30 & 3 & 0.333333 & -0.333333 & 1 & 2 & 1 & 0 &  & percentage points \\
+goodreads & L0 in-processing minus post-processing & ncm\_inspired\_gru\_uniform & female\_click\_share & mean\_1\_30 & 3 & -1.11852 & -1.32222 & -0.922222 & 0 & 3 & 0 &  & percentage points \\
+goodreads & L0 in-processing minus post-processing & ncm\_inspired\_gru\_uniform & female\_click\_share & iteration\_30 & 3 & -0.333333 & -1 & 0.333333 & 1 & 2 & 0 &  & percentage points \\
+goodreads & L1 in-processing minus control & ncm\_inspired\_gru\_uniform & female\_click\_share & mean\_1\_30 & 3 & 0 & 0 & 0 & 0 & 0 & 3 &  & percentage points \\
+goodreads & L1 in-processing minus control & ncm\_inspired\_gru\_uniform & female\_click\_share & iteration\_30 & 3 & 0 & 0 & 0 & 0 & 0 & 3 &  & percentage points \\
+goodreads & L1 post-processing minus control & ncm\_inspired\_gru\_uniform & female\_click\_share & mean\_1\_30 & 3 & 21.7926 & 20.6333 & 23.3 & 3 & 0 & 0 &  & percentage points \\
+goodreads & L1 post-processing minus control & ncm\_inspired\_gru\_uniform & female\_click\_share & iteration\_30 & 3 & 21.3333 & 15.6667 & 25 & 3 & 0 & 0 &  & percentage points \\
+goodreads & L1 in-processing minus post-processing & ncm\_inspired\_gru\_uniform & female\_click\_share & mean\_1\_30 & 3 & -21.7926 & -23.3 & -20.6333 & 0 & 3 & 0 &  & percentage points \\
+goodreads & L1 in-processing minus post-processing & ncm\_inspired\_gru\_uniform & female\_click\_share & iteration\_30 & 3 & -21.3333 & -25 & -15.6667 & 0 & 3 & 0 &  & percentage points \\
+goodreads & L2 in-processing minus control & ncm\_inspired\_gru\_uniform & female\_click\_share & mean\_1\_30 & 3 & 7.57407 & 4.4 & 10.6111 & 3 & 0 & 0 &  & percentage points \\
+goodreads & L2 in-processing minus control & ncm\_inspired\_gru\_uniform & female\_click\_share & iteration\_30 & 3 & -0.111111 & -16.3333 & 8.33333 & 2 & 1 & 0 &  & percentage points \\
+goodreads & L2 post-processing minus control & ncm\_inspired\_gru\_uniform & female\_click\_share & mean\_1\_30 & 3 & 48.5407 & 44.5889 & 53.1222 & 3 & 0 & 0 &  & percentage points \\
+goodreads & L2 post-processing minus control & ncm\_inspired\_gru\_uniform & female\_click\_share & iteration\_30 & 3 & 43.2222 & 25.3333 & 53.6667 & 3 & 0 & 0 &  & percentage points \\
+goodreads & L2 in-processing minus post-processing & ncm\_inspired\_gru\_uniform & female\_click\_share & mean\_1\_30 & 3 & -40.9667 & -45.4111 & -37.3 & 0 & 3 & 0 &  & percentage points \\
+goodreads & L2 in-processing minus post-processing & ncm\_inspired\_gru\_uniform & female\_click\_share & iteration\_30 & 3 & -43.3333 & -46 & -41.6667 & 0 & 3 & 0 &  & percentage points \\
+goodreads & L0 in-processing minus control & position\_biased & female\_click\_share & mean\_1\_30 & 3 & 0 & 0 & 0 & 0 & 0 & 3 &  & percentage points \\
+goodreads & L0 in-processing minus control & position\_biased & female\_click\_share & iteration\_30 & 3 & 0 & 0 & 0 & 0 & 0 & 3 &  & percentage points \\
+goodreads & L0 post-processing minus control & position\_biased & female\_click\_share & mean\_1\_30 & 3 & 4.61852 & 4.15556 & 5.22222 & 3 & 0 & 0 &  & percentage points \\
+goodreads & L0 post-processing minus control & position\_biased & female\_click\_share & iteration\_30 & 3 & -1.55556 & -4.66667 & 3 & 1 & 2 & 0 &  & percentage points \\
+goodreads & L0 in-processing minus post-processing & position\_biased & female\_click\_share & mean\_1\_30 & 3 & -4.61852 & -5.22222 & -4.15556 & 0 & 3 & 0 &  & percentage points \\
+goodreads & L0 in-processing minus post-processing & position\_biased & female\_click\_share & iteration\_30 & 3 & 1.55556 & -3 & 4.66667 & 2 & 1 & 0 &  & percentage points \\
+goodreads & L1 in-processing minus control & position\_biased & female\_click\_share & mean\_1\_30 & 3 & 0 & 0 & 0 & 0 & 0 & 3 &  & percentage points \\
+goodreads & L1 in-processing minus control & position\_biased & female\_click\_share & iteration\_30 & 3 & 0 & 0 & 0 & 0 & 0 & 3 &  & percentage points \\
+goodreads & L1 post-processing minus control & position\_biased & female\_click\_share & mean\_1\_30 & 3 & 40.2741 & 39.5444 & 40.9889 & 3 & 0 & 0 &  & percentage points \\
+goodreads & L1 post-processing minus control & position\_biased & female\_click\_share & iteration\_30 & 3 & 44.5556 & 41.3333 & 47 & 3 & 0 & 0 &  & percentage points \\
+goodreads & L1 in-processing minus post-processing & position\_biased & female\_click\_share & mean\_1\_30 & 3 & -40.2741 & -40.9889 & -39.5444 & 0 & 3 & 0 &  & percentage points \\
+goodreads & L1 in-processing minus post-processing & position\_biased & female\_click\_share & iteration\_30 & 3 & -44.5556 & -47 & -41.3333 & 0 & 3 & 0 &  & percentage points \\
+goodreads & L2 in-processing minus control & position\_biased & female\_click\_share & mean\_1\_30 & 3 & 2.82222 & -0.288889 & 5.43333 & 2 & 1 & 0 &  & percentage points \\
+goodreads & L2 in-processing minus control & position\_biased & female\_click\_share & iteration\_30 & 3 & 9.11111 & 3.66667 & 13.3333 & 3 & 0 & 0 &  & percentage points \\
+goodreads & L2 post-processing minus control & position\_biased & female\_click\_share & mean\_1\_30 & 3 & 56.3333 & 54.2667 & 58.3222 & 3 & 0 & 0 &  & percentage points \\
+goodreads & L2 post-processing minus control & position\_biased & female\_click\_share & iteration\_30 & 3 & 59.2222 & 54.6667 & 63.6667 & 3 & 0 & 0 &  & percentage points \\
+goodreads & L2 in-processing minus post-processing & position\_biased & female\_click\_share & mean\_1\_30 & 3 & -53.5111 & -54.5556 & -52.8889 & 0 & 3 & 0 &  & percentage points \\
+goodreads & L2 in-processing minus post-processing & position\_biased & female\_click\_share & iteration\_30 & 3 & -50.1111 & -51 & -49 & 0 & 3 & 0 &  & percentage points \\
+\hline
+\end{tabular}
+\caption{Descriptive mean, minimum, maximum, and sign consistency of the paired effects across available seed/population blocks. Share differences use percentage points; missing seeds and block counts remain explicit.}
+\label{chap:results:tab:rq7_seed_consistency_female_click_share}
+\end{table}

@@ -1,0 +1,311 @@
+{
+  "analysis_name": "rq7_gender_mitigation_coverage_click_checks",
+  "label": "chap:results:fig:rq7_gender_mitigation_coverage_click_checks",
+  "recommended_for_main_text": false,
+  "rationale": "",
+  "context": {
+    "datasets": [
+      "Goodreads"
+    ],
+    "stages_by_model": {
+      "ncm_inspired_gru_mansoury": [
+        "L2"
+      ],
+      "ncm_inspired_gru_uniform": [
+        "L2"
+      ],
+      "position_biased": [
+        "L2"
+      ]
+    },
+    "seeds_by_model": {
+      "ncm_inspired_gru_mansoury": [
+        42,
+        43,
+        44
+      ],
+      "ncm_inspired_gru_uniform": [
+        42,
+        43,
+        44
+      ],
+      "position_biased": [
+        42,
+        43,
+        44
+      ]
+    },
+    "seeds_by_model_condition": {
+      "ncm_inspired_gru_mansoury": {
+        "no mitigation": [
+          42,
+          43,
+          44
+        ],
+        "in-processing": [
+          42,
+          43,
+          44
+        ],
+        "post-processing": [
+          42,
+          43,
+          44
+        ]
+      },
+      "ncm_inspired_gru_uniform": {
+        "no mitigation": [
+          42,
+          43,
+          44
+        ],
+        "in-processing": [
+          42,
+          43,
+          44
+        ],
+        "post-processing": [
+          42,
+          43,
+          44
+        ]
+      },
+      "position_biased": {
+        "no mitigation": [
+          42,
+          43,
+          44
+        ],
+        "in-processing": [
+          42,
+          43,
+          44
+        ],
+        "post-processing": [
+          42,
+          43,
+          44
+        ]
+      }
+    },
+    "time_summary": "Per-iteration values, iterations 1–30",
+    "windows": [],
+    "protocol": "300 active users",
+    "comparisons": [],
+    "encoding": "Panels: simulation seeds; line styles/markers: conditions",
+    "text": "Goodreads | 300 active users | Stages: L2\nPer-iteration values, iterations 1–30 | Simulation seeds: 42, 43, 44",
+    "plot_spec": {
+      "kind": "trajectory",
+      "facet": "seed",
+      "series": "condition_label",
+      "metrics": [
+        "weighted_unknown_exposure",
+        "weighted_ambiguous_exposure",
+        "click_rate"
+      ]
+    }
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq7",
+    "source_blocks": [
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_42",
+        "run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_42",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_control__order_probe",
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_42",
+        "run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_42",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_control__order_probe",
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__position_biased__sasrec__order_probe__seed_42",
+        "run_id": "goodreads_a300_e804_v1__L2_ml_model__position_biased__sasrec__order_probe__seed_42",
+        "condition_id": "L2_ml_model__position_biased__sasrec__gender_control__order_probe",
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_43",
+        "run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_43",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_control__order_probe",
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_43",
+        "run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_43",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_control__order_probe",
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__position_biased__sasrec__order_probe__seed_43",
+        "run_id": "goodreads_a300_e804_v1__L2_ml_model__position_biased__sasrec__order_probe__seed_43",
+        "condition_id": "L2_ml_model__position_biased__sasrec__gender_control__order_probe",
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_44",
+        "run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_44",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_control__order_probe",
+        "seed": 44,
+        "population_seed": 5245
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_44",
+        "run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_44",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_control__order_probe",
+        "seed": 44,
+        "population_seed": 5245
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__position_biased__sasrec__order_probe__seed_44",
+        "run_id": "goodreads_a300_e804_v1__L2_ml_model__position_biased__sasrec__order_probe__seed_44",
+        "condition_id": "L2_ml_model__position_biased__sasrec__gender_control__order_probe",
+        "seed": 44,
+        "population_seed": 5245
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_in_processing__order_probe__seed_42",
+        "run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_in_processing__order_probe__seed_42",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_in_processing__order_probe",
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_42",
+        "run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_42",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe",
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_in_processing__order_probe__seed_42",
+        "run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_in_processing__order_probe__seed_42",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_in_processing__order_probe",
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_42",
+        "run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_42",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe",
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_in_processing__order_probe__seed_42",
+        "run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_in_processing__order_probe__seed_42",
+        "condition_id": "L2_ml_model__position_biased__sasrec__gender_in_processing__order_probe",
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_post_processing__order_probe__seed_42",
+        "run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_post_processing__order_probe__seed_42",
+        "condition_id": "L2_ml_model__position_biased__sasrec__gender_post_processing__order_probe",
+        "seed": 42,
+        "population_seed": 16040
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_in_processing__order_probe__seed_43",
+        "run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_in_processing__order_probe__seed_43",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_in_processing__order_probe",
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_43",
+        "run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_43",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe",
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_in_processing__order_probe__seed_43",
+        "run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_in_processing__order_probe__seed_43",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_in_processing__order_probe",
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_43",
+        "run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_43",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe",
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_in_processing__order_probe__seed_43",
+        "run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_in_processing__order_probe__seed_43",
+        "condition_id": "L2_ml_model__position_biased__sasrec__gender_in_processing__order_probe",
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_post_processing__order_probe__seed_43",
+        "run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_post_processing__order_probe__seed_43",
+        "condition_id": "L2_ml_model__position_biased__sasrec__gender_post_processing__order_probe",
+        "seed": 43,
+        "population_seed": 11615
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_in_processing__order_probe__seed_44",
+        "run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_in_processing__order_probe__seed_44",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_in_processing__order_probe",
+        "seed": 44,
+        "population_seed": 5245
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_44",
+        "run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_44",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe",
+        "seed": 44,
+        "population_seed": 5245
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_in_processing__order_probe__seed_44",
+        "run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_in_processing__order_probe__seed_44",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_in_processing__order_probe",
+        "seed": 44,
+        "population_seed": 5245
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_44",
+        "run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_44",
+        "condition_id": "L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe",
+        "seed": 44,
+        "population_seed": 5245
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_in_processing__order_probe__seed_44",
+        "run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_in_processing__order_probe__seed_44",
+        "condition_id": "L2_ml_model__position_biased__sasrec__gender_in_processing__order_probe",
+        "seed": 44,
+        "population_seed": 5245
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_post_processing__order_probe__seed_44",
+        "run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_post_processing__order_probe__seed_44",
+        "condition_id": "L2_ml_model__position_biased__sasrec__gender_post_processing__order_probe",
+        "seed": 44,
+        "population_seed": 5245
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq7_gender_mitigation_coverage_click_checks.pdf": "6c4d0550ebee4404f8c0adb59b89f4b0edc933aa792bbacf073ff103d940ab3d",
+    "rq7_gender_mitigation_coverage_click_checks.png": "948890f52ed39f55716e41a664638709f4bd3c15742bef824520b073033118a1"
+  }
+}

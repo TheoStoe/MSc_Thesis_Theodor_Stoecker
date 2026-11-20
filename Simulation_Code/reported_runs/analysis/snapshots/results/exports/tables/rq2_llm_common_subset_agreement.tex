@@ -1,0 +1,50 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lrlrrrl}
+\hline
+Model & Seed & Time summary & Replica agreement minus shuffled agreement & Same-item replica agreement & Same-item shuffled agreement & Condition \\
+\hline
+Agent & 42 & iteration\_30 & 0.0641026 & 0.705128 & 0.641026 & L0 -- frozen agent \\
+Agent & 42 & mean\_1\_30 & 0.140963 & 0.70772 & 0.566757 & L0 -- frozen agent \\
+Agent & 43 & iteration\_30 & 0.0515464 & 0.742268 & 0.690722 & L0 -- frozen agent \\
+Agent & 43 & mean\_1\_30 & 0.14934 & 0.699503 & 0.550163 & L0 -- frozen agent \\
+Agent & 44 & iteration\_30 & 0.0804598 & 0.701149 & 0.62069 & L0 -- frozen agent \\
+Agent & 44 & mean\_1\_30 & 0.159345 & 0.693016 & 0.533671 & L0 -- frozen agent \\
+Agent & 42 & iteration\_30 & 0.212766 & 0.697872 & 0.485106 & L1 -- frozen agent \\
+Agent & 42 & mean\_1\_30 & 0.214558 & 0.691421 & 0.476863 & L1 -- frozen agent \\
+Agent & 43 & iteration\_30 & 0.149378 & 0.647303 & 0.497925 & L1 -- frozen agent \\
+Agent & 43 & mean\_1\_30 & 0.222504 & 0.710463 & 0.487959 & L1 -- frozen agent \\
+Agent & 44 & iteration\_30 & 0.226496 & 0.717949 & 0.491453 & L1 -- frozen agent \\
+Agent & 44 & mean\_1\_30 & 0.222728 & 0.703385 & 0.480657 & L1 -- frozen agent \\
+Agent & 42 & iteration\_30 & 0.291498 & 0.566802 & 0.275304 & L2 -- frozen agent \\
+Agent & 42 & mean\_1\_30 & 0.259377 & 0.589348 & 0.329972 & L2 -- frozen agent \\
+Agent & 43 & iteration\_30 & 0.29249 & 0.549407 & 0.256917 & L2 -- frozen agent \\
+Agent & 43 & mean\_1\_30 & 0.250529 & 0.592154 & 0.341625 & L2 -- frozen agent \\
+Agent & 44 & iteration\_30 & 0.322957 & 0.618677 & 0.29572 & L2 -- frozen agent \\
+Agent & 44 & mean\_1\_30 & 0.269123 & 0.615462 & 0.346338 & L2 -- frozen agent \\
+Direct LLM & 42 & iteration\_30 & 0.333333 & 0.666667 & 0.333333 & L0 \\
+Direct LLM & 42 & mean\_1\_30 & 0.14856 & 0.495885 & 0.347325 & L0 \\
+Direct LLM & 43 & iteration\_30 & 0 & 0 & 0 & L0 \\
+Direct LLM & 43 & mean\_1\_30 & \textemdash{} & \textemdash{} & \textemdash{} & L0 \\
+Direct LLM & 44 & iteration\_30 & 0.5 & 0.75 & 0.25 & L0 \\
+Direct LLM & 44 & mean\_1\_30 & 0.204694 & 0.54796 & 0.343266 & L0 \\
+Direct LLM & 42 & iteration\_30 & 0.444444 & 0.777778 & 0.333333 & L1 \\
+Direct LLM & 42 & mean\_1\_30 & 0.256573 & 0.594158 & 0.337585 & L1 \\
+Direct LLM & 43 & iteration\_30 & 0.2 & 0.6 & 0.4 & L1 \\
+Direct LLM & 43 & mean\_1\_30 & 0.286104 & 0.613082 & 0.326978 & L1 \\
+Direct LLM & 44 & iteration\_30 & 0.272727 & 0.818182 & 0.545455 & L1 \\
+Direct LLM & 44 & mean\_1\_30 & 0.317845 & 0.610401 & 0.292557 & L1 \\
+Direct LLM & 42 & iteration\_30 & 0.46281 & 0.702479 & 0.239669 & L2 \\
+Direct LLM & 42 & mean\_1\_30 & 0.353267 & 0.614312 & 0.261045 & L2 \\
+Direct LLM & 43 & iteration\_30 & 0.512 & 0.672 & 0.16 & L2 \\
+Direct LLM & 43 & mean\_1\_30 & 0.36913 & 0.651562 & 0.282433 & L2 \\
+Direct LLM & 44 & iteration\_30 & 0.353535 & 0.59596 & 0.242424 & L2 \\
+Direct LLM & 44 & mean\_1\_30 & 0.3467 & 0.622169 & 0.275469 & L2 \\
+\hline
+\end{tabular}
+\caption{Paired LLM response diagnostics. Equal-weight mean over iterations 1--30 and iteration-30 endpoint. Shares are fractions; share gaps are percentage points. Undefined denominators remain missing.}
+\label{chap:results:tab:rq2_llm_common_subset_agreement}
+\end{table}

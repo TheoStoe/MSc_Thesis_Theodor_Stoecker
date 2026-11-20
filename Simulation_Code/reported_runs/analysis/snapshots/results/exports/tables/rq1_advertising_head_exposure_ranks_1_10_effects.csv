@@ -1,0 +1,13 @@
+dataset,comparison,model,seed,population_seed,window,Head exposure difference (displayed ranks 1–10; pp),effect_unit
+movielens,Static advertising minus matched organic,agentic_recommender,42,1054,mean_1_30,-6.658097374825302,percentage points
+movielens,Static advertising minus matched organic,agentic_recommender,42,1054,iteration_30,-7.498113397393968,percentage points
+movielens,L5 adaptive advertising minus static advertising,agentic_recommender,42,1054,mean_1_30,3.620483959625678,percentage points
+movielens,L5 adaptive advertising minus static advertising,agentic_recommender,42,1054,iteration_30,10.45755395683453,percentage points
+movielens,Static advertising minus matched organic,agentic_recommender,43,19277,mean_1_30,-9.420676583178398,percentage points
+movielens,Static advertising minus matched organic,agentic_recommender,43,19277,iteration_30,-5.255555555555558,percentage points
+movielens,L5 adaptive advertising minus static advertising,agentic_recommender,43,19277,mean_1_30,4.445121027622848,percentage points
+movielens,L5 adaptive advertising minus static advertising,agentic_recommender,43,19277,iteration_30,1.8555555555555547,percentage points
+movielens,Static advertising minus matched organic,agentic_recommender,44,18844,mean_1_30,-12.386666666666667,percentage points
+movielens,Static advertising minus matched organic,agentic_recommender,44,18844,iteration_30,-16.599999999999998,percentage points
+movielens,L5 adaptive advertising minus static advertising,agentic_recommender,44,18844,mean_1_30,6.49111111111111,percentage points
+movielens,L5 adaptive advertising minus static advertising,agentic_recommender,44,18844,iteration_30,13.266666666666666,percentage points

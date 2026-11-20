@@ -1,0 +1,50 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lllrrlrl}
+\hline
+dataset & comparison & model & seed & population\_seed & window & value & effect\_unit \\
+\hline
+goodreads & L2 minus L0 & agentic\_recommender & 42 & 16040 & mean\_1\_30 & 18.0911 & percentage points \\
+goodreads & L2 minus L0 & agentic\_recommender & 42 & 16040 & iteration\_30 & 28.5 & percentage points \\
+goodreads & L3 full reflection minus L2 frozen agent & agentic\_recommender & 42 & 16040 & mean\_1\_30 & -17.4325 & percentage points \\
+goodreads & L3 full reflection minus L2 frozen agent & agentic\_recommender & 42 & 16040 & iteration\_30 & -13.8049 & percentage points \\
+goodreads & L2 minus L0 & direct\_llm & 42 & 16040 & mean\_1\_30 & -7.95984 & percentage points \\
+goodreads & L2 minus L0 & direct\_llm & 42 & 16040 & iteration\_30 & -2.94118 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_mansoury & 42 & 16040 & mean\_1\_30 & -7.18889 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_mansoury & 42 & 16040 & iteration\_30 & -31.3333 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_uniform & 42 & 16040 & mean\_1\_30 & -11.8556 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_uniform & 42 & 16040 & iteration\_30 & -4.33333 & percentage points \\
+goodreads & L2 minus L0 & position\_biased & 42 & 16040 & mean\_1\_30 & 6.47778 & percentage points \\
+goodreads & L2 minus L0 & position\_biased & 42 & 16040 & iteration\_30 & 0.333333 & percentage points \\
+goodreads & L2 minus L0 & agentic\_recommender & 43 & 11615 & mean\_1\_30 & 12.6644 & percentage points \\
+goodreads & L2 minus L0 & agentic\_recommender & 43 & 11615 & iteration\_30 & 35.7772 & percentage points \\
+goodreads & L3 full reflection minus L2 frozen agent & agentic\_recommender & 43 & 11615 & mean\_1\_30 & 4.30114 & percentage points \\
+goodreads & L3 full reflection minus L2 frozen agent & agentic\_recommender & 43 & 11615 & iteration\_30 & -14.5911 & percentage points \\
+goodreads & L2 minus L0 & direct\_llm & 43 & 11615 & mean\_1\_30 & \textemdash{} & percentage points \\
+goodreads & L2 minus L0 & direct\_llm & 43 & 11615 & iteration\_30 & 30 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_mansoury & 43 & 11615 & mean\_1\_30 & -4.17778 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_mansoury & 43 & 11615 & iteration\_30 & 13 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_uniform & 43 & 11615 & mean\_1\_30 & 1.13333 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_uniform & 43 & 11615 & iteration\_30 & 18.6667 & percentage points \\
+goodreads & L2 minus L0 & position\_biased & 43 & 11615 & mean\_1\_30 & -0.8 & percentage points \\
+goodreads & L2 minus L0 & position\_biased & 43 & 11615 & iteration\_30 & -2.66667 & percentage points \\
+goodreads & L2 minus L0 & agentic\_recommender & 44 & 5245 & mean\_1\_30 & 16.4296 & percentage points \\
+goodreads & L2 minus L0 & agentic\_recommender & 44 & 5245 & iteration\_30 & 27.5194 & percentage points \\
+goodreads & L3 full reflection minus L2 frozen agent & agentic\_recommender & 44 & 5245 & mean\_1\_30 & 0.429233 & percentage points \\
+goodreads & L3 full reflection minus L2 frozen agent & agentic\_recommender & 44 & 5245 & iteration\_30 & -7.30153 & percentage points \\
+goodreads & L2 minus L0 & direct\_llm & 44 & 5245 & mean\_1\_30 & 0.70393 & percentage points \\
+goodreads & L2 minus L0 & direct\_llm & 44 & 5245 & iteration\_30 & 41.1765 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_mansoury & 44 & 5245 & mean\_1\_30 & -2.55556 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_mansoury & 44 & 5245 & iteration\_30 & 15.3333 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_uniform & 44 & 5245 & mean\_1\_30 & -9.84444 & percentage points \\
+goodreads & L2 minus L0 & ncm\_inspired\_gru\_uniform & 44 & 5245 & iteration\_30 & -14 & percentage points \\
+goodreads & L2 minus L0 & position\_biased & 44 & 5245 & mean\_1\_30 & 4.88889 & percentage points \\
+goodreads & L2 minus L0 & position\_biased & 44 & 5245 & iteration\_30 & 8.33333 & percentage points \\
+\hline
+\end{tabular}
+\caption{Signed matched changes in women-authored share among all valid clicks, in percentage points. Comparisons and both time summaries remain explicit.}
+\label{chap:results:tab:rq7_matched_women_authored_click_effects}
+\end{table}

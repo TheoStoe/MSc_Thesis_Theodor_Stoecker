@@ -1,0 +1,26 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lllrrlrl}
+\hline
+dataset & comparison & model & seed & population\_seed & window & Head exposure (displayed ranks 2–10) difference (pp) & effect\_unit \\
+\hline
+movielens & Static advertising minus matched organic & agentic\_recommender & 42 & 1054 & mean\_1\_30 & 0.682623 & percentage points \\
+movielens & Static advertising minus matched organic & agentic\_recommender & 42 & 1054 & iteration\_30 & -2.96993 & percentage points \\
+movielens & L5 adaptive advertising minus static advertising & agentic\_recommender & 42 & 1054 & mean\_1\_30 & -2.70564 & percentage points \\
+movielens & L5 adaptive advertising minus static advertising & agentic\_recommender & 42 & 1054 & iteration\_30 & 5.10099 & percentage points \\
+movielens & Static advertising minus matched organic & agentic\_recommender & 43 & 19277 & mean\_1\_30 & -2.06742 & percentage points \\
+movielens & Static advertising minus matched organic & agentic\_recommender & 43 & 19277 & iteration\_30 & 1.79012 & percentage points \\
+movielens & L5 adaptive advertising minus static advertising & agentic\_recommender & 43 & 19277 & mean\_1\_30 & -1.56715 & percentage points \\
+movielens & L5 adaptive advertising minus static advertising & agentic\_recommender & 43 & 19277 & iteration\_30 & -4.38272 & percentage points \\
+movielens & Static advertising minus matched organic & agentic\_recommender & 44 & 18844 & mean\_1\_30 & -5.68148 & percentage points \\
+movielens & Static advertising minus matched organic & agentic\_recommender & 44 & 18844 & iteration\_30 & -12.2222 & percentage points \\
+movielens & L5 adaptive advertising minus static advertising & agentic\_recommender & 44 & 18844 & mean\_1\_30 & 1.47901 & percentage points \\
+movielens & L5 adaptive advertising minus static advertising & agentic\_recommender & 44 & 18844 & iteration\_30 & 9.48148 & percentage points \\
+\hline
+\end{tabular}
+\caption{Head exposure (displayed ranks 2–10): matched treatment-minus-control effects in percentage points. Rank 1 is excluded from every condition, including organic and withdrawn-advertising decisions. Original displayed-rank discounts are retained in the weighted measure.}
+\label{chap:results:tab:rq1_advertising_head_exposure_ranks_2_10_effects}
+\end{table}

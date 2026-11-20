@@ -1,0 +1,340 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq3_profile_review_case_index",
+  "label": "chap:results:tab:rq3_profile_review_case_index",
+  "caption": "Original thirty review cases with public aliases and saved categorical codes.",
+  "rows": 30,
+  "source_columns": [
+    "case_id",
+    "seed",
+    "population_seed",
+    "review_order",
+    "applied_change_count",
+    "first_change_iteration",
+    "last_change_iteration"
+  ],
+  "source_dtypes": {
+    "case_id": "str",
+    "seed": "int64",
+    "population_seed": "int64",
+    "review_order": "int64",
+    "applied_change_count": "int64",
+    "first_change_iteration": "int64",
+    "last_change_iteration": "int64"
+  },
+  "display_columns": [
+    "case_id",
+    "seed",
+    "population_seed",
+    "review_order",
+    "applied_change_count",
+    "first_change_iteration",
+    "last_change_iteration"
+  ],
+  "display_rows": [
+    [
+      "seed42_case01",
+      "42",
+      "1054",
+      "1",
+      "4",
+      "4",
+      "26"
+    ],
+    [
+      "seed42_case02",
+      "42",
+      "1054",
+      "2",
+      "2",
+      "3",
+      "21"
+    ],
+    [
+      "seed42_case03",
+      "42",
+      "1054",
+      "3",
+      "1",
+      "17",
+      "17"
+    ],
+    [
+      "seed42_case04",
+      "42",
+      "1054",
+      "4",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "seed42_case05",
+      "42",
+      "1054",
+      "5",
+      "2",
+      "1",
+      "16"
+    ],
+    [
+      "seed42_case06",
+      "42",
+      "1054",
+      "6",
+      "17",
+      "2",
+      "30"
+    ],
+    [
+      "seed42_case07",
+      "42",
+      "1054",
+      "7",
+      "2",
+      "4",
+      "6"
+    ],
+    [
+      "seed42_case08",
+      "42",
+      "1054",
+      "8",
+      "6",
+      "1",
+      "30"
+    ],
+    [
+      "seed42_case09",
+      "42",
+      "1054",
+      "9",
+      "10",
+      "1",
+      "20"
+    ],
+    [
+      "seed42_case10",
+      "42",
+      "1054",
+      "10",
+      "7",
+      "2",
+      "27"
+    ],
+    [
+      "seed43_case01",
+      "43",
+      "19277",
+      "1",
+      "9",
+      "2",
+      "25"
+    ],
+    [
+      "seed43_case02",
+      "43",
+      "19277",
+      "2",
+      "3",
+      "4",
+      "23"
+    ],
+    [
+      "seed43_case03",
+      "43",
+      "19277",
+      "3",
+      "4",
+      "1",
+      "13"
+    ],
+    [
+      "seed43_case04",
+      "43",
+      "19277",
+      "4",
+      "17",
+      "1",
+      "24"
+    ],
+    [
+      "seed43_case05",
+      "43",
+      "19277",
+      "5",
+      "4",
+      "3",
+      "14"
+    ],
+    [
+      "seed43_case06",
+      "43",
+      "19277",
+      "6",
+      "2",
+      "3",
+      "4"
+    ],
+    [
+      "seed43_case07",
+      "43",
+      "19277",
+      "7",
+      "6",
+      "1",
+      "28"
+    ],
+    [
+      "seed43_case08",
+      "43",
+      "19277",
+      "8",
+      "6",
+      "5",
+      "16"
+    ],
+    [
+      "seed43_case09",
+      "43",
+      "19277",
+      "9",
+      "1",
+      "3",
+      "3"
+    ],
+    [
+      "seed43_case10",
+      "43",
+      "19277",
+      "10",
+      "4",
+      "1",
+      "6"
+    ],
+    [
+      "seed44_case01",
+      "44",
+      "18844",
+      "1",
+      "14",
+      "2",
+      "30"
+    ],
+    [
+      "seed44_case02",
+      "44",
+      "18844",
+      "2",
+      "16",
+      "2",
+      "23"
+    ],
+    [
+      "seed44_case03",
+      "44",
+      "18844",
+      "3",
+      "6",
+      "1",
+      "12"
+    ],
+    [
+      "seed44_case04",
+      "44",
+      "18844",
+      "4",
+      "9",
+      "1",
+      "26"
+    ],
+    [
+      "seed44_case05",
+      "44",
+      "18844",
+      "5",
+      "13",
+      "1",
+      "30"
+    ],
+    [
+      "seed44_case06",
+      "44",
+      "18844",
+      "6",
+      "7",
+      "1",
+      "26"
+    ],
+    [
+      "seed44_case07",
+      "44",
+      "18844",
+      "7",
+      "7",
+      "1",
+      "18"
+    ],
+    [
+      "seed44_case08",
+      "44",
+      "18844",
+      "8",
+      "1",
+      "3",
+      "3"
+    ],
+    [
+      "seed44_case09",
+      "44",
+      "18844",
+      "9",
+      "8",
+      "2",
+      "16"
+    ],
+    [
+      "seed44_case10",
+      "44",
+      "18844",
+      "10",
+      "7",
+      "1",
+      "29"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrrrrrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq3_profile_review",
+    "source_blocks": [
+      {
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq3_profile_review_case_index.tex": "605aa57e996a9674e890472d42f20394c619421224e3ea6171c4d92beb40f722",
+    "rq3_profile_review_case_index.csv": "2b2a8c2628b27e6f4ef1ad6177b188c51059e008969cbd03cfd3f8043ad888ed"
+  }
+}

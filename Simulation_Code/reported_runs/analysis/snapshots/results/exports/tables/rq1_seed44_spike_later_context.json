@@ -1,0 +1,46 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq1_seed44_spike_later_context",
+  "label": "chap:results:tab:rq1_seed44_spike_later_context",
+  "caption": "The later spike has different states and slates; it is not an identical-state replica experiment.",
+  "rows": 1,
+  "source_columns": [
+    "Iteration5 paired users",
+    "Identical ordered slates"
+  ],
+  "source_dtypes": {
+    "Iteration5 paired users": "int64",
+    "Identical ordered slates": "int64"
+  },
+  "display_columns": [
+    "Iteration5 paired users",
+    "Identical ordered slates"
+  ],
+  "display_rows": [
+    [
+      "120",
+      "0"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "rr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq1_spike",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq1_seed44_spike_later_context.tex": "ce49b06b2f8898ab987b73a6be382f1ce67207d44b564ad8c30e6445526c7ec4",
+    "rq1_seed44_spike_later_context.csv": "8f17dfef9613276c1d8916407cf968fbff045bbce65064f02654171650f8d224"
+  }
+}

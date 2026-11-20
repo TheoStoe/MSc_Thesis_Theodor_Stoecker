@@ -1,0 +1,110 @@
+{
+  "analysis_name": "main_rq1_feedback_exposure",
+  "label": "chap:results:fig:main_rq1_feedback_exposure",
+  "recommended_for_main_text": true,
+  "rationale": "Main-text version: one time summary, print width, no in-figure title.",
+  "context": {
+    "datasets": [
+      "MovieLens"
+    ],
+    "stages_by_model": {
+      "agentic_recommender": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "direct_llm": [
+        "L1",
+        "L2"
+      ],
+      "ncm_inspired_gru_mansoury": [
+        "L1",
+        "L2"
+      ],
+      "ncm_inspired_gru_uniform": [
+        "L1",
+        "L2"
+      ],
+      "position_biased": [
+        "L1",
+        "L2"
+      ]
+    },
+    "seeds_by_model": {
+      "agentic_recommender": [
+        42,
+        43,
+        44
+      ],
+      "direct_llm": [
+        42,
+        43,
+        44
+      ],
+      "ncm_inspired_gru_mansoury": [
+        42,
+        43,
+        44
+      ],
+      "ncm_inspired_gru_uniform": [
+        42,
+        43,
+        44
+      ],
+      "position_biased": [
+        42,
+        43,
+        44
+      ]
+    },
+    "seeds_by_model_condition": {},
+    "time_summary": "Mean over iterations 1–30",
+    "windows": [
+      "mean_1_30"
+    ],
+    "protocol": "300 active users",
+    "comparisons": [
+      "L1 minus L0",
+      "L2 minus L1",
+      "L3 full reflection minus L2 frozen agent"
+    ],
+    "encoding": "Colours: models; markers: simulation seeds",
+    "text": "MovieLens | 300 active users | Treatment stages: Agent: L1, L2, L3; Position-biased/NCM P3/NCM P4/Direct LLM: L1, L2\nMean over iterations 1–30 | Simulation seeds: 42, 43, 44",
+    "plot_spec": {
+      "kind": "effect",
+      "facet": "window",
+      "category": "comparison",
+      "metrics": [
+        "head_exposure",
+        "weighted_head_exposure"
+      ],
+      "main_text": true
+    }
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "main",
+    "source_blocks": [
+      {
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "main_rq1_feedback_exposure.pdf": "813314ff0ee236d38a97317a1d1b561c5aae354d8ce7da45c3e93c5bd23990e2",
+    "main_rq1_feedback_exposure.png": "e591d3eb886242e954705abfd50b078319f180cb142fcaa37b817f2e16f41603"
+  }
+}

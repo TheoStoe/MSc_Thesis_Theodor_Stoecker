@@ -1,0 +1,26 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lrrrrlr}
+\hline
+Model & Seed & reflection\_requested & reflection\_applied & reflection\_failed & Condition & Failed / requested updates \\
+\hline
+Agent & 42 & 0 & 0 & 0 & L2 -- frozen agent & \textemdash{} \\
+Agent & 42 & 9000 & 9000 & 0 & L3 -- fixed profile & 0 \\
+Agent & 42 & 9000 & 9000 & 0 & L3 -- full reflection & 0 \\
+Agent & 42 & 0 & 0 & 0 & L3 -- no reflection & \textemdash{} \\
+Agent & 43 & 0 & 0 & 0 & L2 -- frozen agent & \textemdash{} \\
+Agent & 43 & 9000 & 9000 & 0 & L3 -- fixed profile & 0 \\
+Agent & 43 & 9000 & 9000 & 0 & L3 -- full reflection & 0 \\
+Agent & 43 & 0 & 0 & 0 & L3 -- no reflection & \textemdash{} \\
+Agent & 44 & 0 & 0 & 0 & L2 -- frozen agent & \textemdash{} \\
+Agent & 44 & 9000 & 9000 & 0 & L3 -- fixed profile & 0 \\
+Agent & 44 & 9000 & 9000 & 0 & L3 -- full reflection & 0 \\
+Agent & 44 & 0 & 0 & 0 & L3 -- no reflection & \textemdash{} \\
+\hline
+\end{tabular}
+\caption{Requested, successfully applied, and failed reflection updates summed over all 30 iterations, with failed updates divided by all requested updates. Absence of a request is not a failed update; no requests gives an undefined proportion.}
+\label{chap:results:tab:rq3_reflection_totals}
+\end{table}

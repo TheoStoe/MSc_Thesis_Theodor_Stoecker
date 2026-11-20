@@ -1,0 +1,486 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq2_computational_order_sensitivity",
+  "label": "chap:results:tab:rq2_computational_order_sensitivity",
+  "caption": "Exact saved computational item-choice probability diagnostics. Equal-weight mean over iterations 1--30 and iteration-30 endpoint. Shares are fractions; share gaps are percentage points. Undefined denominators remain missing.",
+  "rows": 54,
+  "source_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Identical-order probability TVD",
+    "Item-choice probability TVD",
+    "Condition"
+  ],
+  "source_dtypes": {
+    "Model": "str",
+    "Seed": "int64",
+    "Time summary": "str",
+    "Identical-order probability TVD": "float64",
+    "Item-choice probability TVD": "float64",
+    "Condition": "str"
+  },
+  "display_columns": [
+    "Model",
+    "Seed",
+    "Time summary",
+    "Identical-order probability TVD",
+    "Item-choice probability TVD",
+    "Condition"
+  ],
+  "display_rows": [
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "iteration_30",
+      "0",
+      "0.858211",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "mean_1_30",
+      "0",
+      "0.873034",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "iteration_30",
+      "0",
+      "0.890543",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "mean_1_30",
+      "0",
+      "0.873999",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "iteration_30",
+      "0",
+      "0.84016",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "mean_1_30",
+      "0",
+      "0.878214",
+      "L0"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "iteration_30",
+      "0",
+      "0.878412",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "mean_1_30",
+      "0",
+      "0.882541",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "iteration_30",
+      "0",
+      "0.903308",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "mean_1_30",
+      "0",
+      "0.881723",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "iteration_30",
+      "0",
+      "0.86718",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "mean_1_30",
+      "0",
+      "0.887128",
+      "L1"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "iteration_30",
+      "0",
+      "0.874283",
+      "L2"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "42",
+      "mean_1_30",
+      "0",
+      "0.882039",
+      "L2"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "iteration_30",
+      "0",
+      "0.899385",
+      "L2"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "43",
+      "mean_1_30",
+      "0",
+      "0.884852",
+      "L2"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "iteration_30",
+      "0",
+      "0.871551",
+      "L2"
+    ],
+    [
+      "NCM P4 (Mansoury)",
+      "44",
+      "mean_1_30",
+      "0",
+      "0.88683",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "iteration_30",
+      "0",
+      "0.505461",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "mean_1_30",
+      "0",
+      "0.575532",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "iteration_30",
+      "0",
+      "0.536161",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "mean_1_30",
+      "0",
+      "0.593595",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "iteration_30",
+      "0",
+      "0.53022",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "mean_1_30",
+      "0",
+      "0.590921",
+      "L0"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "iteration_30",
+      "0",
+      "0.618424",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "mean_1_30",
+      "0",
+      "0.660054",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "iteration_30",
+      "0",
+      "0.660682",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "mean_1_30",
+      "0",
+      "0.674014",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "iteration_30",
+      "0",
+      "0.617196",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "mean_1_30",
+      "0",
+      "0.681401",
+      "L1"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "iteration_30",
+      "0",
+      "0.593169",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "42",
+      "mean_1_30",
+      "0",
+      "0.670173",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "iteration_30",
+      "0",
+      "0.700373",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "43",
+      "mean_1_30",
+      "0",
+      "0.707137",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "iteration_30",
+      "0",
+      "0.684929",
+      "L2"
+    ],
+    [
+      "NCM P3 (uniform)",
+      "44",
+      "mean_1_30",
+      "0",
+      "0.719168",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "iteration_30",
+      "0",
+      "0.774128",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "mean_1_30",
+      "0",
+      "0.784146",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "iteration_30",
+      "0",
+      "0.78692",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "mean_1_30",
+      "0",
+      "0.781691",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "iteration_30",
+      "0",
+      "0.769243",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "mean_1_30",
+      "0",
+      "0.784221",
+      "L0"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "iteration_30",
+      "0",
+      "0.774128",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "mean_1_30",
+      "0",
+      "0.784146",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "iteration_30",
+      "0",
+      "0.78692",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "mean_1_30",
+      "0",
+      "0.781691",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "iteration_30",
+      "0",
+      "0.769243",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "mean_1_30",
+      "0",
+      "0.784221",
+      "L1"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "iteration_30",
+      "0",
+      "0.774128",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "42",
+      "mean_1_30",
+      "0",
+      "0.784146",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "iteration_30",
+      "0",
+      "0.78692",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "43",
+      "mean_1_30",
+      "0",
+      "0.781691",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "iteration_30",
+      "0",
+      "0.769243",
+      "L2"
+    ],
+    [
+      "Position-biased",
+      "44",
+      "mean_1_30",
+      "0",
+      "0.784221",
+      "L2"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrlrrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq2",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq2_computational_order_sensitivity.tex": "48e0f46d3eb352aef87e5ded72e26b81d34e8ba8d5ca5df254bbf480d74da459",
+    "rq2_computational_order_sensitivity.csv": "0d6af082dbb006456258495c3319c7cfef8fff8750e1b91645826b4b05a2bef9"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "analysis_pending_sources",
+  "label": "chap:results:tab:analysis_pending_sources",
+  "caption": "Conditions not complete when this snapshot was recorded. These conditions are excluded from final metric calculations.",
+  "rows": 0,
+  "source_columns": [
+    "study",
+    "seed",
+    "model",
+    "mitigation",
+    "status"
+  ],
+  "source_dtypes": {
+    "study": "str",
+    "seed": "int64",
+    "model": "str",
+    "mitigation": "str",
+    "status": "str"
+  },
+  "display_columns": [
+    "study",
+    "seed",
+    "model",
+    "mitigation",
+    "status"
+  ],
+  "display_rows": [],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrlll",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "analysis",
+    "source_blocks": [],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "analysis_pending_sources.tex": "8802ad5a73da2cb4913bea6f74495acbc0351d639474cc27ccfac0bb45127f31",
+    "analysis_pending_sources.csv": "e579850ac30eb64e05653249ccd389eac649e288f66aa4319b2a5acc9e79b705"
+  }
+}

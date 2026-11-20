@@ -1,0 +1,268 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "main_rq3_agent_module_use",
+  "label": "chap:results:tab:main_rq3_agent_module_use",
+  "caption": "Recorded module use, reflection, and applied profile changes of the agent configurations in RQ III, summed over iterations 1--30 per run (300 active users, canonical decisions only; probes excluded). Users with a change counts distinct users with at least one applied profile change by iteration 30.",
+  "rows": 12,
+  "source_columns": [
+    "Configuration",
+    "Seed",
+    "Decisions",
+    "Memory-module calls",
+    "Forced actions",
+    "Reflection requests",
+    "Failed reflections",
+    "Applied profile changes",
+    "Users with a change by iteration 30"
+  ],
+  "source_dtypes": {
+    "Configuration": "str",
+    "Seed": "int64",
+    "Decisions": "int64",
+    "Memory-module calls": "Int64",
+    "Forced actions": "Int64",
+    "Reflection requests": "int64",
+    "Failed reflections": "int64",
+    "Applied profile changes": "int64",
+    "Users with a change by iteration 30": "int64"
+  },
+  "display_columns": [
+    "Configuration",
+    "Seed",
+    "Decisions",
+    "Memory-module calls",
+    "Forced actions",
+    "Reflection requests",
+    "Failed reflections",
+    "Applied profile changes",
+    "Users with a change by iteration 30"
+  ],
+  "display_rows": [
+    [
+      "L2 frozen agent",
+      "42",
+      "9000",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "L2 frozen agent",
+      "43",
+      "9000",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "L2 frozen agent",
+      "44",
+      "9000",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "L3 no reflection",
+      "42",
+      "9000",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "L3 no reflection",
+      "43",
+      "9000",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "L3 no reflection",
+      "44",
+      "9000",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "L3 fixed profile",
+      "42",
+      "9000",
+      "0",
+      "0",
+      "9000",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "L3 fixed profile",
+      "43",
+      "9000",
+      "0",
+      "0",
+      "9000",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "L3 fixed profile",
+      "44",
+      "9000",
+      "0",
+      "0",
+      "9000",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "L3 full reflection",
+      "42",
+      "9000",
+      "0",
+      "0",
+      "9000",
+      "0",
+      "1190",
+      "267"
+    ],
+    [
+      "L3 full reflection",
+      "43",
+      "9000",
+      "0",
+      "0",
+      "9000",
+      "0",
+      "1254",
+      "268"
+    ],
+    [
+      "L3 full reflection",
+      "44",
+      "9000",
+      "0",
+      "0",
+      "9000",
+      "0",
+      "1982",
+      "286"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrrrrrrrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "main",
+    "source_blocks": [
+      {
+        "run_id": "feedback_new_sampling_p1054_a300_r0_e804__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_42",
+        "condition_id": "L2_ml_model__agentic_recommender__sasrec__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "run_id": "feedback_new_sampling_p1054_a300_r0_e804__L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe__seed_42",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "run_id": "mitigation_v1_primary_p1054_a300_r0__agentic_recommender__control__seed_42",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "run_id": "feedback_new_sampling_p1054_a300_r0_e804__L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe__seed_42",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "run_id": "feedback_new_sampling_p19277_a300_r0_e804__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_43",
+        "condition_id": "L2_ml_model__agentic_recommender__sasrec__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "run_id": "feedback_new_sampling_p19277_a300_r0_e804__L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe__seed_43",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "run_id": "mitigation_v1_primary_p19277_a300_r0__agentic_recommender__control__seed_43",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "run_id": "feedback_new_sampling_p19277_a300_r0_e804__L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe__seed_43",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_44",
+        "condition_id": "L2_ml_model__agentic_recommender__sasrec__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe__seed_44",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L3_individual__agentic_recommender__sasrec__full_reflection__order_probe__seed_44",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__full_reflection__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "run_id": "feedback_new_sampling_p18844_a300_r0_e804__L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe__seed_44",
+        "condition_id": "L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe",
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "main_rq3_agent_module_use.tex": "16038fda03df506a3dcaabfe4692c11eebaaf1a59e53f2cf6c88cbdfe6b93b6d",
+    "main_rq3_agent_module_use.csv": "2d74fd2b11dc69927ec28514e1f9105eddd5bd31914ea8cf248f66a1ef4994fd"
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "rq1_advertising_weighted_head_exposure_ranks_2_10_effects",
+  "label": "chap:results:tab:rq1_advertising_weighted_head_exposure_ranks_2_10_effects",
+  "caption": "Weighted head exposure (displayed ranks 2–10): matched treatment-minus-control effects in percentage points. Rank 1 is excluded from every condition, including organic and withdrawn-advertising decisions. Original displayed-rank discounts are retained in the weighted measure.",
+  "rows": 12,
+  "source_columns": [
+    "dataset",
+    "comparison",
+    "model",
+    "seed",
+    "population_seed",
+    "window",
+    "Weighted head exposure (displayed ranks 2–10) difference (pp)",
+    "effect_unit"
+  ],
+  "source_dtypes": {
+    "dataset": "str",
+    "comparison": "str",
+    "model": "str",
+    "seed": "int64",
+    "population_seed": "int64",
+    "window": "str",
+    "Weighted head exposure (displayed ranks 2–10) difference (pp)": "float64",
+    "effect_unit": "str"
+  },
+  "display_columns": [
+    "dataset",
+    "comparison",
+    "model",
+    "seed",
+    "population_seed",
+    "window",
+    "Weighted head exposure (displayed ranks 2–10) difference (pp)",
+    "effect_unit"
+  ],
+  "display_rows": [
+    [
+      "movielens",
+      "Static advertising minus matched organic",
+      "agentic_recommender",
+      "42",
+      "1054",
+      "mean_1_30",
+      "0.943134",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "Static advertising minus matched organic",
+      "agentic_recommender",
+      "42",
+      "1054",
+      "iteration_30",
+      "-1.97237",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L5 adaptive advertising minus static advertising",
+      "agentic_recommender",
+      "42",
+      "1054",
+      "mean_1_30",
+      "-2.77956",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L5 adaptive advertising minus static advertising",
+      "agentic_recommender",
+      "42",
+      "1054",
+      "iteration_30",
+      "5.25143",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "Static advertising minus matched organic",
+      "agentic_recommender",
+      "43",
+      "19277",
+      "mean_1_30",
+      "-2.39542",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "Static advertising minus matched organic",
+      "agentic_recommender",
+      "43",
+      "19277",
+      "iteration_30",
+      "1.14814",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L5 adaptive advertising minus static advertising",
+      "agentic_recommender",
+      "43",
+      "19277",
+      "mean_1_30",
+      "-1.48133",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L5 adaptive advertising minus static advertising",
+      "agentic_recommender",
+      "43",
+      "19277",
+      "iteration_30",
+      "-4.45855",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "Static advertising minus matched organic",
+      "agentic_recommender",
+      "44",
+      "18844",
+      "mean_1_30",
+      "-6.90936",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "Static advertising minus matched organic",
+      "agentic_recommender",
+      "44",
+      "18844",
+      "iteration_30",
+      "-14.141",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L5 adaptive advertising minus static advertising",
+      "agentic_recommender",
+      "44",
+      "18844",
+      "mean_1_30",
+      "2.47869",
+      "percentage points"
+    ],
+    [
+      "movielens",
+      "L5 adaptive advertising minus static advertising",
+      "agentic_recommender",
+      "44",
+      "18844",
+      "iteration_30",
+      "11.0895",
+      "percentage points"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lllrrlrl",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "rq1",
+    "source_blocks": [
+      {
+        "physical_run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O0_organic__seed_42",
+        "run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O0_organic__seed_42",
+        "condition_id": "O0_organic",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O1_static_ad__seed_42",
+        "run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O1_static_ad__seed_42",
+        "condition_id": "O1_static_ad",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_42",
+        "run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_42",
+        "condition_id": "O2_adaptive_ad_three_strike",
+        "seed": 42,
+        "population_seed": 1054
+      },
+      {
+        "physical_run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O0_organic__seed_43",
+        "run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O0_organic__seed_43",
+        "condition_id": "O0_organic",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O1_static_ad__seed_43",
+        "run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O1_static_ad__seed_43",
+        "condition_id": "O1_static_ad",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_43",
+        "run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_43",
+        "condition_id": "O2_adaptive_ad_three_strike",
+        "seed": 43,
+        "population_seed": 19277
+      },
+      {
+        "physical_run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O0_organic__seed_44",
+        "run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O0_organic__seed_44",
+        "condition_id": "O0_organic",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O1_static_ad__seed_44",
+        "run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O1_static_ad__seed_44",
+        "condition_id": "O1_static_ad",
+        "seed": 44,
+        "population_seed": 18844
+      },
+      {
+        "physical_run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_44",
+        "run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_44",
+        "condition_id": "O2_adaptive_ad_three_strike",
+        "seed": 44,
+        "population_seed": 18844
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "rq1_advertising_weighted_head_exposure_ranks_2_10_effects.tex": "0414e8f48d6bdc1a62df41711400b2a377f0f45a6d502fdb72853ebea83693d8",
+    "rq1_advertising_weighted_head_exposure_ranks_2_10_effects.csv": "12d588a8ef1b43995c47acb056fb795213f5a4030954abd0ae673d6aee78d4bc"
+  }
+}

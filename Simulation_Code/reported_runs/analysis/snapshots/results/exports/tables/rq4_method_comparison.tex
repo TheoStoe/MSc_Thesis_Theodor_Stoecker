@@ -1,0 +1,44 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lllrrlrl}
+\hline
+dataset & comparison & model & seed & population\_seed & window & value & effect\_unit \\
+\hline
+movielens & L3 in-processing minus post-processing & agentic\_recommender & 42 & 1054 & mean\_1\_30 & 4.75427 & percentage points \\
+movielens & L3 in-processing minus post-processing & agentic\_recommender & 42 & 1054 & iteration\_30 & -9.54198 & percentage points \\
+movielens & L2 in-processing minus post-processing & direct\_llm & 42 & 1054 & mean\_1\_30 & 13.4687 & percentage points \\
+movielens & L2 in-processing minus post-processing & direct\_llm & 42 & 1054 & iteration\_30 & 30.5663 & percentage points \\
+movielens & L2 in-processing minus post-processing & ncm\_inspired\_gru\_mansoury & 42 & 1054 & mean\_1\_30 & 65.8778 & percentage points \\
+movielens & L2 in-processing minus post-processing & ncm\_inspired\_gru\_mansoury & 42 & 1054 & iteration\_30 & 75.6667 & percentage points \\
+movielens & L2 in-processing minus post-processing & ncm\_inspired\_gru\_uniform & 42 & 1054 & mean\_1\_30 & 32.7778 & percentage points \\
+movielens & L2 in-processing minus post-processing & ncm\_inspired\_gru\_uniform & 42 & 1054 & iteration\_30 & 47.3333 & percentage points \\
+movielens & L2 in-processing minus post-processing & position\_biased & 42 & 1054 & mean\_1\_30 & 63.2444 & percentage points \\
+movielens & L2 in-processing minus post-processing & position\_biased & 42 & 1054 & iteration\_30 & 64.3333 & percentage points \\
+movielens & L3 in-processing minus post-processing & agentic\_recommender & 43 & 19277 & mean\_1\_30 & 10.7268 & percentage points \\
+movielens & L3 in-processing minus post-processing & agentic\_recommender & 43 & 19277 & iteration\_30 & 2.64748 & percentage points \\
+movielens & L2 in-processing minus post-processing & direct\_llm & 43 & 19277 & mean\_1\_30 & 16.6944 & percentage points \\
+movielens & L2 in-processing minus post-processing & direct\_llm & 43 & 19277 & iteration\_30 & 49.3994 & percentage points \\
+movielens & L2 in-processing minus post-processing & ncm\_inspired\_gru\_mansoury & 43 & 19277 & mean\_1\_30 & 73.4111 & percentage points \\
+movielens & L2 in-processing minus post-processing & ncm\_inspired\_gru\_mansoury & 43 & 19277 & iteration\_30 & 82.6667 & percentage points \\
+movielens & L2 in-processing minus post-processing & ncm\_inspired\_gru\_uniform & 43 & 19277 & mean\_1\_30 & 30.4111 & percentage points \\
+movielens & L2 in-processing minus post-processing & ncm\_inspired\_gru\_uniform & 43 & 19277 & iteration\_30 & 34.3333 & percentage points \\
+movielens & L2 in-processing minus post-processing & position\_biased & 43 & 19277 & mean\_1\_30 & 65.2889 & percentage points \\
+movielens & L2 in-processing minus post-processing & position\_biased & 43 & 19277 & iteration\_30 & 74.6667 & percentage points \\
+movielens & L3 in-processing minus post-processing & agentic\_recommender & 44 & 18844 & mean\_1\_30 & 8.51736 & percentage points \\
+movielens & L3 in-processing minus post-processing & agentic\_recommender & 44 & 18844 & iteration\_30 & 1.26482 & percentage points \\
+movielens & L2 in-processing minus post-processing & direct\_llm & 44 & 18844 & mean\_1\_30 & 15.4961 & percentage points \\
+movielens & L2 in-processing minus post-processing & direct\_llm & 44 & 18844 & iteration\_30 & 14.9568 & percentage points \\
+movielens & L2 in-processing minus post-processing & ncm\_inspired\_gru\_mansoury & 44 & 18844 & mean\_1\_30 & 73.7889 & percentage points \\
+movielens & L2 in-processing minus post-processing & ncm\_inspired\_gru\_mansoury & 44 & 18844 & iteration\_30 & 86.6667 & percentage points \\
+movielens & L2 in-processing minus post-processing & ncm\_inspired\_gru\_uniform & 44 & 18844 & mean\_1\_30 & 24.1556 & percentage points \\
+movielens & L2 in-processing minus post-processing & ncm\_inspired\_gru\_uniform & 44 & 18844 & iteration\_30 & 34 & percentage points \\
+movielens & L2 in-processing minus post-processing & position\_biased & 44 & 18844 & mean\_1\_30 & 65.9556 & percentage points \\
+movielens & L2 in-processing minus post-processing & position\_biased & 44 & 18844 & iteration\_30 & 73.3333 & percentage points \\
+\hline
+\end{tabular}
+\caption{In-processing minus post-processing Head-click share, paired within response model, stage, population, and seed, in percentage points.}
+\label{chap:results:tab:rq4_method_comparison}
+\end{table}

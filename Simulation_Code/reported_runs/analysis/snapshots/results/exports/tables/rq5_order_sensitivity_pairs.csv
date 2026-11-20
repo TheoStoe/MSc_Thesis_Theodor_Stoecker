@@ -1,0 +1,31 @@
+dataset,study,seed,population_seed,model,stage,window,predictor_metric,predictor_family,baseline_order_sensitivity,head_click_reduction_pp,available
+movielens,movielens_mitigation_a300_e804,42,1054,agentic_recommender,L3_individual,mean_1_30,agreement_sensitivity,LLM common-valid agreement gap,0.2497723600624054,7.936923041899077,True
+movielens,movielens_mitigation_a300_e804,42,1054,agentic_recommender,L3_individual,iteration_30,agreement_sensitivity,LLM common-valid agreement gap,0.2497723600624054,3.26803975226847,True
+movielens,movielens_mitigation_a300_e804,42,1054,direct_llm,L2_ml_model,mean_1_30,agreement_sensitivity,LLM common-valid agreement gap,0.35326701445673186,12.841216381729565,True
+movielens,movielens_mitigation_a300_e804,42,1054,direct_llm,L2_ml_model,iteration_30,agreement_sensitivity,LLM common-valid agreement gap,0.35326701445673186,24.460122171556392,True
+movielens,movielens_mitigation_a300_e804,42,1054,ncm_inspired_gru_mansoury,L2_ml_model,mean_1_30,shuffle_tvd,Computational probability TVD,0.8820392185294383,71.75555555555555,True
+movielens,movielens_mitigation_a300_e804,42,1054,ncm_inspired_gru_mansoury,L2_ml_model,iteration_30,shuffle_tvd,Computational probability TVD,0.8820392185294383,85.66666666666667,True
+movielens,movielens_mitigation_a300_e804,42,1054,ncm_inspired_gru_uniform,L2_ml_model,mean_1_30,shuffle_tvd,Computational probability TVD,0.6701733911842448,33.95555555555556,True
+movielens,movielens_mitigation_a300_e804,42,1054,ncm_inspired_gru_uniform,L2_ml_model,iteration_30,shuffle_tvd,Computational probability TVD,0.6701733911842448,48.33333333333335,True
+movielens,movielens_mitigation_a300_e804,42,1054,position_biased,L2_ml_model,mean_1_30,shuffle_tvd,Computational probability TVD,0.7841456229608494,73.3,True
+movielens,movielens_mitigation_a300_e804,42,1054,position_biased,L2_ml_model,iteration_30,shuffle_tvd,Computational probability TVD,0.7841456229608494,79.66666666666667,True
+movielens,movielens_mitigation_a300_e804,43,19277,agentic_recommender,L3_individual,mean_1_30,agreement_sensitivity,LLM common-valid agreement gap,0.23723965156491075,12.200512650966978,True
+movielens,movielens_mitigation_a300_e804,43,19277,agentic_recommender,L3_individual,iteration_30,agreement_sensitivity,LLM common-valid agreement gap,0.23723965156491075,11.784711130693392,True
+movielens,movielens_mitigation_a300_e804,43,19277,direct_llm,L2_ml_model,mean_1_30,agreement_sensitivity,LLM common-valid agreement gap,0.3691296945414551,16.186738121493395,True
+movielens,movielens_mitigation_a300_e804,43,19277,direct_llm,L2_ml_model,iteration_30,agreement_sensitivity,LLM common-valid agreement gap,0.3691296945414551,35.27025729646697,True
+movielens,movielens_mitigation_a300_e804,43,19277,ncm_inspired_gru_mansoury,L2_ml_model,mean_1_30,shuffle_tvd,Computational probability TVD,0.8848519469556642,75.73333333333335,True
+movielens,movielens_mitigation_a300_e804,43,19277,ncm_inspired_gru_mansoury,L2_ml_model,iteration_30,shuffle_tvd,Computational probability TVD,0.8848519469556642,79.33333333333333,True
+movielens,movielens_mitigation_a300_e804,43,19277,ncm_inspired_gru_uniform,L2_ml_model,mean_1_30,shuffle_tvd,Computational probability TVD,0.707137028726817,29.566666666666666,True
+movielens,movielens_mitigation_a300_e804,43,19277,ncm_inspired_gru_uniform,L2_ml_model,iteration_30,shuffle_tvd,Computational probability TVD,0.707137028726817,34.00000000000001,True
+movielens,movielens_mitigation_a300_e804,43,19277,position_biased,L2_ml_model,mean_1_30,shuffle_tvd,Computational probability TVD,0.7816907764681496,72.9111111111111,True
+movielens,movielens_mitigation_a300_e804,43,19277,position_biased,L2_ml_model,iteration_30,shuffle_tvd,Computational probability TVD,0.7816907764681496,82.0,True
+movielens,movielens_mitigation_a300_e804,44,18844,agentic_recommender,L3_individual,mean_1_30,agreement_sensitivity,LLM common-valid agreement gap,0.24085327947788607,10.982896679756628,True
+movielens,movielens_mitigation_a300_e804,44,18844,agentic_recommender,L3_individual,iteration_30,agreement_sensitivity,LLM common-valid agreement gap,0.24085327947788607,-1.3975155279503104,True
+movielens,movielens_mitigation_a300_e804,44,18844,direct_llm,L2_ml_model,mean_1_30,agreement_sensitivity,LLM common-valid agreement gap,0.34669988436317245,17.462484249897408,True
+movielens,movielens_mitigation_a300_e804,44,18844,direct_llm,L2_ml_model,iteration_30,agreement_sensitivity,LLM common-valid agreement gap,0.34669988436317245,24.255082149818996,True
+movielens,movielens_mitigation_a300_e804,44,18844,ncm_inspired_gru_mansoury,L2_ml_model,mean_1_30,shuffle_tvd,Computational probability TVD,0.8868303189765031,74.8,True
+movielens,movielens_mitigation_a300_e804,44,18844,ncm_inspired_gru_mansoury,L2_ml_model,iteration_30,shuffle_tvd,Computational probability TVD,0.8868303189765031,85.66666666666667,True
+movielens,movielens_mitigation_a300_e804,44,18844,ncm_inspired_gru_uniform,L2_ml_model,mean_1_30,shuffle_tvd,Computational probability TVD,0.7191676842106909,25.28888888888889,True
+movielens,movielens_mitigation_a300_e804,44,18844,ncm_inspired_gru_uniform,L2_ml_model,iteration_30,shuffle_tvd,Computational probability TVD,0.7191676842106909,37.0,True
+movielens,movielens_mitigation_a300_e804,44,18844,position_biased,L2_ml_model,mean_1_30,shuffle_tvd,Computational probability TVD,0.7842214464580134,69.9,True
+movielens,movielens_mitigation_a300_e804,44,18844,position_biased,L2_ml_model,iteration_30,shuffle_tvd,Computational probability TVD,0.7842214464580134,81.33333333333333,True

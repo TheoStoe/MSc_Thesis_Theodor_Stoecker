@@ -1,0 +1,121 @@
+Model,Seed,cluster,Time summary,Active share,Active-user counts,Condition
+Agent,42,0,iteration_30,0.0866666666666666,13.0,L3 -- full reflection
+Agent,42,0,mean_1_30,0.08666666666666657,13.0,L3 -- full reflection
+Agent,42,1,iteration_30,0.2133333333333333,32.0,L3 -- full reflection
+Agent,42,1,mean_1_30,0.21333333333333324,32.0,L3 -- full reflection
+Agent,42,2,iteration_30,0.22,33.0,L3 -- full reflection
+Agent,42,2,mean_1_30,0.21999999999999995,33.0,L3 -- full reflection
+Agent,42,3,iteration_30,0.2266666666666666,34.0,L3 -- full reflection
+Agent,42,3,mean_1_30,0.2266666666666666,34.0,L3 -- full reflection
+Agent,42,4,iteration_30,0.2533333333333333,38.0,L3 -- full reflection
+Agent,42,4,mean_1_30,0.25333333333333324,38.0,L3 -- full reflection
+Agent,43,0,iteration_30,0.0866666666666666,13.0,L3 -- full reflection
+Agent,43,0,mean_1_30,0.08666666666666657,13.0,L3 -- full reflection
+Agent,43,1,iteration_30,0.2133333333333333,32.0,L3 -- full reflection
+Agent,43,1,mean_1_30,0.21333333333333324,32.0,L3 -- full reflection
+Agent,43,2,iteration_30,0.22,33.0,L3 -- full reflection
+Agent,43,2,mean_1_30,0.21999999999999995,33.0,L3 -- full reflection
+Agent,43,3,iteration_30,0.2266666666666666,34.0,L3 -- full reflection
+Agent,43,3,mean_1_30,0.2266666666666666,34.0,L3 -- full reflection
+Agent,43,4,iteration_30,0.2533333333333333,38.0,L3 -- full reflection
+Agent,43,4,mean_1_30,0.25333333333333324,38.0,L3 -- full reflection
+Agent,44,0,iteration_30,0.0866666666666666,13.0,L3 -- full reflection
+Agent,44,0,mean_1_30,0.08666666666666657,13.0,L3 -- full reflection
+Agent,44,1,iteration_30,0.2133333333333333,32.0,L3 -- full reflection
+Agent,44,1,mean_1_30,0.21333333333333324,32.0,L3 -- full reflection
+Agent,44,2,iteration_30,0.22,33.0,L3 -- full reflection
+Agent,44,2,mean_1_30,0.21999999999999995,33.0,L3 -- full reflection
+Agent,44,3,iteration_30,0.2266666666666666,34.0,L3 -- full reflection
+Agent,44,3,mean_1_30,0.2266666666666666,34.0,L3 -- full reflection
+Agent,44,4,iteration_30,0.2533333333333333,38.0,L3 -- full reflection
+Agent,44,4,mean_1_30,0.25333333333333324,38.0,L3 -- full reflection
+Agent,42,0,iteration_30,0.08,12.0,L4: cluster refill
+Agent,42,0,mean_1_30,0.08177777777777777,12.266666666666667,L4: cluster refill
+Agent,42,1,iteration_30,0.2466666666666666,37.0,L4: cluster refill
+Agent,42,1,mean_1_30,0.23333333333333328,35.0,L4: cluster refill
+Agent,42,2,iteration_30,0.1933333333333333,29.0,L4: cluster refill
+Agent,42,2,mean_1_30,0.19799999999999998,29.7,L4: cluster refill
+Agent,42,3,iteration_30,0.1866666666666666,28.0,L4: cluster refill
+Agent,42,3,mean_1_30,0.2017777777777778,30.266666666666666,L4: cluster refill
+Agent,42,4,iteration_30,0.2933333333333333,44.0,L4: cluster refill
+Agent,42,4,mean_1_30,0.28511111111111115,42.766666666666666,L4: cluster refill
+Agent,43,0,iteration_30,0.0733333333333333,11.0,L4: cluster refill
+Agent,43,0,mean_1_30,0.07555555555555553,11.333333333333334,L4: cluster refill
+Agent,43,1,iteration_30,0.22,33.0,L4: cluster refill
+Agent,43,1,mean_1_30,0.2195555555555555,32.93333333333333,L4: cluster refill
+Agent,43,2,iteration_30,0.2133333333333333,32.0,L4: cluster refill
+Agent,43,2,mean_1_30,0.2186666666666666,32.8,L4: cluster refill
+Agent,43,3,iteration_30,0.2333333333333333,35.0,L4: cluster refill
+Agent,43,3,mean_1_30,0.2335555555555555,35.03333333333333,L4: cluster refill
+Agent,43,4,iteration_30,0.26,39.0,L4: cluster refill
+Agent,43,4,mean_1_30,0.2526666666666666,37.9,L4: cluster refill
+Agent,44,0,iteration_30,0.0533333333333333,8.0,L4: cluster refill
+Agent,44,0,mean_1_30,0.07666666666666665,11.5,L4: cluster refill
+Agent,44,1,iteration_30,0.2533333333333333,38.0,L4: cluster refill
+Agent,44,1,mean_1_30,0.2244444444444444,33.666666666666664,L4: cluster refill
+Agent,44,2,iteration_30,0.2533333333333333,38.0,L4: cluster refill
+Agent,44,2,mean_1_30,0.23155555555555546,34.733333333333334,L4: cluster refill
+Agent,44,3,iteration_30,0.2333333333333333,35.0,L4: cluster refill
+Agent,44,3,mean_1_30,0.24688888888888885,37.03333333333333,L4: cluster refill
+Agent,44,4,iteration_30,0.2066666666666666,31.0,L4: cluster refill
+Agent,44,4,mean_1_30,0.22044444444444444,33.06666666666667,L4: cluster refill
+Agent,42,0,iteration_30,0.1,7.0,"L4: departures, no refill"
+Agent,42,0,mean_1_30,0.08865952949783222,8.033333333333333,"L4: departures, no refill"
+Agent,42,1,iteration_30,0.1714285714285714,12.0,"L4: departures, no refill"
+Agent,42,1,mean_1_30,0.1898418678791633,17.466666666666665,"L4: departures, no refill"
+Agent,42,2,iteration_30,0.2714285714285714,19.0,"L4: departures, no refill"
+Agent,42,2,mean_1_30,0.2477298413662075,22.466666666666665,"L4: departures, no refill"
+Agent,42,3,iteration_30,0.2,14.0,"L4: departures, no refill"
+Agent,42,3,mean_1_30,0.22814749806729523,21.066666666666666,"L4: departures, no refill"
+Agent,42,4,iteration_30,0.2571428571428571,18.0,"L4: departures, no refill"
+Agent,42,4,mean_1_30,0.24562126318950162,22.4,"L4: departures, no refill"
+Agent,43,0,iteration_30,0.088235294117647,6.0,"L4: departures, no refill"
+Agent,43,0,mean_1_30,0.09185860192019818,8.0,"L4: departures, no refill"
+Agent,43,1,iteration_30,0.2352941176470588,16.0,"L4: departures, no refill"
+Agent,43,1,mean_1_30,0.24963700853376894,21.566666666666666,"L4: departures, no refill"
+Agent,43,2,iteration_30,0.1911764705882352,13.0,"L4: departures, no refill"
+Agent,43,2,mean_1_30,0.203154520778476,18.1,"L4: departures, no refill"
+Agent,43,3,iteration_30,0.25,17.0,"L4: departures, no refill"
+Agent,43,3,mean_1_30,0.23829025571115883,20.9,"L4: departures, no refill"
+Agent,43,4,iteration_30,0.2352941176470588,16.0,"L4: departures, no refill"
+Agent,43,4,mean_1_30,0.21705961305639795,18.9,"L4: departures, no refill"
+Agent,44,0,iteration_30,0.0307692307692307,2.0,"L4: departures, no refill"
+Agent,44,0,mean_1_30,0.050808894291310046,5.233333333333333,"L4: departures, no refill"
+Agent,44,1,iteration_30,0.2615384615384615,17.0,"L4: departures, no refill"
+Agent,44,1,mean_1_30,0.23421289457863528,22.666666666666668,"L4: departures, no refill"
+Agent,44,2,iteration_30,0.2769230769230769,18.0,"L4: departures, no refill"
+Agent,44,2,mean_1_30,0.2561319928941998,24.833333333333332,"L4: departures, no refill"
+Agent,44,3,iteration_30,0.1538461538461538,10.0,"L4: departures, no refill"
+Agent,44,3,mean_1_30,0.17652456889416782,17.933333333333334,"L4: departures, no refill"
+Agent,44,4,iteration_30,0.2769230769230769,18.0,"L4: departures, no refill"
+Agent,44,4,mean_1_30,0.2823216493416869,27.7,"L4: departures, no refill"
+Agent,42,0,iteration_30,0.08,12.0,L4: uniform refill
+Agent,42,0,mean_1_30,0.08111111111111106,12.166666666666666,L4: uniform refill
+Agent,42,1,iteration_30,0.1933333333333333,29.0,L4: uniform refill
+Agent,42,1,mean_1_30,0.20488888888888884,30.733333333333334,L4: uniform refill
+Agent,42,2,iteration_30,0.2533333333333333,38.0,L4: uniform refill
+Agent,42,2,mean_1_30,0.24044444444444438,36.06666666666667,L4: uniform refill
+Agent,42,3,iteration_30,0.1866666666666666,28.0,L4: uniform refill
+Agent,42,3,mean_1_30,0.19888888888888887,29.833333333333332,L4: uniform refill
+Agent,42,4,iteration_30,0.2866666666666667,43.0,L4: uniform refill
+Agent,42,4,mean_1_30,0.27466666666666667,41.2,L4: uniform refill
+Agent,43,0,iteration_30,0.08,12.0,L4: uniform refill
+Agent,43,0,mean_1_30,0.08266666666666664,12.4,L4: uniform refill
+Agent,43,1,iteration_30,0.2666666666666666,40.0,L4: uniform refill
+Agent,43,1,mean_1_30,0.21755555555555545,32.63333333333333,L4: uniform refill
+Agent,43,2,iteration_30,0.2466666666666666,37.0,L4: uniform refill
+Agent,43,2,mean_1_30,0.2519999999999999,37.8,L4: uniform refill
+Agent,43,3,iteration_30,0.2133333333333333,32.0,L4: uniform refill
+Agent,43,3,mean_1_30,0.23288888888888878,34.93333333333333,L4: uniform refill
+Agent,43,4,iteration_30,0.1933333333333333,29.0,L4: uniform refill
+Agent,43,4,mean_1_30,0.21488888888888888,32.233333333333334,L4: uniform refill
+Agent,44,0,iteration_30,0.08,12.0,L4: uniform refill
+Agent,44,0,mean_1_30,0.09533333333333333,14.3,L4: uniform refill
+Agent,44,1,iteration_30,0.2466666666666666,37.0,L4: uniform refill
+Agent,44,1,mean_1_30,0.23999999999999985,36.0,L4: uniform refill
+Agent,44,2,iteration_30,0.2066666666666666,31.0,L4: uniform refill
+Agent,44,2,mean_1_30,0.20511111111111113,30.766666666666666,L4: uniform refill
+Agent,44,3,iteration_30,0.2333333333333333,35.0,L4: uniform refill
+Agent,44,3,mean_1_30,0.21933333333333327,32.9,L4: uniform refill
+Agent,44,4,iteration_30,0.2333333333333333,35.0,L4: uniform refill
+Agent,44,4,mean_1_30,0.2402222222222222,36.03333333333333,L4: uniform refill

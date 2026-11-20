@@ -1,0 +1,17 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{p{0.07\linewidth}p{0.14\linewidth}p{0.10\linewidth}p{0.16\linewidth}p{0.21\linewidth}p{0.21\linewidth}}
+\hline
+Seed & Population seed & Cut-off count & Original head (items) & Tied items in head & Strict head \\
+\hline
+42 & 16040 & 1 & 5,350 & 594 (11.1\%) & 4,756 (17.8\%) \\
+43 & 11615 & 2 & 4,643 & 2,167 (46.7\%) & 2,476 (10.7\%) \\
+44 & 5245 & 2 & 4,697 & 2,083 (44.3\%) & 2,614 (11.1\%) \\
+\hline
+\end{tabular}
+\caption{Cut-off ties and strict-head membership in Goodreads. The original head uses the top 20\% of catalogue items by initial training count, rounded up, with item-ID tie-breaking. Tied items in head is shown as count (percentage of the original head). Strict head includes only items with counts above the cut-off, shown as count (percentage of the catalogue); it is not refilled to 20\%. Seed denotes the simulation seed. Trajectory metrics retain the original head.}
+\label{chap:results:tab:rq6_goodreads_head_cutoff_ties}
+\end{table}

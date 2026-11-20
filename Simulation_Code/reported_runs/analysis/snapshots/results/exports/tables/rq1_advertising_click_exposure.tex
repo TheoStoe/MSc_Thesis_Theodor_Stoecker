@@ -1,0 +1,32 @@
+\begin{table}[htbp!]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{lrlrrrl}
+\hline
+Model & Seed & Time summary & Click-exposure gap (unweighted exposure) (pp) & Head-click share & Click-exposure gap (rank-weighted exposure) (pp) & Condition \\
+\hline
+Agent & 42 & iteration\_30 & -7.87806 & 0.515625 & -5.18433 & Organic advertising control \\
+Agent & 42 & mean\_1\_30 & -4.29491 & 0.662338 & -4.51219 & Organic advertising control \\
+Agent & 43 & iteration\_30 & -4.78865 & 0.624113 & -4.74717 & Organic advertising control \\
+Agent & 43 & mean\_1\_30 & -5.60069 & 0.686549 & -5.85446 & Organic advertising control \\
+Agent & 44 & iteration\_30 & 1.13566 & 0.643357 & 2.44662 & Organic advertising control \\
+Agent & 44 & mean\_1\_30 & -6.28827 & 0.660939 & -6.28063 & Organic advertising control \\
+Agent & 42 & iteration\_30 & -5.37756 & 0.465649 & 1.97613 & Static advertising \\
+Agent & 42 & mean\_1\_30 & 3.63326 & 0.675039 & 12.0284 & Static advertising \\
+Agent & 43 & iteration\_30 & 1.09903 & 0.630435 & 10.1025 & Static advertising \\
+Agent & 43 & mean\_1\_30 & 1.11308 & 0.65948 & 9.94577 & Static advertising \\
+Agent & 44 & iteration\_30 & -3.74286 & 0.428571 & 4.32191 & Static advertising \\
+Agent & 44 & mean\_1\_30 & -1.94506 & 0.580505 & 7.07259 & Static advertising \\
+Agent & 42 & iteration\_30 & -4.86575 & 0.575342 & -4.06219 & L5 adaptive advertising \\
+Agent & 42 & mean\_1\_30 & -1.57372 & 0.659174 & -0.718061 & L5 adaptive advertising \\
+Agent & 43 & iteration\_30 & -4.22553 & 0.595745 & -2.65459 & L5 adaptive advertising \\
+Agent & 43 & mean\_1\_30 & -5.71243 & 0.635676 & -4.16691 & L5 adaptive advertising \\
+Agent & 44 & iteration\_30 & -8.11841 & 0.517483 & -5.85348 & L5 adaptive advertising \\
+Agent & 44 & mean\_1\_30 & -4.94656 & 0.615401 & -2.72768 & L5 adaptive advertising \\
+\hline
+\end{tabular}
+\caption{Matched advertising conditions. Click-exposure gaps here use the original full exposure over displayed ranks 1--10, including any sponsored rank-1 item; they do not use the separate ranks-2--10 companion. Equal-weight mean over iterations 1--30 and iteration-30 endpoint. Shares are fractions; share gaps are percentage points. Undefined denominators remain missing.}
+\label{chap:results:tab:rq1_advertising_click_exposure}
+\end{table}

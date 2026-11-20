@@ -1,0 +1,91 @@
+Model,Seed,Time summary,Click rate,Invalid-response rate,No-click rate,Valid click counts,Condition
+Agent,42,iteration_30,0.45,0.0,0.55,135.0,L0 -- frozen agent
+Agent,42,mean_1_30,0.6362222222222222,0.0,0.3637777777777778,190.86666666666667,L0 -- frozen agent
+Agent,43,iteration_30,0.5133333333333333,0.0,0.4866666666666667,154.0,L0 -- frozen agent
+Agent,43,mean_1_30,0.6288888888888888,0.0,0.37111111111111117,188.66666666666666,L0 -- frozen agent
+Agent,44,iteration_30,0.4833333333333333,0.0,0.5166666666666667,145.0,L0 -- frozen agent
+Agent,44,mean_1_30,0.6294444444444446,0.0,0.37055555555555564,188.83333333333334,L0 -- frozen agent
+Agent,42,iteration_30,0.92,0.0,0.08,276.0,L1 -- frozen agent
+Agent,42,mean_1_30,0.9274444444444445,0.0,0.07255555555555553,278.23333333333335,L1 -- frozen agent
+Agent,43,iteration_30,0.9,0.0,0.1,270.0,L1 -- frozen agent
+Agent,43,mean_1_30,0.9193333333333331,0.0,0.08066666666666664,275.8,L1 -- frozen agent
+Agent,44,iteration_30,0.8933333333333333,0.0,0.1066666666666666,268.0,L1 -- frozen agent
+Agent,44,mean_1_30,0.9013333333333334,0.0,0.09866666666666662,270.4,L1 -- frozen agent
+Agent,42,iteration_30,0.94,0.0,0.06,282.0,L2 -- frozen agent
+Agent,42,mean_1_30,0.9373333333333334,0.0,0.06266666666666663,281.2,L2 -- frozen agent
+Agent,43,iteration_30,0.9366666666666666,0.0,0.0633333333333333,281.0,L2 -- frozen agent
+Agent,43,mean_1_30,0.9345555555555557,0.0,0.06544444444444442,280.3666666666667,L2 -- frozen agent
+Agent,44,iteration_30,0.94,0.0,0.06,282.0,L2 -- frozen agent
+Agent,44,mean_1_30,0.9450000000000002,0.0,0.05499999999999997,283.5,L2 -- frozen agent
+Direct LLM,42,iteration_30,0.14,0.0,0.86,42.0,L0
+Direct LLM,42,mean_1_30,0.17555555555555552,0.0,0.8244444444444446,52.666666666666664,L0
+Direct LLM,43,iteration_30,0.1166666666666666,0.0,0.8833333333333333,35.0,L0
+Direct LLM,43,mean_1_30,0.20288888888888887,0.0,0.7971111111111112,60.86666666666667,L0
+Direct LLM,44,iteration_30,0.1433333333333333,0.0,0.8566666666666667,43.0,L0
+Direct LLM,44,mean_1_30,0.19088888888888889,0.0,0.8091111111111111,57.266666666666666,L0
+Direct LLM,42,iteration_30,0.2,0.0,0.8,60.0,L1
+Direct LLM,42,mean_1_30,0.2673333333333333,0.0,0.7326666666666667,80.2,L1
+Direct LLM,43,iteration_30,0.2,0.0,0.8,60.0,L1
+Direct LLM,43,mean_1_30,0.27811111111111103,0.0,0.7218888888888891,83.43333333333334,L1
+Direct LLM,44,iteration_30,0.19,0.0,0.81,57.0,L1
+Direct LLM,44,mean_1_30,0.28300000000000003,0.0,0.7170000000000001,84.9,L1
+Direct LLM,42,iteration_30,0.6566666666666666,0.0,0.3433333333333333,197.0,L2
+Direct LLM,42,mean_1_30,0.5366666666666667,0.0,0.4633333333333333,161.0,L2
+Direct LLM,43,iteration_30,0.7233333333333334,0.0,0.2766666666666666,217.0,L2
+Direct LLM,43,mean_1_30,0.5718888888888888,0.0,0.4281111111111112,171.56666666666666,L2
+Direct LLM,44,iteration_30,0.57,0.0,0.43,171.0,L2
+Direct LLM,44,mean_1_30,0.5152222222222222,0.0,0.48477777777777775,154.56666666666666,L2
+NCM P4 (Mansoury),42,iteration_30,1.0,0.0,0.0,300.0,L0
+NCM P4 (Mansoury),42,mean_1_30,1.0,0.0,0.0,300.0,L0
+NCM P4 (Mansoury),43,iteration_30,1.0,0.0,0.0,300.0,L0
+NCM P4 (Mansoury),43,mean_1_30,1.0,0.0,0.0,300.0,L0
+NCM P4 (Mansoury),44,iteration_30,1.0,0.0,0.0,300.0,L0
+NCM P4 (Mansoury),44,mean_1_30,1.0,0.0,0.0,300.0,L0
+NCM P4 (Mansoury),42,iteration_30,1.0,0.0,0.0,300.0,L1
+NCM P4 (Mansoury),42,mean_1_30,1.0,0.0,0.0,300.0,L1
+NCM P4 (Mansoury),43,iteration_30,1.0,0.0,0.0,300.0,L1
+NCM P4 (Mansoury),43,mean_1_30,1.0,0.0,0.0,300.0,L1
+NCM P4 (Mansoury),44,iteration_30,1.0,0.0,0.0,300.0,L1
+NCM P4 (Mansoury),44,mean_1_30,1.0,0.0,0.0,300.0,L1
+NCM P4 (Mansoury),42,iteration_30,1.0,0.0,0.0,300.0,L2
+NCM P4 (Mansoury),42,mean_1_30,1.0,0.0,0.0,300.0,L2
+NCM P4 (Mansoury),43,iteration_30,1.0,0.0,0.0,300.0,L2
+NCM P4 (Mansoury),43,mean_1_30,1.0,0.0,0.0,300.0,L2
+NCM P4 (Mansoury),44,iteration_30,1.0,0.0,0.0,300.0,L2
+NCM P4 (Mansoury),44,mean_1_30,1.0,0.0,0.0,300.0,L2
+NCM P3 (uniform),42,iteration_30,1.0,0.0,0.0,300.0,L0
+NCM P3 (uniform),42,mean_1_30,1.0,0.0,0.0,300.0,L0
+NCM P3 (uniform),43,iteration_30,1.0,0.0,0.0,300.0,L0
+NCM P3 (uniform),43,mean_1_30,1.0,0.0,0.0,300.0,L0
+NCM P3 (uniform),44,iteration_30,1.0,0.0,0.0,300.0,L0
+NCM P3 (uniform),44,mean_1_30,1.0,0.0,0.0,300.0,L0
+NCM P3 (uniform),42,iteration_30,1.0,0.0,0.0,300.0,L1
+NCM P3 (uniform),42,mean_1_30,1.0,0.0,0.0,300.0,L1
+NCM P3 (uniform),43,iteration_30,1.0,0.0,0.0,300.0,L1
+NCM P3 (uniform),43,mean_1_30,1.0,0.0,0.0,300.0,L1
+NCM P3 (uniform),44,iteration_30,1.0,0.0,0.0,300.0,L1
+NCM P3 (uniform),44,mean_1_30,1.0,0.0,0.0,300.0,L1
+NCM P3 (uniform),42,iteration_30,1.0,0.0,0.0,300.0,L2
+NCM P3 (uniform),42,mean_1_30,1.0,0.0,0.0,300.0,L2
+NCM P3 (uniform),43,iteration_30,1.0,0.0,0.0,300.0,L2
+NCM P3 (uniform),43,mean_1_30,1.0,0.0,0.0,300.0,L2
+NCM P3 (uniform),44,iteration_30,1.0,0.0,0.0,300.0,L2
+NCM P3 (uniform),44,mean_1_30,1.0,0.0,0.0,300.0,L2
+Position-biased,42,iteration_30,1.0,0.0,0.0,300.0,L0
+Position-biased,42,mean_1_30,1.0,0.0,0.0,300.0,L0
+Position-biased,43,iteration_30,1.0,0.0,0.0,300.0,L0
+Position-biased,43,mean_1_30,1.0,0.0,0.0,300.0,L0
+Position-biased,44,iteration_30,1.0,0.0,0.0,300.0,L0
+Position-biased,44,mean_1_30,1.0,0.0,0.0,300.0,L0
+Position-biased,42,iteration_30,1.0,0.0,0.0,300.0,L1
+Position-biased,42,mean_1_30,1.0,0.0,0.0,300.0,L1
+Position-biased,43,iteration_30,1.0,0.0,0.0,300.0,L1
+Position-biased,43,mean_1_30,1.0,0.0,0.0,300.0,L1
+Position-biased,44,iteration_30,1.0,0.0,0.0,300.0,L1
+Position-biased,44,mean_1_30,1.0,0.0,0.0,300.0,L1
+Position-biased,42,iteration_30,1.0,0.0,0.0,300.0,L2
+Position-biased,42,mean_1_30,1.0,0.0,0.0,300.0,L2
+Position-biased,43,iteration_30,1.0,0.0,0.0,300.0,L2
+Position-biased,43,mean_1_30,1.0,0.0,0.0,300.0,L2
+Position-biased,44,iteration_30,1.0,0.0,0.0,300.0,L2
+Position-biased,44,mean_1_30,1.0,0.0,0.0,300.0,L2

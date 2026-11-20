@@ -1,0 +1,31 @@
+model,stage,window,component_label,n_seed_blocks,mean_effect,min_effect,max_effect
+agentic_recommender,L3_individual,mean_1_30,Total,3,-10.373444124207559,-12.200512650966976,-7.936923041899075
+agentic_recommender,L3_individual,iteration_30,Total,3,-4.55174511833718,-11.784711130693386,1.3975155279503104
+agentic_recommender,L3_individual,mean_1_30,Immediate reranking,3,-9.719186328137765,-10.269442276113837,-8.72779832636805
+agentic_recommender,L3_individual,iteration_30,Immediate reranking,3,-13.345674893204063,-14.317870424740653,-12.46803069053708
+agentic_recommender,L3_individual,mean_1_30,Feedback component,3,-0.6542577960697941,-3.4727143245989267,2.332519234214763
+agentic_recommender,L3_individual,iteration_30,Feedback component,3,8.793929774866884,1.4664124336410733,13.86554621848739
+direct_llm,L2_ml_model,mean_1_30,Total,3,-15.496812917706789,-17.462484249897408,-12.841216381729565
+direct_llm,L2_ml_model,iteration_30,Total,3,-27.99515387261412,-35.27025729646697,-24.255082149818996
+direct_llm,L2_ml_model,mean_1_30,Immediate reranking,3,-12.965616435429302,-14.197749979320289,-11.85425832212144
+direct_llm,L2_ml_model,iteration_30,Immediate reranking,3,-17.654599954213342,-23.75016131113692,-14.190526070763498
+direct_llm,L2_ml_model,mean_1_30,Feedback component,3,-2.53119648227749,-4.617643245051237,1.3565335975907222
+direct_llm,L2_ml_model,iteration_30,Feedback component,3,-10.34055391840078,-21.079731225703473,-0.5049208386820769
+ncm_inspired_gru_mansoury,L2_ml_model,mean_1_30,Total,3,-74.0962962962963,-75.73333333333335,-71.75555555555555
+ncm_inspired_gru_mansoury,L2_ml_model,iteration_30,Total,3,-83.55555555555556,-85.66666666666667,-79.33333333333333
+ncm_inspired_gru_mansoury,L2_ml_model,mean_1_30,Immediate reranking,3,-21.50740740740741,-22.755555555555556,-19.45555555555556
+ncm_inspired_gru_mansoury,L2_ml_model,iteration_30,Immediate reranking,3,-6.777777777777778,-8.333333333333332,-6.0
+ncm_inspired_gru_mansoury,L2_ml_model,mean_1_30,Feedback component,3,-52.58888888888888,-55.34444444444445,-49.0
+ncm_inspired_gru_mansoury,L2_ml_model,iteration_30,Feedback component,3,-76.77777777777777,-79.66666666666666,-73.33333333333333
+ncm_inspired_gru_uniform,L2_ml_model,mean_1_30,Total,3,-29.603703703703705,-33.95555555555556,-25.28888888888889
+ncm_inspired_gru_uniform,L2_ml_model,iteration_30,Total,3,-39.77777777777778,-48.33333333333334,-34.00000000000001
+ncm_inspired_gru_uniform,L2_ml_model,mean_1_30,Immediate reranking,3,-17.9037037037037,-18.333333333333332,-17.57777777777778
+ncm_inspired_gru_uniform,L2_ml_model,iteration_30,Immediate reranking,3,-22.222222222222225,-26.666666666666668,-18.333333333333336
+ncm_inspired_gru_uniform,L2_ml_model,mean_1_30,Feedback component,3,-11.700000000000003,-15.622222222222227,-7.711111111111113
+ncm_inspired_gru_uniform,L2_ml_model,iteration_30,Feedback component,3,-17.55555555555556,-21.66666666666668,-15.333333333333332
+position_biased,L2_ml_model,mean_1_30,Total,3,-72.03703703703704,-73.3,-69.9
+position_biased,L2_ml_model,iteration_30,Total,3,-81.0,-82.0,-79.66666666666667
+position_biased,L2_ml_model,mean_1_30,Immediate reranking,3,-13.740740740740739,-14.933333333333332,-12.888888888888886
+position_biased,L2_ml_model,iteration_30,Immediate reranking,3,-2.2222222222222223,-3.3333333333333335,-0.6666666666666667
+position_biased,L2_ml_model,mean_1_30,Feedback component,3,-58.2962962962963,-60.411111111111104,-54.966666666666676
+position_biased,L2_ml_model,iteration_30,Feedback component,3,-78.77777777777779,-81.33333333333333,-76.33333333333334

@@ -1,0 +1,37 @@
+Model,Seed,Time summary,Replica both clicks,Shuffled both clicks,Triple valid clicks,Condition
+Agent,42,iteration_30,98.0,104.0,78.0,L0 -- frozen agent
+Agent,42,mean_1_30,157.43333333333334,160.4,138.66666666666666,L0 -- frozen agent
+Agent,43,iteration_30,108.0,118.0,97.0,L0 -- frozen agent
+Agent,43,mean_1_30,155.43333333333334,159.7,138.26666666666668,L0 -- frozen agent
+Agent,44,iteration_30,104.0,110.0,87.0,L0 -- frozen agent
+Agent,44,mean_1_30,156.16666666666666,161.4,139.3,L0 -- frozen agent
+Agent,42,iteration_30,247.0,253.0,235.0,L1 -- frozen agent
+Agent,42,mean_1_30,262.1333333333333,263.3666666666667,250.53333333333333,L1 -- frozen agent
+Agent,43,iteration_30,254.0,254.0,241.0,L1 -- frozen agent
+Agent,43,mean_1_30,261.1666666666667,262.3,249.83333333333334,L1 -- frozen agent
+Agent,44,iteration_30,250.0,247.0,234.0,L1 -- frozen agent
+Agent,44,mean_1_30,256.4,256.1666666666667,244.86666666666667,L1 -- frozen agent
+Agent,42,iteration_30,267.0,261.0,247.0,L2 -- frozen agent
+Agent,42,mean_1_30,268.6333333333333,267.1333333333333,256.46666666666664,L2 -- frozen agent
+Agent,43,iteration_30,265.0,267.0,253.0,L2 -- frozen agent
+Agent,43,mean_1_30,267.9,268.3,257.76666666666665,L2 -- frozen agent
+Agent,44,iteration_30,272.0,264.0,257.0,L2 -- frozen agent
+Agent,44,mean_1_30,271.73333333333335,270.5,259.93333333333334,L2 -- frozen agent
+Direct LLM,42,iteration_30,7.0,12.0,3.0,L0
+Direct LLM,42,mean_1_30,21.333333333333332,22.033333333333335,10.4,L0
+Direct LLM,43,iteration_30,3.0,12.0,3.0,L0
+Direct LLM,43,mean_1_30,24.666666666666668,25.833333333333332,12.8,L0
+Direct LLM,44,iteration_30,12.0,11.0,4.0,L0
+Direct LLM,44,mean_1_30,23.266666666666666,23.233333333333334,12.3,L0
+Direct LLM,42,iteration_30,28.0,31.0,18.0,L1
+Direct LLM,42,mean_1_30,46.0,41.233333333333334,27.8,L1
+Direct LLM,43,iteration_30,24.0,30.0,15.0,L1
+Direct LLM,43,mean_1_30,45.3,41.2,26.4,L1
+Direct LLM,44,iteration_30,23.0,21.0,11.0,L1
+Direct LLM,44,mean_1_30,45.6,43.06666666666667,27.6,L1
+Direct LLM,42,iteration_30,154.0,144.0,121.0,L2
+Direct LLM,42,mean_1_30,118.9,102.4,82.3,L2
+Direct LLM,43,iteration_30,163.0,162.0,125.0,L2
+Direct LLM,43,mean_1_30,126.56666666666666,109.06666666666666,86.5,L2
+Direct LLM,44,iteration_30,128.0,117.0,99.0,L2
+Direct LLM,44,mean_1_30,113.6,94.46666666666667,74.83333333333333,L2

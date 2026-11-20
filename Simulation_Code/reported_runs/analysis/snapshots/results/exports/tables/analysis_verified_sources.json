@@ -1,0 +1,2437 @@
+{
+  "schema_version": "thesis-latex-table-export-v1",
+  "analysis_name": "analysis_verified_sources",
+  "label": "chap:results:tab:analysis_verified_sources",
+  "caption": "Verified saved source logs and canonical opportunity counts; one row per physical trajectory.",
+  "rows": 183,
+  "source_columns": [
+    "dataset",
+    "seed",
+    "physical_run_id",
+    "events_sha256_verified",
+    "diagnostics_sha256_verified",
+    "canonical_opportunities",
+    "iterations"
+  ],
+  "source_dtypes": {
+    "dataset": "str",
+    "seed": "int64",
+    "physical_run_id": "str",
+    "events_sha256_verified": "bool",
+    "diagnostics_sha256_verified": "bool",
+    "canonical_opportunities": "int64",
+    "iterations": "int64"
+  },
+  "display_columns": [
+    "dataset",
+    "seed",
+    "physical_run_id",
+    "events_sha256_verified",
+    "diagnostics_sha256_verified",
+    "canonical_opportunities",
+    "iterations"
+  ],
+  "display_rows": [
+    [
+      "goodreads",
+      "42",
+      "goodreads_a300_e804_v1__L0_control__agentic_recommender__sasrec__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_a300_e804_v1__L0_control__direct_llm__sasrec__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_a300_e804_v1__L0_control__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_a300_e804_v1__L0_control__ncm_inspired_gru_uniform__sasrec__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_a300_e804_v1__L0_control__position_biased__sasrec__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_mansoury__sasrec__gender_control__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_uniform__sasrec__gender_control__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_gender_mitigation_e804_v1__L1_feature__position_biased__sasrec__gender_control__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_a300_e804_v1__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_a300_e804_v1__L2_ml_model__direct_llm__sasrec__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_a300_e804_v1__L2_ml_model__position_biased__sasrec__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_a300_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_a300_e804_v1__L0_control__agentic_recommender__sasrec__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_a300_e804_v1__L0_control__direct_llm__sasrec__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_a300_e804_v1__L0_control__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_a300_e804_v1__L0_control__ncm_inspired_gru_uniform__sasrec__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_a300_e804_v1__L0_control__position_biased__sasrec__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_mansoury__sasrec__gender_control__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_uniform__sasrec__gender_control__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_gender_mitigation_e804_v1__L1_feature__position_biased__sasrec__gender_control__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_a300_e804_v1__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_a300_e804_v1__L2_ml_model__direct_llm__sasrec__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_a300_e804_v1__L2_ml_model__position_biased__sasrec__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_a300_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_a300_e804_v1__L0_control__agentic_recommender__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_a300_e804_v1__L0_control__direct_llm__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_a300_e804_v1__L0_control__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_a300_e804_v1__L0_control__ncm_inspired_gru_uniform__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_a300_e804_v1__L0_control__position_biased__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_mansoury__sasrec__gender_control__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_uniform__sasrec__gender_control__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_gender_mitigation_e804_v1__L1_feature__position_biased__sasrec__gender_control__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_a300_e804_v1__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_a300_e804_v1__L2_ml_model__direct_llm__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_a300_e804_v1__L2_ml_model__position_biased__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_a300_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_gender_mitigation_e804_v1__L0_control__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_gender_mitigation_e804_v1__L0_control__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_gender_mitigation_e804_v1__L0_control__position_biased__sasrec__gender_post_processing__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_gender_mitigation_e804_v1__L1_feature__position_biased__sasrec__gender_post_processing__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_in_processing__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_in_processing__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_in_processing__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "42",
+      "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_post_processing__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_gender_mitigation_e804_v1__L0_control__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_gender_mitigation_e804_v1__L0_control__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_gender_mitigation_e804_v1__L0_control__position_biased__sasrec__gender_post_processing__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_gender_mitigation_e804_v1__L1_feature__position_biased__sasrec__gender_post_processing__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_in_processing__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_in_processing__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_in_processing__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "43",
+      "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_post_processing__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_gender_mitigation_e804_v1__L0_control__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_gender_mitigation_e804_v1__L0_control__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_gender_mitigation_e804_v1__L0_control__position_biased__sasrec__gender_post_processing__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_gender_mitigation_e804_v1__L1_feature__position_biased__sasrec__gender_post_processing__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_in_processing__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_in_processing__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_in_processing__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "goodreads",
+      "44",
+      "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_post_processing__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "feedback_new_sampling_p1054_a300_r0_e804__L0_control__agentic_recommender__sasrec__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "feedback_new_sampling_p1054_a300_r0_e804__L0_control__direct_llm__sasrec__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "feedback_new_sampling_p1054_a300_r0_e804__L0_control__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "feedback_new_sampling_p1054_a300_r0_e804__L0_control__ncm_inspired_gru_uniform__sasrec__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "feedback_new_sampling_p1054_a300_r0_e804__L0_control__position_biased__sasrec__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "feedback_new_sampling_p1054_a300_r0_e804__L1_feature__agentic_recommender__sasrec__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "feedback_new_sampling_p1054_a300_r0_e804__L1_feature__direct_llm__sasrec__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "feedback_new_sampling_p1054_a300_r0_e804__L1_feature__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "feedback_new_sampling_p1054_a300_r0_e804__L1_feature__ncm_inspired_gru_uniform__sasrec__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "feedback_new_sampling_p1054_a300_r0_e804__L1_feature__position_biased__sasrec__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "feedback_new_sampling_p1054_a300_r0_e804__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "mitigation_v1_primary_p1054_a300_r0__direct_llm__control__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_mansoury__control__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_uniform__control__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "mitigation_v1_primary_p1054_a300_r0__position_biased__control__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "feedback_new_sampling_p1054_a300_r0_e804__L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "mitigation_v1_primary_p1054_a300_r0__agentic_recommender__control__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "feedback_new_sampling_p1054_a300_r0_e804__L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "feedback_new_sampling_p19277_a300_r0_e804__L0_control__agentic_recommender__sasrec__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "feedback_new_sampling_p19277_a300_r0_e804__L0_control__direct_llm__sasrec__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "feedback_new_sampling_p19277_a300_r0_e804__L0_control__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "feedback_new_sampling_p19277_a300_r0_e804__L0_control__ncm_inspired_gru_uniform__sasrec__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "feedback_new_sampling_p19277_a300_r0_e804__L0_control__position_biased__sasrec__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "feedback_new_sampling_p19277_a300_r0_e804__L1_feature__agentic_recommender__sasrec__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "feedback_new_sampling_p19277_a300_r0_e804__L1_feature__direct_llm__sasrec__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "feedback_new_sampling_p19277_a300_r0_e804__L1_feature__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "feedback_new_sampling_p19277_a300_r0_e804__L1_feature__ncm_inspired_gru_uniform__sasrec__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "feedback_new_sampling_p19277_a300_r0_e804__L1_feature__position_biased__sasrec__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "feedback_new_sampling_p19277_a300_r0_e804__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "mitigation_v1_primary_p19277_a300_r0__direct_llm__control__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_mansoury__control__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_uniform__control__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "mitigation_v1_primary_p19277_a300_r0__position_biased__control__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "feedback_new_sampling_p19277_a300_r0_e804__L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "mitigation_v1_primary_p19277_a300_r0__agentic_recommender__control__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "feedback_new_sampling_p19277_a300_r0_e804__L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "feedback_new_sampling_p18844_a300_r0_e804__L0_control__agentic_recommender__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "feedback_new_sampling_p18844_a300_r0_e804__L0_control__direct_llm__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "feedback_new_sampling_p18844_a300_r0_e804__L0_control__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "feedback_new_sampling_p18844_a300_r0_e804__L0_control__ncm_inspired_gru_uniform__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "feedback_new_sampling_p18844_a300_r0_e804__L0_control__position_biased__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "feedback_new_sampling_p18844_a300_r0_e804__L1_feature__agentic_recommender__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "feedback_new_sampling_p18844_a300_r0_e804__L1_feature__direct_llm__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "feedback_new_sampling_p18844_a300_r0_e804__L1_feature__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "feedback_new_sampling_p18844_a300_r0_e804__L1_feature__ncm_inspired_gru_uniform__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "feedback_new_sampling_p18844_a300_r0_e804__L1_feature__position_biased__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__direct_llm__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__position_biased__sasrec__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "feedback_new_sampling_p18844_a300_r0_e804__L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "feedback_new_sampling_p18844_a300_r0_e804__L3_individual__agentic_recommender__sasrec__full_reflection__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "feedback_new_sampling_p18844_a300_r0_e804__L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "mitigation_v1_primary_p1054_a300_r0__agentic_recommender__in_processing__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "mitigation_v1_primary_p1054_a300_r0__agentic_recommender__post_processing__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "mitigation_v1_primary_p1054_a300_r0__direct_llm__in_processing__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "mitigation_v1_primary_p1054_a300_r0__direct_llm__post_processing__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_mansoury__in_processing__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_uniform__in_processing__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "mitigation_v1_primary_p1054_a300_r0__position_biased__in_processing__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "mitigation_v1_primary_p1054_a300_r0__position_biased__post_processing__seed_42",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "mitigation_v1_primary_p19277_a300_r0__agentic_recommender__in_processing__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "mitigation_v1_primary_p19277_a300_r0__agentic_recommender__post_processing__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "mitigation_v1_primary_p19277_a300_r0__direct_llm__in_processing__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "mitigation_v1_primary_p19277_a300_r0__direct_llm__post_processing__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_mansoury__in_processing__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_uniform__in_processing__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "mitigation_v1_primary_p19277_a300_r0__position_biased__in_processing__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "mitigation_v1_primary_p19277_a300_r0__position_biased__post_processing__seed_43",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "mitigation_v1_primary_p18844_a300_r0__agentic_recommender__in_processing__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "mitigation_v1_primary_p18844_a300_r0__agentic_recommender__post_processing__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "mitigation_v1_primary_p18844_a300_r0__direct_llm__in_processing__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "mitigation_v1_primary_p18844_a300_r0__direct_llm__post_processing__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_mansoury__in_processing__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_uniform__in_processing__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "mitigation_v1_primary_p18844_a300_r0__position_biased__in_processing__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "mitigation_v1_primary_p18844_a300_r0__position_biased__post_processing__seed_44",
+      "True",
+      "True",
+      "9000",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "l4_l5_p1054_seed42_a150_r150_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__seed_42",
+      "True",
+      "True",
+      "4500",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "l4_l5_p1054_seed42_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__seed_42",
+      "True",
+      "True",
+      "4500",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "l4_l5_p1054_seed42_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__exit_only_ablation__seed_42",
+      "True",
+      "True",
+      "2743",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "l4_l5_p1054_seed42_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__uniform_refill_control__seed_42",
+      "True",
+      "True",
+      "4500",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "l4_l5_p1054_seed42_a150_r150_e804_v1__O0_organic__seed_42",
+      "True",
+      "True",
+      "4478",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "l4_l5_p1054_seed42_a150_r150_e804_v1__O1_static_ad__seed_42",
+      "True",
+      "True",
+      "4421",
+      "30"
+    ],
+    [
+      "movielens",
+      "42",
+      "l4_l5_p1054_seed42_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_42",
+      "True",
+      "True",
+      "4500",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "l4_l5_p19277_seed43_a150_r150_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__seed_43",
+      "True",
+      "True",
+      "4500",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "l4_l5_p19277_seed43_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__seed_43",
+      "True",
+      "True",
+      "4500",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "l4_l5_p19277_seed43_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__exit_only_ablation__seed_43",
+      "True",
+      "True",
+      "2624",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "l4_l5_p19277_seed43_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__uniform_refill_control__seed_43",
+      "True",
+      "True",
+      "4500",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "l4_l5_p19277_seed43_a150_r150_e804_v1__O0_organic__seed_43",
+      "True",
+      "True",
+      "4500",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "l4_l5_p19277_seed43_a150_r150_e804_v1__O1_static_ad__seed_43",
+      "True",
+      "True",
+      "4460",
+      "30"
+    ],
+    [
+      "movielens",
+      "43",
+      "l4_l5_p19277_seed43_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_43",
+      "True",
+      "True",
+      "4500",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "l4_l5_p18844_seed44_a150_r150_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__seed_44",
+      "True",
+      "True",
+      "4500",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "l4_l5_p18844_seed44_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__seed_44",
+      "True",
+      "True",
+      "4500",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "l4_l5_p18844_seed44_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__exit_only_ablation__seed_44",
+      "True",
+      "True",
+      "2951",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "l4_l5_p18844_seed44_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__uniform_refill_control__seed_44",
+      "True",
+      "True",
+      "4500",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "l4_l5_p18844_seed44_a150_r150_e804_v1__O0_organic__seed_44",
+      "True",
+      "True",
+      "4500",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "l4_l5_p18844_seed44_a150_r150_e804_v1__O1_static_ad__seed_44",
+      "True",
+      "True",
+      "4500",
+      "30"
+    ],
+    [
+      "movielens",
+      "44",
+      "l4_l5_p18844_seed44_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_44",
+      "True",
+      "True",
+      "4500",
+      "30"
+    ]
+  ],
+  "formatting": {
+    "default_float": ".6g",
+    "missing_display": "—",
+    "column_format": "lrlrrrr",
+    "placement": "htbp!",
+    "caption_is_latex": false,
+    "column_formatters": {}
+  },
+  "provenance": {
+    "snapshot": "results_20261116_goodreads_agent_l0",
+    "snapshot_sha256": "073abb1521ae3bed0563dceefa60d722b06a5a7cc317773893ee7302519fbff6",
+    "metric_version": "final-rq-metrics-v1-dcg-one-based",
+    "draft_sha256": "f6919b0b52561bfef357525d561a0ea337577b0e23d8ffdc32bb5142b0e6851f",
+    "rq": "analysis",
+    "source_blocks": [
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L0_control__agentic_recommender__sasrec__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L0_control__direct_llm__sasrec__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L0_control__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L0_control__ncm_inspired_gru_uniform__sasrec__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L0_control__position_biased__sasrec__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_mansoury__sasrec__gender_control__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_uniform__sasrec__gender_control__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L1_feature__position_biased__sasrec__gender_control__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__direct_llm__sasrec__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__position_biased__sasrec__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L0_control__agentic_recommender__sasrec__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L0_control__direct_llm__sasrec__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L0_control__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L0_control__ncm_inspired_gru_uniform__sasrec__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L0_control__position_biased__sasrec__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_mansoury__sasrec__gender_control__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_uniform__sasrec__gender_control__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L1_feature__position_biased__sasrec__gender_control__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__direct_llm__sasrec__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__position_biased__sasrec__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L0_control__agentic_recommender__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L0_control__direct_llm__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L0_control__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L0_control__ncm_inspired_gru_uniform__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L0_control__position_biased__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_mansoury__sasrec__gender_control__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_uniform__sasrec__gender_control__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L1_feature__position_biased__sasrec__gender_control__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__direct_llm__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L2_ml_model__position_biased__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_a300_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L0_control__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L0_control__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L0_control__position_biased__sasrec__gender_post_processing__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L1_feature__position_biased__sasrec__gender_post_processing__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_in_processing__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_in_processing__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_in_processing__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_post_processing__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L0_control__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L0_control__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L0_control__position_biased__sasrec__gender_post_processing__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L1_feature__position_biased__sasrec__gender_post_processing__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_in_processing__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_in_processing__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_in_processing__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_post_processing__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L0_control__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L0_control__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L0_control__position_biased__sasrec__gender_post_processing__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L1_feature__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L1_feature__position_biased__sasrec__gender_post_processing__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_in_processing__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__gender_post_processing__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_in_processing__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__ncm_inspired_gru_uniform__sasrec__gender_post_processing__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_in_processing__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "goodreads_gender_mitigation_e804_v1__L2_ml_model__position_biased__sasrec__gender_post_processing__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p1054_a300_r0_e804__L0_control__agentic_recommender__sasrec__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p1054_a300_r0_e804__L0_control__direct_llm__sasrec__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p1054_a300_r0_e804__L0_control__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p1054_a300_r0_e804__L0_control__ncm_inspired_gru_uniform__sasrec__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p1054_a300_r0_e804__L0_control__position_biased__sasrec__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p1054_a300_r0_e804__L1_feature__agentic_recommender__sasrec__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p1054_a300_r0_e804__L1_feature__direct_llm__sasrec__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p1054_a300_r0_e804__L1_feature__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p1054_a300_r0_e804__L1_feature__ncm_inspired_gru_uniform__sasrec__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p1054_a300_r0_e804__L1_feature__position_biased__sasrec__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p1054_a300_r0_e804__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__direct_llm__control__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_mansoury__control__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_uniform__control__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__position_biased__control__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p1054_a300_r0_e804__L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__agentic_recommender__control__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p1054_a300_r0_e804__L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p19277_a300_r0_e804__L0_control__agentic_recommender__sasrec__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p19277_a300_r0_e804__L0_control__direct_llm__sasrec__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p19277_a300_r0_e804__L0_control__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p19277_a300_r0_e804__L0_control__ncm_inspired_gru_uniform__sasrec__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p19277_a300_r0_e804__L0_control__position_biased__sasrec__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p19277_a300_r0_e804__L1_feature__agentic_recommender__sasrec__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p19277_a300_r0_e804__L1_feature__direct_llm__sasrec__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p19277_a300_r0_e804__L1_feature__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p19277_a300_r0_e804__L1_feature__ncm_inspired_gru_uniform__sasrec__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p19277_a300_r0_e804__L1_feature__position_biased__sasrec__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p19277_a300_r0_e804__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__direct_llm__control__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_mansoury__control__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_uniform__control__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__position_biased__control__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p19277_a300_r0_e804__L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__agentic_recommender__control__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p19277_a300_r0_e804__L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L0_control__agentic_recommender__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L0_control__direct_llm__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L0_control__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L0_control__ncm_inspired_gru_uniform__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L0_control__position_biased__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L1_feature__agentic_recommender__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L1_feature__direct_llm__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L1_feature__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L1_feature__ncm_inspired_gru_uniform__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L1_feature__position_biased__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__agentic_recommender__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__direct_llm__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__ncm_inspired_gru_mansoury__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__ncm_inspired_gru_uniform__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L2_ml_model__position_biased__sasrec__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L3_individual__agentic_recommender__sasrec__fixed_persona_memory_only__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L3_individual__agentic_recommender__sasrec__full_reflection__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "feedback_new_sampling_p18844_a300_r0_e804__L3_individual__agentic_recommender__sasrec__no_reflection_control__order_probe__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__agentic_recommender__in_processing__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__agentic_recommender__post_processing__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__direct_llm__in_processing__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__direct_llm__post_processing__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_mansoury__in_processing__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_uniform__in_processing__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__position_biased__in_processing__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p1054_a300_r0__position_biased__post_processing__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__agentic_recommender__in_processing__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__agentic_recommender__post_processing__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__direct_llm__in_processing__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__direct_llm__post_processing__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_mansoury__in_processing__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_uniform__in_processing__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__position_biased__in_processing__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p19277_a300_r0__position_biased__post_processing__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__agentic_recommender__in_processing__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__agentic_recommender__post_processing__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__direct_llm__in_processing__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__direct_llm__post_processing__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_mansoury__in_processing__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_mansoury__post_processing__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_uniform__in_processing__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__ncm_inspired_gru_uniform__post_processing__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__position_biased__in_processing__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "mitigation_v1_primary_p18844_a300_r0__position_biased__post_processing__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__exit_only_ablation__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__uniform_refill_control__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O0_organic__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O1_static_ad__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "l4_l5_p1054_seed42_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_42",
+        "seed": 42
+      },
+      {
+        "physical_run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__exit_only_ablation__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__uniform_refill_control__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O0_organic__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O1_static_ad__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "l4_l5_p19277_seed43_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_43",
+        "seed": 43
+      },
+      {
+        "physical_run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__L3_individual__agentic_recommender__sasrec__full_reflection__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__exit_only_ablation__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__L4_sampling__agentic_recommender__sasrec__full_reflection__uniform_refill_control__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O0_organic__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O1_static_ad__seed_44",
+        "seed": 44
+      },
+      {
+        "physical_run_id": "l4_l5_p18844_seed44_a150_r150_e804_v1__O2_adaptive_ad_three_strike__seed_44",
+        "seed": 44
+      }
+    ],
+    "scope": "Completed trajectories only; seed/population blocks remain distinct; canonical decisions determine longitudinal outcomes."
+  },
+  "files": {
+    "analysis_verified_sources.tex": "300d58d85e759c409ea255d6dc6e8dd66649e3cc392f04091f7428f6a0e101ce",
+    "analysis_verified_sources.csv": "3c257bbf0325b1dec2607b6a4d4bafa54ecba6d0bfc00181043c50195907595d"
+  }
+}

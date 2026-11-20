@@ -1,0 +1,7 @@
+dataset,comparison,model,metric,window,n_seed_blocks,mean_effect,min_effect,max_effect,positive,negative,zero,missing_seeds,effect_unit
+movielens,Decision-input noise check: no reflection minus frozen agent,agentic_recommender,head_click_share,mean_1_30,3,0.7510093560027906,-3.927342841600407,4.477142783580598,2,1,0,,percentage points
+movielens,Decision-input noise check: no reflection minus frozen agent,agentic_recommender,head_click_share,iteration_30,3,-7.112264005589215,-19.032458456282043,3.900709219858156,1,2,0,,percentage points
+movielens,Reflection notes: fixed profile minus no reflection,agentic_recommender,head_click_share,mean_1_30,3,-4.497842607387708,-7.535580717168187,-0.07323525041681182,0,3,0,,percentage points
+movielens,Reflection notes: fixed profile minus no reflection,agentic_recommender,head_click_share,iteration_30,3,2.6684880324115103,-10.123918634556928,15.537017726798751,2,1,0,,percentage points
+movielens,Profile updates: full reflection minus fixed profile,agentic_recommender,head_click_share,mean_1_30,3,-0.33688510408141736,-3.468813096090357,2.8350004371733912,1,2,0,,percentage points
+movielens,Profile updates: full reflection minus fixed profile,agentic_recommender,head_click_share,iteration_30,3,-3.739073606604528,-9.218328840970353,1.023086043134791,1,2,0,,percentage points
